@@ -1,0 +1,26 @@
+# Core Deep Learning
+torch==2.6.0
+transformers==4.53.2 & 4.46.0
+datasets==3.5.0
+
+# Unsloth & PEFT
+unsloth==2025.3.18
+unsloth_zoo==2025.3.16
+peft==0.15.2
+trl==0.15.2
+accelerate==1.5.2
+bitsandbytes==0.45.5
+
+# Evaluation Libraries
+nltk==3.9.1
+rouge==1.0.1
+scikit-learn==1.6.1
+sacrebleu==2.5.1
+evaluate==0.4.3
+sentence-transformers==4.1.0
+
+# Utilities
+matplotlib==3.10.1
+tqdm==4.67.1
+numpy==2.2.4
+pickle-mixin==1.0.2
