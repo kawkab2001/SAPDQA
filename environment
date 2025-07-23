@@ -1,0 +1,30 @@
+# ==========================
+# SAPDQA Project Environment
+# ==========================
+
+## 🧠 Local CPU System (preprocessing)
+- Processor: 13th Gen Intel(R) Core(TM) i5-1335U @ 1.30 GHz
+- Installed RAM: 16.0 GB (15.7 GB usable)
+- System Type: 64-bit OS, x64-based processor
+- OS: Windows 11 (assumed from UI style)
+- Python Version: 3.10 (recommended)
+- Virtual Environment: venv or conda (user-defined)
+- GPU: Not available, uses CPU backend (for local inference/dev)
+
+## ⚡ Remote GPU System (fine_tuning & preprocessing & testing)
+- GPU: NVIDIA Tesla V100-PCIE-16GB
+- GPU Memory: 16 GB (11+ GB used in training observed)
+- CUDA Version: 12.6
+- NVIDIA Driver Version: 560.35.03
+- torch.cuda.get_device_name(): Tesla V100-PCIE-16GB
+- torch.cuda.is_available(): True
+- PyTorch Version: 2.6.0
+- OS: Ubuntu (exact version unspecified)
+- Virtual Environment: `.ve-jhub`
+
+## 📦 Python Dependencies
+See `requirements.txt` for Python package dependencies (pip-based).
+
+## ⚙️ Additional Notes
+- Ollama must be installed manually: https://ollama.com
+- Run `nltk.download('punkt')` for tokenization support
