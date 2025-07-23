@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "Which OS does PRODUCTIVITY support?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, Please, would you like to give me know what OS support PRODUCTIVITY PARK? p/s: Does PRODUCTIVITY PARK support for window2008 server? Thanks Duypm",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi You could the relevant information what you are looking atwww.service.sap.com/pam www.service.sap.com/pam Regards Uday"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Employee data synchronization- which option is better suited in SF?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello experts I'm looking for some advise related to the employee data synchronization scenario from SAP -> Successfactors. In your experience which of the integration option is better suited from a successfactors view point- Files or webservices(Using SF API)? SAP provides standard integration content for both file based integration as well as SFAPI based integration. However on the successfactors side are there any huge limitations and/or advantages of one over the other? PS: I'm aware of the technical dependencies and the limitations that come with both these options. Also we use SAP PI as our middleware, so personally my preference is to use webservices/SF API for this scenario, however I would like evaluate options from a functional person's/successfactors viewpoint. Regards Chandra",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Chandra, On the SuccessFactors side there is no difference to which is used. The real difference is that file upload is only supported for basic employee data. The other processes all require middleware (PI or HCI). Best regards, Luke"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CDS view which combines Cost data and MM data for WBS,  Work order or Network order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi,Are there any standard CDS views or Fiori apps in S/4 Hana on prem which can solve the following requirement:User can insert a cost object like a WBS, Work order of Network as a search criteria/filter and get the connected cost and MM data in the output ; like data from connected PO, SE/GR and Invoice. Displaying the delivery status , invoiced amount, ordered amount. etc.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP HR Which Wage types to choose??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello ALL Which all standard wage types we should choose for these wage types from the standard wage types Also these are Regular Wage types and monthly and 100% tax exempted. For Uniform i'm taking M200. Please suggest. This amount would be tax exempt i.e., while this amount would be excluded while calculating the taxable income. All these 4 wage types would be part of the monthly gross salary. The other allowances component would be broken down into these four components. Hence, the formula for the other allowance in the payroll would be changed as below: Other Allowance = (Gross Salary p.m.)- (Basic \u2013 HRA \u2013 Conveyance Allowance \u2013 Canteen Allowance \u2013 Uniform Allowance \u2013 Book Allowance \u2013 Fuel Reimbursement \u2013 Payment for Earned Leave)",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, No issue you can go a head with wage type M200 for all type of non taxable allowance. Does these wage types to be shown as exempted under sec 10 /17 in form 16 in that case you need to following the configration for tax exemption (Best Practices) else you can manage by unchecking the cumulation class 24 / 25 Thanks and Regards Rajesh Kota"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to read sales order which has more than one document lines in SAP B1 by using DI API?.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I have a question about document lines in SAP B1. I know how to read data into database by using DI API, but the problem is I do know how to read for example sales order which has more than one document lines. $oOrder=$mycomp->GetBusinessObject(17); $oOrder->CardCode=\"CM001\"; $oOrder->DocDueDate=\"07/06/2016\"; $oOrder->Lines->Itemcode=\"01-002\"; $oOrder->Lines->Itemcode=\"01-002\"; $oOrder->Lines->Quantity=2; $oOrder->Lines->Quantity=2; So here I can replaceCM001,03/06/2016,01-002 and2to variables like CM001,03/06/2016,01-002 and2 03/06/2016,01-002 and2 01-002 and2 2 $oOrder=$mycomp->GetBusinessObject(17); $oOrder->CardCode=$CardCode; CardCode $oOrder->DocDueDate=$DocDueDate; DocDueDate $oOrder->Lines->Itemcode=$Itemcode; $oOrder->Lines->Itemcode=$Itemcode; Itemcode $oOrder->Lines->Quantity=$Quantity; $oOrder->Lines->Quantity=$Quantity; Quantity How can I readsales orderwhich has more than one document lines? I'm using php. How can I read sales order which has more than one document lines? I'm using php. Please anyone can help me.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Ruragwa, Order lines are a collection of rows - records. For this reason you have to handle it like an array. As far as i remember php is flexible (instead of other programming languages) and with your syntax returns you the element 0 of the array. So, you have to use a loop (while statement) and at the beggining of each loop you have to \"declare\" wich line are you going to read/write with the SetCurrentLine method. A sample of this command in c# is... oOrder.Lines.SetCurrentLine(iDocRow); Good luck!!! Evanggelos D. Plagianos"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Components used in which materials?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "is there a way to get the material of a specific component used in?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, just try in CU05, CS15 award if helpful Edited by: yamuna reddy on Aug 28, 2008 10:38 AM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Dates for doing Year End Closing and in which client",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have some doubts with Year End Closing Activities. 1. Mine is an India Company following a non calendar year and period. Which date I should do the Year End Activities. 2. Which activities should be done on Production server directly and which one to be done in Development and Quality. Kindly list the activities. Please advice.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Below are some of the things which got missed above. 1. internal order settlements - ko88 2. wbs settlemnts -CJ88 3.post the dep for asset. 4. Bank reconciliation 5. GRIR ,customer,vendor,gl clearing. 6 no range if you maintain year dependent. Regards, Raman"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to create a global variable which could accessible from any scenario packages in B1 If",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I would like to create a global variable to store the sytemId(database Id).so I could access this variable in any scenario package for processing.Please help me out",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Rajesh, You may use persist to save data into a file, and then you can get the data from this file wherever you want. Thanks Huan Yang"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Can anyone please tell me about the tables which related to IMR1 report",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Please tell about the tables that involves in IMR1 T code in which the Budget and Expenditure and amounts aredisplayed.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Date at which A/R Invoice Get closed due to final incoming payment",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Expert, I created A/R Invoice on 1st Jan 2012 total amount was $2000, on 10 Jan 2012 Customer paid $1200, on 12th feb 2012 customer paid $500 and on 15th Feb 2012 they paid us the rest of amount here we had also given 1 % discount in the last(Final) Incoming payment level(i.e $20 : 1% on $2000) and now invoice status is get closed when final payment received . Now in the system table from where i can get the date at which status of invoice is changed from open to closed?? I am asking above because Customer required a custom commission report with information like A/R Inv No, Posting date, due date, dateAtWhichInvoiceGetClosed, Total Invoice Amount,Total Item cost in the A/R invoice ,Applied Amount(I.e $1980), Gossprofit. Hope for earlier reponse from your side. Thanks Arun Singh Message was edited by: Arun Singh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Check this if it helps in your issue : select distinct t0.DocNum as 'Invoice No.',sum(t0.DocTotal) as 'Total Invoice Amount', sum(t4.Linetotal) as 'Total Cost', sum(t5.PaidToDate) as 'Applied Amount', sum(t0.GrosProfit) as 'Gross Profit', t3.ReconDate as 'Date At which Invoice Closed' from OINV t0 inner join ORCT t1 on t0.receiptnum = t1.docnum inner join INV1 t4 on t4.DocEntry = t0.docentry inner join INV6 t5 on t5.DocEntry = t4.docentry inner join ITR1 t2 on t2.TransId = t0.TransId inner join OITR t3 on t3.ReconNum = t2.ReconNum where t0.DocStatus in ('C') group by t0.DocNum, t3.recondate order by t0.docnum Kind Regards, Jitin SAP Business One Forum Team"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BusinessFunctions are needed for Test Equipment Management (QM-IT)?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I have a S/4 2021 system and I am wondering wich BusinessFunctions need to be activatd to enable functionality \"Test Equipment Management\" in Quality Management. Can you kindly help me on this? Furthermore, do you know if the needed BFs do need additional licenses for using Test Equipment Management? Thanks a lot in advance! Matthias",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Write access between custom BOs which are in different deployment unit",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have some difficult about SAPbyD. Firstly, I want to explain my task. My task has three paths. The flow of my task is \"purchase order > custom BOs > supplier invoice\". The first one is the PO record is stored at my first custom BO. And then some action is done at first custom BO and save record at second custom BO at the same time of first custom BO's action time. And then some action is done at second custom BO and create these data to \"Supplier invoice\" as \"Supplier invoice\" records. So, I tried with[DeploymentUnit(SupplierInvoicing)] at the second Custom BO, but it was not OK. Because of when the second BO is declared [DeploymentUnit(SupplierInvoicing)], second custom BO's fields are \"read only\" at the code for data creation. So, I also declared [DeploymentUnit(SupplierInvoicing)] at the first custom BO. At this time the PO records can't create at the first custom BO because the first custom BO's fields are also \"read only\" fields. So,I want to know the way to create data between different deployment unit. Could you please check and answer for this?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Myo Myo, write access between different deployment units is not supported. (This goes for standard BOs as well) If you have to do it you could create a web service call to the target BO. It's not nice at all but the only way I know of."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to get List of Materials which are not relvent to costing in routing...",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Sirs, Can anybody suggest that How can I get the all material list Which are not relevent to costing in Routing (CA03). in CA03 we can only check a single item, but I want to see all those items which are to relevent to cost. in CA03 when we check any item where CostingRelvncy box is blank. i need those all. Pls. suggest me if there is any report in SAP by which my purpose will be solve. Thanks in advance, Dinesh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI In riuting we define whether an operation is coting relavant or not. In BOM we define compenent is coting relevant or not? For operation check table MAPL and PLPO. Regards Anupam Sharma"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Trip provision Variant to use",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, We are implementing travel expenses for a US persooenl sub area. I see that there are 3 trip variants 10,80 and 81 provided by the standard SAP. Here the employees can be reimbursed either by receipts or by Per diems for Meals and incedentals ? ( Employees should have the option to choose either one of these options). In this scenario, which trip provision variant should we use? I guess I shouldl use 81",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Sammer, The standard trip provision variant for US is 10. Please kindly use this one. Regards, Raynard"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to create EAN which can ahve leading zeros ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi, I am trying to create a range for EAN's where will have the chance to start with leading zeros. any one has had a similar issue ? any suggestion on how to create therange ? should be for 14 digits. Thanks,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Alex, You can define EAN in MM01 use Additional data button then EAN's tab or you can use the Plant data / stor 2 tab, General plant parameters -> Serial No. Profile field to create your EAN (serial) range. Hope this helps. Regards, Joven ============== Award points if useful"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Asset explorer-Overview tree, with which you can navigate between different depreciation areas",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In Asset explorer,Overview tree, with which you can navigate between different depreciation areas,in ECC 6.0EHP 7,could see folders created for each GAAP reporting.Can you please let me know how these groups are created.Please check the screen shot attached.Can you please advice which tcode ius used to created the folders for different dep areas and can we hide any dep area if we donot need it to be displayed. Overview tree, with which you can navigate between different depreciation areas,in ECC 6.0EHP 7,could see folders created for each GAAP reporting.Can you please let me know how these groups are created.Please check the screen shot attached.Can you please advice which tcode ius used to created the folders for different dep areas and can we hide any dep area if we donot need it to be displayed.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, they are grouped according to Ledger Group assignments (done in t-code OADB) respectively depreciation area dependencies. Non-posting areas are not assigned to a Ledger Group, so they are listed within the depreciaiton area from where it takes over its values and which posts to G/L. Regards, Markus"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "P0002-PERID is getting message: Changes to field \"ID number\", which is not designed for use, deleted",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I am working for Canada project, when I was trying to enter SNI number in filed P0002-PERID and trying to save getting the above error message. This is the required field for Canada. Performence assistance for the error shows the below: User entries in the \"ID number\" field (PERID) do not make sense, nor doesdisplaying the field on the user interface. Correct the settings for the userinterface. I do not Know, where to do the change settings. Request you to help me to resovle this issue. Thank you in Advance. Bachi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Bachi, just to be safe: have you double checked your personnel area is assigned to Canada and you have the Canadian dynpro assigned (Dynpro number 2007 - check via System status). if this is fine, I recommend to apply SAP note1866133 1866133 It is correcting an error SAP delivered with a language bug fix for Indioa recently messing up MPPERS00, which is used in all infotypes. It is correcting an error SAP delivered with a language bug fix for Indioa recently messing up MPPERS00, which is used in all infotypes. Whilst I haven's seen this particular error, but most weird occurances in PA infotypes I've seen with customers recently (incl. such diverse points like IT0007 part time flag and IT0001 employment status), had been resolved with this note. Whilst I haven's seen this particular error, but most weird occurances in PA infotypes I've seen with customers recently (incl. such diverse points like IT0007 part time flag and IT0001 employment status), had been resolved with this note. kind regards kind regards Sven Sven"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Unable to find the date on which components are added in Maintenance Order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi,We are in the process of developing a report to give the details of thedates on which components are added in Maintenance order.This is actually the date of creation of the reservation for thematerial involved. But when we searched for this reservation createddate, we are unable to find this field in any table.Could you please suggest from which tables can this information beobtained?Thanks and regards,Basavaraj. Hi,We are in the process of developing a report to give the details of thedates on which components are added in Maintenance order.This is actually the date of creation of the reservation for thematerial involved. But when we searched for this reservation createddate, we are unable to find this field in any table.Could you please suggest from which tables can this information beobtained?Thanks and regards,Basavaraj.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You will probably need to use the change documents tables - CDPOS and CDHDR to get this information. Identify CDPOS entries for order number, filter those entries with table=RESB and Change indicator = I. The related CDHDR table will then give date and time. -Paul"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Cancel the GR which have invoicing",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All How to cancel the GR which have invoicing, have subsequent debit, and have clearing Would you like help me please thanks imron",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Imron, For GR based IV this is possible through customising . SproMM-Inventory Management and Physical InventoryGoods Receipt--For GR-Based IV, Reversal of GR Despite Invoice For others u need to need to cancel the documents in the reverse manner ( i.e Invoice, GR ...). Regards Ramesh Ch"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Prevent removal of UDFs which are already assigned!",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am using B1 9.1. I added a new UDF in Item Master, set the Validation Type to Valid Values, and defined the Valid Values. I opened the Item Master for some existing items, and assigned a value to this UDF. After that, I tried to remove the UDF from the UDF Management window. SAP just gave a warning that the process is irreversible, but still allowed the UDF to be removed even though it was in use in a few items. Why is this behaviour and how can I prevent removal of UDFs which are in use for all users whether authorized or not! I can very well set authorizations for users, but the admin user can still accidentally delete the data. In case key business or industry specific information is stored in UDFs, it can have serious repurcussions, so I want to control it using SDK. Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Rajesh, sp_TransactionNotification (stored procedure) will be your friend on this one... Checks the objects, the action and if the UDF have already assigned values then returns an error if yes. Regards, Eric"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which transaction or IMG affect table T510F?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experst, Through IMG, I have added new pay scale type and pay scale area, but there isn't the corresponding record in T510F for the currency info. Do you know which part of IMG configuration will affect table T510F? Or are there some Transaction or report to add add new record for the new added pay scale type? Thanks, Graham",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Maintain view V_T510F_B for your new added pay scale type. Besides, I sugguest you make sure that currency in T500C is the same with that in V_T510F."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "is it possible to have a master contract which has multiple company codes and sales organisations",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "we want to have a master contract in a multinational organization which can be used by all the companies/sales organizations within the parent organization.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "It seems, it is not possible to create sales area independent master contract in the standard system (?). 1. Error message V1644 is hard coded in include FV45KF0V_VBAK-AUART_PRUEFEN, which prevents the creation of a master contract w/o sales area. 2. Additionally, according to OSS note 1601103, you can use a master contract only for the particularsales area under which it has been created."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Industries which are Best suited for SAP Public Cloud ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Gurus, I know that public cloud can be suited for Chemicals , agro chemicals . I want to know for which industries are best suited for SAP public cloud and industries which are not suited for SAP public cloud . Please also share methodoloy where we can determine whether SAP public cloud can be implemented .",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which table it will store in pricing",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi gurus, I have a question in prcing procedure determination we create conditon table in v/03 transaction code. We can find some standard tables also there. No my question is in which table they will store in abap all those conditon table. please help me in this regard. Thanks & Regards points will be rewarded.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hiya Try thisTablesfile at this [link|http://groups.google.co.in/group/sapSDtech/files] Tables Its quite extensive... Regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Requirement of costing for FG, for which price changes daily.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Friends, As per the requirement we need cost estimate for FG, for which prices for the same is changes frequently. Which i need to update in the material master also. Since generally we run Cost estimate periodically, but if the same is required daily by the client. what is the process to do it. Whether Reference And Simulation costing helps me here? or whether Adhoc cost estimate is the best option. I am new to CO so How they can be configured? i have seen the adhoc cost estimate option but form which transaction can we execute it, because if you choose CK11n in costing variant option, costing variant PADH - Adhoc cost estimate is not seen. Is it also possible whether to run the costing run to analyse and the same cannot be update in my material master? Request you to send me any appropriate solution for my query. regards, Sandeep",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Consider creating new costing variant with the costing type to update in the price other than \"Std Price\" in the material master. U can consider various options like taxprice... commercial price... planned price1,2... You keep the normal costing variant to update the std cost in the material master and this new one to update other price. Regards Sudhakar Reddy"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Addon which records changes on Authorizations",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, We need to generate a report that will show all the changes made on authorizations rights. This info is encrypted in SBO. Is anyone familiar with a development that knows how to \"record\" this info by itself, and enables viewing the history? Thanks Revital",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, Check the following link, this may help you. /people/janos.nagy/blog/2010/01/25/exporting--importing-authorization-using-ms-excel-in-sap-b1 Regards, J."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Scheduling Agreement TECO Status - I need to know which table in SAP would have this information.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In scheduling Agreements (VA33), Line item 10 and Status Tab, there is a system status. Typically I can see \"MtoO RESA SETC TECO\" which tells me the line is STATUS=TECO. I want to see at once all of my Scheduling Agreements and the corresponding STATUS. Do you know which table holds this information ? I have checked VBEP, VBKD and VBAK but do not see that status. Any ideas ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Richard, this is the system status. This data are available in data structure bellow, and the key between tables is field ISTAT (for status), and SPRAS for language key. I dont know why do you want to access this tables, but only to inform, are available a function module that could help you in change status as you need: STATUS_CHANGE_EXTERN Inform if works, FM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which business function for \"Maintain Movement Types for PM/CS Orders\"",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All I have been looking for a way to assign specific movement types to various maintenance order types. This forum is full of discussions that mention \"Maintain Movement Types for PM/CS Orders\" in SPRO which maintains table DITCOKO. Since this SPRO entry doesn't exist in my clients system I assume I need to activate a business function is SFW5 but I can't work out which business function contains this enhancement. Does anybody know which business function it is? Thanks Robyn",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Robyn, I am myself not sure as in our system too this function is not active. But I googled it and found one discussion that might b useful for your requirement. http://www.sapfans.com/forums/viewtopic.php?f=7&t=10966 http://www.sapfans.com/forums/viewtopic.php?f=7&t=10966 From this discussion I figured out that may b u need to activate DIMP (industry solution for discrete manufacturing) that consist of IS-Auto, Aerospace & Defence, and Mills. Hope it helps. Thanks, Saurabh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "#CoE#HSEQ How to know which fields are available for duty rule enhancement",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "We are using BADI: RSM_BADI_RESPONSIBILITY_RULE to define the agent for the approval process But we don't know which specific parameters we can use , Can you tell us which fields we can get_Value?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to delete a reserved payment lot reconciliation key which is not used?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Initially a payment document has been created to this payment lot which has an automatic reconciliation key reserved. However the user has assigned a different manual reconciliation key to this document when transfering this payment lot to GL. Hence the original automatic reconciliation key of this payment lot has an incomplete status and can never be posted. May i know how can i delete this automatic reserved reconciliation key for payment lot which is not used?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Raja, I am a bit confused. How was she able to change the reconciliation key when transferring to the GL? Does the reconciliation key have any postings in it? Or is it just open with no postings and appears on the FPG4 transaction list as reserved for payment log xxx? Is there any postings in the payment lot that have not been processed? What is the status of the payment lot? Thanks Natalie"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to adjust the G/L account balance which entered wrong",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In SAP we had wrong values for stock under couple of Items. Then we adjust the stock from Inventry > Inventry Tracking and Stock Posting. Which ended up price value to \"Stock Variance\" G/L account. but it should not be there as the stock was not ment to be there. Is there a way to clear the \"Stock Variance G/L account\" Thank You! Sanjaya",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Sanjaya, General accounting principles need a debit and have an equivalent credit. If you Inventory has to be adjusted it is quite obvious it will create a JE towards the Gain/Loss account. You can change this and post to a different GL but the posting cannot be avoided. You need to understand that if the inventory which is not suppose to be there is found and counted - it means at some point the Inventory account was debited and either the Gain/Loss or AP account was credited. So tracking back can give you the details of which account you could post to so that the NET effect is nullified Suda"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Change in stock accounts are the which acccounts?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi Change in stock of Semi finished & change in Finished Goods account are Which side will be come in P&L Accounts. or it will be comes in Balance sheet. If yes please mention which side. thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Raju Change in Stocks of either Semi-finished or Finished goods will change the Assets in Balance sheet. Thanks PNR."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "COPA report showing as positive values which should be show as Nagitive val",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts I have one issue with COPA and Profit center reports reconciliation where the both have same structure user compareing the (Period :dec 2011) report PCA and COPA there identified some values are difference so we started investgation one of the cost element showing in nagitive value in accoungint document and same it is showing postive value in COPA report that values for debit and credit line items are adding (,) insted of Cancellation (+,-) , so that COPA report is incresed the value for one value field when compare with PCA report line items , could you please let any guide me where is the problem is occuring thanks Rana",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, The COPA sign logic depends on the cost element type used (costs or revenues) and also the customizing of the '+/- transfer sign' in tcode KE4I. The following table shows an overview of how condition values are updated in CO-PA for billing documents from SD: Billing document (normal) \"With +/- sign\" \"Without +/- sign\" Debit posting negative positive (such as sales deductions) Credit posting positive positive (such as sales revenues) Credit memo/return \"With +/- sign\" \"Without +/- sign\" Debit posting negative negative (such as sales revenues) Credit posting positive negative (such as sales deductions) The \"+/- sign\" refers to the \"Transfer +/- sign\" flag in tcode KE4I where you assign SD conditions to COPA value fields. If the system is behaving as shown above and you want a different behavior then you could change the sign in user exit COPA0002. regards Waman"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Is there a way to find out which PLD is tied to which BP code",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, is there a way to find out which PLD is tied to which BP code? Maybe in the DB table that stores the PLD? Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Joyce, Try this query Regards, Bala Edited by: Balakumar Viswanathan on May 4, 2011 8:27 AM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "adding a new field in the customized alv report which is copied from standard report.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts, The client wanted cash journal report. I copied RFCASH20 to a zreport and commented all the fields which is not required by the client. Now the client wants G&L description(txt50) which is in skat table. I dont know how to display this field in the alv report. Kindly help. zcashbook(purnand cust notepad).txt.zip",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I have got the solution. Thank you experts. The select query has to be in loop."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the Table about Model WT when I copy some WT\u00b4s",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi my dear friends: I have a doubt, does anybody can help me to know which is the table where I can see the WT\u00b4s copied and which is the Model WT for that WT\u00b4s copied? Or How can I know which is the WT Model (Origin) of a WT copied previously? Thanks in advance for your precious help. Best Regards to all.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Through sm30, look at table view V_T52DZ. Through se16n, look at table T52DZ. Edited by: R\u00e9mi Corriveau on Jan 12, 2012 10:52 PM P.S. : Copy a WT in \"TEST\" mode, and you will see all the tables that WT relates to. Try it with an Earnings WT, with a Deduction WT, and then with an Information Wt, and you'll see the differences."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "batch activation log showing inbound delivery which is processed completely",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, We are trying to activate the batch activation for non batch managed material.The log shows that the inbound deliveries for PO are open although they are done with the GR.The PO qty, IBD qty and GR Qty are same.Can any one tell me why the deliveries are showing as open in MM02 batch activation display error screen,even after the IBD is completely recieved. Regards Govind",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Seems the GR is done through IM transactions and the IBD is still open. Refer the attached correction report (Z_COMPLETE_INBOUND_DELIVERY) mentioned in the note:570991 - Correction report for completing open inbound deliveriesto complete the IBD and test again. 570991 - Correction report for completing open inbound deliveries 570991 - Correction report for completing open inbound deliveries Regards, AKPT"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which module is best for me !",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am 2006 passout B.Tech graduate (Electronics & Commn).Right now I got into a rpivate company who is going to give me training on different modules .Which module should I select in SAP HR/MM/PP/SD or PS...so that I can built a good carreer. Is PS best for me Regards, David",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Any module is OK if you are able to get projects and exposure in it because right now you don't have business experience. But if you are not able to ABAP & NW related Java is a safe bet. thanks Bala"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Is there any date function in query which can be used to insert date and time in SAP B1 automatically?.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I have a question, some times I have an idea of to insert datetime in SAP B1 query automatically. So is that possible in SAP B1? Please anyone can help me.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Please note that, direct UPDATE/INSERT/DELETE sap tables leads to DB inconsistency and may loose SAP support too. Thanks"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to check against which no GR done??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "We allow IR to be done without GR. But this way, many PO accumulate in which no GR is appearing but IR is already done. We have no tracking mechnism to identify such POs. We look manually in each PO whether GR has been done or not. Is their any standard report which shows this?? Or can this be created thru abap??",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Split Analysis - Which fields are involved",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have a split issue with invoices and the Split Analysis points out a few header fields that are causing this split. Can anyone tell me which fields this are as I can not identify them correctly. Thanks in advance. Screenshot: http://tweakers.be/ext/f/38f10005b9aab1d5432ce594166ba52a/full.jpg http://tweakers.be/ext/f/38f10005b9aab1d5432ce594166ba52a/full.jpg",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi., To have a single invoice Payer,Payment terms,Billing date,Currency,Destination country Should be same, In your screen shot it shows customers are different and payment reference is different It also depends up on your copy controls REWARD if helpfull Thanks & Regards Narayana"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "From which standard wage type",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, As v copy from MB10 for basic pay...what standard wage types should i copy to create RAP's,,housing... car allowance...PF...for Indian payroll and Info type 14,15.. akhil",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "car allowance M2sf hoseing allowance M220 check V_T52DZ"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which transactions would use this ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In G/L account determination , under the inventory tab there are two Account Types mentioned - 1. Inventory Offset - Decr Account 2. Inventory Offset - Incr account Which transactions in B1 would utilise these accounts ? Thank you Cheers, Gautam",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Actually, almost every thing under Inventory Transactions could utilize these accounts. Especially for Inventory Tracking & Posting. In common practice, you just need one GL account for these two types so that the adjustment would be easier. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Ivory coast Payroll template - which one to use?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello all I got a quick question. To implement Ivory Coast py, which template shall I use as a base? French one? Do Social Security and taxes work the same way? Thanks Pedro",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi I would advise you to start off the international functionality. That is program RPCALCX0 with SAP standard schema X000. Regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which data are read when executing ML drilldown report through KKML0?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am executing report 01MLREPORT (ML Template: Report 01 SAP 08.12.2011 01ML_FORM) through transaction KKML0kkml0.jpg.(Please note that i have not changed anything in the form or the report settings themselves) The settings in selection screen is as follows:selection-screen.jpg. When it is run, i get the following resultreport-results.jpg. As you van see in the lowest part of the screen, i see that i have 2 pieces of consumption, which is also validated if i display the CKM3N screen for this material in this period.ckm3n.jpg. My issue is that in the accelerator settings (transaction HDBC) it is set up that for all ML reports the FCML_XXXX tables should be used.hdbc.jpg. But, there is no entry for this material ad that posting period in table FCML_REP (FCML_FILL has not been executed for that period and that plant). Therefore, i understand that the report reads either the ML tables directly, or there is another source of supply. When i check the report, i see the followingabap.jpg. It shows like i have created the report yesterday (which i did not - it is a standard SAP report) and that it reads data from KKBML table. When i used FCML_FILL transaction trying to update the FCML tables for this material in these tablesfcml-fill.jpg, then an entry is created in FCML_FILL tablefcml-rep.jpg, but i get 10 information messagesinfo-messages.jpgand 1 warning messagewarning-message.jpg. So, i am confused on what is happening. It seems that the 01MLREPORT reads ML tables although it should read the FCML_XXXX ones. Is it because of this \"No connection to HANA database\" message? How should it be corrected? and, if corrected, how can i change the report so it reads for these tables instead of the ML ones? kkml0.jpg selection-screen.jpg report-results.jpg ckm3n.jpg hdbc.jpg abap.jpg fcml-fill.jpg fcml-rep.jpg info-messages.jpg warning-message.jpg Best personal regards and many thanks, Nikos",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Feature stored in which table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I would like to know in which table all the features are stored. Regards janhavi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "if  we cancel the invoice which document is passed to FI , how information will come back( what setting is there)  from FI.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear sd gurus In stranded sap system it is not possible to cancel the invoice once the document is generated To FI but it is based on setting in copy control ex :in VOFA if routine 29is there we cant cancel the invoice .but if we change we can cancel invoice even the document is generated to FI. here my doubt is if we cancel the invoice which document is passed to FI , how information will come back( what setting is there) from FI pl check this....http://scn.sap.com/message/13379724#13379724 http://scn.sap.com/message/13379724#13379724 Thanks for your help",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi venu, once post the INVOICE , system will create the account , it depending on revenue account determination at VKOA, and Billing document settings at VOFA, like you will take F2 billing type , in Billing type F2 , you assign the cancel the billing document S1 , so when you cancel/reverse the billing document AT VF11 level, system will create the another billing document that is S1 document , so here also will create the accounting , for same account but posting keys will different , first F2 document account entry will check here customer account posting key- 01 ( 01 C D Invoice) G/L account posting key - 50 G C Credit entry like Below screen check this screen PK field , 01, 50 next time you will cancel the document at VF11, here S1 billing document will created , this document accounting entries will generated , its depending at VOFA Settings , here same g/l account will post But posting key will different , check accounting document entries , here same g/l account but debit , credit entries will different customer is credit , G/l account will debit , check this screen here PK( posting key) 11- C C Credit memo 40- G D Debit entry this the how to come entries cancel the accounting, it is totally depending on F2 document settings at assign the cancel billing document please check this"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Confusion in choosing which Configuration scenario to use",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, My product contains 2 BOM levels. One component under the header material has 2 sub-components that needs to be procured from suppliers. All the other components are manufactured in-house. Any suggestions which scenario could be used in the configuration profile. Br, Thileepan P",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Thileepan Paulraj, Thileepan Paulraj, Thileepan Paulraj Are you using configurable sub assemblies which will be decided based upon characteristic value? Are you using configurable sub assemblies which will be decided based upon characteristic value? Ifs its normal FERT material and you are not using super BOM , just by maintaining 2 BOMs for subassemblies and a production version can help you. Ifs its normal FERT material and you are not using super BOM , just by maintaining 2 BOMs for subassemblies and a production version can help you. Production Versions - Material Master (LO-MD-MM) - SAP Library Production Versions - Material Master (LO-MD-MM) - SAP Library Production Versions - Material Master (LO-MD-MM) - SAP Library Please check and come back. Please check and come back. Thanks Thanks Ritesh Ritesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table I can get open invoices?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I want fetch details for open invoices from which table I can get those open invoices Regards, Kumar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tracking of Assets which Distributors have",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear colleagues, We are an FMSG company and I need to hear your thoughts about the case. We purchase assets, such as refrigerator etc, from our suppliers and send them to our distributors forfree of charge. Every distributor has its owncustomer master recordin SAP. Now we want to track which distributor has which asset. I donu2019t know if it is possible to carry out the process with SAP standard. Please tell me your opinion on this issue. How can I map it? Regards Melih",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, This is depending on the entry, which you were passed in AA, when sending the X asset to your distributor. What entry you have passed during asset issue to distributor? If you issue each asset with USD 1 at least, then you can get the customer code for that transaction by posted documents itslef. Regards, Srinu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

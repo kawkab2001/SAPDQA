@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "Query to determine which customer invoices are subjected to apply payment",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi you all experts. I have two tables (OINV and a custom made named DEPOSITS) the first one as you know keeps the record of all customer invoices. The second one keeps record of last payment from customers (this table is filled before applying payments and it consists in only two fields: ClientID and Amount. I will upload incoming payments through DTW, but since I only have the amount of the payment and not the invoices to where this money will be posted; I come to you for advice. For instance, my Customer1 just pay 5,000USD and has following invoices (in order of DueDate): - InvoiceA: 1,000 - InvoiceB: 700 - InvoiceF: 3,000 - InvoiceD: 5,000 - InvoiceC: 10,000 I need to create a query that gaves me wich Invoice (with the higher due date) can be cover with the amount given, and if cannot be covered completely, to apply the remaining balance of the Deposit and keep the invoice open as partial paid. The expected result from this would be: - Invoice A: 1,000 PAYED. Remaining balance of payment 4,000USD. - Invoice B: 700 PAYED. Remaining balance of payment 3,300USD (4000-700) - InvoiceF: 3,000 PAYED. Remaining balance of payment 300USD (3300-3000) - InvoiceD: 300 PARTIALLY PAYED. Remaining balance of payment 0USD (300-300) Thanks a lot, Israel.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Israel, Query may only do calculation column wise easily. How about just create left part. The calculation between lines can be done by Excel formula after export the query result. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Want to procure S4 Hana Sandbox both on prem and cloud, want to confirm which material ID to go with",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "We want to procure S4 Hana Sandbox both on prem and cloud, want to confirm which material ID to go with. Have seen these as relevant ones; 1. 8012331 - Cloud test, demo, and development for SAP S/4HANA Cloud Public Edition, one-system landscape2. 8013903 - Cloud test, demo, and development for SAP S/4HANA Cloud for supplier quotation and price renegotiation 3. 8014572 - Cloud test, demo, and development for SAP S/4HANA for Procurement PlanningPlease help us understand which one would be relevantMain use cases - Creating PR via the bot integrated with S4 Hana and checking status of PO",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which activity is required in PA30 to block the deletion right",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have a requirement to block the deletion right from PA30.User can maintain the reocrd update the record and change the record but he should not able to delete the record So i have checked the Authorization level under P_ORGIN and found the either L or * is required for delition rights. In my case in PA30 we have given this to user with below authorization level. P_PRGIN Authorization Level M,E,R,S,W So i have not given either L or * but still the user is able to delete the record from PA30. In F1 help under P_ORGIN the same information i have found, but not able to understand the actual authorization object and activity which control this. Regards, Subhash",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "As far as I am aware, Auth Level = W is sufficient for most deletions (it is unfortunate that it cover most change events too). Looking at the SAP Help, Auth Level = L is only related to Statements, is this where the problem is or is it general data in PA30?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Condition record is fetching from which key combination",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Gurus, When any output is triggered how will we know for which key combination the condition record is fetched. Actually there is a scenario where order confirmation mail is going to an user where that should go to a different user. Now while checking in VV13 there are 10 key combinations . How will we know for which combination condition record is maintained. Please help as it is urgent. Regards Arunava",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Add-Ons are permiseable on S/4HANA Cloud Extended Edition?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Although, there is not exhaustive list of Add-Ons but I would like to ask if any of the following are allowed on S/4HANA Cloud Extended Edition? WinshuttleFM v10.7 WMD xSuite for SAP OpenText Archiving and Document Access (https://www.sap.com/about/agreements/policies/cloud-service-specifications.html?pdf-asset=7e5af009-b47d-0010-87a3-c30de2ffd8ff&source=social-atw-linkedin&page=1) does not mention Opentext Archiving and Document Access however there are 2 BoM SKU 8008426 and 8008648 which states they are available. Grateful for some clarification. Many thanks Adil Zafar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to create a task list group which can be used in any plant",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear expert, Would you please let me know how to create a task list group which can be used in any plant? In transaction code IA05, plant is a requirement field. However, I would like to create a task list group which can be used anywhere regardless of the plant. The task list group is to be used in IW31. Any idea would be appreciated.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Useful info:http://forums.sdn.sap.com/thread.jspa?threadID=1714214&tstart=0 http://forums.sdn.sap.com/thread.jspa?threadID=1714214&tstart=0 PeteA PeteA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Need of WCM and in which modules we can implement",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Guys, I am very new to WCM, this we are using to get approvals for the certain stages of task before completing. I want to know where this WCM can be used in PM & PS, as per my knowledge this can be used in PM and PS. Is there any other moudles are there to integrate with WCM and how?? Thanks, Bhanu",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, WCM is not separate module its a part of Plant Maintenance(PM) module. Its deals with Safety of work & environment, permits,Lockout/Tagout for Maintenance Order etc.... For more details: http://help.sap.com/saphelp_47x200/helpdata/en/aa/df293581dc1f79e10000009b38f889/frameset.htm http://help.sap.com/saphelp_47x200/helpdata/en/aa/df293581dc1f79e10000009b38f889/frameset.htm regards, Venkatesan Anandan Edited by: Venkatesan Anandan on Feb 16, 2009 10:44 AM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reversal of a maint. order which was released through a maintenance plan?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Is there a way to do reversal of a maintenance order that was released through a maintenance plan? Because I do not want to process the order; as such I would like to put a reversal indicator for that order and go ahead with the next order that was called through a maintenance plan. If YES, kindly let me know how to do it? Many thanks in advance. Kannan J",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi kannan it is not possible to reverse the order once it has released, if you dont want to proceed you can lock the order.you can also specfiy in IMG the order should be called in NON releasing condition , so that you have the control of it. You can also skip the maintenance plan provided it has not called regards thyagarajan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Batches need to move to Q stock which have 50% SLED",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Gurus, Business want to Move batches to Quality whose SLED is 50% , we have MFD date and expiry date how to do the comparison. can anyone help me how to acheive this through standard or any other way(custom program). is it possible to do by routine.please suggets. Regards, Mahesh .",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Need a query in which I can get list of AR invoice paid with cheques",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello all, I need a query in which i can get list of AR invoice paid with cheques, and where it should display, cheque number , cheque amount , amount applied to invoice, BP code and other details",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can get it by using query, check the below one SELECT distinct T0.[DocNum] [Payment No.], T1.[CardCode] [Customer Code], T1.[CardName] [Customer Name], T0.[CheckNum][Cheque No.], T0.[DueDate], T0.[BankCode] [Bank Code], T0.[Currency] [Cheque Currency], CASE T1.[PayNoDoc] WHEN 'y' THEN 'Y' WHEN 'N' THEN ' ' ELSE 'error' END [Payment On Account], T0.[CheckSum][Cheque Amount], T3.DocNum [Invoice No.], T1.[ShowAtCard] [Cust. Ref No.], T3.DocTotal [Invoice Total], T2.[SumApplied] [Applied Amount], T1.[DocCurr] [Invoice Currency], T1.DocRate FROM RCT1 T0 INNER JOIN ORCT T1 ON T0.DocNum = T1.DocNum Left outer JOIN RCT2 T2 ON T0.DocNum = T2.DocNum and T1.DocNum = T2.DocNum Left outer JOIN OINV T3 on T2.DocEntry = T3.DocEntry WHERE T0.[DueDate] = [%0]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAPI for PO Print",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Anyone know which Bapi/interface i would use to intercept Output Message (PO Print)? My hope is to convert the smartform at print time to a PDF and store it on network as opposed to sending it to a printer.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "781084 - Cannot add document which needs approval to a Service Call",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Is there any update on this error per SAP Note 781084? Symptom: When linking a sales document, which needs to be approved via an approval procedure, to a Service Call under the Expenses tab page, the document will not be displayed in the Service Call window after its approval. Cause Definition problem. Solution A DRQ number 3383528 was opened. IM 2653636. I am now using 8.82 version and the issue still exist. Any help would be greatly appreciated. Thanks, Don",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can add the document to the service call once it has been approved. For instance: 1) Create service call 2) go to Expense tab, create a new Sales Order 3) Sales Order goes to Approver (at this point, the sales order doesn't appear on the expense tab) 4) When the Sales Order has been approved and added to the system, go back to the Service Call > Expense Tab > > Expense Details > New Document > Order 5) At this point, the Sales Order window opens in Add Mode. Press Ctrl-F, and go to the Approved Sales Order. Click OK. 6) the Sales Order should appear on the expenses tab in the Service Call. Hope this helps. Reza"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "When to use Tables, which are defined as u0093No Objectu0094?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Generally, in which situations should we use a \u201c<b>no object type</b> \u201d table ? There\u2019s not much explanation about that type in help files.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, the possibility to define a type for table is new with version 2004. Before, all the table where defined as \"no Object type\" \"No Object Type\" tables are tables not used in UDO (User Defined Object). They are the \"defaut type\" table in Business one, You can access to them using the UserTables object, select/insert/remove/update record using this object If you choose ono of the available object type (master data, master data line....) theses table are created as UDO tables. Sebastien"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "TPM13 - Posting status Treasury Ledger > which table does it come from?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear SAP colleagues, I am facing the inconsistency issue on TPM13 - Posting status Treasury Ledger and TPM20 posting status for some accrual posting by TPM44/45. Here is the question that I would love your expertise to help me. While I know that TPM20 posting journal status comes from TRDT_TRDBISTRANS table, where does TPM13 Posting status within Treasury subledger? Also if you have come across such an odd case and some advise to rectify such an inconsistency, I would appreciate it you could share with me. Kind regards Taro",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Any T code or report which gives status change log or dates for a list of projects",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Does anyone know of a report or Tcode that can be run to pull the status change log or dates for a list of projects. The T code CN60 does not give status change information. Any inputs would be highly appreciated. . The T code CN60 does not give status change information. Any inputs would be highly appreciated. Thanks Thanks Harsh Harsh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Harsh, I dont think standard report is available. You can develop Z report easily with help of JCDS & PROJ table. Regards Shrikant"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reverse Goods Receipt for kanban should popup asking which kanban",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, Shouldn't MBST or MBRL popup asking the user which kanban the parts should come from when doing a reversal on a goods receipt? Thanks, Matt",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Have you tried through PK31 transaction . there u can select the particular bin and click it on the reverse tab. So system automatically create schedule line by reversing the GR. Please check"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to find list for which customer name 2 field are changed through batch job",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I want list of customers where name 2 fields are changed through batch job. How we find list which customer name 2 field are changed for specific date Any table name are available to find customer master list or any procedure?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to cancel the TO which is already confirmed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Experts, I know that once a TO is already confirmed, cancellation is already not possible. To reverse the TO created, LT0G will be used am I right?But this functionality is only possible if the TO is created based from the outbound delivery. How about if the confirmed TO ( is created from Material document resulted from GR on the Purchase order. How can I cancel the TO created for that? Also same as confirmed TO created manually in LT01? How can I cancel it? Thanks, Sidhar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "define custom entity    A maximum of 20 rows can be displayed   which is the next page pagination",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I created a Custom Entities \uff0cA maximum of 20 rows can be displayed on multiple pages \uff0c But I may need to show more than 20 lines I read about Implementing Paging in an Unmanaged Query .But he only shows 20 pages, and there are cases where multiple pages are displayed",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "List of Orders against which Material has been issuesd from stores (GMPS)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Please guide me to get the report for \"List of Orders against which Material has been issuesd from stores (GMPS)\" Regards Ankur",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Ankur, You can also run T-Code MB51, Provide required details like Plant, Movement type, Posting Dates etc. You will get report, click on Detail List Icon. Here you can see Order no. against which the material is issued. Check at your end may be helpful to you... Regards Ritesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Require drop down in eRecruitment - Application wizard ( which is created)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have created a process template exclusively for new requirement and in the process template I have defined extra tab like Preferred country to work and I have defined the scales and assigned the parameter too in the R/3.Here when the question is defined and the Pre-defined scale(i.e: country) has been selected and assigned in the Questionnaire maintenance.After Job Posting when the external candidate applies for the job and when he tries to enter the preferred country the list shows with radio button instead of drop down values.Here the country list goes upto 160... Please suggest ways to provide it in drop down values. Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You have to do a configuration part in R/3 system.In R/3 go to SAP E-Recruiting -> Technical settings->User Interfaces->Settings for User Interfaces with Business Server Pages->Assign Parameters to Parameter types. Here for the BSP application: Name hrrcf_qa_screen Parameter type MAX_RDB Parameter Number of Responses with Radio Buttons Questionnaire *(to get the Drop down value restrict or mention the number say* for.e.g:6.If you have defined country scales more than 6 for.e.g:6.If you have defined country scales more than 6 will display in drop down values.Which ever value or scales will display in drop down values.Which ever value or scales defined are more than 6 then it will show in drop down values). defined are more than 6 then it will show in drop down values). Once this configuration is done in portal for your scale which is more than 6 it will display in drop down values. Regards, Selva"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "MD04 Project Stock WBS element - In which MRP table is the data stored?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gang, In transaction code MD04, a project stock requirement displays the WBS element. In what table is this information stored? How does that table link to MRP tables MDKP and MDTB? Thanks, John Hawk md04-project-stock-wbs.jpg md04-project-stock-wbs.jpg",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "New Movement type in which IO to be made mandatory",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I want to create a new movement type in which Internal order number to be made mandatory. Please advice. Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You already have a standard movement type 261 / 262 for that purpose."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAdi is used to fill additional custom fields on infotype",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hey all, i am currently extending the infotpe 0759. Which BAdi is used to extending the additional custom fields on this infotype ? and how to use it ? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "To enhance an infotype use transaction PM01. This transaction has a tab for Enhance where you can put in your custom field and logic for the custom field. Hope this helps. Thanks, Puneet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to access the custom fields values which are created using Manage Characteristics app",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Friends, I have created the custom fields using Manage Characteristics Application in Customizing Tenant of SAP Public cloud. And I have added the created fields to the class. Now the values entered in the custom fields which are created using Manage characteristics . I have to read those values in the BADI's during creation purchase order creation and purchase order change. can someone tell what is the approach. Thanks Rahul SAP S/4HANA Cloud Public Edition Extensibility#manage characteristics #sap s/4 hana public cloud SAP S/4HANA Cloud Public Edition Extensibility",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Depreciation : Repeat run to be done ...which got posted earlier",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Depreciation is already posted thru AFAB for March. Now there are some more assets, which came later will be capitalised, and has to be posted in the same run / month. What is the best way : Should we execute \"Repeat run\" for only those assets ?. Whether the depreciation already posted to FI, can be reversed ?. If yes,,how ?? If the above is possible, then should we execute the full repeat run & post again ?? thanks amit",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi use AFAB transcation with the left out asset numbers and sub numbers."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which structure (FPAYH or FPAYHX) to refer for DMEE",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi I am creating new bank file format in DMEE. I am in confusion which structure to use (FPAYH or FPAYHX) for following fields. Payee name, Payee address, Payee postal code, payee city, Payee country, Bank of the payee SWIFT ID, Payee bank name, Bank of the payee city, Bank of the Payee country ISO code. Please any one help me which structure and fields I need to refer for above fields. Thanks PG",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Alter Button from FPM_API dependant on which VC is currently shown?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I want to do the following: The button \"SAVE\" within FITV_FPM which is shown on a lot of VCs within the Travel Services should bevisible ONLY within FITE_VC_REVIEW. I want this button to be invisible on all other VCs, for example FITE_VC_GENERAL_DATA. visible ONLY within FITE_VC_REVIEW Is there a way over the FPM_API or maybe in WDDOMODIFYVIEW in FITV_FPM which would make this achievable? What I already did was hide the 'EXIT' button in general by doing a post method of WDDOMODIFYVIEW in FITV_FPM Layout View. But here I don't have the problem needing to know \"where I am\" at the moment VC-wise. Cheers, Lukas",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Lukas, For hiding \"EXIT\" button, you should try doing it from Component configuration rather than WDDOMODIFYVIEW in FITV_FPM Layout View. Similarly for the visibility of button \"SAVE\", i would suggest to locate Component configuration of needed Travel services and then hide from all the VCs. This may be tedious task , however a better option then making changes directly in WDDOMODIFY view. Regards, Ashish Shah"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Show list of AR Invoice which has no Sales Order attached to it",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I need to generate a list of AR invoices which created manually in the system and those invoices normally don't have a sales order attach to them (not converted from sales order). Any help would be much appreciated. Thanks! Any help would be much appreciated. Thanks! Regards Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Try the below query select v.docnum,v.docdate,v.cardcode,v.CardName from oinv v where v.docentry in (select v1.DocEntry from inv1 v1 where v1.BaseType ='-1')"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to unblock a row which has been partial received?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear everyone, I just have a trouble and need anyone help me. Here is the case... There is a PO with a row of 200pcs ordered. Partial of them, say 50pcs, are received. Then what happened on that row is that, as you know, the fields in that row except Qty and 'Del. Date' are all blocked, even for UDF. -- I really need to be able to rewrite info on those UDFs in the row. Is there any way to enable me update data on those UDFs. Thank you Tony",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Tony, You can try to close the original row in the PO so the open qty will be 0 and add a new row with the outstanding qty with the correct details. Regards, Nat"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Select code which is not in use from a UDT",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I have created a UDT with codes (tablename is dbo.@Codes). I also created a UDF in which I linked the UDT (UDF is named OITM.U_Code) Is there a way to create a query which search (FMS in the field U_Code) for a code which not has been used. A code which is not yet connected with the field U_Code. The question is also: Can you use a FMS in a UDF in which you can select from a UDT. For example: UDT Code Name 01 01 02 02 03 03 I selected code 01 for an article. For another article I like to select a code which is not 01, but any other available code. So now I need a FMS in the UDF U_Code which shows me all the codes which are available (these should be 02 en 03) and select one of these two. Any other solutions will be helpfull as well. Probably I have to create two UDF. In one I can search for the available codes. In the other I can manually enter the code which I want. I would prefer the first solution. Thanks, Tim",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Try to start with this: Connect it to the UDF U_Code."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Any other alternative access which is equivalent to SOST for Business Users?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, We have an issue with payment remittance e-mails not delivering to vendors. Though it doesn't happen very frequently, we have to go to SOST and push the emails to the vendors. Our business users does not have an access to get into SOST to push the e-mails. We can re-run the print program for that vendor to resend the mails. But, is there is any other way for users to send the e-mails struck in SOST? How and where can we find the payment remittance pdf forms sitting in the emails in SOST so that atleast they can send the attachments to vendors from their outlook? Please suggest any workarounds. Thanks, Chaitanya.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which places do i need to assign fiscal year variant",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am going to change the fiscal year.I have assigned the fiscal year variant to company code and controlling area. Other than these two,where do i need to assign the fiscal year.Kindly advice me Thanks Sunitha",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, We will assign fiscal year variant to- 1)Company Code 2)Controlling Area 3)FM Area (Funds management area). This is for funds management config only. Regards, Anish"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tax amount stored in which field",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Every one I wanted to know tax amount have field of komp-MWSP. But this value is stored in which field and where Regards Shambhu",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "WM inventory clearance created under which movt type 711-718",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, My client requirement is to see the WM inventory clearance created under which movt type 711-718. I have found the link in MSEG but to further segregate them i want (IM material document cliearance & item number ) I have checked Bin Inv record but do not found, can any body tell me how to see the inventry clearance material document(in which table)",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, WM inventory counting movement types are 711 for decrease differences and 712 for Increase differences. If you are facing problems in MSEG, try looking in transaction MB51 with the above movement types possibly with date ranges if you need. Amit G"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table GLPCT-Need a standard report in PCA which gives all values in GLPCT!!",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Can any one please let me know a standard report in Profit center Accounting which can exactly give us the value there in GLPCT table.Urgent.............pls let me know at the earliest.As i have checked KE5Z report doesnt give me same value as in GLPCT.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can use SE16 or SE16N for this or use KE5Z - Profit Center: Actual Line Items KE5Y - Profit Center: Plan Line Items When you have a lot of posting these report can give performens problems. Paul"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How do I find out which WTs flow into Total Gross (WT (/101)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I need to produce a list of wage types that flow into WT /101 Total Gross. Does anyone know a quick way to do this? Thanks Hannah",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello In v_512w_d,all wagetypes which have cummulation class 1 ticked will flow into Total gross WT(/101) Regards Ramana"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Error in generating the address of the company from which the dunning is submitted",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "The issuing company's address is not generated when creating a dunning from SAP Public Cloud. Do you know how it would be done from Adove Cyclye Designer? It is the App from which the structure and design of the complaint letter is modified",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "we need a BOM report which can tracing by multiple batch number.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Hi Experts, We need a BOM report which can tracing by multiple batch number.Product number, batch number, component number, component description and component qty are necessary in this report. We need a BOM report which can tracing by multiple batch number. Product number, batch number, component number, component description and component qty are necessary in this report. Product number, batch number, component number, component description and component qty are necessary in this report. Regards, Regards, Regards, Mallika Mallika Mallika",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Check the below link... SAP\u7684\u5b66\u4e60\u548c\u8003\u8bd5 Learning &amp;amp; Examination: ~ LO Batch Traceability via Batch Cockpit SAP\u7684\u5b66\u4e60\u548c\u8003\u8bd5 Learning &amp;amp; Examination: ~ LO Batch Traceability via Batch Cockpit Thanks Kumar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Change company code in WBS which has actual cost posting",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi guys, I have a situation where in i need to change company code in large volume of WBS where there are actual cost posting (not budgeted no need for OPSX). My Company code field in these WBS is in display mode as soon as i do actual cost posting... So obviously MASS change will not work till i make it editable.... How do i do this... regards, Paval.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi It is not feasible to change company code of WBS once it has postings. This will have a major impact and will lead to inconsistancy. You need to find out possible way out to tackle the situation...one alternative could be to create new project with different comp code and then settle the cost from the old one. But this is possible only if controlling area allowes cross company postings. Regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Workflow does not get values which are calculated in the feeder class",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have developed an application using HCM Processes and Forms. In this application when at the second level a manager clicks a checkbox a field is calculated dynamically which is 'CHAR25' type. I have created a field in the form for this value and have also put it on the form as invisible. I want the value of this field to be used in the mail in workflow. Am using 'TS17900110' to get this field. I realized that all the field am filling in feeder class dont show up in Workflow but all the field I populate in Initialization show up in the WF. Is this a normal F&P behavior. How can I import values of the feild I am populating dynamically in the feeder class? Is this happening because am using Field-Symbol to populate value in CS_DATA? Regards, Vishal Agrawal",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP Dependency - Can we use a function in a procedure which returns multiple values?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello All, We have the following scenario involving material master data classification and dependencies: When a new product is created, a reference code is entered in one of the characteristics. This triggers a dependency where in turn a function is called to obtain/calculate,...a set of values which are then stored as part of the material master's classification data. This is all working fine for single value characteristics, but we also have a few multi-value characteristics. Let's say for example one the characteristics is the multi-value list of colors. Inside the match object of the function we would for example see two records: VARNAM ATFOR ATWRT COLOR CHAR RedCOLOR CHAR Blue In the CU02 dependency we have something like:FUNCTION ZGET_CHARS(......,COLOR = $SELF.COLOR,......) The logic is working fine for single-value characteristics, but not for multi-value characteristics.No errors or dump, but as soon as we return more than one value for a multi-value characteristic, all characteristics that were supposed to be populated are blanked out. Is there a way to make this work for multi-value characteristics? It's key that we can keep the multi-value char on the material master, so we do not want to split it up into COLOR1, COLOR2,.... I no clean solution is found we can set it during saving via the CLFM UE, but then the user doesn't see the result while initially maintaining the product and she would need to enter the material again after saving to see the results. It's an option, but hope there are better ones\ud83d\ude42Thanks in advance,Erik \ud83d\ude42",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Procedure to capitalised asset which is by mistek expensed out",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts There are some entries which was debited to expenses account. Now we want to capitalised these entries If We pass rectification JV, these records will not apear in Asset Database. Which is the right procedure wherein we can rectify the entry and see the asset in Asset list as well Please Advise Shekhar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi You can transfer expense to assets. T.Code - FB01 Select document type which allows Asset and GL Posing Debit Posting Key 70 Enter Asset number Select Transaction Type 100 Credit Posting Key 50 Enter Expense Code"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which NUC system I'm ? MDMP or Ambiguous Blended Code Page or Unambiguous blended code pages ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, We use ecc6 ehp5 non unicode system, we need to make unicode conversion. How can i know the non unicode system i used ? MDMP or Ambiguous Blended Code Page or Unambiguous blended code pages ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Samy, If you are not sure whether your system is a Single Code Page system or not, open database table TCPDB in transaction SE16. If this table contains only one entry, it is a Single Code Page system. If TCPDB contains more than one entry, the system is an MDMP system. see this note 551344 - Unicode Conversion Documentation 551344 - Unicode Conversion Documentation Regards, Regards, Deva Deva"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "New characteristic which isn't working in MSC2N ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello experts, i had to add a new characteristic (Period Indicator for Shelf Life Expiration Date MARA-IPRKZ) to an existing class 023_PF, so first i created the characteristic in CT04 and i added it in my existing class using CL04 and then i added my characteristic to my exiting function Module in CL67 so i could add my new characteristic in an existing dependency procedure. when i saved teh modifications, i have noticed a weird behaviour, when i modify the Period Indicator for Shelf Life Expiration Date to M(Month) or Y(Year) or W(Week) in Material Master Data MM02 and i check MSC3n classification view it works and i see the new value (Month, year, week) assigned to my characteristic but if i choose D(Days) in MM02, no value is assiged to my characteristic and the function module isn't even executed (Check that using breakpoint). any thoughts please ? Thanks in advance. .1.png2.pngwhen-days-chosen.png 1.png 2.png when-days-chosen.png Best regards,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reverse Controlling Document which does not have a Cost Object",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, We have a scenario where in we have to reverse a controlling document which does not have a Cost Center - What are the possible solutions ? Any thoughts/solutions will be really appreciated. The reason we have this is there was an A/C which did not have a CE earlier, where as now it does have a CE. The document was entered at a stage where it did not have a CE - so the CC was not hit. Now we have to reverse this document and it asks for CC as the A/C now has a CE associated with it. Thanks, Charuni",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Go to transaction F-02 and click on the \"Post with reference\" button. ENter the document that you want to reverse and select the button \"Generate Reverse posting\". Now keep hitting enter until the system tells you to enter a CO object. Enter any cost center and post the document. Note the document number. Now go to SE38 and enter RKACOR20 and execute. Then enter your company code, fiscal year and the document above. Execute this and you should achieve the solution you want."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "reservation for a material which is not having stocks",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Friends, 1. Kindly tell me whether i can create reservation for a material which is not having stocks ? How to do this ? 2. Can we issue more quantities than in reservation? Kindly help me to do this. Regards, Prasath",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "1. Kindly tell me whether i can create reservation for a material which is not having stocks ? How to do this ? Try this Go to OMJ1 trxn and put tick for 'Allow Negative stock' for Sto loc Try this Go to OMJ1 trxn and put tick for 'Allow Negative stock' for Sto loc 2. Can we issue more quantities than in reservation? in OMCQ set Message M7 362 Warning or Error , So that you can not issue more than reserved Qty.. in OMCQ set Message M7 362 Warning or Error , So that you can not issue more than reserved Qty.."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "For a material components, which cost planing method is better cost calculation",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello all, Our requirement has when we use material components for project,which cost plane method is better for cost calculation of material components. Please suggest. Thanks, prathap,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Prathap, It will depend upon are you using network activities and then assigning the Mat. Components to get the plan cost.. or if you use only WBS then unit costing would be way forward.. so how your projects are structured I would suggest for either Network Costing or Unit Costing ... Regards Sammar.."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which table object dependancy program is stored?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "in which table object dependancy program is stored?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Preventing goods movements and production orders for materials which don't have a standard price",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello SAP Gurus; When I work with my clients; I confront this situation frecuently. They make some goods movements (purchasing, production etc.) or confirm production orders without calculating standart price of the related material. As you know goods movements or confirmation of production orders can cause a lot of problems later in controlling part for materials which don't have a standart price at the beginnig. I would like to make an implementation (or whatever needs) to prevent making goods movements or confirming production orders if material doesn't have a standart price. I have some ideas; but I couldnt make the final judgement. For example; I can make some restriction using \"plant spesific material status section\" under costing 1 tab in material master. But how could I create a connection between standart price and goods movements-production orders. Best Regards, sadullah",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Its very good that you realized this need... There are lot of places where you can put this check.. I have been fortunate enough to put this check at all the places as mentioned below To prevent 1. Goods movement from Purch orders / Sub contracting orders - Use BADIMB_MIGO_ITEM_BADI MB_MIGO_ITEM_BADI 2. Production orders creation/release - Use BADI Workorder_Update 3. Production order confirmation - Use BADI Workorder_Confirm 4. Prod Order goods movement - Use BADI Workorder_Goodsmovement 5. Sales order creation - Use exit MV45AFZZ / ZB 6. PGI (Post Goods Issue to Customer) - Use BADI LE_SHP_DELIVERY_PROC 7. Invoicing (Customer) - Use Exit RV45AFZZ (Not required if you have COPA, you can use costing key to check it) br, Ajay M"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

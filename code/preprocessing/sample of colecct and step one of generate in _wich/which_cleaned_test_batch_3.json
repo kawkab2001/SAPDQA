@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "Table which store config",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Is there any table which stores all the configurations steps that we do in IMG. If yes, please anyone can tell me wht is that table. regards,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "guys any inputs shareing my experiences we dont have one table but we have some tables where the customization part is stored let say for example V_T52DZ here in this table we can know form whcih model wage type we copies the wage type correct me if iam wrong as iam not that much confident in this issue"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Capture program to scan and assign. Which software do I need?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I am starting with document management in sap and there are a couple of questions that are unresolved for me. We have paper documents coming in. Then they become a barcode on the first paper. They become scanned after this. Now I would like to assign them to a customer ID or something like that. I have the software for my scanner to scan the paper. What software else do I need in order to get through the capture process (say the program things will be scanned, the barcode is read, I am asked by the software for the document type ... ) I already found postings likebut this is working with local file and afterwards loading the file into the dms. It there a way to avoid the saving and loading steps... so this is directly putting the scanned document to the dms and asking for some attributes? Thanks a lot and have a nice weekend, Vanessa",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Vanessa, For uplaoding document into dms either you can use t-code CV01n or BDC uplaoding for bulk documents. This is feasible ony for uploading and for this you need to give path of the original files which are saved on some system. Now, your requirement is to scan the documents automatically by some software is not possible at any way. You need to keep the original file as ready for uploading at some location for uploading. Once you store files ,it's easy to upload separately or in batch also. But for scanning there is no possible way. I hoep this will resolve the query. Regards, Ravindra"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which number range is used for down payment requests for vendors?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Which number range is usually used for down payment requests for vendors? I would like to use it for: Y002 vendors (emplyees) Y004 vendors (1-time vendors) Y005 vendors (confidential vendors) The invoice will be posted via FI via Tcode FB60, FB65 & FB10 and F-02. Thank you for your feedback. Kind regards, Linda",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Linda, number range is defined by the document type used in F-47. It has nothing to do with vendor account group. Regards, Michal"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "functanalities which SAP wont support",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, can anybody name some functinalities which standard SAP cant support like returns is not possible in thirdparty sales. Regards, cpdatt",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Cpdatt, there are really many-many processes which are not supported in the standard SAP ERP SD module. The most of these processes are documented in different SAP consulting and FAQ notes. And unfortunately it is impossible to give you a list of SD functionalities, which are not supported by the standard system. Only to show (as an example), here are some functionalities which are not supported in the scheduling agreements: 1) assembly order processing is not supported in the scheduling agreements; 2) third-party pprocessing is not supported in the scheduling agreement (if you have Automotive system, then you can puchase additionally third-party solution for scheduling agrement as Autonmotive consulting solution, z-programs); 3) BOM explosion is not supported in scheduling agreements; 4) variant configuration is not supported in scheduling agreements; 5) product selection is not supported in the scheduling agreements; 6) rule-based availability check is not supported in the scheduling agreements; 7) free goods are not supported in the scheduling agreements; \ud83d\ude0eduring delivery-related billing it is not possible to use prices from the scheduling agreements (they are taken only from condition master); \ud83d\ude0e 9) it is not possible to transfer two items in one DELINS-IDOC (two delivery schedules via one IDOC); 10) it is not possible to create more than one item for external agent delivery to the scheduling agreement via IDOc (ED-order); 11) it is not supported to use the fiscal year change scheme 'C' for scheduling agreements with external agent service; 12) the ATP-allocation functionality is not supported in scheduling agreements, if you have JIT schedules; 13) it is not possible product (or generally, alternative) units of measure in the scheduling agreements; 14) rounding functionality is not supported in the scheduling agreements ........ I hope, this example is sufficient to show, how many processes exist in the ERP system and how many combination of processes are not supported. That was only an example: some not-supported functionalities for scheduling agreements. I hope, this info gives you a general imagination about supported and non-supported processes in ERP-SD, and why it is not possible to describe all not-supported processesn in one response. Nevertheless I hope, that this info helps you for a general imagination. Kind regards, Akmal Vakhidov Development Support SD, SAP, Walldorf/Germany"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reporting country: Which factors are leding to the reporting country set in FV60 (and the corresponding bapi) set?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am creating incoming vendor invoices with the BAPI BAPI_ACC_DOCUMENT_POST. This works really good but there is one thing I don't understand. It is the reporting country. We have the plants abroad scenario and in this way we have to handle with the reporting country. The point I don't get is the following. I create the vendor invoice for a couple of vendors and everything is fine. The tax codes are in the header and in the line items. But there is one vendor from the same company code and the same country like the other vendors .... but in this case the reporting country is not empty (like it is with the other vendors) ... the reporting country is set to 'DE'. Which is the company code country and the vendors country also. When this is the case the tax codes cannot be filled by the BAPI (and also not within the FV60). Can someone please explain what the reporting country is depending from? When is it switched automatically? Where can I find good documentation about it? So far I have only read that the reporting country is the company codes country... Most of the discussions I found in the SCN regarding this topic are not answered. There are no helpful SSO-Notes. Debugging doesn't led to the required knowlege. Comparing the vendor with reporting country DE and other vendors didn't show differences that helped to understand the setting of the field. Could someone please bring some light into the darkness? Greetings, Vanessa",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Check SAP Note 306504 - Collective note: BAPIs for the AC interface. Check also the entries in table BSET for this FI document. And, what is the technical name for 'reporting country'? I hope this helps you Regards Eduardo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which table is for CA03",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "When I have assigned operations to one BOM, then I want to exported as a excel file but with query used,so these tables are needed Thanks in advance! helai",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Need to partly pay Vendor & block invoices which are not to be paid",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I need to pay a vendor partially and block invoices for payment which are not to be paid, can anyone help?? It is releated to SAP FICO. Thanks in Advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, At the time of Invoice Booking, you can set the payment block in the Invoice Header. If its already posted, you can insert it manually at accounting doc level, from FBL1N. Regards,"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAPI is for reading Header and Item for BOM.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I am using BAPI named 'CSAP_MAT_BOM_READ' to read Material type BOM header and Item. 1. Is there any BAPI available to read Equipment Header and Item ? 2. Is there any BAPI available to read Functional Loc Header and Item ? 3. Any BAPI to Write into Database table from my internal table (Header and Item) ? Edited by: amit soni on Aug 26, 2011 11:25 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "1. BAPI_EQUI_GETDETAIL 2. BAPI_FUNCLOC_GETDETAIL 3. BAPI_EQUI_CREATE, BAPI_FUNCLOC_CREATE for equipment, and functional location respectively. Have you browse in BAPI transactions?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "PGI - How can I only select a list of sales orders which have been PGI?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Gurus, I have made a lot of sales orders. Some are waiting delivery to be done, others are just saved and for others I have done Post Goods Issue. Which transaction will allow me to only select the sales orders for which PGI has been done? Thanks for your help Chris",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, please check VLO60 - Suits your requriment. hope this clears your issue. balajia"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Does New t.code KKAOH, which has been introduced for calculation of WIP, support WIP Revaluation for WIP?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi... I use material ledger and activated wip revaluation function. After I executedNewt.codeKKAOH forwipcalculation, I checkedwiprevaluation result usingwipquantity document in the below picture. After I executed New t.code KKAOH for wip calculation, I checked wip revaluation result using wip quantity document in the below picture. But I can\u2019t getwipquantity document. SAP display error messageCKMLWIP916:WIP quantity document does not exist in thedatabase. But I can\u2019t get wip quantity document. SAP display error message CKMLWIP916: WIP quantity document does not exist in the database. But, After I executed oldt.codeKKAO forwipcalculation, I can getwipquantity document as below thepicture. But, After I executed old t.code KKAO for wip calculation, I can get , I can get wip quantity document as below the picture . I want to know whetherNewt.codeKKAOH support thewiprevaluation functionof the material ledger for raw material with price control \u2018S\u2019 and price determination \u20183\u2019. I want to know whether New t.code KKAOH support the wip revaluation functionof the material l revaluation function of the material l of the material l edger for raw material with price control \u2018S\u2019 and price determination \u20183\u2019.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "sap's answer : KKAOH is not complete replacement for KKAO. Some functions are not supported by KKAOH although they are available for KKAO. For example, calculation of quantity is not supported by KKAOH. Please use KKAO instead"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to link ap down payment invoice to ap invoice which have added.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi,Expert, I encounter this situation in detail as follow: 1. raisethe PO add row line with respective itemcode and quatity. 2. raisethe ap down payment invoice copy from the po created just now. 3. raise the bank -> outgoing pay the cash base on this down pay invoice. 3. raise the Ap invoice copy from PO ,however,the user do'nt link related down pay invoice. This result in the account is confused and wrongly pay double amount for supplier. How can I process to repair it now and avoid it in the future ? Thank you in advance ,appreciate any comment and help. Best Regards Eric",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Kindly check the following thread : Regards, Jitin SAP Business One Forum Team"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sales Performance - Predictions - On which granularity is the predictive model built?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "With the app Sales Performance - Predictions (F3304) - on which granularity is the predictive model built? Can I drill down to the document level?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "The predictive model is currently built on the year/month of billing and also the sales area, sold-to party, product group and customer group. These dimensions are considered, but it's not at a document level (2108), so you cannot drill down to the document level right now."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Matrix's column belongs to which table and column??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, Basically, I just want to copy all information from matrix of Purchase Order to a table which has similar structure with POR1. How do I know that matrix's first column should be inserted as what column in the table, and the second, and so on. Anybody knows how? Thanks for your kind attention. Regards' Erwine",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Erwine Sukardy The only way you will know is by showing all the columns in the document. Then put your \"system information\" on by using ctrlshiftd or view->system information when inside sap. Then when you place your cursor over the matrix it will show you the table and field name. Some of them won't show them, like the total column does not....but that is linetotal in the table. shift Another source of info is the \"REFDB\" help file that is intsalled in your sdk directory. There it will show all the columns and extra info. Hope this helps"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to create a customer no. starting with a few fixed letters which is system-proposed?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I want to create a customer that is assigned an external number range which has certain conditions imposed like - the first few digits should always start with,say for example, \"DBE\" & that will be automatically proposed by the system everytime I create a new customer but the rest of the digits in the customer number will be self-assigned by me . So that, if I create a new customer ,everytime the customer number box will show - \"DBExxxxxx\" where all the 'x' is assigned by me ,so the customer ids will follow like these - DBE000475 ,DBE111903,DBE222276 etc . Is it really possible? I searched the internet but couldn't find a proper solution. Can anyone here will be kind enough to help me solve this riddle? Thank in advance With Best Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Namrata, As per my understanding this will not be possible because in SAP you can have either internal or external no range, mix of both is not possible. However, what I fell you can try to achieve this by no range enhancement but not sure about it. UseBADI CUSTOMER_ADD_DATA and put all your code in SAVE_DATA method probably this will help you. Invoice toy technical to though more lite on this. BADI CUSTOMER_ADD_DATA and put all your code in SAVE_DATA method probably this will help you. Invoice toy technical to though more lite on this. Use the below threads, they might be some helpful to you. user exit for XD01 (Customer Creation) | SCN user exit for XD01 (Customer Creation) | SCN http://scn.sap.com/thread/1314367 http://scn.sap.com/thread/1314367 Please update us on development part. Thanks SS"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "I_MATERIAL does not have some fields which are required for us, how should we proceed ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Any enhancement to the basic view I_Material is not supported anymore. Most of the MARA fields are already available in I_PRODUCT view, please cross check the required field in I_PRODUCT. Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I_Product view should be used."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "I have wrongly reversed invoice which was supposed to be claimed to customer",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Wrongly reversed invoice by vf11, then cancelled pgi by vl09 then deleted outbound delivery by vl02n, I wrongly did it with wrong invoices which are to be charged to customer, can anyone help me to reverse this process?can anything be done? as customer is not ready to accept new manual invoices with different inv. nos.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Debashis, There is no process available to Reverse the reversed Invoices. You will have to re-create them. As far as Delivery is concerned, as long as PGI is reversed, it is possible to perform the PGI again for the same Delivery, but nothing can be done for reversed Invoice, except to create a New Invoice."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which fields are defined in the fiori app \"Manage Fixed Assets\" in the 1911 S/4HANA Cloud version?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Do you know if there is a list of all fields which can be filled in the new fiori app \"Manage Fixed Assets\"? I would like to verify for one of my clients, if all fields existing in AS01 are still available in the new app in the latest S/4HANA Cloud 1911 version, to ensure that they can maintain their asset master data regarding their requirements. Can anybody help me with that question? Thanks a lot in advance!!!!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, Please check the 1911 documentation for the application under this link: https://help.sap.com/viewer/3e5fcf2c768746049b5627bd5a42f720/1911.500/en-US/aec7ecb2ee11437bbbc20415... https://help.sap.com/viewer/3e5fcf2c768746049b5627bd5a42f720/1911.500/en-US/aec7ecb2ee11437bbbc20415... Even if it does not contain a list of all the fields, you can make an idea about the app functionality. Kind Regards, Barbara"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Learning Path to be a SAP developer?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi i have an another question. My situation is this. I have studied Industrial Engineering and didnt find a job. Now I have startet a SAP MM course at a external training center in Germany, bonn. So its not a course at sap original but at least I will make the same Exam with the user certification. How I said in the first question, Firstly I make a SAP MM user certi. The certification name is: C_UCMM_15 . After that I will make a SAP MM Procurement Consulting course. In that course there is a ABAP Modul in Foundation lvl. Consulting Certi Names: C_TS410_1610 SAP Certified Application Associate - Business Process Integration with SAP S/4HANA C_TSCM52_67 SAP Certified Application Associate - Procurement with SAP ERP 6.0 EhP7 So I make all these courses because I want to become a SAP Consulting but in the programming language abap and all the new technologies. Is my learning path well for my goal? I thought, that I do firstly the User Certi, then make the Consulting Certi in MM. After this 2 certi I want reply to Jobs SAP ABAP or other backend Jobs. Because I have then a good Knowledge with the SAP System and learn then the background technologies. Is my learning path right? Should I go another path? Or should I make only a ABAP training like the certification: C_TAW12_750 SAP Certified Development Associate - ABAP with SAP NetWeaver 7.50",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Field - Which Table?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Could anybody plz tell me ZZFLAG is part of which SD table?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, As per the given name, It is a custom field and may be it is used for Flag Status . Goto SE15 and select ABAP Dictionary -> Fields . Enter the field name as 'ZZFLAG' and then click execute button it will show you the tables using this field. Hope this helps you. Kind Regards, Ravi Sankar.Z"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Looking for SAP Table name which provides cost detail report?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I am looking for SAP Table which provides Cost Detail Report. Any help would be appreciated.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi,Cost can be found in the CO tables. Important CO transactional data tables... COBK CO Object: Document HeaderCOEP CO Object: Line ItemsCOSS Cost Totals for Internal Postings TableCOSP Cost Totals for External Postings Table Best regards,Jonathan Eemans"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to activate the functionality which reference to msg no F2 - 272 & 273",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, could anyone show me how to activate the functionality which reference to msg no F2 - 272 & 273? Thanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "There is another path (more logical), but it goes to the same data: SPRO Financial Accounting > Account receivable and accounts payable > Vendor accounts > Master data > preparations for creating vendor master data > Change message control for vendor master data> add new entries for 272. The same vor customer accounts and message 273."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table store batch information SAP Business One HANA",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, Which table show real time information of batch details and available stock against that particular batch ? SAP Business One HANA I have few tableIBT1 , OIBT, OBTN, ABTN. IBT1 , OIBT, OBTN, ABTN. Regards, Nikunj",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "sales order creation - data stored in which tables for customer",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts, During sales order creation, data entered during sales process is stored in various related tables. Can anyone list the tables where data is stored for customers? Thank you",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "For customers, data is stored in following tables KNA1 KNVK KNVV KNVA KNVI KNVP KNVD KNVL KNVS"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Delivery process: which tables are involved",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I'm trying to create a schema that show the tables (and the relative keys) that are shared from the delivery process. ODLN and DLN1 are the principals tables. But I think there are other tables like OCRD, OCRG, ecc.. Can you help me? Thank you very much.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Irene, If you have the SDK installed, goto : C:\\Program Files (x86)\\SAP\\SAP Business One SDK\\Help\\RefDB.chm Look for the ODLN and DLN1. The help file contains a 'Related' Column. this is the name of external tables it is linked to. These are the tables linked to ODLN : Check in the help file for the DLN1 external tables. Regards Edy"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which T-code to find a SD-L invoice verification documents list?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear SAP Experts, Which T-code is used to display a list of SD-L (subsequent credit or debit) invoice verification documents? Thanks in advanced, Zhou",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, check MIR5.. or check PO history.... Regards Priyanka.P"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to see which user changed form settings",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "item master data > enter * in Item no. field and hit enter List of Items > Form settings The form settings here are not user specific. One of my users keeps changing the setting to Groups. How can I see which user is changing this and when? I know the table is CHFL but it does not show me any last update time or which user last changed the setting. Is there any way I can determine this?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I don't think any tables holding that information. You may need to monitor closely to the time of change and catch the user who just changed them. You must have shortlist the users with high probabilities in advance. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which API can find the Cost Center field in the purchase requisition?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "API:Purchase Requisition does not contain the Cost Center field here",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "The cost center details of the Purchase Requisition can be found under the account Assignment node of the api. Please see the details here: https://help.sap.com/viewer/bb9f1469daf04bd894ab2167f8132a1a/2111.500/en-US/99e24658c18ea107e1000000... https://help.sap.com/viewer/bb9f1469daf04bd894ab2167f8132a1a/2111.500/en-US/99e24658c18ea107e1000000..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Change log shows update by a user which doesn't have authorization",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am using SAP v9 PL5 I checked the change log for my BP master data, and it shows an update by a user that does not have authorization for the screen. This is the change log for the BP master screen You can see here that on 23.03.15 it says sales2 user updated the BP master The change done was to the price list However when I go to system authorization, you can see that as at 03.02.15, the authorization for sales2 to access BP master screen is only read-only Has anyone encountered such an issue for v9 PL5? Thanks. Ivan",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Only way to make it possible that system will ask you have no authorization to perform, override permission? then if someone enter username and password of super user then user can able to change it for that session. Else try logging with Sales2 and see if he can perform the task. Regards, Chintan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to Book the Diesel / Petrol cost against vehicle wise which is purchased outside",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear PM Guru's, Dear PM Guru's, I have one scenario, i have few vehicles which are using for company business purpose and always purchasing the diesel at petrol bunks which are located at outside of company premises. How i can book this diesel cost against to equipment? and how i can get the report of vehicle consumption analysis? Please guide me. I have one scenario, i have few vehicles which are using for company business purpose and always purchasing the diesel at petrol bunks which are located at outside of company premises. How i can book this diesel cost against to equipment? and how i can get the report of vehicle consumption analysis? Please guide me. regards regards JKM JKM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can book the diesel consumption against equipment by mentioning the equipment number in MIGO / MB1C transaction in text field. Fleet management will help you to track the diesel consumption if consumption happens from internal warehouse. If you want to do Vehicle Consumption analysis using MCIZ report, then you can configure the settings underSettings for Fleet Management.Here, without creating any goods movement document, update the measurement documents for Distance or Running hours (as per your requirement) & Fuel consumption. Settings for Fleet Management. Settings for Fleet Management. IMG - Plant maintenance & Customer service - Master Data - Technical objects - Equipment - Settings for Fleet management There are many threads available for Fleet management configuration. Please do some homework by searching those."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In Asset Acquisition - F-90 - Cost center is not showing which is assign with Asset",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Expats Dear Expats We have assign cost center in Asset master data. We have assign cost center in Asset master data. But during posting this cost center is not showing. But during posting this cost center is not showing. Due to profit center mandatory option - posting is not possible. Due to profit center mandatory option - posting is not possible. Pls. give feedback why cost center is not showing. Pls. give feedback why cost center is not showing. Regards Tarek H Chy",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, Already discussed and solved: Take a look: br erwin"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "WE01 is printing is collective slip for the items  which belongs to same plant",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , Our client is using WE03 and has requested if they can print individual GR slip. I have configured output type WE01 to print the individual GR slip and it works fine if the PO items belongs to different plant ie the Items are printed as individual slips . Issue :If the PO has 2 or more items which belong same plants ( for eg:XXXX, YYYY) then the GR is printed as Collective slip eventhough the indicator is checked as individual slip in the MIGO. Can you please let me know if i am missing any configuration Thanks Sai",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Check if requirement 173 is assigned to the output type WE03 in the output procedure. If it is there, it should be removed to generate individually slip regards, santosh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "The component being added  into the  Prod order( which never exist in BOM)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, We found one production order in which the component being added into the production order and that too the specific component which never exist in BOM. In this case is there any possibility to find how that component added to the production order manually and if it is added manually then in which table it will get update.. Best Regards Bhagee..",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Bhage, Check BOM is display mode and remove \"valid from\" & \"valid to\" date. Now verify if you can find your mateiral in BOM as a component with same change number ? I believe, the material is not valid in BOM as on current date but its valid as per bom explosion date of production order. Regards, Rohit"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "can anyone tell me which infotype we cannot do enhancement in pa?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Plz help me",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Some standard infotypes cannot be enhanced(there is no CI_Pnnnn include). (there is no CI_Pnnnn include). For example: For example: 2nnn, such as 2001, 2002, 2003, etc.) Kind regards, Maxime"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to find for which vendor Invoice, MIGO got created?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, There is an Automation project where MIGO gets generated in two steps, 103 and 105 movements. - via Custom Report If this automation fails, end user creates MIGO with single step 101 movement. - via Standard MIGO Tcode I need to write a logic to keep track of MIGO regardless of standard tcode (101) or Custom report (103+105). How to uniquely identify which MIGO is for which vendor Invoice. Please consider that 1 PO can have more than one vendor invoice. Also, check below scenario. 1 PO, 2 Identical Vendor Invoices, 101 MIGO for first and (103+105) for second.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Hey, can anyone tell my which scope item describes the serial number creation within the production?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, we want to use serial numbers for finished goods. Unfortunately I cannot find the right scope item which describes the process for serial number creation. Kind regards,jana",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "goods issue or TR generation????    which happenes first",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI Everyone.. I have few questions.. In the production order when we try to supply materials to the production area after a worker generates a planned order... we create transfer requirement and then a To to move into the bins defined for the production area... Then we do the good issue to ... now is there any scenario where we do goods issue first and then the TR and TO to move the goods outside please help...",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "In WM, there is an interface called PP-WM interface which controls the Goods movement (back flushing of components). Usually Production order is confirmed (GR) for the finished Good and relevant components are backflushed. During the backflushing a TR will be created to move the goods from the bin to production storage area type 914, later this is converted to TO depends the system setting. TR creation is the first step of Goods issue in SAP perspective. In business, the goods are issued to production and later all the SAP transactions will happen. Hope it helps."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Impact of deleteing Physical inventory which is created 3 years back",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi AlI, I would like to active batch management for some materials in material master. For all the material , the stock is made zero, For only four materials, we are getting error like \"Physical Inventory running for stock\". When checked for all the four materials one physical inventory document exist which is created in 2008. I would like to know what will be the impact if we delete that physical inventory document which is created 3 years back. Or, can we temporarily delete it and undelete it after activating batch management. Regards, Rosh Edited by: rosh_sap on Apr 11, 2011 7:05 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi There 1. I doubt the PI document can not be deleted now, for this you have to get the help from FICO,, 2. Analyse the PI document that counted or not,, If counted check the diff qty which is avail now physically or not,, 3. If you find no diff, Then Delete the document, which is not going to be a problem,, 4. If you find the diff and Physicall available, post the diff Mi07,, And in PI doc delete and undo delete is not avail.. Hope it helps,, Thanks Senthil"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "I need Pr00 to have cost price( which is VPRS price)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I need PR00 value to be VPRS Value. Since they sell the product to their sister company at cost price, they need proo to have value of vprs. Can any one help me in pointing the proo to vprs price. I tried ti sue Alt Cal but vprs is stored in sub total \"B\"which is cost price and same time EK02 is also stored in \"B\" subtotal. So i cant write a routine in subtotal asking to copy \"B\" subtotal value.This is due to total of ek02 nad vprs.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "In the Pricing Procedure, maintain the first condition as VPRS & next PR00. VPRS will be captured from Material master & for PR00 you can mark it as from the step no of VPRS. Maintain PR00 condition as Price condition with calculation type as %. Maintain condition record such that it is 100% of VPRS condition. You may use Access as Customer / material if you want it for some specific customer or use access material if you want it as generic. Hope this help you resolve your issue. Regards, Rajesh Banka"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "F4 help for Batch which has stock > 0",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, How to display batches with stock > 0 while doing transaction like MB1A, MB1B or VL01n? At the time of selecting batches we want to restrict batches with zero stock from the drop down. Regards,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "you have to develope your own search help include for this. In this search help include you have to join MCHB table and set a condition that the stock has to be bigger >0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Strategy to be taken?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI All , My requirement is for MTO , Sale order is generated through variant configuration and raw materials are procured separately irrespective of sale order, Which MRP strategy should I take for Finished goods and Raw materials ? Suggestions are immediately required. Regards Prem",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "for finished product we should take 25 strategy and for raw materials 10 strategy"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the standard item category to be used for a 3rd party SO process with billing plan?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which is the standard item category to be used for a 3rd party SO process with billing plan?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Item categories \"DB1\" and \"DB2\" are defined for 3rd party process with billing plan."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Require report or table details for which provide cost component details for multiple materials",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Is there a report available that gives itemization details of cost of good sold? This data is available in CK13N tcode for each material. Wanted to know a report that would give details of variable cost for multiple materials.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can refer some old thread by expert Ajay Maheswari. https://answers.sap.com/questions/8258539/report-for-cost-component-wise-standard-cost.html https://answers.sap.com/questions/8258539/report-for-cost-component-wise-standard-cost.html https://answers.sap.com/questions/12379818/cost-component-wise-break-up-of-standard-cost.html https://answers.sap.com/questions/12379818/cost-component-wise-break-up-of-standard-cost.html In addition, you can utilize Report Painter for fulfilling such requirement. Regards, Abhinav Malik"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which table we will  maintain customer wise threshold",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Threshold amount for the fiscal year 2024-25 can be maintained with 5.000.000,00 in the maintenance viewJ_1IG_THLDV. Threshold amount for the fiscal year 2024-25 can be maintained with 5.000.000,00 in the maintenance viewJ_1IG_THLDV. J_1IG_THLDV. in which table we will maintain customer wise threshold.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "J_1IINTPR2 object which transaction is creating this number range.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "J_1IINTPR2 : Despatch serial Number Excise Group:21 Current Number range is running ,in SNRO but i want to know where this number is generating in data base Tables and in which sales transaction is creating this number range.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, This no. range is asigned at J1I9 also, it will be generated at J1IIN. it will be generated at J1IIN"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Report - Position taken for which unit.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, In our scenario, there are one trading desk. This desk takes position on behalf of other 8 owners. These 8 owners communicate the details to that trading desks. Details such derivative product in which position is to be taken (i.e.currency futures, currency forwards, options, etc) units to be taken, rate at which position needs to be taken, etc etc. I am capturing this one trading desk and its trader in field portfolio and traders respectively. I want to know, where I should capture the details of these 8 owners. I cannot use portfolio field and trader field to capture this 8 owner's details since I am using for capturing trading desk details. Please let me know, if anyone has come up with this scenario and how it needs to be handled. I will require report showing total position taken by that trader and break up of that total position into 8 owners. --- Deepak",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Deepak, You may want to consider using one of the fields on the Administration tab in FTR_CREATE such as Assigment or Internal Reference. The fields Assignment (ZUOND) and Internal Reference (REFER) are in table VTBFHA. These fields can also be found in logical databases such as FTI_TR_PERIODS and FTI_TR_POSITIONS in the event you need to create ABAP queries. In addition, both of these fields are available at transaction code TPM12 Subledger Positions. Good luck, Lisa"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which module defines organization structure?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "pp,sd,mm or fi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Samir, Most of the org units come under SAP FICO module. FICO consultants define the org structure with the inputs/help of all other modules. Hope this answer clarifies your question. Thanks"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Is there an App which displays Sales Orders, Item Lines and Available Stock in one view?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello every one. Gladstone here Please Is there an App which displays Sales Orders, Item Lines and Available Stock in one view?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, There does not exist an app containing all those requirements. At our customer, we developed an app for this. Building your own CDS is also an option. It might be an idea to post this on the customer influence portal? I think it might be interesting for a lot of customers. Apps provided by Mark are good apps. One which I also like a lot is \"Sales Orders - Demand Fulfillment\". You can get an overview of the sales orders and the line items with their confirmation status. Unfortunately, it does not contain the available stock... BR, Sarah"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table Finance Template stored  ???????",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I want to know, In which table \"Finance Template\" records saved. Regards, Kishor Patel",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Try this: SELECT * FROM OFRT T0 Thanks & Regards, Nagarajan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Travel Expense PDF Form - Which do we need to use?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, Where can we get the information which for we need to use for which country for the invoices?GLO_EXPENSE_FORM PTRV_EXPENSE_FORMThanks for your help.Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, That's depending on the trip provision variant you are running. GLO_EXPENSE_FORM is the PDF form variant for CEE countries e.g. Czech. Regards, Monika"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table is available for profitability segment?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have the G/L account, the Profit center and the customer number. In which table can I find the profitability segment? Thank you. Kind regards, Linda",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

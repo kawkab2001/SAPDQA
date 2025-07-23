@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "material group field should be non editable in purchase requisition which is generated from PM order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "material group field should be non editable in purchase requisition which is generated from maintenance order. Want these changes only for maintenance purchase requisition only so it will not affect on other module.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Costing for material for which no accounting document generated",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Gurus, I want to have the cost of raw water used in manufacturing product X to flow in the cost of product X. But the raw water should not be posted to FI. The cost of raw water should come in the standard cost estimate as also in the process order.. Thanks and Regards, Amit Dhanurdhari",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Amit Dhanurdhari, There are 3 posibilities basically for this problem, 1. Creativity of the Activity & following through the Work Center ....... 2. Create a Material Master Rerocd, and maintain the Proce of spefic for water power charges 3. Maintain the O H key and Assign to the Cost Sheet etc...........' These are the points already discussed above. Regards Raj"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "PO report for which RFQ reference  are not existed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, I want to see all the PO's which are not having RFQ as reference Documents.Kindly tell me what report I can use. Regards, Sri.........",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "i think there is no such report you can create z report, using EKKO Table and field IHREZ"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which property is the unique identity for a company beside DB name",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi everyone, I would like to distinguish the company, I know for a company DB name is unique,however, database can be restored from other company database. is there any information for one company cannot be changed from SAP UI once it created, and when company DB restored from other company DB, I can compare the new value with last I saved value and know this database different with the original company database. I have considered about company name, in different company DB the company name different, but company name can be changed from SAP B1 Company details window. In one words, I want to know which is the company level identity. Thinks in advance! Kathy",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Kathy, To my knowledge there's no unique identifier. However, it seems that you cannot change the company address (OADM.CompnyAddr) - at least in 2005 SP01; maybe this could help? In addition there are a couple of other settings which cannot be changed once set and transactions booked... Would that give you a bit of what you want? Regards, Frank"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "TPM1 FOR WHICH PRODUCTS TYPE HAS TO BE RUN?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dears, I have never understand why the TPM1 has to be executed, and also I would like to know for which product type has to be executed? Thanks in advance Kind regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Buying a Equiment - Which is not a ASSET",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello all, I want to buy some equipment's like a generator, compressor etc. I do not have the ASSET MODULE. How do i buy the equipment and make it available in system. Kindly let me know the process what to follow? Regards, Narendra Bora",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Narendra Bora Create a PO and buy the kit. Then create the equipment master and enter the relevant details PeteA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which table give me payroll data for employee",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi from which table i can get payroll data for employee. thanks .",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "With reference to which document Delivery is created in Sub contract",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Friends With Reference to which document delivery document is created in subcontract process . through which T code I can see this reference document . Suppose , there are 10 quantity in delivery document , where can I see this 10 numbers are from in delivery document . In delivery ,in subcontract process , from which document , delivery quantities are copied from . And what should I do in order to avoid over delivery in subcontract process . Pala",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Delivery is created with reference to Purchase order for subcontracting, to view the delivery check in purchase order history it displays the delivery double click on the delivery.Check in VL02N. Delivery quantity are copied from Purchase order, To avoid over delivery in subcontract process in material master purchasing view there field called purchase value key which controls this. Regards Ravi Shankar."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which material type we can use for creating employee as material in Consulting Firm?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We are in Consulting Services, and we currently started implementing S4 HANA for our company. currently i stuck in creating a Material. for Consulting Services where we use to sell/send Employee to different companies in this case how i need to treat an employee in SAP. which material type i need to use. i have search in SCN but not able to find exactly what i needed. can we use DIEN material type. but it is used for service. Please give some suggestions Thanks in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Since Consulting is also a service, you can make use of this material type"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "\"Cost center to which costs are actually posted\" change in internal order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello all, business made a mistake in Actual posted CCtr - field COAS-CYCLE in statistical order and now they would like to change it. We are using release 6.0. is there a way this filed can be changed? its only about 3 order impact but I would like to check with you if this is possible I read some notes about it but not very straightforward to me thanks a lot in advance hana",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Please check the below link Very useful http://wiki.sdn.sap.com/wiki/display/ERPFI/HowtomodifyactualpostedcostcenterintostatisticalInternalOrdermasterdata http://wiki.sdn.sap.com/wiki/display/ERPFI/How to actual cost into Internal master Thanks"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reservation during order Saving, which should be during Release",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I have made setting in OPL8 (Order type dependent parameters) that Reservation will be created once the production order is Released (Reservation/Purch.Req. = 2). This setting is working fine if I am creating a production order manually via CO01. Which means upon saving of manually created order, system is not creating Reservation unless the same is Released - perfect. However, when I am converting a Planned order into production order via CO40, the reservation is getting created right during saving, though it has not been released. Could you please explain helping me why it is happening like this? Thanks & regards, PP_HKV...",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Please check this note Note 569984 - CO40: Reservations not MRP-relevant This should solve your issue. Regards DGK"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Query to show which PO is related to Which Grn",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi expert i need to a query report to identify that which PO is linked to which GRN. could u pls tell me which and all table do we need to consider and which and all fields do we need to inner join for creating the query Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "GR cancelled for PO which payment is completed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, In our client side a GRN was cancelled and rebooked for the PO for which the payment already done. How SAP allows this and how do we stop? Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, By the term, payment you might be saying about down payments, right? System will allow GR cancellation in case of down payments. If you are going by GR based IV , system will not llow the cancellation of MIGO after invoice verification done. It will allow migo cancellation despite invoice verification only if movement type 122 is ticked in T.CodeOMBZ OMBZ Path: SPRO - MM - Inventory Mgmt & Phy Inv - Goods Receipt - For GR based IV, Reversal of GR despite invoice. Chek whether system is configured to do so. Regards Gregory Mathews"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which server must the client connect to?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, The following is our current setup: SQL Server database is running on machine X. SAP Business One Server is running on machine Y. License Manager is also running on machine Y. Here is the code to connect to the SAP Business One Server: SAPbobsCOM.CompanyClass c = new SAPbobsCOM.CompanyClass(); c.Server = \"Y\"; c.CompanyDB = \"SBODemo_US\"; c.UserName = \"manager\"; c.Password = \"manager\"; c.language = SAPbobsCOM.BoSuppLangs.ln_English; c.Connect(); This code fails with an error that the connection to SBO_Common could not be established. However, if I change the server to point to X, the connection goes through. This is puzzling. Why must I connect to the database server machine and not the machine running SAP Business One Server? Shouldn't I be connecting to the middleware tier and not the database tier? Thank you in advance for enlightening me. Sunny",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Sunny, As the DI help file says, the Server property specifies the SQL server to which the company object connects. The company object is a copy of the business tier of SAP Business One (that\u00b4s why it is a fat client application). And it needs to connect to the database. Take a look at a general view of SBO architecture to understand it better. Regards, Ibai Pe\u00f1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "T-Code which gives ( GR - IR) amount for material",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, Is there any T-Code which gives data like GR amount , IR amount & the (GR - IR) amount for perticular material & Posting date. Thanks pabi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Check t.code MC$G,instead of posting date,enter posting period."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "PLD layers and levels for fields.  Overlapping fields, which is on top?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I'm working with the print layout designer trying to figure out some factor which places a field on top of or overlapping another field. I'm used to using a photoshop style layer system where things exist on top of one another. Occasionally I have the need for a field to overlay on top of a another but it needs to overlay. Typically i do use the transparent background or the turn on turn off method of having fields disappear while others appear, but I'm wondering if there is some sort of predictable way to make sometthing appear over something else. I have tried making the unique ID higher and lower than the conflicting field. I've tried cutting and pasting it over. Even simply turning the field invisible and visible again occasionally will make it overlay the whole line. Maybe there is no way to effectively move something to the top (front) of the page, but if anyone knows the logic that would be helpful moving into the future. Thanks! M",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "PLD is far from Photoshop. Since you have used to those convenient ways to handle layers, it will be difficult for you to used to the PLD's limited ability. If you have too many overlaps, you probably need to restrict the numbers of overlap first. If that is not viable, you have to carefully plan first to reduce the troubles in bring one particular field on top. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How do we know which standard WBS was used to create a single project?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, How do we know which standard WBS was used to create a single project?? I want to know which standard WBS was used to create an existing project so that i can use the same to create another brand new project??? I am getting to learn SAP PS. Please excuse my limited knowledge. Monica",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi , As far as I know system doesn't saves any record for such history that fr which template the project is copied. But if u can compare ur existing structure with the std template in cj93 where we can display the std template. But this question is very interesting. rgds"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "not able to post a deduction wagetype which is not a gross or net deduction it is info only wagetype",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, please see the information below 1. created a deduction wagetype9900inIT0014 9900 IT0014 wagetype settings processing class 4 is set to 1 (Store in RT in summarized form) 20 is set to 3 (RT storage and cumulation) 30 is set to 1 (Amt and no. of wage type to be cumulated in current year) 32 is set to A (Post cost acc. +/- to D/C) cumulation class 72 Ben Payroll 2. which is not a deduction from EEsGross or Net salarythis requested for posting purpose to the profit & loss account - because company pays the money on behalf of EE so we need to record them & then it should get posted to finance Gross or Net salary 3. not able to post this wage type having issues 4. symbolic account9020& G/L62000010 9020 62000010 processing of posting items processing of posting items 1. Normal processing 1. Normal processing 2. Month end accruals 3. Only actual posting 4. Only cost planning Account assignment type Account assignment type C Posting to expense account added symbolic account9020to G/L62000010using t.codeOBYE 9020to G/L62000010using t.codeOBYE 9020 62000010 OBYE now the wagetype is not getting posted when i run posting simulation please advice Regards Rahul",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "It is not posted since in your screenshot, there are two entries, the second nullifies the effect of the first. Delete one of these entries after confirming with FI whether Positive amounts should post to Debit or Credit."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "From which SAP version can we use IW38A",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, does anybody know from which SAP version can we use IW38A ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "At which level is the purchase order history kept?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Gurus, At which level is the purchase order history kept? thanks..",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "pls reply.."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP HCM P&F - Update an infotype field which is NOT passed from Form",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, I have a requirement to update the Infotype with the entries in the HCM form (input by Employee in ESS) upon Manager's approval in MSS. We are achieving this functionality using HCM P&F (FPM) with an Workflow associated. In this Workflow Standard Task (TS17900108) is used to Save the form data into the Database. But there is one field (APPROVED_DATE) in the Infotype whose value is not from the FORM but should be updated in the Infotype. Please help me with your inputs. Regards, Shankar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Used the 'DATAMAPPING' method (customized it) to read the form field(Import Direction & Read activity) and set the value (Export direction & Write activity) at the workflow task."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "System should automatically high light line item which has already delivered.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Our requirement is whenever we are going to see VL02N, system should automatically high light line item 10 as this has already delivered. We are creating delivery VL01N for sales order and saved it. Now we are going to VL02N and checking for both line items whether delivery has created or not. Expected Result: Delivery should be created for line item 10 and it should be automatically highlighted to differentiate and line item 20 which we have selected qty 0, delivery has not created. There is no issue while creating delivery.We want to differentiate the delivery line item and want to high light it automatically. What we have customize in T code VL02N so that we should get it highlight while saving delivery doc. Kindly suggest and let me know if you have any concern. Regards, DSP Font family javascript:; 10 pt javascript:; Style Style javascript:;",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear DSP , Your Requirement is possible but it is not possible with standard , you have to go for Z Development . you have to write the logic in the user exit to check with VBFA Table by passing sales order number and delivery type and line item and compare with vbap line item . then sales order line item QTY and VBFA Delivery QTY not matches then pop up has to show the pending QTY . if it matches any how delivery will not allow to enter . but it is not advisable to go for customizing in user exit . or you can create customizing report like ZSD_PENDING_DO , so that your user can know how much DO QTY pending for particular SO line item Qty .some time user dose not know the system feasibility, that we have to explain clearly . Regards, C.B Reddy."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to find to which table the net payment is posted....",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all i am making payment to a vendor for 3 different invoices in a single payment run (F-58) with cash discount.Now i could like to know that in which tabe the net amount for the all the 3 invoices were posted . eg: Invoice No Amt Cash discount Net Amt 8753 12000 1200 10800 9878 27000 2700 24300 10098 21000 2100 18900 Total 60000 6000 54000 Net Amt payable (F-58) 54000 When i m checking it in FBL1N the system is displaying the total payment amt and in a sperate col. the Discount amt. I want to know in which table the net amt (i.e. Invoice amt - Dicount) will get updated ,so that i can pull the amt from that table for my development....... Its urgent Revert Regards Praveen",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Please check BSEG - WRBTR. Regards, Murali"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Costing Sheet - Base and Credit - C.Element Assignment, which category?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi again All, In Costing Sheet, through Base, which type of Cost Element categories are allowed? Can we assign Category 43 (allocation) Cost Element in Base and in turn assign Category 41 (Overheads) in Credit to transfer the values. Kindly confirm the above procedure, whether its correct or not..? Also, kindly elaborate, the process followed in Costing sheet. Thanks. Cheers..!!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI, Yes, you can assign. Check this[link|http://help.sap.com/saphelp_erp60_sp/helpdata/en/7e/cb815e43a311d189ee0000e81ddfac/frameset.htm] for Costing sheet definition. Please post back if you have any specific questions. Hope this helps."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table/Report which show dependent requirement",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I want to know is there any table or report which can show us the dependent requrement. Regards Amulya",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which are the functionalities SAP HR module provides",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts.. I like to know Which are the functionalitiesSAP HRmodule provides... SAP HR ..Thanks ..Ashish",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi At the moment SAP HR Covers the following Ver 6.0 Personnel Management Time Management Payroll SAP Learning Solution Training and Event Management Organizational Management Travel Management Environment, Health and Safety Cheers Srinivas"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "exactly on which stages FI documents are generated",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "During the Demand management to Goods Dispatch, exactly on which stages FI documents are generated?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Detailed description is given in the below link: http://www.sap-img.com/sap-sd/link-between-sap-sd-mm-and-fi.htm http://www.sap-img.com/sap-sd/link-between-sap-sd-mm-and-fi.htm Regards, Siva"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how do we cancel/reverse the reconciled document which is posted by j1igrecon?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "If we do reconcile with wrong quantity then how do we reverse it?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Pls tell me that how to search a PR which has all line item deleted",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Pls tell me that how to search a PR which has all line item deleted",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "use SE16N and download all PR numbers for PR with deletion indicator and then again SE16N to download all PR numbers without deletion indicator Open the downloaded files in Excel. Use the formula VLOOKUP and check for any entry in the download with deletion indicator if you have a corresponding entry in the table without deletion indicator. And for all numbers where you get a #NV you can know that all tiems are deleted"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "If we add a Warehouse to Item Master Data, in which SAP Table is it added?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, everybody Suppose we manually add an existing Warehouse(say WH011) to an existing Stock Item (sayMEAT125) in the Item Master Data (Stock Data TAB). (say WH011 MEAT125 In which SAP table (and which field) can we see that theWH011has been added to ItemMEAT125? WH011 MEAT125 I have searched OITM, but did not find any field containing theWH011. WH011. Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hileon.laikan, leon.laikan Have you checked the tableOITW? OITW OITW It should be the one that you are looking for. Kind regards, Kind regards, Kind regards, ANKIT CHAUHAN ANKIT CHAUHAN ANKIT CHAUHAN SAP Business One Support SAP Business One Support SAP Business One Support"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all If I Edit a customer name in the BP , the system shows me the New changed name and the Old one pls can anyone tell me from which table the system is picing up the dited name Thnaks point will be rewarded its urgent",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reg. DB Table for SD Order item which is billing relevant",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, My requirement is that for each WBS Element, i need the SD Order item which is relevant for billing to enable the report to check whether final billing was done. If final billing was done for all line items the report will select the latest billing date at least three months ago. What is the Database Table i need to look into? Kindly help me in this regard. Thanks, Ramesh Manoharan",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "What data you are looking for the database tables?? Guess, you will get WBS element from VBAP table, Key in WBS element in this table & you will get all SD orders with Item Category (PSTYV). with this Item Category, Goto Table:TVAP to check whether item is relevant for billing or not sort all the SD orders with TVAP_FKREL ne \"blank\" , Now check the status of SD orders @ item level from Table:VBUP ( if billing is done SD order status will get updated as\"Complete\") , To find out the Billing no, Use doc flow table:VBFA with subseq doc cat:M ( applicable invoice doc cat's) & SD order as selection criteria."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Unable to know the which Updates in BusinessOne",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I want to know about the Updations made to EmployeeMasterData, SalesPersonMasterData in BusinessOne. I can know the updations made to CustomerMasterData, ItemsMasterData based on the UpdateDate Field in the database of the corresponding tables. But there is no updatedate field for EmployeeMaster Table and SalesPerson master table. how can i know that these details are updated in BusinessOne. Is there any table which contains all the updates objects details ? I have a confusion that what is the Relation between the USER, EMPLOYEE and SALESPERSON in BusinessOne. Can anybody explain me about this relation? Like Salesperson is assigned to Employee like that.....? Who is the superior among these three? what are the roles for the USER and EMPLOYEE etc.... Thanks in Advance, RAMU.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "1. if you need to know about updates you can listen to the DB, DI Event Service makes this very easy for you. You can download it here from SDN. 2. re relations. B1DE contains a tool called B1 DB Browser that shows you all the relationships between tables."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How can i get the time of ZPM2 which are not take?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Everyone, I try to search some transactions to have the time of preventive maintenance ZPM2 which are not taken by the operate. I though with IW38, I can add some layout with the time of operation but there isn't. CM01 is not usefull because It appears the futur ZPM2 and not the historical. Best regards. Irfane LATASSE",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Does Foreign Currency Revaluation Post to an Account which is Open Item Man",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, When running the FC revaluation, it is not posting to an account which is Open Item managed. I have read somewhere that FC Reval. does not post to accounts which are OI managed or the Recon accounts. Is this correct? If yes, what are the option for posting to an account which is OI managed?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Foreign currency revaluation posts entry to Exhange rate gain/Loss account (P&L account) and offsetting entry to Balance sheet adjustment account.This Balance sheet adjustment account can neither be open item manged nor a reconcilation account. Although the revaluation itself can run for a open item managed account or balance account the above balance sheet adjustment account can never be open item managed. Thanks and regards Kedar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to release stocks which are committed through Reservations",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, If we perform Availability Check at the time of creating reservations (through Project Systems), to commit stock, is there is any way to release that committed quantity automatically if the goods are not issued after an agreed time? Please guide.... Many Thanks, Dileepa.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi in SAP reservation is soft reservation not hard reservation."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "One folder path for Attachments and one \"Browse Folder\" for the files which we want to attach",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Everyone, Is it possible to have one Attachment folder where the files will be saved and one \"Browse Folder\" where we see all the files which we can attach. So we want to change the standard folder (for the case you are clicking at the \"Browse\" Button\" in a document under Attachment). Actually it\u00b4s the Attachment folder; can we change this folder to another one? But the files still have to be saved in the Attachment folder. Thanks for your time. Kind Regards Marc Seidel",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I think you cannot change it its default system behavior."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How To Check which table data is called from the structure CEKKO",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Could anyone please explain the origin of data for the fields USRC1 and USRC2 in the CEKKO custom structure within SAP? While I understand that most of the data in CEKKO is sourced from the EKKO table, it has come to my attention that these two fields are not present in EKKO. Is there a specific mapping or source for these fields in CEKKO, and if so, where can I find the data that populates them? I'm seeking clarity on the data sources and logic behind these particular fields. Thank you for your help.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP User with Tcode which used by last month.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Team, We want to know how many transaction where used by my user last month. i tried ST03 and SM20 to get the output of the user with tcode. but in SM20 there are no ZTcode and tried. in ST03 had to go and every user to check Tcode so it take time. i want to know an another way to get report. Thanks. Shoyab",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "To which field in SAP does JdtNum in DTW template for JE correspond to?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi everyone, I am updating previously uploaded Journal Entries using DTW. I could not find a primary key to identify which JE will be uploaded by DTW. I guess it is JdtNum. Am I correct? I do not know what to put in this column though. Please enlighten me. Thanks and regards, Derrick",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Eric, Yes it is, you are correct . The JdtNum field is the other terms Recordkey for the header and document lines. If you are importing new data then you will need to start with 1. Whn updating you will need to specify the Journal Number TransId int he JdtNum. Thank you. Regards, Rakesh N"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Can we add fields in MM17 which are not in the list",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Folks, Pls help me on below. I want to add below fields in a variant in MM17 Planned price 1 - MBEW-ZPLP1 Planned price 2 - MBEW-ZPLP2 Planned price 3 - MBEW-ZPLP3 But these fields are not available in the List. how can i add them ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI Only it is possible what ever the fields and tables available in the transaction.Cannot add any other additional fields which ever not in the transaction. Thanks Ganesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Actual Acitivity Price save in which table or ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Friend, When we calculate actual activity price then where system save new activity price ? Thanks a lot rbw",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Check table COST Regards Sreenivas"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to set a date string in a textbox which bind to a Date type datasource",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I found i can't set a default date value in a textbox which bind to a Date type datasource. Even i tried copying a date string which is picked by the calendar date picker and copy the exactly same string into my source code. It just doesn't work and gives me error said \"Invalid date value\". My source code is like this: oEditText = (SAPbouiCOM.EditText)oItem.Specific; oEditText.DataBind.SetBound(true, \"\", \"dtFrom\"); oEditText.Value = \"09/08/2010\"; //DateTime.Now.ToString(\"dd/MM/yyyy\"); Any suggestion? Thanks! Lan",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Lan Try this one Hope this will help you Regards Arun TB"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to restore the IView  which is deleted by 'Remove from Page' option",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Friends, I was in MSS UWL screen and selected \"remove from page\" option, The Universal worklist tab has gone invisible and I am not able to restore it back. I tried all possible ways to retain it but could not succeed, Can any one help me on this. Thanks in advance. Satish Seri.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can do restore defaults there is a selection called Personalise in the same window on right hand side from drop down, select UWL and restore defaults"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "there is a communication scenario or an APP in which I could receive a list of all Journal entries",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "there is a communication scenario or an APP in which I could receive a list of all Journal entries",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "For API in Finance see APIs in Finance see https://help.sap.com/viewer/b978f98fc5884ff2aeb10c8fdeb8a43b/LATEST/en-US/610d1f7204d94644950928f575... https://help.sap.com/viewer/b978f98fc5884ff2aeb10c8fdeb8a43b/LATEST/en-US/610d1f7204d94644950928f575... For example see https://help.sap.com/viewer/b978f98fc5884ff2aeb10c8fdeb8a43b/LATEST/en-US/c2e849c5ff5341388dff293e07...- Journal Entry Item - Read (A2X) https://help.sap.com/viewer/b978f98fc5884ff2aeb10c8fdeb8a43b/LATEST/en-US/c2e849c5ff5341388dff293e07... Technical name: API_JOURNALENTRYITEMBASIC_SRV Read journal entry items and detailed company code, cost center, and profit center information using this inbound service. See alsohttps://help.sap.com/viewer/0fa84c9d9c634132b7c4abb9ffdd8f06/LATEST/en-US/7b4ed7531a4d424de10000000a...- Reporting and Analysis https://help.sap.com/viewer/0fa84c9d9c634132b7c4abb9ffdd8f06/LATEST/en-US/7b4ed7531a4d424de10000000a... This topic gives an overview of the reporting and analysis features in General Ledger Accounting. including reference to Display Line Items in General Ledger -https://help.sap.com/viewer/0fa84c9d9c634132b7c4abb9ffdd8f06/LATEST/en-US/bd874158706b9144e10000000a... https://help.sap.com/viewer/0fa84c9d9c634132b7c4abb9ffdd8f06/LATEST/en-US/bd874158706b9144e10000000a... See also App Extensibility: Display Line Items in General Ledger (Key User) -https://help.sap.com/viewer/0fa84c9d9c634132b7c4abb9ffdd8f06/LATEST/en-US/15ee31fac4be4e6497a76abe44... https://help.sap.com/viewer/0fa84c9d9c634132b7c4abb9ffdd8f06/LATEST/en-US/15ee31fac4be4e6497a76abe44..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which version of B1 to install in US?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Guys, Is the version of B1 is specific to countries? Which version of B1 can be installed for US? Can somebody please provide me the link to download the demo version of B1. Thanks, Raj",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Raj, You would want to install the 2007A version of B1 for the US localization. A demo system would need to be procured from the software download section of the marketplace (if you are a partner with proper access) Otherwise you would need to get it from a re-selling partner. Hope this helps, Lucas"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to include the Filtered values from cji3 Report to Spreadsheet for which the following message pops up\"Filter criteria, sorting, totals and subtotals are not taken into account\"",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, when i am extracting the report from Cji3 report into spreadsheet , i am getting following message. \"Filter criteria, sorting, totals and subtotals are not taken into account\" This is a standard message which you will be receiving when converting any reports directly into Excel i.e Spreadsheet . What it means is even if you have used filter option for sorting purpose and after this step if u click on Spreadsheet icon (ContrlShiftF7).the system shows all the values in spreadsheet and it does not convert only the filtered values. Shift My requirement is Is there any SAP note or setting which can be done so that when i am extracting the report to spreadsheet, it should also include all the Filtered Values. Thanks in advance. Sanket G",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Terence, I am following the same method which you have mentioned. some background :- The layout which I am using have some sorting mentioned and filters are also attached to them. If I am exporting the way you have mentioned , data is not matching with the Cji3 report. but when I am exporting using Local File method, all the data is exported. . How can I avoid the message and get the exact data from CJi3 report without missing any line item using spreadsheet directly."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP_HR, EA_HR on different releases.. which BP should I get",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Guys, My SAP_HR is Release 604 Level 004 My EA_HR is Release 605 Level 0021 I'm trying to look at the relevant downloads fromhttp://wiki.sdn.sap.com/wiki/display/ERPHCM/HOW+TO+GET+RID+OF+SP+STACK+MISMATCH+ISSUES http://wiki.sdn.sap.com/wiki/display/ERPHCM/HOW+TO+GET+RID+OF+SP+STACK+MISMATCH+ISSUES for ESS / MSS Since my releases are different could you be so kind as to recommend what ESS600, MSS600,PCUI_GP 600,BP ERP05 ESS 1.0,BP ERP05 MSS 1.0,BP ERP05 COMMON PARTS 1.0 PCUI_GP 600 BP ERP05 ESS 1.0 BP ERP05 MSS 1.0 BP ERP05 COMMON PARTS 1.0 I should download ? Tx",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Louis, As per your component version below will be suitable for you, But those BP as well as SAP_HR is at very low version, better you can upgrade it to the lastest release, otherwise you wont get the new scenarios and fixes from SAP doesnot get imported to your system. You need to upload many notes and versions. So better upgrade to latest release of SAP_HR. Regards, Meera"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Billing for a sales order which does not have a plant",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , I have a sales order ( Type - OR) with item category TAN created without a plant and in incompletion log also i can see the plant in it.Sales order is saved.But we can able to create a billing for the same. How is this possible in SAP ? Accounting documents created for that.Is there any way to get rid of this scenario as SAP should not allow to create an Invoice for a SO without a plant. Thanks in Advance Benny",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, See as per business scenario,there is no importance of plant in billing level. so as per standard SAP,with out plant we can raise the billing......... When your doing delivery,plant is IMP but not for billing.......... Better to go for delivery related billing........ Please reward me."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Purcchase Accounting setup - In which drawer to create Account",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi to eveyone, Would anyone know in which drawer the Purchase acccounts - Purchase Account, Purchase Return and Purchase Offset Acount? Thanks Kentish",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I would suggest you to put them under Cost of Sales if most purchasing is for production. If they are self use stuff, it could be in expense. Account setting has to involve accounts who knows all local accounting principles."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

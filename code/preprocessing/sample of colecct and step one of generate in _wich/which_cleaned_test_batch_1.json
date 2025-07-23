@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "Travel Expense Form --> How to identify which form it is using",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, In PR05(Travel Expense Manager), there is a simulate button which will generate standard expense form with expense details. I ran into scenario where one user group expenseform is little different from another group employees expense form. i am guessing that user group form is customized. how to identify what is behind scene form which is used. Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Go to transaction pe03. Specify feature TRVFE. Select decision tree and display. In the output based on the field used by you as a basis of form assignment, you can identify the form assigned for your case."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "#CoE#HP01 In which CDS View can the \"text\" tab of sales order header be found?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "#CoE#HP01 In which CDS View can the \"text\" tab of sales order header be found? here",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "In the CDS View I_SALESDOCUMENTITEM, there is a field SALESDOCUMENTITEMTEXT (Short Text for Sales Order Item)."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Why does the formula use tax codes which don't even exist in VAT declaration box?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "For Germany localization, I am seeing A71 and V10, but some of these codes don't even exist! Are they hard-coded in SAP or am I missing some setup or something here? I have since setup a new company with German localization and everything aligns. The only between between the two companies are, one has Elster addon enabled and another one does not have it enabled yet. Need to test further if Elster is amending the tax codes? Has anyone faced this issue with German localization with latest version of SAB B1 v10 (PL240)",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "t.code FTXP: in which table are stored the tax percent. rate?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, with reference to t.code FTXP, I'd like to know where sap stores the tax percent. rates. Tnanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Try table T007A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "steps for completing a delivery  which is based on Wm?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Can any body explain me the steps to create a delivery when the inventory is warehouse managed. What i know is that after a delivery doc is created . Inbetween we have to create a transfer order. So what are the steps? jyoti kamal",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear jyoti kamal Please check these threads [transfer order |] [warehouse|] [Ware House -Transfer order |] thanks G. Lakshmipathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to figure out which maintenance plan got error in IP30?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi PM Guru, There are error/dump reported in the job of RISTRA20 shown in ST22. Is there a way to see the maintenance plan no. under question? I tried SLG1 but failed. Pls see screenshot. Many thanks for sharing your view, Sally",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "This can be difficult. Is there anything in ST22 that gives a plan number? PeteA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to download a list of customer material codes which maps to the company's own material code?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "How to download a list of customer material codes which maps to the company's own material code?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Download from VD59"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table to get WIP accounting document number",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, In which table we can get the accounting document numbers posted by WIP of production orders?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "WIP posted when order settled. go wip account and check the accounting document."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which FM stores Variant configuration in VA01 to DB",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi We are looking for functional module which will save Variant Configuration data to database in VA01. In VA01 tcode when we create variant configuration data for each line item level , it is stored in database with reference to some object ( VBAK-CUOBJ) . We can retrieve this data for each line item by using this instance number. While debugging VA01 when we tried to save variant configuration data in each item level , first temporary instance is saved in database along with its related characteristic values. Later FM 'CUKO_CONFIGURATION_TO_DB' converted this temporary instance to permanent instance and this unique number got stored in VBAK-CUOBJ field. Can somebody help us to provide logic of FM which stores these config characteristic values to temporary instance in database before assigning it to permanent instance? Thanks, Snehal",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI Snehal, Did you check function module CUXI_SET_SINGLE_CONFIGURATION?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tax Calendar Poland - which field?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have a requirement about a tax date and calendar in Poland. Does someone know which field are we talking about? Is it VBKD-FBUDA ? Please answer only if you know the specific answer for the Poland. Thank you in advance!! F",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "dear, please check this link: http://help.sap.com/saphelp_47x200/helpdata/EN/1d/ae34e8dfab5645b67fd7dac3440401/frameset.htm http://help.sap.com/saphelp_47x200/helpdata/EN/1d/ae34e8dfab5645b67fd7dac3440401/frameset.htm"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Revoke a Released SES, for which an Invoice is already parked...",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello people, I am developing a workflow for a approving Invoice based on Service Entry Sheets and am running against a problem. I have created a PO for a service for 200 euros. A SES for 200 euros was created for it and fully released, because there is a release strategy on it. An invoice for 300 euros comes in for the SES and we park the invoice. The idea is that via the workflow the SES has to be changed to 300 euros and then the invoice can be posted. However, when trying to revoke the SES, the system says the I am not allowed to revoke the SES, since there is already a parked invoice against it! Is this customizing which we can change, or do we have to come up with a different solution? Thans already for your answers & kind regards, Erik",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Eric, Since you have already refered the SES for creating the invoice, it is not allowing you to make those changes. Only way is to remove the invoice first and then revoke the SES. regards Anand.C"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Is there a module is SAP which caters Legal related requirements and scenarios",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, We came across a requirement as: \"The company has some agreements with vendors,customers etc.. It has some warranty also given and taken with some expiry dates also. There are few renewal process also . User wants such scenario in SAP along with workflow on expiry,renewal,creation of such legal documents.\" Kindly suggest me is there a module in SAP which can cater to these requirements. Thanks & regards Saurabh Tiwari",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Saurabh, SAP has a a Permit Management functionality within SAP Environmental Compliance module. SAP EC can manage Permits and legal requirements whether they are environmental or not, and has great email (workflow) and task functionalities. Legal documents can also be attached to said permits/requirements. Hope it helps! Best regards, Fernando"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to change overdelivery tolerance on PO,for that material which have not material master record?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "How to change overdelivery tolerance on delivery tab of po,for that material which have not any material master record,kindly suggest,screenshot is attached for your refererence.......",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You need to change defined screen layout for Purchase Order. I am giving path below. SPRO Material Management-Purchasing-Purchase Order-Define Screen Layout at Document Level- Select Tcode and goto detail and find the Overdelivery tolerance on GR/IR Control. Here you can change the status from display to Optional. Then this field will be eneabled and you can put Overdelivery tolerance % in Purchase Document."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which data from third party credit agencies is provided via S4C for credit integration solution",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "which answers are correct? Legal form Industry code Payment behavior Tax identification number",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, That's a good trivia question\ud83d\ude42and it's Payment behavior which can be read using the API. \ud83d\ude42 You can find this information here:https://help.sap.com/viewer/cc3c4063787b4bf9a56ca06ad9ee90d0/1908.500/en-US/1df8f8c06bc34424b20e0761... https://help.sap.com/viewer/cc3c4063787b4bf9a56ca06ad9ee90d0/1908.500/en-US/1df8f8c06bc34424b20e0761... Best, Sandeep"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Scrap Sales. Which path to take ? SD or FI",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello everyone, Looks like I can sell \"SCRAP\" materials out of SD as well as FI module. I can create a material for Scrap and then sell it via SD module. Or can create a FI transaction directly from FI module. What is the best method to handle ? Can you tell me pro / cons in either cases ? Thanks, Dipankar Biswas",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi SD path is good. so that you can track the how much sales you have done to customers etc. Pricing agreements etc Good reporting strucutre are in place. Also you can have agreements with the customers and follow the release orders to lift the scrap materials with in stipulated time frame. regards, Ramana"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAPI or FM was corresponding to Tcode QA12 ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Experts, Which BAPI or FM was same action as QA12 ? Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Go to transaction BAPI/Quality Management/Quality Inspection/Inspection lot/SetUsageDecision"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which marketing document line links to which journal line",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Is there anyway to know which marketing document line uniquely links to which journal line. Example: Item '0001' - COGS acc = 123001 Item '0002' - COGS acc = 123002 An AR Invoice with both items will create journal entries for the COGS leg to both 123001 and 123002. Is there some way of determining which Invoice line posted which COGS journal except for the account code? Regards,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, There is no direct link because the similar line items in marketing document would be added together to one line in JE. It is not one-to-one relationship. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Selecting which outlook email address to send from SAP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "SBO Version: 8.81 PL07 Forum, I am wondering if there is a way for us to select which outlook email address we send emails from SAP? I am wondering if there is a way for us to select which outlook email address we send emails from SAP? For example you may have a personnel email address:fred.bloggs@email.com- but you may want to send it from another more generic address:accounts@email.com For example you may have a personnel email address:fred.bloggs@email.com- but you may want to send it from another more generic address:accounts@email.com For example you may have a personnel email address: fred.bloggs@email.com - but you may want to send it from another more generic address: accounts@email.com Does anyone know if this would be possible? Does anyone know if this would be possible? Orla Orla",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Orla, Hi Orla, 1. In the Windows system tray, double-click (SAP Business One Service Manager). 1. In the Windows system tray, double-click (SAP Business One Service Manager). Alternatively, choose Start \u2192 Programs \u2192 SAP Business One \u2192 Server Tools \u2192 Service Manager. Alternatively, choose Start \u2192 Programs \u2192 SAP Business One \u2192 Server Tools \u2192 Service Manager. 2. In the SAP Business One Service Manager window, in the Service drop down list, select SBO Mailer and choose the Settings button. 2. In the SAP Business One Service Manager window, in the Service drop down list, select SBO Mailer and choose the Settings button. 3. In the General Settings window, Authentication - Select Authentication give Username and password for the Mail id which you want to send from. 3. In the General Settings window, Authentication - Select Authentication give Username and password for the Mail id which you want to send from. For scheduler Report.Basic For scheduler Report.Basic 1. In the Windows system tray, double-click (SAP Business One Service Manager). 1. In the Windows system tray, double-click (SAP Business One Service Manager). Alternatively, choose Start \u2192 Programs \u2192 SAP Business One \u2192 Server Tools \u2192 Service Manager. Alternatively, choose Start \u2192 Programs \u2192 SAP Business One \u2192 Server Tools \u2192 Service Manager. 2. In the SAP Business One Service Manager window, in the Service drop down list, select SBO Mailer and choose the Settings button. 2. In the SAP Business One Service Manager window, in the Service drop down list, select SBO Mailer and choose the Settings button. 3. In the General Settings window, define the mail settings according to your company settings. 3. In the General Settings window, define the mail settings according to your company settings. 4. In the Scheduled Report Settings area, specify the file path of the SAP Business One client. 4. In the Scheduled Report Settings area, specify the file path of the SAP Business One client. 5. Optionally, enter an email subject prefix which precedes the subject of each scheduled email with the generated report. 5. Optionally, enter an email subject prefix which precedes the subject of each scheduled email with the generated report. 6. Enter a name as the email sender. 6. Enter a name as the email sender. 7. Enter the sender email address. 7. Enter the sender email address. Hope Helpful, Hope Helpful, Regards Regards Kennedy Kennedy"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Assessment values in which table stored",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi need reports automatically after completion of assessment cycle In which table those values will be stored",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which app can we map GL account to symbolic account in S/4 hana public cloud?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production orders for which the goods issue has not been performed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi, How can i find the list of production orders for which the goods issue has not been made. Regards Badri",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "As others have already said, COOIS is the best way of doing this. But you find the following useful too: If the GI for the production order is carried out through backflushing, you can check the entries in table RESB. For example, you can use the select options to exclude orders where RESB-RGEKZ = \"X\". This will give you a list where the backflush has not occurred for orders."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "find PIR which have purchase order text (for a particular plant)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have the below requirement - I need to find all the PIRs specific to a plant which have purchase order texts . I need to find this data in production system. is there any table for this ? I know the text object is EINE and text ID is BT. how can i find such PIRs which have purchase order text ( for a plant ) Thanks Meenakshi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Run the report RSTXTC3 with appropriate selection criteria as suggested in this document You will get the info record with line item with plant in the field \"Name\" which has the Purchase order text."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which are relevant ACDOCA document types",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I am trying to reproduce the results from an FAGLL03H variant in a HANA calculated view. It looks like there are far more document types avaialable in ACDOCA than are presented in the line item browser. Which document types are relevant and which should I ignore?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which MRP-Group fields have priority over material-master MRP view fields ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello friends, I am always confused as to which MRP-Group fields have priority over material-master MRP view fields. Does anyone has a ready list ? Is there any set rule to remember this list ? Thanks for your help. - Chetan",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Chetan, No confusion now. I think I am responsible for your confusion. What the OSS notes says is correct and what all the forum members (except my first statement) have reinstated is also correct. Forum members have told that Material Master fields take prcedence over MRP group parameters. This is correct. OSS notes says that MRP group parameters takes precedence over plant parameters. This is also correct. Hope it clears all your confusions. IF so close this thread - after rewarding suitable points <b>to all except me ! I think I should be given negative marking for misleading you.</b> Ram"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table can I get the materials associated with a particular sample drawing procedure?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I want the list of materials which uses a particular Sample drawing procedure. In which table can I find this?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "The sampledrawingprocedures are in the inspection plans. drawing You need to identify the groups and group counters that utilize the sample drawing procedures. (Table PLKO). Then use that info and find which materials are assigned to those groups and group counters in MAPL. Sample drawing procedures are not defined in the inspection type setup (QMAT) of the material master. Sampling procedures CAN be defined in the inspection type setup in the material master but its pretty unusual. Craig"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "-",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "FD10N  Customer ledger balance use which FI tables",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All I want to make a query for Customer Ledger Balance. For the same I just want to know what tables they use for the same with information about Cheque no for the receipt of cheque from the customer. THNX VG",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, PAYR is the Table for Cheque Details"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which SAP table contains the Material Classification values of type date and Numeric?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, I have attached a class of type 001(Material Class) to Material master(TEST) in classification view. This class contains characteristics which are of multiple Data Type NUM, DATE, CHAR etc. My requirement is to report all the charcteristcs maintained against this material(TEST) along with contained values irrespective of Data Type. Issue is that I am able to fetch CHAR type characterisctic values from AUSP-ATWRT but am not getting values of data types other than CHAR type. Can anyone please suggest the table which links object-OBJEK / Internal chr no-ATINN/class type-KLART / Chr value-ATWRT(values of data type other than CHAR) Many thanks for your help ! Regards, Shobhit",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Please make use of the search functionality. Especially on weekends and holidays quicker than getting an answer in the forum you can find such wonderful documents, wikis, discussions and blogs like this one: http://scn.sap.com/people/srikanth.tulasi/blog/2008/12/09/issues-in-fetching-internal-characteristic... http://scn.sap.com/people/srikanth.tulasi/blog/2008/12/09/issues-in-fetching-internal-characteristic..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Available quantity is zero on MD04 vs MMBE(unristricted) which is 82",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi MM Gurus I have an issue where the first line in MD04(available quantity) is zero, but when i check MMBE for the same material i have quantity of 82. please guide me on what i need to do in order to reflect the quantity of 82 to the first line in MD04. see screenshot",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Why do you expect to see 82 in MD04 instead of 235? Did you create an extra MRP area for this storage location 2003? MD04 is at plant level if you do not make use of MRP area. Can you please click the button in front of the material number to see if there is a BAdI active which might have changed some figures when creating the numbers for MD04"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Custom Field Type - Code list Accepting free text which is not maintained in Code Values",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Everyone,Good day!We have created a custom field with type as \u201cCode List\u201d. Currently, users can select from the predefined code values using F4 help, but the system also allows them to enter free text that is not part of these predefined values.Now business wants to restrict the entry of any free text in this custom field.please let us know if anyone encountered and resolved a similar issue?Thanks and Regards,Ankit We have created a custom field with type as \u201cCode List\u201d. Currently, users can select from the predefined code values using F4 help, but the system also allows them to enter free text that is not part of these predefined values.Now business wants to restrict the entry of any free text in this custom field.please let us know if anyone encountered and resolved a similar issue?Thanks and Regards,Ankit",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which segment in Orders05 have field 'Created by' PO creator name",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which segment in Orders05 have field 'Created by'ErnamPO creator name. Ernam Someone told me * ERNAM is in E1EDK01* , but not able to find it.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Mukesh Mahajan ERNAM : Name of Person who Created the Object Above field is avilable in Segment : E1EDL37 in general Po Data at header level avilable in Segment type E1EDK02 IDoc: Document header reference data QUALF 001 : Customer Purchase Order BELNR XXXXXX : IDOC document number DATUM 20090310 : Date If you want to Populate the Person who Created PO at Header Level... Then extend the segment E1EDK02 and write user exit to populate the Name in extended segment. This will solve your issue Thanks Ramesh Edited by: Ramesh on Feb 25, 2010 8:32 PM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which screen controls the T.code ME21N",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, which screen will controls the T.Code ME21N (purchase order creation). Thanks samsunder",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Samsunder, ME21N Screen control customize with the transaction SPRO: at path below: MM->Purchasing->Purchase Order->Define Screen Layout at Document Level. This transaction normally authorize to the specific customizing consultant at your company but not everyone. Please kindly get the authorization from your Basis colleague. Hope this information will help. Ian Wong"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Document lost which notification message shows...",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all,I have question, in my sap b1 if users add A/R Invoice document, system send notification message (includes A/R invoice document number) to admin, but sometimes when admin wants to see A/R Invoice document which attached to message(look at photo), document was lost. What is solution?sms.jpg sms.jpg",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Results Analysis Method is good for LOSS Projects?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, Our client have Loss projects scenario. for Eg. Plan Revenue_: 100, Plan Cost__________: 120 Loss______________: = -20 Loss 20 should post in accounts at first period end closing time itself for that which Results Analysis Method can help me for it. Plz give me your valuable solution soon. Thanks Bhagirath",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Results analysis calculates a reserve for imminent loss with the following formula: If Planned Cost of Valuation > Planned Revenue of Valuation: Planned Loss = Planned Cost of Valuation u2013 Planned Revenue of Valuation Realized Loss = POC * Planned Loss Reserve for Imminent Loss = Planned Loss u2013 Realized Loss The OSS note602707explains for which RA methods reserves for imminent loss are calculated. I think you can use one of the simple POC methods. 602707 Kind regards, Paulo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table has Batch# value as seen on PO line item ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello friends, The Purchase Order line item shows a field for Batch-number. However, this field is not there in EKPO table. So can someone tell me which table has the Batch# value (as seen on PO line item) and how it is linked to that line item's record in EKPO table ? Thanks for your help. - Chetan",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, I found one field in table EKET. (EKET-CHARG) BR Csaba"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to know which partner procedure is used",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi friends, 1) I am facing with an issue where in when i am raising a sales order, partner function vendor is not picking automatically. I can give it manually. I am creating with different document type and plant the partner function is picking automatically. can anyone throw some light on it. 2) How to find which partner determination procedure is used in the sales order. Thanks and regards.... Sanjay",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can check in VOPAN. Select the sales Doc header and check the procedure used and also the partner functions in the procedure for sales order. The next is the parner determination procedure assignment where the procedure is assigned to the sales document type. Regards Harish"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table which store the history of material",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, I am developing report, in which, for given time period, i want show the history of material...which shows the old price, new price, etc. I am getting the old Price from MLCR table but I am not able to get the New price, In MBEW table I am able to get the new price but it shows only latest price not the history.... My problem is I am not able to get the new price for corresponding old price..can any one help me out in this regards.. Thanks in advance. Chetan.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Checking MR21 transaction may be of some use."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which business process we use vl_complete",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear I know what is the purpose of VL_COMPLETE but i dont know in which business process we use this .. http://scn.sap.com/docs/DOC-29596 http://scn.sap.com/docs/DOC-29596 thanks a lot",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "List of materials for which particular class and class type assigned",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, I want the list of Materials for which particular class and class type assigned. I got it in CL24n but I am not able to export it in Excel as there is no option for this. So,is there any table from which I got this?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Goto MM03 select F4 option in which select the Materials for classes, there u can give the classs and class type press enter and click on find button, from there u can export to local file. Regards, BSK"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which material type to use for licenses / software",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello All, we are wondering which material type to use for software to have a \"clean\" set up in the system. DIEN does not seem feasible, as this would not be a service. Has anyone good recommendations? Also in regards to data governance, ownership and future data quality checks in the system? Thank you DS",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In CDHDR table Which is Acc. Doc., Is it either OBJECTID or CHANGENR??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, My requirement is like blow, ''Payment terms of the invoice for column J should be read from VF03 of the billing document (Table VBRK). If not available in VBRK, obtain the same from BSAD (field ZTERM) but with the earliest date in the change history table (CDHDR; field UDATE). Change history is available in transaction FB02 of any document. '' OK, 1- first I look in VBRK, 2-if not found I go for BSAD. I hv AUGBL# and BELNR# in my hand, We hv OBJECTID and CHANGENR fields in CDHDR table, So, 1- In CDHDR table, Which e.i. either OBJECTID or CHANGENR, is my Doc.#. I mean, to Which filed i hv to point out? I mean, Which field is equals to BELNR value? 2- How to match/join theses fileds among these table in my SELECT statement? ThanQ. Message was edited by: Sridhar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Ok Sridhar, Can you tell me the functional requirement. I mean not in terms of tables and fields, but what exactly are you trying to acheive. Explain me the process. I could give you better input with that. Vishal."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which transaction CODE  we can maintain system messages.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi In which transaction code we can maintain system messages for sap sd point of view. For example : in sales order i want warrning message instead of error message . Thanks, KP",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Material List for which TL is not assigned",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, Can anybody tell me a way how to find the list of materials for which the reference operation set is not assigned. Thanks to all in advance. Manisha",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "you can check table MAPL which gives the list of all materials to which task list is assigned. you can compare this with the list of all materials and know for which all materials TL not assigned. task list type would be S"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "After saving the invoice, which user exit can I use for vf02?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "After saving the invoice to vf02, I want to write my code if ZZ_MUH_TRH in the VBRK table is full. But I couldn't find in which user exit to do this. I put a breakpoint in userexit_fill_vbrk_vbrp in RV60AFZC and clicked save the invoice but it didn't fall into userexit_fill_vbrk_vbrp.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Output type triggered by which tcode",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, 1. Could anyone tell me how can I determine one output type is triggered by which tcode? 2. Please give me step by step to create new output type for new SD document type, for ex Contract, and how to populate it in VA43? Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Report to check Standard WBS link to which standard network and activity",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, Is there any way or standard report to check standard WBS (cj93) link to standard network/activity (CN03). Normally we create project by using template existing, we would like to check the structure. Is there any way to check the standard template for it ( WBS template link to network/activity template). Thank you. Nies",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Please try this: 1. Tcode : CN41 2. Change database profile: In that in the origin check mark the Standard structure. Continue.. 3. At the bottom of the selection screen check mark the standard structures. 4. In the selction area for the Project hit F4 and select the project based on the standard WBS Element. 5. Exceute the report. Hope this is useful. Reward points if found useful. thanks.."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Detailed Purchase Request Report Not Showing All Rows which are available in that PR",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "When I Generate Query for \"Detailed Purchase Report\" then some Transaction Showing All rows which are available in respective PR but some PR Transaction not Showing all Rows in that PR Transaction. Please Suggest Solution. My Query is given below: SELECT T0.\"DocNum\", T0.\"DocType\", T0.\"DocStatus\", T0.\"DocDate\", T0.\"DocDueDate\", T0.\"ReqName\", T0.\"Department\",T1.\"ItemCode\", T1.\"Dscription\",T1.\"LineNum\", T1.\"Quantity\" FROM OPRQ T0 INNER JOIN PRQ1 T1 ON T0.\"DocEntry\" = T1.\"DocEntry\" Please give me some solution to generate proper PR Report.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Yogesh, the query seems okay to me. So what are you missing? Textlines? regards Lothar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which movemen to use",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have several sites that have numerours articles that are all NLAG article type which are all in negative stocks. Which is the best movement to use to zero the stocks. regards ady owen",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "in general I would say you have to create inventory with 552 or 202 movement to make negqative stock zero. But this is only possible with the right setup in OMS2. Before you do the movements, you have to make sure that NLAG is stock managed After all you NLAGs are zero again you have to turn off the quantity managment."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table of which sales organizastion is assigned to which company code",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "At which table I can find which sales organizastion is assigned to which company code? Thanks in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear, Please check - V_TVKO_ASSIGN = Generated Table for View V_TVKO_ASSIGN . In Se16N. Regards, Mahesh Wagh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which T code use For Credit check of customer",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Please help us which T code use for Credit check or credit limit of Customer in SAP.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

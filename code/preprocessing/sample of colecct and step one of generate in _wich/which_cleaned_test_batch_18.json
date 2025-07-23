@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "Create an asset class which is not shown on Asset History Sheet",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, How can I create an asset class which is not shown on the Asset History Sheet? Thank you. Kind regards, Linda",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, If you want to display the Asset Class in History Sheet just click on \"Manage History\" check box in the Asset Class. If not required just leave it blank. Regards Balaji"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Packing and forwarding for items which would accept CENVAT codes.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts....... Can y You tell me \"How to cofigure Packing and forwarding for items which would accept CENVAT codes\" ? Please Reply as soon as posible. Regard Binod Sharma.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, I think you need to name Rename \"Freight 2\" column as \" P & F\" and then you can use CENVAT code as you use for frieght 1. Regards, Abhishek Edited by: Abhishek A on May 26, 2008 11:23 AM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which switch to activate in T77S0?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Team When a new job or position is assigned to a Personnel Area, it is not automatically reflecting in PA 0001. Can you please advice which switch to activate in T77S0? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Migrating BOBJ to SAC and HANA on-premise to HANA Cloud, Which should be done before",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Community, we are transitioning the data source from BOBJ to SAC for Analysis for office, while simultaneously migrating from on-premise HANA to HANA Cloud? What are the potential risks associated with this dual migration process?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Changing pProduction Order which is link with DMS",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, All, i have one query, I linked doc's to Production order and saved. That production is now completed. So production order is closed. But i want remove one Doc from the attachment. I tried but the shows error messge' ''this tracnsaction is not allowed to change production order' and forther 'invalid selection' give solution. rgds Ben",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi benaka, document is link to the production oreder. and you have completed the production order , so it is released. once the production order is released , you can not change anything regards, nitin award point if useful award point if useful"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Some T-code which can display QM status when I release PO",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi QM experts, Could you please kindly advise T-code to check QM status in summary by material or vendor? Currently, we find QM unavailable when release PO. Thank you. Best Regards, Bu Fanchao",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Fanchao, Still the open point is not clarified as what do you mean by 'QM unavailable when release PO'. Do you mean you are expecting \"Inspection Lots\" at PurOrd release? or this is something else you are referring to? QM unavailable when release PO Once you clarify this point I think answering to your issue can be possible. Thanks, Arijit"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table stores DistNumber for Deliveries?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have built a report that allows for a wildcard or short term search for our deliveries. One element I am missing is DistNumber on the order line. I am unsure which table this is stored in so I can recall this in the query. I know that OBTN is the primary table for batch information. However I don't think this is the properly linked table for order-specific (ORDR or ODLN) selections. SELECT T0.\"DocEntry\" AS \"(Delivery Link)\", T0.\"BaseDocNum\" AS \"SO Number\", T1.\"DocDate\", T1.\"CardCode\" AS \"Customer #\", T1.\"CardName\" AS \"Customer Name\", T0.\"ItemCode\", T0.\"Dscription\", T0.\"Quantity\", T0.\"U_PricePerLB\", T0.\"U_PriceperKG\", T0.\"LineTotal\", T0.\"WhsCode\" AS \"Whs\", T1.\"TrnspCode\", FROM DLN1 T0 INNER JOIN ODLN T1 ON T0.\"DocEntry\" = T1.\"DocEntry\" WHERE T0.\"ItemCode\" Like '%%[%0]%%' AND T0.\"Dscription\" Like '%%[%1]%%' AND T1.\"CardName\" Like '%%[%2]%%'",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "want to delete pernr which is partially deleted",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, want to delete pernr which is partially deleted points will be rewarded. thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Did u tried the report. RPUDELPN Manoj Shakya."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Report - GR for which Excise Capture & Posting are pending",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, The scenario for Goods Receipts for Excisable Materials is as follows: 1. GR done by stores 2, Excise Capture done by Excise Clerks 3. Excise Posting done by Excise Supervisor Is there any report through which we can monitor the following: a. GR done and pending for Excise Capture b. Excise Capture done and pending for Excise Posting Please guide Regards,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Pending GR can be seen in ME2L. But pending/post excise invoice can be seen in J1I7. If you want these details in one report, then you have to go for development. Regards, Piyush"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Where the transaction code(tcode) storaged?which table?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Where the transaction code(tcode) storaged?which table?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "if I need all tcode list of mm module,what shall I do?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "COPA (which value fields to use for costs )",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I am not sure which one set of value fields to use for collecting costs in COPA reports/ 1: Value field attached to Condition type VPRS ( thru tran 2: Sum up all value fields attached to cost component structure ( costs coming from PC thru costing key ) Which is more accurate or which is appropriate to use. Regards, Reddy",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Reddy, The value that is shown in VPRS is nothing but the std cost estimate if price control is \"S\" for that material and you have a valid release std cost estimate. So you dont need to take the total of all cost components to get the std cost estimate in COPA. Just assign VPRS to your value field, that should be enough. Regards, Suraj"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "list of invoices for which GR has been done",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Is there any report which shows list of invoices for which GR has been done, Partially GR done Partial invoice done??",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi check table EKBE in t-code se16n for Po hostory or Check ME80FN excuste report and select change layout icon and select Po history tab you will come to know GRN and invocie there for you PO Regards Kailas Ugale Edited by: kailasugale on Jun 18, 2011 5:49 PM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "display pr which is not linked with po in report",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , ALL SAP EXPERTS, I HAVE PREPARE A QUERY BY USING *INPUT* INPUT 1) MATERIAL NO 2) PLANT 3)PROCESSING STATUS OF PURCHASE REQUISITION OR P.O. OUTPUTARE OUTPUT 1) PUR. ITEM NO 2) P.R. NO 3)QTY REQUESTED IN PR 4 P.O. ITEM NO 5)P..O NUMBER 6)P.O. QUANTITY 7) GR DOCUMENT NO FOR THAT I HAVE TO USED TABLES EKET,EBAN AND EKBE BUT ISSUE IS THAT WHEN IN GOING TO RUN THE REPORT 1) ONLY THOSE REQUISITION ARE DISPLAYED IN THE REPORTWHICH ARE LINKED WITH PO . IE. STATUS OF PR ONLY FOR 'B' TYPE NOT FOR 'N' 2) ITEMS IN PR OR P.O. DISPLAY 2 TIMES IN THE REPORT 3) WHY THE SYSTEM IS NOT SHOWING PR, PO WHICH HAS NO PR,PO HISTORY IN THAT REPORT I.E. OPEN PR, PO USERS DONT WANT TO USE STD REPORT ME5A OR ME2N THEY WANT TWO REPORT IN ONE COMPLETE REPORT IN SCREEN PLEASE KINDLY HELP TO SOLVE MY ISSUE THANKS IN ADVANCE REGARDS, RAHUL",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can debug your program and check. also please check if there is any deletion indicator in PR which doesnt turn up in the report. in report please dont have status or PR selection field as mandatory because depending on the status/ processing PR, system may skip PR's as they may not meet required conditions. Raghavan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Component Identifies what ECC EHP level I am on ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I know I am on SAP ECC 6.0. But how do I know what EHP has been installed. Is there a specific component or a way to find out ? Any help appreciated.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "1 ) System -> Status -> Component Version 2 ) Transaction Saint Example : EA-APPL 604 0002 SAP Enterprise Extension PLM, SCM, Finan EhP4 is installed 3 ) Tarnsaction SE11 -> table CVERS Example : EA-HRCGB 604 0000 N Sub component EA-HRCGB of EA-HR EhP4 is installed. etc ."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Updating reservation data which is automatically created in process order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Everyone,I am trying to update batch and storage location for Reservation using BAPI BAPI_RESERVATION_CHANGE but I am getting the error \"Reservation created automatically. No manual changes possible\".Could anyone please suggest any alternative way to modify the reservation which was created automatically through Process order?Thank you so much in advance,Mohit",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to create value mapping for fields which are not available in Standard object",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, I am migrating data from SAP ECC system to SAP Hana system and using LTMC Direct Transfer method. I could migrate the data properly but I need value mapping for one field which is not a part of field list of value mapping in standard object. I checked SAP Blogs but they are old -This. Can someone please provide guide or steps to create value mappings for particular field in latest version of LTMC direct transfer? This Thank you.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which of these statements about overhead rates are true?...",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello SAP-team! Which of these statements about overhead rates are true and which are false? - The costing sheet is entered in the master record of the order - Costing sheets consists of base, overhead rate, and credit - Overhead cost elements of type 41 are entered in the rate - The costing sheet is assigned at controlling area level and is determined automatically by the system - Only percentage rates are possible for overhead rates ps: thanks to SAP-community! Eugene",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Which of these statements about overhead rates are true and which are false? - The costing sheet is entered in the master record of the order- True - Costing sheets consists of base, overhead rate, and credit-True - Overhead cost elements of type 41 are entered in the rate-True - The costing sheet is assigned at controlling area level and is determined automatically by the system- I think false. Generally cost sheet is defined independently and assigned either thru costing variant or thru orders. - Only percentage rates are possible for overhead rates- False. Qty based is also possible Regards Sudhakar Reddy Edited by: Sudhakar Reddy K.V. on Sep 15, 2009 11:27 AM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Std SAP report which shows Ordinary vs. Special Depr by Asset",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Friends , Can some one tell me if there is any std SAP report in FI_AA whihc gives Ordinary vs. Special Depr by Asset . Any inputs greatly appreciated, Ty.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "use \"OARP\" to get the report. under OARP got to \"Depreciation lists\" class and you have all these RABIKA01 Depreciation Comparison RAGAFA01 Posted Depreciation RAHAFA01 Depreciation RAHAFA_A Depreciation RAIDPL19 Fixed Asset Ledger RAKAFA_A Depreciation and Interest RAMAFA_A Manual Depreciation RASIMU02 Depreciation Simulation use report \"RABIKA01 Depreciation Comparison\" in the report select the option \"Display special depreciation types separately\" and this helps as follows If this indicator is set, the report displays the following different depreciation types separately: o ordinary depreciation o special depreciation o unplanned depreciation o transfer of reserves"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Read orders which are not technical complete in custom report",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, what do you recommend to read all orders which are not from status \"technical complete\" in a custom report. Is there a function module to acchieve this with good performance or what do you recommend? Thanks a lot. Kind regards Manfred.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Manfred, Since you asked about a function module for use in a custom report, it is likely that you are not looking to use a standard transaction to display the orders. The phase of a maintenance order can be found from the field AFIH-IPHAS, where the phases are: 0 Outstanding 1 Postponed (currently not used) 2 Released 3 Technically completed 4 Manual deletion indicator set 5 Historical order 6 Completed for business (from 4.6) So to find non-technical complete - you would select where iphas not equal to 3. If you need to make this selection RFC capable, then you can wrap it in a RFC capable function module Regards Andrew"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "BOM in which deletion flag is set then it should not show in CS15.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, In BOM where deletion flag is set then also when executing CS15 these are shown , How to restrict this , also need to know for more plants at a time, addition of planner group & it's description and Functional location. Pl. guide how to proceed.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Ashwini, First point First point How do you setDeletion Flagto a BOM? (Screen-shot) Deletion Flag Second Point Second Point There is an option * (All plants) in Plant field. Select this. Jogeswara Rao K Jogeswara Rao K Jogeswara Rao K"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "New to SAP,In Dilemma to Choose Which",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, This is Ajay Working on .Net Platform from last one year.Basically i am from Electronics Back Ground and i would like to enter into SAP family.I will be thank ful to you if you suggest me to choose which Module suits me better and in which i can Get in well.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Chandra, First let me know whether you are interested in Functional part of SAP(modules come here )or in the technical one (which deals with the programming thru ABAP and also the Networking and server part thru BASIS). If you are familiar with SQL and oracle or any Database you sholud be moving for ABAP. You can check this all https://websmp105.sap-ag.de/~SAPIDP/002006825000000234912001E https://websmp105.sap-ag.de/~SAPIDP/002006825000000234912001E and help.sap.com Regards Deepak"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which field value would be better in the common fields?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We have following scenario? data: BEGIN OF gty_mast, stlnr TYPE mast-stlnr, matnr TYPE matnr, werks TYPE werks_d, END OF gty_mast, ---BOM Item---- BEGIN OF gty_stpo, stlnr TYPE stpo-stlnr, idnrk TYPE idnrk, stpoz TYPE cim_count, stlkn TYPE stlkn, aedat TYPE aedat, aenam TYPE aenam, menge TYPE kmpmg, END OF gty_stpo, When we merge & move into final internal table which STLNR would be better...STPO-stlnr or Mast-stlrnr.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Savita, Any how bothSTLNRwill have same values Rite. then there is no preference for bothSTLNR. STLNR STLNR can use any one.. Regards Aravindan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which SAP Module in R/3 can replace Peoplesoft?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hey Experts, I would like to know which SAP R/3 module is best suited to be implemented in a Construction Company? This Company is already into PeopleSoft..I mean to know which SAP Module can replace peoplesoft for this construction industry...Is SAP Business One suitable for this sector? Regards Ashim",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Ashim I suppose I should read the entire message first before replying. When you talk about construction companies, it is necessary to delve deeper into what the expectations of the customer will be. What type of construction are we talking about? Project based? What time frames to construct? Number of stock codes, complexity of BOMs, transaction volumes. There is a lot to consider. Could you give more details and we can guide you better. Kind regards Peter Juby"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CDS Views: get additional records which don't match filter value",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have an ABAP program I am attempting to emulate in a CDS view. The program will filter on a key field (VBELN) then pull in any additional records that are marked as \"default\" (default meaning that they should always display on the results). The link between the record that matches on VBELN and the default record is another field, GRPFILTER. Example from ABAP: RecordID Filter DefaultFlg vbeln1 grpfilter vbeln2 grpfilter X vbeln3 grpfilter vbeln4 grpfilter2 Display report where RecordID = vbeln1 Results: vbeln1 vbeln2 Original ABAP code pulls all data for RecordID, vbeln1. Then pulls all data from the same Filter, grpfilter, where the defaultFlg is true. ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- How do I do this in a CDS view? I can get the records associated by the Filter, but when I say filter on VBELN at the display point, the default records are dropped. CDS Results Example: vbeln1 vbeln2 vbeln3 (all records with Filter = grpfilter) Filter where RecordID = vbeln1 Expected results: vbeln1 vbeln2 <==RecordID vbeln2 has defaultFlg = true) Actual results: vbeln1 <==RecordID vbeln2 is filtered out because it doesn't match the chosen RecordID",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "GL Account to FS Item mappings N:1 and 1:1, which option is best suitable and why?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, I was wondering if there is any recommendation from SAP regarding the G/L Account to FS Item mapping strategy. Currently we are considering a 1:1 mapping between G/L Accounts and FS Items. In my previous projects, have used 1:1 mapping between GL Account and FS Items. It's easy to maintain and update the FS items hierarchy as well. What are the advantages and disadvantages of using the below two options: What are the advantages and disadvantages of using the below two options Option 1: Map 1 to 1 between G/L Account and FS Item Option 2: Map many G/L to 1 FS Item Thanks, Ayan",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which table relateds to a specific combobox validValues?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "i want to know which table is the source of a combobx's validValues? for example: \"DateFormat\" combobox in display tab in General Setting form under system initializatin fold Note: i know that GetFieldValidValues method of SBOB object can get the value, but i want to know which table it stores? thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "These values are managed by B1 internally. As you wrote, you access these values by using the SBOB object. If you want to visualize these valid values you could use B1 DB Browser that gives you a complete view of your DB: tables, columns, links, valid values and so on. Note that not all these information are managed by native SQL but can be managed by the B1 application itself. For instance: links between tables are not implemented as foreign keys but managed by the application. This tool is available in either B1DE or B1TE packages. You can download these packages from SDN: go to the B1 SDN home page and navigate into Business One SDK Tools."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Only one T-code contain all of the following reports, which T-code it is?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all\uff1a A few days ago I saw only a T-Code contain all of the following reports , But now I forget it , who can tell me which T-CODE it is? RFDABL00 - Display of Customer Master Data Changes (General Data/Accounting Data/Sales Area Data) RFBABL00 - Display of Changes to Accounting documents RFDKLIAB - Display of Changes to Credit Master RFSABL00 - Display of G/L Account Changes RFKABL00 - Display of changes to Vendor Master Best Regards!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "OBZA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Setting is leading for payments?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, If in SPRO \"paying company codes\" details the minimum amount for an and outgoing payments is \u20ac 5, but in \"Maintenance of Company Code Data for a Payment method\" (FBZP) the minimum amount is \u20ac 1, which one is leading? What is exactly the difference between the 2 settings? Thank you in advance for the reply.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Work orders which are having missing work center id",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi team, How to find all the work orders which are getting error as missing work center I'd?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the t-code to send Inforecord Conditions through ALE transfer?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We use t-code ME18 (& Message type INFREC) to transfer Inforecords from one client to another through ALE. However,Conditions for info records must be transferred separately using the standard conditions distribution (message typeCOND_A).Can anyone help me to find out the t-code which is used for sending conditions? Thanks, Kaveri",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Kaveri, I understand the issue and unfortunately SAP does not provide us with that attribute..it is available for contracts...ME308, but not for info records.. but the correction report exists fortunately.. RM06INP0 although it is irrelevant here. Note 382795 partly supports the issue"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to configure & view the ESOP amount to display in Form 16 & in which section ? Need urgent help",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi. I have a wagetype configured for maintaining ESOP amount in Infotype 15 . It is reflecting in Annual Perk but not in Form 16 of the employee ? How to do this ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table do the Excise &Tax condition values of PO get saved?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hai All, Pls let me know the table in which the tax and excise condition values (JMO1, JEC1, JIP5) of the PO get saved. I also need to print the excise percentage in the PO. Pls advice. Regards sampath",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Sampath, You can get details from the following tables KONP, T685T,J_1IEXCTAX,J_1IMTCHID,KONV,J_1IMATEXP. prasanna"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which PO fields cannot be changed by SAP rule?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello experts, I have a doubt about SAP functionality. Which fields cannot be changed by the erp rules? In my company, we have replaced the company code ABCD to new company ABCX, and we have a lot of PO non-productive that has not been received. We are planning to change the company code, plant and cost center on the POs so it can be used with this new company ABCX.. The POs are being created (and will changed) thru BAPI.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table name in which Subtotals are getting stored",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, In V/08 transaction, for a pricing procedure e.g. X, A column is available for Subtotals. When I press F4 option for Subtotals, there I am watching 27 options. Now I want to know, for which option number the subtotal is getting stored in which table? e.g. for subtotal option1, the value is getting settled in VBRP table in KZWI1 field. Regards, Vishal",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table Customer Classification data is stored(T.code: VCH2)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAPI can be used for an SAP S/4HANA business partner duplicate check?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In the blog postSAP S/4HANA Business Partner Duplicate Checkbyandi.mauersberger, it is stated that after activating the business partner duplicate check functionality: SAP S/4HANA Business Partner Duplicate Check andi.mauersberger \"The duplicate check can take place in the SAP GUI dialog for maintaining business partners,or also using BAPIs.\" \"The duplicate check can take place in the SAP GUI dialog for maintaining business partners,or also using BAPIs.\" or also using BAPIs I would like to know which BAPIs this statement is referring to. The requirement is that this BAPI will be wrapped in an API so that a custom Fiori app can execute a duplicate check. Any guidance would be greatly appreciated. Thanks, Mustafa.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which t code use before pre sale order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "gud morng to all pls tell me. which t. code use before pre sale order (va21) and why this function use and how regards, gaurav pabreja",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Gaurav, Normal Flow is Inquiry : VA11 Quotation : VA21 Contract : VA41 Sales Order : VA01 regards, GHS."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "A report for Purchased material which is not used yet!",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, We need a report for Purchased material which is not used yet. How is it possible in SAP B1? Thanks in advance........",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Param Try this i use the above for my expectations and works perfect try to change some values such as whscode, pricelist etc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Query help: Items which has been ordered last year (same month)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear experts, i need your help in a user query containing this information: Docdate has to be the current month, but one year before. Quantity has to be the sum of all same items ordered in this month. All is based on sales orders. I hope, you understand my thoughts\ud83d\ude09 \ud83d\ude09 Thanks for your help! Sebastian",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Sebastian, I think there is no meaning of bringing Doc date and Doc num as you need sum of Quantity in your report So i bring Year and Month instead of DocDate and DocNum Please try below query if you need you can use DocDate and DocNum instead of Month of DocDate and Year of Doc date. You may need to change in both select and Group By Area -------- Select Year(A.DocDate)[Year],Month(A.DocDate)[Month], A.CardCode, C.CardName, B.ItemCode, D.ItemName, Sum(B.Quantity) [Qty] From ORDR A Inner Join RDR1 B on A.DocEntry = B.DocEntry and A.Canceled ='N' Inner join OCRD C on A.CardCode = C.CardCode Left Outer Join OITM D on B.ItemCode = D.ItemCode Where Year(GetDate()) - Year(A.DocDate)= 1 and Month(GetDate()) = Month(A.DocDate) Group By Year(A.DocDate),Month(A.DocDate), A.CardCode, C.CardName, B.ItemCode, D.ItemName ------------- Thanks Unnikrishnan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "bom creation with item which is same as finish product",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I need ur inputs for below scenario regarding BOM. 1. I receive the pack which include the product cell with accessories power cable and software cd from another country plant. after received, i change the poer cable which is suitable for india. so i should i create the bom for the india plant , since we replace the caple (accessories) and packing material (if need by customer) since we replace the caple alone( accessories). can we maintain the same material number as finish product under that can i maintain the same finsh product and the caple. 2. can i maintian the finish product under the finish product BOM. it is possible to procure finaish product from vendor legally. thanks vraj",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Vraj, 1. BOM is at the Plant level, so you can create your bom specific for india. 2. For material which you generally procure then it is better to have the same as Halb . ( so that you can produce or procure) Reg Dsk"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Table Store the Query in the Query Manager?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I have looking for the table which store all the query inside the Query Manager. From this i can retrieve the query without open the program. Please help. Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "please let me know which badi i have to use",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Friends, I have a situation where in the company follows the public calender and strategic calender .......so i have to write a user exit ........to check if any employee is working on the public holiday he should be entitled to the benefits of the strategic calender.based on the eligibility of the employee (as per his designation)..if he doesnt fall under the category of the strategic calender then he shouldnt be allowed ..for that my functional asked me to put a check if the employee trying to enter under strategic holiday ........while entering in the time sheet (transaction CAT2) so i should give him an error message ........ could you please let me know Please help me in this regard as this is little urgent. Regards Vamsi <personal email removed by moderator>",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello ravi you can use following : CATS0001 CATS0002 CATS0003 CATS0004 CATS0005 CATS0006 CATS0007 CATS0008 CATS0009 CATS0010 CATS0011 CATS0012 in smod check which one is suitable for you do reward points if found helpful"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which table holds name and contact details in same table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "is there a table that holds name and contact details in same table for an employee?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Greetings,, afaik IT0105 \"Communication\" and IT0006 \"Address\" don't have Employee name in table structure. But you can link those tables with IT0002 Table using programming to show it in a screen, smartform.... etc. Also you can extract that information using standard reporting tools i.e.: 1- S_AHR_61016362 - Flexible Employee Data 2- S_PH0_48000510 - Ad Hoc Query \"there is couple of T.codes to access Ad hoc Query\" i hope this answer fix your problem, if it exist please elaborate more Regards, Fahad"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "BY which transaction GR reverse 652E can be posted for outbound delivery?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello all I post GR 653E for return delivery in VL02N, now I want to reverse this GR, where this can be done? B.R. Nicole",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Nicole If you have PGRd the document, try in VL09. thanks G. Lakshmipathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Charging GST on fair market value which is different value than transaction value",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have a situation where we are having a guest house charging concessional rent from employees. However as per GST Act, GST is to be paid on fair market value. For example, we are charging Rs. 100 from employees but fair market value is Rs. 1000. Hence we have to charge GST on Rs. 1000 but we still have to recover from employee only Rs. 500. In standard FI invoice through t code FB70, GST is charged only on the amount which is credited to income GL with tax code. Hence we are crediting Rs. 100/- to income GL with tax code and accordingly GST is charged on Rs. 100/- instead of Rs. 1000. I tried to handle the situation by usting stastical GL by posting following entry through t code FB70: Customer for Guesthouse 100.00 CGST - Payable 90.00- SGST - Payable 90.00- Discount 80.00 no tax code Stat A/C--INC 1,000.00- with Tax code Stat A/C--INC 1,000.00- no tax code This has solved my problem except for generating E invoice through t code edoc_cockpit where taxable value is picked up as Rs. 2080/- instead of Rs. 1000/- Hence please guide how to proceed with the situation - thanks in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Report of purchase orders which contains posting date of invoices",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello everyone, Is there a report in S4 where we can see the posting date of an invoice that relates to a PO? We would like to analyse how many invoices have been posted on PO's before Goods receipt was done. Thank you. KR Israel Palomo Salas",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In a implementation project, which module ( either MM or PP) is implemented",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello PP members: In a implementation project, which module ( either MM or PP) is implemented first. I presume that First FI is done , followed by MM then PP & finally SD Please clarify",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Eshwer, It is nothing like serial implementation. During Implementation all the modules will be implemented parallely, probably for enterprise structure is the only area where it needs to be done serially as there are dependencies. In that case FICO->MM>SD/PP. Once enterprise structure is created then all modules can be implemented parallely. Regards, Prasobh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "The time at which the PO has got saved",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Frnd, Can i get the time at which the P.O has got saved , is there any table where i can find the time ??? Or any other option available to see the time ???? REgards Rakesh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, if you have version management activated then you can get this information when the PO is created with version 0. if not then goto CDHDR table and give the object value as your PO no. and check for the utime and udate for the PO with tcode me21n. regards, Adwait Bachuwar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "4.6C--Customization for which NO Transports are generated",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "We are SAP R/3 4.6C. There are transaction/customization for which no transports can be generated . Does anyone have list of transactions/processes which 1)cannot be transported in SAP 4.6c? 2)system needs to be opened up in SAP 4.6c? Please reply at the earliest. Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can see the transport type in SPRO by switching/displaying the transport type (Automatic/Manual). In SPRO choose from the menu Additional Information->Technical Data->Transport Type Number Ranges usually are Manual where you might need to open the client and maintain. Some Manual Transport can be included in workbench requests eg., Validations,Substitutions. Regards Sreenivas"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to Find Which Classes are Executed at Backend in S/4HANA Public Cloud System?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, In order to fix some issues in S/4HANA Cloud system. We'd like to do a debug. But anyone knows how to find which Class/Classes is/are exact the one is/are executed at backend for the frontend apps? Just for example below, if click on \u201cGo\u201d button, some abap code probably in some specific Classes are executed at backend. How can find which Class is exact the one is executed? Thanks & Regards, David",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

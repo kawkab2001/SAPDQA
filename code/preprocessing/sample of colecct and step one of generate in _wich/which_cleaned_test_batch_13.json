@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "Veiw/extract calendars against which shipping points use them?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Guys, Really need some help on this one. Iu2019m looking for a way I can view en-mass or extract calendars against which shipping points use them. I have been asked to change some dates for certain calendars but want to be sure that they are not used in other none related shipping points. Obviously this will cause issues! I know some do. Currently Iu2019m stuck manually checking the shipping points individually in SPRO via >Enterprise Structure > Definition > Logistics Execution > Define etc shipping point > Define shipping point. Highlight the row and display. When I try and view any of the tables direct in SE16N (i.e. V_TVST) instead of coming up with nice neat tables I again get the SPRO data inthe above fromat and have to run through manually. Can you help?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Just use table name TVST in SE16 or SE16N. Regards,"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table which shows taxes paid line item wise",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear MM Gurus Can you suggest me the table/report which shows taxes paid for each PO item for a perticular period of time. Also can you suggest most widely used standard SAP MM reports across the industry for legal requirements. I appreciate your quick answer. Thanks Ravi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "u can check report tcode S_ALR_87012357 and u can check table Bset addition to about reply tables"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "mf50 planning table don't need to show materials which is not planned",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I open mf50 planning table and see a lot of materials which are not planned (there is no ind. req with these materials). I dont need to show theses materials in planning table(MF50). How can I do that? Thank you very much for your support! Cao Huy",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Go to tthe Mf50 Screen >Additional Screens >Control Data>Constraints> select the Only Matls with Production.. -if you select this , it will only show you the data with the only material with production.. kindy check and get back reg satheesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "S/4Hana : How to know which compatibility pack is installed ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I would like to know how to find which Compatibility pack is installed on a S/4Hana system ? Is there a transaction or a table to know it ? Kind Regards, Joseph",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP HANA CLOUD  //Which App for support inventory balance",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Our company use SAP HANA on cloud and background we complied Ariba and VIM. which application in SAP can support us or what should I do if I need to record movement in-out and SAP will process the result of balance quantity as ZERO value of our inventory because It's the inventory that brought for free to customer. And I booked it as an expense and don't want to change the way to record. PS. I'm a new user in SAP. and normally our company is service not trading and never using module about inventory before.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "EWM/ LE with WM/ EWM with SCM- which has more demand?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I am SAP MM Certified Consultant and having exposure to LE and WM. I am planning to go for one of the Certifications from the below list. Could any one of you please let me know which certification has more demand and more value? 1. C_TSCM12_65 SAP Certified Application Associate - Extended Warehouse Management with SAP SCM 7.0 EHP1 2. C_TSCM66_65 SAP Certified Application Associate - Logistics Execution and Warehouse Management with SAP ERP 6.0 EHP5 3. P_EWMWM_65 SAP Certified Application Professional - Extended Warehouse Management with SAP SCM 7.0 EHP1 and Warehouse Management with SAP ERP 6.0 EHP5 Regards, Kumar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI, As per my knowledge , the third option has high demand 3. P_EWMWM_65 SAP Certified Application Professional - Extended Warehouse Management with SAP SCM 7.0 EHP1 and Warehouse Management with SAP ERP 6.0 EHP5 regards, Ramana"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "List of GRN for which invoices is pending",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts We have following clearing GL accounts: 1. GR / IR Clearing Account 2. Freight Clearing Account These Accounts get credited when we do goods receipt with TCode MIGO. When we do invoice verification then above two accounts get debited. Hence the balance should be zero for both the above GL accounts. Same way with CENVAT Clearing GL Account. When I do part 2 posting in J1IEX, CENVAT Clearing Account gets credited. When I do MIRO, it gets debited. Hence for CENVAT Clearing Account also, balance should be zero. But in my case, there is credit balances in all the three above GL accounts. Now I want to know for which GRNs, we have not received the invoices because of which balance is there in above three GL accounts. Note: I kept sort key as '010' in GL master for all the above three clearing accounts. But PO number is getting populated in assignment field only for GR / IR Clearing Account (and not Frieght Clearing and CENVAT Clearing GL Account). I just want to know list of GRNs for which invoices are pending. I do not want to post any clearing entry. I tried with F.13, its running only for GR/IR Clearing Account. Its not running for Freight Clearing and CENVAT Clearing Account. (Reason might be that PO number is not getting populated in Assignment field). Please help me, how do i meet my requirement. -- Deepak",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Record working time - Approve screen. which screen is correct",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Before re-registering we are getting one approve screen and after re-register, we are getting another approve screen. Please check the attachements and help me in identifying the correct approve screen. old approve screen New Approve screen",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "The new one. It's a webdynpro screen, because now the uwl knows which webdynpro to call. The first one was just a sap transaction called in a sap webgui session (old technique)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "\u200bHow to find outbound delivery number from handling unit number which used in delivery?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "How to find outbound delivery number from handling unit number which used in delivery?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SUM and HUM which no had the priority",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all , i am using the HUM functionality for the reciepts , is this functionlaity is does the syste generates SUM during TO , if so which the priority and how this is managed , can some one help me on this . thanks , ksr",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, not sure what you mean, but maybe this information can help you further: it is possible to use handling unit management together with warehouse management. You activate handling unit management independent from storage unit management. Only in case if storage location is full-WM- AND HU-managed, the storage unit management is always active and HU numbers are taken over as SU numbers. In all other cases HUM and SUM are independent from each other and number ranges must be set a way that they are not overlapping. Regards, Ely"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to stop A/R Invoice from adding which is without Item Price entered in it.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I am a beginner to SAP B1. A/R Invoice is getting added into the system without the item price. I want to that \" If item price is not entered in the document, then the A/R Invoice should not get added \". I believe, it can be done through formatted search, But, can anybody help me regarding Query to be used in formatted search OR Is there any other way of achieving this ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Nikhil., Try to automate price through price list and system also giving warning message but still if you want to block use below Stored Procedure. If @object_type='13' AND @transaction_type IN ('A','U') BEGINDeclare @ERRORMESSAGE nvarchar(150)SET @ERRORMESSAGE = NULLSET @ERRORMESSAGE = (SELECT 'Price should not be empty for the line >>' + cast(Max(h.LineNum) + 1 as CHAR(10))FROM INV1 HWHERE H.DOCENTRY = @list_of_cols_val_tab_deland Isnull(h.Price,0) = 0 ) IF ISNULL(@ERRORMESSAGE,'')<>''BEGINSET @error= -1111SET @error_message =N'' + @ERRORMESSAGEENDEND"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Can anyone please tell me USER EXIT or CUSTOMER EXIT which will trigger AFTER SAVING notification",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Can anyone please tell me user exit which will trigger after saving notification, I am particularly looking for EXIT which will triggered after saving through IW21 transaction Any suggestion is greatly appreciated.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Suleyman Bulus, as both these badi's are filter dependent and my filter values are *(general), so it doesn't allow me to activate my implementation. Regards, Saurav"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to revaluate Asset,which is already depreciated??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Sap Experts, Wishes for the day and for coming New Yr-2009 in Advance. I capitalized an asset on 09/04/2007 and dep.calculated on it @4.75% .the asset value date is 01/04/2007 and APC of asset is 85000.Here Dep. per is Rs.4037.50. Book value FI.Year start :81050.75 Current Book Value is :77013.25(81050.75-4037.50) It means Dep.is already calculated upto 31.03.2009. But on 20/12/2008 i got back Rs.5000 on claim of sales tax return from Govt. My client wants to Deduct that Rs.5000 from the APC of the asset and recalculate Dep.on Rs.80000(85000-5000).so that the Dep. per yr shud be Rs.3800(80000*4.75%) and Book value FI.Yr start :76283.06 Current Book Value is :72483.06(76283.06-3800) PROBLEM: 1)Fi.yr 2007 is closed and it cannot be Reopen. 2)If i try it by ABZU(write-up) its not happening and throwing Error message:Fi is not open to post. 3)What Shud be the Transaction type? 4)And Finally Under ABZU or wht ever transaction code u ll refer me,there is one field \"POSTED AMOUNT\" Which amount i should enter in that field. Plz guide me to solve this problem. Regards, Biswa Edited by: biswa ranjan on Dec 30, 2008 9:09 AM Edited by: biswa ranjan on Jan 5, 2009 10:02 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "2)If i try it by ABZU(write-up) its not happening and throwing Error message:Fi is not open to post It is only possible to use a posting date in a open FI posting period."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Report which can give Inventory cost & Cost of Goods sold",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "We need to track below information for each material - Previous Month Inventory -Current Month's Cost of Goods sold Then we calculate Financial Days on Hand = Previous Month Inventory / Current Month's Cost of Goods sold / Working Days Any SAP Reports which can give this information",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Migration Object: Product having unwanted fields which are not relevant to client",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, We are preparing for the material master data migration via migration cockpit. We have selected Migration object: Product and during the project creation it shows all table structure and it has some table structure related to textile, Retail, Fashion which are not applicable to our client business. Is there a way we can exclude them in our template as these fields are creating confusion and making the template preparation complex. Request inputs on it.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Order confirmed But which tcode they used I would like to know",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi, I need a small information.I have one production order created by using co01, now i need to confirm it by using co11n.but there is a chance to confirm it by using co15 also. but In my system order confirmed, But i need to check itby using which tcode the order has been confirmed. I am the person technical background,I checked in AFRU . But there is no tcdoeI tried using cdhdr and cdpos. But not able to track by using date and time. I need only this information Only",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which purchasers are assigned to the purchasing organization",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Is there a way of assigning purchasers to a purchasing organization (via group) and then execute a report which can list the purchasers in a purchasing organization? Or do we have to look at all the roles and see which users have the particular organization maintained in their purchasing role? Sincerely Anders",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "you have to look at the roles, as this is the only place where you can assign purchasing groups to an organisation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "BADI MD_CHANGE_MRP_DATA vs MD_ADD_ELEMENTS . Which one to use in LTP?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, My requirement is to exclude some sloc from LTP. Now from forum I found that MD_CHANGE_MRP_DATA , I can use to solve this. But in below post it is said MD_CHANGE_MRP_DATA is replaced by MD_ADD_ELEMENTS bycaetano.almeida. Also MD_ADD_ELEMENTS is compatible to S4 hana but MD_CHANGE_MRP_DATA is not. Which one shall I use? I want BADI to be S4 relevant so later I should not re do it. Which one I should use? How to use MD_ADD_ELEMENTS for sloc exclusion ? caetano.almeida https://answers.sap.com/questions/667818/s4h-badimdchangemrpdata-is-not-working.html https://answers.sap.com/questions/667818/s4h-badimdchangemrpdata-is-not-working.html",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CLOCOC which menu to schedule the job to run periodic",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello all: IN closing cockpit template CLOCOC/ CLOCL which menu to schedule the task to run periodically for ex. 1st of every month. Best Regards, Manthana",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "This message was moderated."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to find for which STOs the outbound delivery has been created",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I am working on a report on Material/Article details. We have an STO (stock transport orders) process with outbound delivery and then Goods Receipt. The report needs to find out whether for STOs the outbound delivery has been created or not. I tried looking into EKKO, EKPO and EKBE but there was no field which could confirm whether the outbound delivery has been created or not. I thought EKPO-ELIKZ will give that information but it does not. Please help. Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table the sequence no. gets updated",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, Pl let me in which table the sequence no i.e. \"0\" for std. seuence or \"1\" for parallel or alternative sequence from prodcution order gets updated.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hai Daniel Check with Table PLFL reward if Useful regards R.Rajaram"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Item level cost in Maintenance order(IW 32) is available in which Table?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, I'm trying to get theTable forItem level cost in Maintenance order. Table for Item level cost in Maintenance order. I openedT-code iw32givenMaintenance Order noand openedComponents Tab. T-code iw32 Maintenance Order no Components Tab. In theseMaintenance Orderwe have3 itemsas shown in below. In these Maintenance Order we have 3 items Now openedCosts Tabhere i'm gettingfull Maintenance Order Costand having oneButton Rep. Plan/Act. Costs Tab full Maintenance Order Cost Button Rep. Plan/Act. If i click that Button its showinga Report of Item level Cost a Report of Item level Cost I want to know fromwhich TabletheseItem level costis coming,is it any standard table or they are calculating in the Report only I want to know fromwhich TabletheseItem level costis coming,is it any standard table or they are calculating in the Report only which Table which Table Item level cost Item level cost I am not much expert in ABAP & searched in the internet and tried many ways but i'm not getting it, can anyone please help me? Any suggestion will be appreciated and Helpful Any suggestion will be appreciated and Helpful Regards, Santhosh Reddy.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I got the answer,In the Table COSP we will get the cost at Item level for maintenance order. In the Table COSP we will get the cost at Item level for maintenance order."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ICR: note 1234358 (transaction GCU1N)  - for which releases?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all Does someone know why the note 1234358 is only recommended for releases from SAP_APPL 500 on? As the report RGUREC10 didn't change much from release 4.7 to SAP ERP 2005 I don't know why the note shouldn't be implemented in systems with release 4.7. Kind regards, Isabelle",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Isabelle, The only reason is that nobody had asked for it yetI extended the note now and it is also available for 4.6C and 4.70. Best regards, Ralph"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which user to be used in SAP IDES",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Freinds, I have got installed SAP ECC6.0 in my personnel laptop. Could any one please let me know which user i can use to do my SAP SD configuration or could you let me know which id profile i have to copy to my id in sap IDES system. Regards Syamala",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "user SAP* ans password whatever you've set when installing ECC. You can then create a new user and assign authorization profile SAP_ALL. Sidi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "To which Billing doc - Copying requirement should be attached- F1 or S1",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "To stop the system not to allow the cancellation of invoice for which credit memo is issue. For this, i need to create own routine in VOFM (with the help of ABAPer) and assign this to theBILLING DOCUMENT TYPE ---> COPYING REQUIREMENTS We use Billing Doc type F1 - For Invoice creation, Billing doc type S1- for Cancellation. (As we all know that in bill doc type F1- under cancellation - Cancel billing doc type - we assign S1) My question is to which billing doc type i need to attach the newly created routine in copying requirement field. Is it on Billing doc typeF1- Invoice or Cancellation billing doc - S1. Thanks Mahe",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi In VOFA - Billing: Doc Type - F1 -( Invoice ) - In this document under Cancellation - Copying requirement you need to attach the newly created Routine ."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which component to modify in ESS 603",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, We are upgrading our ESS applications to ESS 603 EHP4.On the DCs I see two applications and two components for VcDetail and VcReview.One with VcPerAddressUS and the other is VcPerAddressUS_13.We have some customizations to be made in the Detail view.But I am not sure which one to modify.I have several questions here: 1. Which application(Per_Address_US or Per_Address_US_13) should be deployed? 2. Why is there two applications and two Vc components in one DC? 3. Is there any significance to number 13 wrt ESS 603? Thanks a lot Kukku",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "- 13 refers to the code changes in Ehp3 - there were no further code changes in the ESS Address services after EhP3; - In your case, you have to apply the custom changes in VcPerAddressUS_13; - you deploy the DC & not the application & when you run the application, the related code in the DC gets executed; ~Suresh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which machine(IP Address) doing entring in SAP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, how to check entry for Purchase Order with Different Machine (Means IP Address ) wise in SAP Business one without SAP User Name wise. Is it Possible in Query ? Dixit Patel",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Dixit Patel, It is only possible if this is current process. As soon as the user session is over, you will have no where to find such info. You may run SP_who2 to find all current sessions. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which infotype of E -recruitment is the position details stored",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, In E recruitment in the requisition the organization data tab page we need to know where the position details and the organization unit details are stored.I mean to ask which infotype of E rec. Thanks and best regards Rajeev",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Rajeev, if you assign a position to a requisition in the first subtab of the organizational data container sequence item you won't find information in any of the e-recruiting infotypes. The system creates relations between the requisition (NB) and the positions (S) and stores them in HRP1001. They can be accessed throug the standard HR function modules or throug the e-recruiting classes e.g. CL_HRRCF_OI_BL. The Organizational unit (O) and the Job (C) also read from the relations in table HRP1001. If you only assign an organizational unit and job by filling the second subtab of the container sequence item. e-recruiting stores the Ids of the 2 objects in HRP5125 or HRP5126 (currently have no system to look for it). Names / Texts for all these objects are stored like for all OM objects in HRP1000 and can also be accessed via the e-recruiting classes or through the OM function modules. Hope that answers your question. Best regards Roman Weise"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which tables (ABAP) the Project System Information Will be stored",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Guruu2019s Happy New Year In project systems can we able to see, against the projects and against WBS what all the sales orders, Employees and material etc... That we assigned, in which STD report we can check all these assignments, from which tables (ABAP) it picks up the data to populate in the STD report. I need the Tables for preparing the Z- Report. Please help meu2026 Regards, Bhanu Prathap",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Try report CNS41, use DB profile to fullest extent (Tick relevent data). It gives you the sales orders, materials, person resp. in the project."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which t.code allow me managing the tab T100?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Which t.code or customizing navigation allow me managing the tab T100? thanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "SE91"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ICR: Which Rates are Used to Calculate Display Currency in FBICR*?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "am unsure of the rate used to calculate 'Display Currency.' Can someone inform me of which rate is used to calculate 'dispay currency', and if it can be changed to mirror to group currency rates used? Thanks!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello John, The default is using M rate for the current date. If you want something more specific you can change the process detail attributes in FBIC010. At the bottom of the screen in the frame Data Reconciliation you can selectSpecify date and exchange rate type on selection screen(see notehttps://service.sap.com/sap/support/notes/1315429). Specify date and exchange rate type on selection screen https://service.sap.com/sap/support/notes/1315429) Best regards, Ralph"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tracking deleted reservations which have been fulfilled through PO",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, There's a requirement to trace reservations which are deleted but PO has been raised to fulfill it. Sample scenario: 1. A reservation for 10 units of Material Z is raised 2. MRP run is executed 3. PR is generated to fulfill the 10 units for reservation and 5 units for replenishment. Total of 15 4. PO is raised for 15 units of Material Z 5. The reservation created in step 1 is deleted In this scenario, we will have excess of 10 units. How can we trace back to the reservation that caused this excess stock? We've checked the RESB tables but there are no traces of the reservation back to the PR or PO. Also, reservation change logs are not stored in SAP. How can we trace this? Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, we had a similar issue. I had to use customer exit EXIT_SAPMM07R_001 to call a function I wrote to add the change history records. You also need to create a change document object (http://help.sap.com/saphelp_nw04/helpdata/en/2a/fa018f493111d182b70000e829fbfe/content.htm). http://help.sap.com/saphelp_nw04/helpdata/en/2a/fa018f493111d182b70000e829fbfe/content.htm Regards, John"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table the  values for \"Work involved in the activity(Field Name # ARBEI)\" stored in SAP PM Service order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In which table the values for \"Work involved in the activity(Field Name # ARBEI)\" stored in SAP PM Service order(T Code IW32) Regards, Raj Singh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Table:AFVV Table AFVV Views:VIAFVC, VIAUFK_AFVC Views: VIAFVC, VIAUFK_AFVC These are the main tables/views for this field and I think this will address your requirement (For advanced requirements if any, Use data element is ARBEIT, and can search through SE11 whereused for more Tables/Views which use this field.) Jogeswara Rao K Jogeswara Rao K Jogeswara Rao K"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "To find the view in which MEINH is given for material master",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I found MEINH in MARM table . In which view I can find this field in MM02? Thanks Kousik",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "FB60 configured in LSMW. How do I find the Excel format in which to upload",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, FB60 is configured in LSMW. How do I find the Excel format in which to upload data through LSMW? - Sudhir Krishna Kumar Singh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Ji, You can look into this step by step guide available in net. http://www.erpgenie.com/sap-technical/utilities/step-by-step-guide-for-using-lsmw http://www.erpgenie.com/sap-technical/utilities/step-by-step-guide-for-using-lsmw In the step three, you can make out how your upload excel file to be designed and data to be filled. There are losts of materials available in net even there is vidio clip available to get good clarity on this functionality. Regards, Ashok Singh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "I want to know which table saves the description of the labels of the fields of a form",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, In SAP b1 i can change the label of a fields in a form, because of that i want to know in wich table sap saves the description of the labels of the fields of a form.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Roman, Look the SDIS table. Hope it helps. Kind Regards, Diego Lother Diego Lother"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which interfaces does SAP PLM offer?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "We want to access documents stored in SAP PLM. from an external services. Which interfaces for this does SAP PLM offer - like f.e. CMIS, RestAPI, Sychronisation of documents stores (folders) to external drives or SharePoint, etc? Thanks for any advice",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "GR end date and GR end time new fields in ECC 6.0 which considers time difference of receiving plant",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Team, Hi Team, We have came accross one issue which shifts delivery date by one day depending on time difference between sending and recieving plant in inter company STO. We have came accross one issue which shifts delivery date by one day depending on time difference between sending and recieving plant in inter company STO. Previosuly in ECC 5.0 there were no GR end date and GR end time fields present at item lveel (delivery schedule tab) of STO. Previosuly in ECC 5.0 there were no GR end date and GR end time fields present at item lveel (delivery schedule tab) of STO. Now in ECC 6.0 this fields are added. Now in ECC 6.0 this fields are added. Could you please let me know if this is added functionality in ECC 6.0. Could you please let me know if this is added functionality in ECC 6.0. Also due to this functionality we are facing issue of delivery date. Also due to this functionality we are facing issue of delivery date. Exmaple in delivery schedule line Exmaple in delivery schedule line GI date 03.01.2013 time 23:59 GI date 03.01.2013 time 23:59 and if transit time is one day as per route then delivery date should be 04.01.2013 time 23:59. and if transit time is one day as per route then delivery date should be 04.01.2013 time 23:59. But if there is time difference of one hour between receiving plant and sending plant then this delivery date gets shifted by one day since GR end time gets increased by one hour But if there is time difference of one hour between receiving plant and sending plant then this delivery date gets shifted by one day since GR end time gets increased by one hour Delivery date will become 05.01.2013 and GR end date 05.01.2013 and GR end time 00:59. Delivery date will become 05.01.2013 and GR end date 05.01.2013 and GR end time 00:59. This only happens in ECC 6.0 and was not present in ECC 5.0. This only happens in ECC 6.0 and was not present in ECC 5.0. Kindly let us know if this is added functionality in ECC 6.0 and also notes present for this enhacement. Kindly let us know if this is added functionality in ECC 6.0 and also notes present for this enhacement. Can we supress this field to exclude this time difference factor. Can we supress this field to exclude this time difference factor. Thanks in advance, Thanks in advance, Regards, Regards, Vaibhav Gandfhi Vaibhav Gandfhi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "We get the same issue during implementation in other country and checked our settings and contacted BASIS team. Basis team will check any sync issues between OS of different client servers and fix this issue. You can also check OSS. Note 481835 - Analyzing the time zone settings Note 481835 - Analyzing the time zone settings Note 198411 - Current data and information about time zones Note 198411 - Current data and information about time zones"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table in which deleted operations are stored.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We are writing a report and for that i need the value of work hrs , so i would like to know in which table deleted operations of Maintenance order are stored .... regrds pm",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to identify the GL to which a/g group it belongs to???",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI I have a small confusion while creation GL. When we create account groups ..and number ranges asset account---- 999999 P&L account---- 999999 materials account-----999999 reconcilation a/c------999999 like this we will give. while creating the GL for asset account related or p&l ac/c etc .......which number i need to select?? Rgds, Muniraj",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "The account number should be given by the business group. Check with them before thinking too much into it. W.R.T to account type, you should explain them the purpose of each type and let them decide what type they want. Cheers"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "B1i framework cannot accept password which including '%'",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Exports, 1. Goto B1i framework ->SLD 2. click customer dastabase system 3. click 'Edit' for B1DI 4. if input any password which including '%' for database user 'sa', then click 'Save', we will get error page. Is this a bug in B1i framework? Do you know how to solve this besides changing our 'sa' password? Thanks in advance, Tim",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Tim, How are you? Hope you are settling into life in Melbourne. Regarding the sa password. So you have defined a non numeric character in the sa password. When you log into B1 using the sa password there is no issue? What is the error when you log into the B1if? Cheers, Lisa"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which can be left \"not configured\"?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "When implementing SD module, which of the ff is optional? I mean which can be left \"not configured\"? 1. Business Structure 2. Partner Determination 3. Text Determination 4. Output Determination 5. Pricing 6. Tax Determination 7. Availability Check and Transfer of Requirements 8. Copy Control 9. Customizing Sales Documents 10. Shipping and Transportation 11. Billing 12. Account Assignment and Revenue Recognition 13. Credit Management 14. Material Determination, Listing, Exclusion, and Proposal",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, All these are important if you want to configure the business accordingly. 1. Business Structure (Mandatory) 2. Partner Determination (Mandatory) 3. Text Determination (not mandatory but good to have if the business requires it) 4. Output Determination (Mandatory) 5. Pricing (Mandatory) 6. Tax Determination (Mandatory) 7. Availability Check and Transfer of Requirements (Mandatory) 8. Copy Control (Mandatory) 9. Customizing Sales Documents (Mandatory - Almost all the companies requires it) 10. Shipping and Transportation (Mandatory) 11. Billing (Mandatory) 12. Account Assignment (Mandatory) and Revenue Recognition (not Mandatory) 13. Credit Management (Mandatory) 14. Material Determination, Listing, Exclusion, and Proposal (not mandatory) But all these priorities changes as per business requirement. Regards, SAM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the best way to assign cost center to cost element?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am getting the below error... 569400- Gain/Loss Inventory Transfer account requires Cost Object Assignment which is best practice to assign cost center - either assign in KA02 or assign in OKB9-automatic account assignment? Please advise ... Thanks Kishore",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI, assignment in KA02 is valid for the whole controlling area, assignment in OKB9 can be different on comp. code level (maybe thats an andvantage for you). Substitution (OKC9) is also possible and delivers more opportunities than OKB9. Best regards, Christian"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "link between the overhead calculated and the material against which this overheard was calculated",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello All, I have a development requirement wherein the user wants us to develop a Z report based on CK11n product costing item list. In the z report the user wants a detailed list wherein in one column the overhead calculated must be displayed and in the next column the particular material which was considered as a base for the overhead calculation. If there is same material but with different origin group (againstwhich the overhead was calculated ), report must shows it in the next row. Is there any table / function module etc which shows the link between the overhead calculated and the material against which this overheardwas calculated, especially differentiating same material but with different origin group. Thanks, Aju Abraham",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I think You can use these tables to able to design a Abap report. TKZUTR and other TKZU.... tables for Overhead KEKO- Product Costing header Data like Valid dates, Lot size etc KEPH-Product Costing: Cost Components for Cost of Goods Mfd MBEW- Material Valuation I hope it helps Best Regards Hrusikesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is Current HOT submodule of SAP HR/HCM ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Please Guide I wish to turn my career towords the hotest submodule of SAP HR/HCM which one will u suggest me?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear, Instead of looking for the hottest, would be better to look at the strongest..... As you already might be knowing Payroll and Time are critical in HR. Regards Team Member."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to define number range which starts from initial a,b,c for different order types?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, My client wants number range which starts from initial a, b, c, etc. for different order types e.g. PP01, PP03, ZP15 etc. Means for \"ZP15\" it will be \"a12345\" likewise. My question is, Can it possible to do? and How can I achieve this? Please guide me. It's an urgent requirement. Thanks, Naresh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Naresh, Standard SAP will allow you to maintain only numeric number range. What you can do is maintain 000001 - 999999 in CO82 and then look for some user exit for number range in which you can write abap code. PPCO0006 Enhancement to specify defaults for fields in order header PPCO0007 Exit when saving production order check & revert TnX"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Changes in Delivery doc effect in which table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, iam chaneing the deliveryquantity in delivery order, that changes iun which table that will be stored. i know likp,lips this tables are stored the delivery details. but i want in which table that delivery doc effect will be stored. pls help me regards, dhanush",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi dhanush Apart fromLIPS, LIKPtables check inVEPOtable where the delivery item (POSNR) is stored LIPS, LIKP VEPO Regards Srinath"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Where is  landed cost document in which module",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI,, above one is my question.. if u dont mind can u plz show me the pic...",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Landed Cost comes under Purchasing A/P. Thanking You Malhaar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table the production quantity stored after confirmation",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, When the production order is confirmed through co11n,then where the order quantity get stored in which table so I could suggest my ABAPER to create the report in which these production quantity gets displayed. Regards deepak sharma",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Mr.Deepak, Reward points and please close this thread. Regards Mangal"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "T Code which can block the WBS",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi gurus, Please suggest a T Code which can block the WBS code so that block WBS code would not be used and if there is requirement of using that WBS code we can open that as well. Regards, P.Krishna Chaitanya.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

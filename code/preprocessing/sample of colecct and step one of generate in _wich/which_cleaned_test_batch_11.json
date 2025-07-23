@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "is it possible to find which MIC's are assign to material?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "any table or t code?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which table for e-mail of Vendors",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, which is the table where I can find e-mail of Vendors (t.code KF03)? THANKS GANDALF",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Gandalf, It's the same table (ADR6). Only the link is to LFA1 table (ADRNR field). Regards, Eli"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "HR-TM: Which Time Mgmt Status To Be Used?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I'm using negative time management. And the payment is through SAP HR Payroll. Which Time Management Status should I use in IT0007? Do I need to run PT60? I'm not very clear with time evaluation and its usage. Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Following definition is from SAP HCM training guide: Employees' time data is valuated in time evaluation. Time evaluation determines planned working times and overtime, manages time accounts (flextime balances, overtime, productive hours, and so on), creates wage types (for overtime or bonus wage types, for example), updates time quotas, and checks working time provisions (such as core time violations). The time wage types created during time evaluation are valuated in Payroll. Time evaluation is carried out by a time evaluation driver called RPTIME00. The steps to be carried out by RPTIME00 are specified in a personnel calculation schema. Regards, Waqas Rashid"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which report i can look for Bank Transfers",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI All, I am using SAP Business one 9.0 PL 14. Which report i can look for Bank Transfers by date.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You need to create a User defined query report for that, there is no such standard report in the system. check the below threads --Manish --Manish"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "can i get the maximum & minimum unit price of a material which already procured",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "dear sir, i want to know for a particular material maximum & minimum unit price from previous purchase order.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "did you tried ME1P ? iN ME1P VENDOR - BLANK MATERIAL - enter your material select all records Once you execute it will show the list of prices for the material ,PO number , price and vendor Also ME1L ME1M ME1W please try and revert"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Asset Master Data change - which table is the Timestamp",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI all, If you change something in a system, there is a change date in the ANLA table.now we also need a time to go with it. where can I (table) find the changes?Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which case I close notification without work order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have breakdown notifications and I have not issue any material or anything,In this case Can I close notification without work order.??",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Transferring cost with special procurement key between plants which are in different Controlling Areas",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Hi Experts, We have a requirement to transfer cost with special procurement key between plants which are in different Controlling areas. We have a requirement to transfer cost with special procurement key between plants which are in different Controlling areas. As per my knowledge, it is not possible; I would like have your comments on this and to know if there is any possibility. As per my knowledge, it is not possible; I would like have your comments on this and to know if there is any possibility. Regards, Regards, RK. RK.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi RK Its possible.. Ensure the below things 1) Plants must fall under same Co. Area 2) Costing Variant: Activate Cross Company Code Costing in the \"Assignment\" tab 3) If you want to transfer the Cost Component Split, you must use the same Cost Comp Structure in both the Comp Codes Ajay M"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to Change Item Code on which there are transactions made.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, There are around 3000 and more Items in our Data Base. The item code is given in this format. 001-001-00 001-001-01 001-001-02 - - - - - And Go On. Now we planned to Change it to SPGEN0001 This is for generator Spare part. like this we have classified each and every Item. By doing this we can Identify the Item by looking at the Item Code. And there are many Purchase documents raised on all Items which are present. Is there any query which can replace the Item codes in all the tables where ever it is present. Thankyou, Sree",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Unfortunately, once you have transactions, item codes will be locked up. There is no option to change. If you desperately need them to be changed, you have to create a new database and start it from scratch. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Is there any function module for BIN to BIn transfer which is done thr LT10",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi friends, Is there any function module which can be used for BIN to BIN transfer. standard transaction LT10 is used for above purpose.. please let me know any badi or function module available for the same.. Thanks, Yogesh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Try to use t-code LT01 and function module L_TO_BATCH_CREATE_INT or L_TO_CREATE_INT. Hope can help you! Good day Tao"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table does CS80 use?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, A report that I'm writing which involves material documents generated after REM backflush (transaction MFBF) requires me to get the component quantity (field MENGE) of a particular BOM from table STPO. But I was told to check for any changes to the BOM just in case that material document was made before a change was made to the BOM. In transaction CS80, we can see the changes. The thing I would like to know is which table (if any) that stores these data? Can anyone give me any ideas if I can query the BOM number and the date of the material document so that I can get the BOM data for that particular period? I'm kinda new with abap, so any help I can get is greatly appreciated. Thanks!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Created sales order for one division, for which the material belongs to ano",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, A sales order has been created for a division 10, for which the material belongs to some other division 20 in material master. When we are create a sales order for 10 division ( the one which we give at organzational data) at the item level the material which we select should also belong to the same division, if the material division is different as 20 the system will throw an error at sales order saying \"ship-to-party so and so is not created for the sales area so and so..\" But here it's allowing me to create a sales order for division 10 with 20 Division material without any error. But this should not happen. Checked in the document type VOV8 where at the Check division field 2 has been there. Please suggest",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Check the sales area in the sales document. Probably the system redetermined the sales area. Other posibility is to NOT set the flag: TVAK-SPAPO - Item Division. Regards, Dem\u00e9trius"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which IDocs are best when picking with an external system interfacing to IM",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "We are looking to send delivery info to an external system where mobile devices will be used to pick deliveries.WM is not being used, only IM. Our intent is to send an IDoc to the external system with delivery info and send the picking results including packing information info back to SAP IM via IDocs. We are looking to send delivery info to an external system where mobile devices will be used to pick deliveries. It appears that this can be done using several different IDocs: 1. DESADV (DELVRY05) for both output and input IDocs 2. DELORD (ORDERS05) for both output and input IDocs 3. PICKSD (SDPIOD01) for output and SDPICK (SDPIID01) and SDPACK (SDPAID01) for input IDocs Is any IDoc combination preferred over others for this external picking process with IM?Why? Any help will be greatly appreciated as we hope to implement the best solution. Thanks in advance for sharing your expertise! Is any IDoc combination preferred over others for this external picking process with IM?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, DESADV is sufficient . You can sent the pick information. Thanks Rk"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to settle an investment order which was not settled in Previous year",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Guru's Could you please suggest a way to settle an internal order (Investment measure) which was not settled in previous year. The order contains balance in the FY 2013 only in the controlling area currency due to exchange difference. We would like to settle to cost center as we don't want to touch our Assets. When I tried to settle after giving cost center in distribution rule. system showing following error __________ Message no. AA370 The fiscal year 2013 is already closed for area 01 in company code XXXX Procedure Check the depreciation area specifications in Customizing. If the specifications are correct, use a transaction type that does not post to the depreciation area mentioned above. ___________ Thanks and Regards, Thanks and Regards, VSN VSN",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Issued resolved Entry passed to make the order balance zero (only in group currency) then settled the order Thanks VSN"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tcodes which can extract a list of projects and their description from SAP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "A tcode which can extract a list of projects and their description from SAP",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Credit block order which is release once",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi gurus My requirement is ____ my Clint release order form credit block and give a credit note.But again they want to block that order for credit. Means they create order,delivery,billing and release the order from credit block.But now they again want to block that order for credit. Please help me how can i solve this. thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, In vkm3 you can see the tabs release (flag ) and Reassign tab , after releasing the sales order from vkm3 ( giving the credit note) then again go to VKM3 and click on thereassign tab( the order) .....Then automatically order is going to on credit hold ..... please check and get back.... If it dosn't work then you need to write User-exit for that and assign in OVA8 It may be helpfull for you......... Regards, venkataswamy,y Edited by: yanamadala venkataswamy on Sep 12, 2009 11:08 AM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which PnL GL Accounts should have cost elements created for??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Sap FICO Experts, I am confused that which profit and loss GL Accounts should have cost elements created. Some suggested that Price Differences, Cost of Goods Sold, Revaluation of inventory and change in WIP GL Accounts should not have Cost elements created, and some have the other opinions. Kindly let me know the reason if you suggest that for particular accounts, cost elements should be created. Best Regards.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "H, Follow the link below.. Regards, SAPFICO"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to find out Subcon PO select which BOM",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear ALL, My question is how to find subcon PO select which alternative BoM, item details seems at material detail components tab but which atlernative BoM ? Regards,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "System copy Bom form PIR but when Subcon PO components change manually on which table it is handled"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Net amount field for invoices which got cleared",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hey All: Can someone tell me what could be the field for net amount for invoice documents. Thanks Sudhir",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "BSEG-NEBTR"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How does Goods Issue know which Batches to deallocate from A/R Credit Memo?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am creating an addon that runs after a A/R Credit Memo is created. It creates a Goods Issue, and enters the Item Code and the Quantity from the line items on the Credit Memo into the Goods Issue. After it writes the Goods Issue to SAP, I open up the document it created and see that the line items are in there correctly, and that somehow the batches assigned to those line items are also in there. There is nothing in the code that does anything with the Batches, but somehow SAP knows which batches to work with. I haven't been able to find any info about it. Can you please help us understand what is happening? How does SAP know and make assignments to batches in line items in Goods Issues? Thank you, Mike",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Thank you both for responding It does seem that the Goods Issues are being generated by my code, which is as expected. And it does seem that the batches of the Credit Memo are reflected in IBT1 correctly. What is strange is, my code does not make any reference to the Credit Memo that was created. The only information that is being brought over from line item to line item is: Item Code Project Code Quantity Warehouse And yet, somehow the Goods Issue knows which batches to take based on this. To us, this appears like magicAnd although it's very nice, how can we know if it is reliable and consistent? Many thanks, Mike Cygnusoft Inc."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CO-PA forms: how to add a column which is a ratio",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear fellows, I'm trying to build a CO-PA form, which has \"Product Quantity\" (among other several other CO-PA value fields) as a line in the first column. In the second column, I'd like to have each of the other lines (eg. Sales Value, Discounts, etc.) divided by this \"Product Quantity\" (in order to have unit values). Is there anyway I can do this? Apparently, I can't use a line value in a column formula... Thanks in advance. Best Regards, Nuno",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "In the report you create columns for sales value, discount and so on. In the last column you define the formula to show the unit values. The columns sales value, discount and others can be hidden. So in report you only see the two columns. It is also possible to hide the columns after the report execution. Sangram"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "MM - Data pulling from MARD, MARC etc. - Which table first I hv to use?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, User enters the Matnr, plant, storage location inputs in the selections. It is need to get the corresponding data from MARD, MARC, MDBS, VBBE. Condition: AVAILABLE QUANTTITYTY in MARD and SAFETY STOCK in MARC and OPEN QUANTOTY in MDBS OPEN QTY in VBBE So, 1) Is it possible that, suppose MARD having 10 matnrs, where as MARC is having 15, where as MDBS have only 7? or every table does hv 10 definately? 2) as I need to pull the data from these tables, pls. suggest me, in which order I hv to pull, I mean, first from Which table i hv to pull, and as second, wht is next table? for more reliability. thanq Edited by: Srinivas on Apr 11, 2008 6:29 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Pl use MARC first as this is the only table that links material & plant . once u filter the material per plant it wud be easy. Reward if useful"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which fields used to read gross price or unit price value in SAP B1 database, SDK codes?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I have a problem I want to ask. I was searching how I can connect SAP B1 with PHP by using DI API this was done correctly, I'm trying to read data into SAP B1 database (sales order module) and this was done by using below fields $oOrder=$mycomp->GetBusinessObject(17); $oOrder->CardCode=\"CM001\"; $oOrder->DocDueDate=\"03/06/2016\"; $oOrder->Lines->Itemcode=\"01-002\"; $oOrder->Lines->Quantity=2; But the problem I have now is I do know how I can add unit price or gross price in codes because it seems as variable not field in database. If I add another line of gross price like this But the problem I have now is I do know how I can add unit price or gross price in codes because it seems as variable not field in database. If I add another line of gross price like this $oOrder->Lines->PriceAfVAT=5000; $oOrder->Lines->PriceAfVAT=5000; Error message is displayed Fatal error: Uncaught exception 'com_exception' with message 'Unable to lookup `PriceAfVAT': Unknown name. ' in C:\\xampp\\htdocs\\sap.php:59 Stack trace: #0 C:\\xampp\\htdocs\\sap.php(59): unknown() #1 {main} thrown inC:\\xampp\\htdocs\\sap_test.phpon line59 Fatal error : Uncaught exception 'com_exception' with message 'Unable to lookup `PriceAfVAT': Unknown name. ' in C:\\xampp\\htdocs\\sap.php:59 Stack trace: #0 C:\\xampp\\htdocs\\sap.php(59): unknown() #1 {main} thrown in C:\\xampp\\htdocs\\sap_test.php on line 59 How can I use gross price or unit price in codes in order to read data in database? Please anyone can help me.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Have you used: Lines.UnitPrice ? Kind regards, Kind regards, ANKIT CHAUHAN ANKIT CHAUHAN SAP Business One Global Support SAP Business One Global Support"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which custom. navigation to Define SCB Indicator for Foreign Trade Reg.?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, could anyone show the customizing navigation to Define SCB Indicator for Foreign Trade Reg.? In my spro men\u00f9 I don't have \"General Ledger Accounting (New)\", but the old \"General Ledger Accounting\" Thanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "IMG => Financial Accounting => Accounts Receivable and Accounts Payable => Business Transactions => Incoming Invoices/Credit Memos => Define SCB Indicator for Foreign Trade Regulations Regards, Ravi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which SAP VERSION should I use",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Am used to sybase 16 and I want to implement an online project. My project involves fetching data from different databases which are based on the user on requests. The online database should connects with the app and its fed by the different databases through synchronization. Which version is the best version for this. How do I connect to sap using flutter",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "upcharge on those items which are not in case quantities.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi..please help me finding a solution for the issue. Our business wants to charge an upcharge of 10% on all those items which are not in the case quantities. Let me explain my requirement with an example: Our business wants to sell in case quantities. Eg : A case contains 6 Jars of 1 kg each. If a customer places order for 10 Jars where case contains 6 jars, 6 jars price will be normal. But the additional 4 jars(which are not in case) will be upcharged by 10%. Similarly if customer places an order for only 5 jars(where case contains 6 jars) all the 5 jars should be upcharged by 10%. The crucial part in this scenario is the list of materials is not in fixed number and they require changes in future. The upcharge is in percentage and it should be on both under and over the case quantity. There are different materials like jars, bottles,tubes etc. and different sizes( 1kg jars,2kg jars, 3 kg jars) It is not a case of pallet surcharge.Please help me. Thanks&Regards, Chandu",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi chandu If the customer orders more than a case or less than a case where case contains 6 Jars of 1 kg each.then then you should charge extra 10%.That means you should assign a new reqt / Alt calc type to the condition type giving the inputs to the ABAP'er and explain him your requirement as i mentioned and also give the inputs like tables to ABAP'er to complete the task of subroutine Regards Srinath"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which table/field can indicate the localization?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "which table/field can indicate the localization( us or uk or china etc)? and which abbreviation indicate the full corresponding country name, or you direct me how to find the related resouce? thanks in advance!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Lui You can have a look in oadm, has country in there.Then in your SBO Common look at table SLSD to know which country in words and not abbreviations. Jope this helps"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Article no. associated with which company code?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Please suggest me, through which table, we find the article(material)/company code combination. Regards Ashish K",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Join MARC-werks with T001K- BWKEY then MARC-MATNR has the material number and T001K-BUKRS the company code"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reg. Work Center assignment to which",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear experts Work center is created but it is not coming in CO08 - Operation assignment, where to be assigned after creating the Work Center. Pls help me giving the steps. Thanks Rajakumar.k",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Work center needs to be associated with a task list i.e. routing & then the same can be read in production orders or alternatively you can go to operations tab in the production tab & add your work center. So in CA01 create a routing for your material, in the operations tab, specify the work center & other details of operation as required. What is a routing... well it is basically a list of operations which you would have to perform to produce the material. Hope the above gives you some idea, check & revert if you need any additional info. Regards, Vivek"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Suppressing the field in DMEE which is blank",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Am using CGI_XML_CT format tree to get the xml output to send it to bank after implementing the SAP Note 1665873. I have executed the F110 and sent file to bank and bank has accepted the same but there are few fields which are blank and bank adviced us to remove the blank field tags as the banks system will throw error if the file is having any blank tags. i have tried my best to remove or suppress the field in DMEE tree customizing but the field is still populating in XML output file with blank tag. Appreciate if any one have faced this issue or put lights to get it resolved. Regards VP",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which of the area i should used in VOFM?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, We have this requirement and we need to make use of routine to chips in our logic. Our requirement: +Based on our business requirement (i.e. upon PGI in outbound delivery, SPED trigger and create an inbound delivery. During the process of inbound creation, program takes the delivery date of the outbound delivery and add the transit time in calendar days (TVRO-TRAZTD) from the outbound delivery route the delivery date + route+. Questions: VOFM is divided into four main groups. They are Copying Requirements, Data Transfer, Requirements and Formulas. Q1 - Base on our requirement, I just don't know which of the group I should use? Q1 - Base on our requirement, I just don't know which of the group I should use? I wonder if I can create a new routine at VOFM ==> Data Transfer ==> Deliveries? I wonder if I can create a new routine at VOFM ==> Data Transfer ==> Deliveries? Thanks. tuff",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Tuffy, Do not think you need to create a routine for this requirement. As per the requirement, you have to do a BDC recording of the inbound delivery creation and get the help of abaper to trigger the program which will create this inbound delivery in background with the required/copied values. Thanks & Regards, Hegal K Charles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table cource details are stored",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, i created a cource object by using PP01 transaction. i want to know in which table cource details are stored (cource name, cource type... etc..). Regards , Siva.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Course (Business event ) details are store in HRP tables From PP01 you can use object type as \"E\" and view all the related infotypes. OBject infotype will show you the name and abbrevation of business event Relationship infotype will show you the attendees, the business event type, resources type etc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "from which tables the data will come",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi gurus my qt is from which tables the system will take prices that related to particular customer and particular material. is it komkor komp or komg orkonv can any one know about this",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "KONH Conditions header KONP Conditions items KONV Procedure (billing doc or sales order) KOND"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "If all values in a column of internal table are same ,On which basis the sorting is carried out .?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "When I apply sort function to a field(Whole column contains duplicate values) in intreral table it get sorted.But just wanted to know on which basis sorting is been done since the content is been re arranged.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can use the STABLE addition in sort if you want to keep the order same each time. Please read the F1 document for SORT for more details. Here is an extract - STABLEis used to perform stable sorts, which means that the relative order of rows (an order that does not change in the sort key) remains unchanged in the sort. Without theSTABLEaddition, the order is not stable and multiple sorting of a table using the same sort key can result in a different order each time the table is sorted. STABLE STABLE Best Regards, Saurabh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to reverse invoice/credit memo which are already been cleared",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, we have a mulitple issue related to invoice or credit memo reversal from our business. Issue raised as there are few wrong invoice being posted to some wrong vendor and following by payment happened in prior year. somehow business noticed the payment happened to wrong vendor and they posted the credit memo just, to make knock off the Accounts,which is incorrect process. Either they would have reversed the invoice before payment or they would not have posted credit memo after payment, which causing the issue. For instance: 1. Invoice posted ( period April 2012/2013/2014)- there 4 invoice GRIR Ac Dr-1000 Vendor X Cr-1000 2. Payment processed(check payment) Vendor X Ac DR-1000 Bank Ac Cr-1000 After the wrong payment, check processed as void and reconciled at bank level. 3.Again Credit memo posted-Now Business realized the vendor is wrongly posted, it needs reverse, so they posted in 2015. Vendor X Dr 1000 GRIR Ac Cr 1000 4. Now through F.13 GRIR is cleared (automatic monthly batch job picked the GRIR ac). clearing document holds many other Fi doc(approx 2000), including this. so here Vendor is Open GRIR line item is cleared So now requiremnt is to reverse the credit memo and invoice as well in SAP end. we thought of FBRA, to clearing doc, but not possible as it is clearing doc for 2000 docs approx. So anybody has any thought on this, please advise asap, as this is one of the critical item to be addressed asap.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Business One Reporting Tools. Which tool to use?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I recently signed on with a new company with the task of developing all of their reporting. They have Crystal, BusinessObjects and Xcelcius. My first task is to generate financial reports such as Balance Sheets and Income Statements followed shortly by Sales reports such as sales by sales rep by product line and a running variance of sales by quarter. I spent the last week ramping up on the reporting tools available but would appreciate opinions on the reporting tools and what they are best suited for. Thanks in advance for any advice. Linda.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Linda, Welcome you post on the forum. Only Crystal Report on your listing is a proper tool for the task. BusinessObjects is not a reporting tool. Xcelcius is for dash broad. What else have you tried? Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Patch? 2007A SP00 PL:42 to latest SP01",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "We are trying to figure out which file we need to use to upgrade from 2007A SP00 PL42 to SP01 There are two files that looked pertinent in the support portal. Hotfiix 2007A SP01 PL05 (file B12007A0105HF_02-10003612.ZIP dated 08.07.2009) and 2007A SP01 (file B12007A01_05-10003612.ZIP dated 23.06.2009) The both say this in the Administratorguide_SQL.pdf 4.1 Upgrade Versions Note Install the SAP Business One 2007 A SP01, upgrade package before installing any latest patch. You can upgrade to this version from the following previous releases: SAP Business One 2005 A SP01 (any given patch level) SAP Business One 2005 A (any given patch level) SAP Business One 2004 A (any given patch level) SAP Business One 2004 C (any given patch level) SAP Business One 6.5 SP01 (any given patch level) SAP Business One 7.6 SP01 (any given patch level) Which file do we use? And why does the Administrator guide not mention to use either of these files to patch from 2007A (any given patch level)?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "If I were you, I would pick the latest in date stamp. You also need to check the file size. It would not be too small. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "MMBE report details stores in which table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Friends, I would like to know the tables where all the details of MMBE report stored, however i find two relavent tables MARD & MCHB but i did not find the Batch filed in the MARD selection table, and in MCHB table i am not find the relevant unrestricted stock. could you please tell me how to get the unrestricted, Quality , blocked stock by giving Material, Plant, Batch in the selection screen of which table. Regards, Sunil.K",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "P&L Report which includes Profit center",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Is there any SAP P&L Report which includes Profit center ? Thanx Andy",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Use any stnadard report, e.g. S_ALR_87009712 Regards, Eli"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "the periods in which, Depreciation has happened.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, How can I know which are the periods, in which depreciation has happened.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, go via SE16 in table TABA. regards Bernhard"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "A StorageLocation which doesn't exist anymore ...",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I've to solve the follow problem. In the materials management a StorageLocation doesn't exist anymore, but some materials are still associate to it. Creating Purchase requisition (ME51N) and Purchase orders (ME21N), could I create a rule which prohibits filling a material when associated to the StorageLocation which doesn't exist anymore? If not, is there another solution? Thanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Block all the Materials at Storage Location LEvel in MM06"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Vendor Master have the Withholding details",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, How can we find that which vendor master have the Withholding details. How can we find that which vendor master have the Withholding details. Regards,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Dear Check out Table : LFBW - Vendor master record (withholding tax types) Enter your CoCode you will get the results Hope it Helps Cheers IMK"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "completing PGI which account will generate",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Please let me know after completing PGI which accounting documents will be generate. aditya.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Based on design the following documents will be generated After PGI process. 1. Materials Document 2. Accounting document Materials document will be updated if you are updated the valuation and quantity with the combination Materials type and plant. Accounting document will be updated if you maintain any valuation price in materials master. The following accounting will be hit: Inventory A/C - Credited COGS A/C - Debited."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to unassign HU from Delivery  which was accidantly confirmed Transfer order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We are using QM, WM and HU functions activated. The QM Lot is created with the following HU Lot 1234 HU 1000007354 -> release from QI to Unrestricted Stock HU 1000007355 -> Still under QI stock When we release HU1000007354 from the lot, system will create a Outbound delivery order (OBD). We continue to create a TO from the OBD via LT03. During this step the user accidantly pick HU 1000007355 instead. This resulting in TO confirmed and DO is pack with HU 1000007355. We can't delete the assignment of the HU as the system prompt 'Handling Unit has status - cannot be changed'. We also try to use LT01 mvmt 999 to move the HU From interim storage type 922 to another interim storage type 923, it says 'HU 1000007355 has been as to object 01 <DO Number>, no TO Can be created. How do we undo this mistake?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which machine supports for +ve TM",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Friends we have a machine for swiping of time in and out(bar code machine - it gives data in .dbf file format). we upload this data into SAP but it wont support by SAP. can any one tell me which machine supports SAP HR, and where we get that machine, its cost and other contact details, or any website for this details?? plz gimme info reg. that time machine.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Please find this discussion thread, which might be of help to you. http://sap.ittoolbox.com/groups/technical-functional/sap-hr/time-recording-machines-131601 http://sap.ittoolbox.com/groups/technical-functional/sap-hr/time-recording-machines-131601 Regards Santhosh.S"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table are the analytical transaction types listed?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear community, I am looking for a table, where the analytical transaction types (used in the new Fiori Asset History Sheet) are located. I have already checked ACDOCA but didn't find it there. Thanks a lot!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to change the currency for an account in F9K2 which was posted & reversed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello All, I have created an account in F9K2 for TWD currency .There was one posting order and then it was reversed .Now company wants to change the currency to USD for the same account in F9K2 .But the currency field is greyed out (Cannot be chnaged ) .I could change the currency for the same account in test system where there was no posting or reversal. Any one had this kind of scenario .Please update with you valuable solution. Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Any one has faced this scenario.Please update . Thnx"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table which record purchasing doc. header change",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear expert, In EKPO table we can find the field which record purchasing document item change (AEDAT), where i can find the field which record purchasing document header change ? thanks in advance. - ely -",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi ely, I dont know acutal table where it stores the data, u can use version management & try to find out table, since here the changes will be recorded. Regards Rang"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Track Leave Request which is not processed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, When an employee applies a leave, a work item will go to his superior's ESS Inbox. After Superior approves, Absence will be updated into table PA2006. But before it gets approved, I need to know how many Leave Requests have been applied ? Thanks. jey",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Jey, please use transaction ptarq. There you can select and view your \"sent\" requests. regards, Markus"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Personnel area creation for existing entity which is moving.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Hope you are doing great! I had gone through lot of articles on personnel area in SAP Human Capital Management. Our client is shifting the organization from one place to other. For historic record they want to maintian the data text of the personnel area. Is there any possibility in SAP to rewrite the text for the new place. To make you understand clearly here is the example: Example: Existing personnel area: BA12: ABC Pvt. Ltd., Gandhinagar, Delhi. This location is existed from 01.01.2003 till 30.04.2015 The whole entity ABC Pvt. Ltd., Gandhinagar, Delhi is shifted to ABC Pvt. Ltd., MG Road, Delhi. The client want both the records in SAP. 01.01.2003 till 30.04.2015 ABC Pvt. Ltd., Gandhinagar, Delhi. 01.05.2015 till 31.12.9999 ABC Pvt. Ltd., MG Road, Delhi. Is there any possibility to delimit the old record and rename the personnel area? (or) Creating a personnel area is the only solution. Please suggest if any option available. Looking forward to hear from you. Thanks in advance. Regards, Triven Kumar Reddy.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Triven, You can define validity areas for the personnel areas as per new functionality available in ECC6, by activating the switch ADMIN DELIM, You can delimit the personnel areas, but Personnel areas Text will be changed as soon as you have given the old name.. i mean personnel areas will not have two different texts depend upon the validity..it will have always one. I think you will have to create a new personnel area . that works. Regards Sriram"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

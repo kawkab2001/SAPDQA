@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "SAP standard event which is triggered",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Friends, I want the SAP standard event which is triggered whenever a vendor is created in SAP R/3(using transaction FK01 or XK01.). Help will be rewarded. Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "try MM forum"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which inbound idoc can be used for creating shipment and packing in sap?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Can you please tell me which inbound idoc can be used for creating shipment and packing in sap?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Please try the below mentioned IDOC. IDOC : SHPMNT06 Process Code:SHPM Function Module: IDOC_INPUT_SHPMNT Message type : SHPMNT or SHPADV Cheers ~Niranjan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "T code CJ30n using which SAP module?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I was wondering which module does CJ30N use within SAP?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "All sales orders which have sales quotations",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am new to SAP and would appreciate help on this query. I want docnum for all sales order and also docnum of quotation of those sales orders if those sales orders have any sales quotations. basically only those quotation should show which have sales orders and all sales orders should show even if they have quotations or not. I wanted to pull sales employee name also associated with the sales order. This if my first attempt to ask a question on the forum, and I would really appreciate help on this.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi........ Warm welcome to SAP Business One Forum..... Please try this........ Hope this will help you........ Regards, Rahul"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to identify a sales order which A/R invioce has been generated ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "How to identify a sales order which A/R invioce has been generated ? Becouse there is a option to close sales order any time if Document status is open.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Sandeep, the link is through lines of A/R invoice. In lines of invoice (table INV1) are fields BaseRef BaseType BaseEntry BaseLine and this fields identify from which document and which lines of the document the invoice was created with copy from/to functionality. BaseType = 17 is salesw order BaseEntry is docentry of sales order BaseRef is docnum of source document Base Line is line in rows of sales order - table rdr1 hope this answers your question"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which tables are use for Balance Sheet Report ,Profit and Losse Statement.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all Which tables are use to create Balance Sheet Report ,Profit and Losse Statement Report and Trial Balance Report ? Thanks and Regurd Subhas",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "The reports are calculated results from Journal Entry tables (OJDT & JDT1). However, it would be very difficult to recreate the same result with user query. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "service tax calculate on which expenses",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear friends, Service tax calculate on Which type of expenses? what is the use of calculate Service tax? Regards, Mallika",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, If you availing the services from any vendor, He may charge Service tax inorder to pay it again to Gov. as per Tax rules. Again Service charges vary depend on type of services. So, In PO it self we have to mention in line item at Taxes like Excise taxes. Generally it calculated on overall values(include Basic+Excise) Regards R"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAPI can I used to update Planned Delivery in Material Master",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I am looking for a BAPI that I can use to update the Planned Delivery time in Material Master. This field can be seen in the screen shot at [http://screencast.com/t/ZThhYTZlNjMt|http://screencast.com/t/ZThhYTZlNjMt] I have found two BAPIs that provide access to this field: BAPI_MATERIAL_SAVEREPLICA AND BAPI_MATERIAL_SAVEDATA. However, I am unable to figure out how they should be used. I have tried both in SE37 unsuccessfully. I think that BAPI_MATERIAL_SAVEREPLICA shows the most promise, but can't figure it out. If anyone can provide me detailed information on how to use this BAPI to just update a material's Planned Delivery value, I would happily accept that as an answer. Thank you!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "go se37 enter BAPI_MATERIAL_SAVEDATA click display then click FM docu button. it is well explained and I was able to change material master fields witin minutes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Rounding off Amount which has 3 decimal places",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All ! ! Urgent Help required i need to round the Amount of 3 decimal pleaces for example 300.777 should be round to 300.800 300.340 should be round to 300.300 or 300.977 should be rounded to 301.000 Payroll in international for Bahrain and Oman both currency value is too high but they use to round after decimal. Can any one Guide any function any operation or some other solution will be highly regarded Thanks Syed Baddar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi You can do this by writing a rounding calculation rule. Or ask an ABAPer to write a simple routine in payroll driver program RPCALCX0. It has an exit where he/she can write a small routine for this. Regards Waz"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Could anyone tell me in which tables could I find the field DMSHB?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All Could anyone tell mein which tables could I find the field DMSHB? It's managed in the t.code f-32 Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi , to check this enter in the field DMSHB ( through SE11) and click on where used list button and select tables..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to Return Material which procured under Account Assignment category ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Could any one please tell me How to Return Material which procured under Account Assignment category ? 1. I created P.O. 2. Recerived Goods against this P.O with account category K 3. Made Invoice verification through MIRO and settled the amount. 4. Now want to return the material and subsequently want to create Credit Memo. For Stock items I am able to return the material. But non-stock item which bought for cost center could not return through Googs return MIGO. I am getting error \" Deficit of PU IR quantity 10.00EA\" Kind Regards, Sankar.K",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi , Since the material is a cost center based , so no stock is maintained . And since you don't have any stock , hence this error is coming . 1 way around is simply raise a credit memo . Thanks Dipak"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Pricing for components which are appearing multiple times in BOM",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Currently in Public cloud in AVC scenario if a BOM contains similar components multiple times (For example, Position 0010 Qty = 2 & 0040 Qty = 2) and in sales order the quantity of FERT is 1, meaning the component total qty = 4. For this component variant price is maintained in the configuration profile. But in sales order pricing only the first appearance on this component is considered. (For example Unit price = 100 in Sales order pricing total price = 200). Ideally SAP System should consider the total quantity, so total price should be 400. Do you know if there is a workaround so that system considers the total quantity of the component for pricing? Thank you!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which feature T-Code's are maintained?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts I know abt tables TSTC and TSTCT -tables for finding existing Tcodes-I was wondering if there is so called a feature in which T-Code's are maintained? No Worries Karthik",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "i dont think we have feature like that Check SE16 TSTC or tcode PAT1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which released CDS view can be used to retrieve cost / budget related data shown in  app \"project cost report\", \"project budget report\" etc ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I posted this question /answer for our customer's reference.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "For EPPM reports (project cost report, project budget report etc), we are fetching the values from the Financial CDS view \"I_ActualPlanJournalEntryItem\" which is released. From EPPM side, we do not have any released CDS views. The customer can try to utilize the mentioned Financial CDS view to fulfill specific requirements."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which price list type is valid for campaign",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, a I would like to find a way to determine, which price list type(s) are relevant for a pre-sales campaign. Where can I get this information? For example, we have a campaign maintained and I want to know which customer is entitled to order a product from this campaign based on the price list type. Is there a connection between promotion type and price list type or any other relevant connection? Thanks, Tim",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, not sure to understand your question... check in VK13 for your price condition. Select your price condition and go to GOTO-ADDITIONAL DATA and you\u00b4ll find promotion and sales deal fields (konp knuma_pi and knuma_ag). Regards, JM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Posting an accrual ... which tools are there?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I have to post an accrual which refers to the payment of a rent. The rent is payd in advance for a period of three years. Which tools daoes SAP provide to manage this case? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, Please use the toolAccrual Engineto manage your recurring entries. Accrual Engine Goto SPRO FA@Business trasactions.. or search the same in spro"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Number of invoices which has been cleared.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, How can I get the number of invoices which has been cleared based on vendor and company code for a selected fiscal year and period? Thanks you very much.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, Refer BSAK (closed items for vendors) table for number of entries. Refer BSAD (closed items for customers) table for number of items. Regards, Ravi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "List of sale Orders for which MRP RUN on particular date",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts we are running MRP In background thru MDBT Transaction,Our client wants to know List of sale Orders for which MRP Was run on a Particular date, are there any Standard Reports or Tables from which we get the Details.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Your question is not really clear, or your client's requirement is not well defined; MRP is planning a material in a plant. If you work MTO, then also in a customer segment. The result may be nothing (but still planning took place, just the coverage is enough), or one or more planned supply elements, and eventually exception messages. In some cases (planning strategies), customer orders don't create requirements at all! So, to your question, planning results can be seen in the MRP list (MD05, MD06). Regards, Mario"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which posting keys require cost element?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Please tell me on which postings keys, cost element assignment is mandatory?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Check this answered link"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which of the QM elements can the short text be maintained in only 1 language?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "i have a questions. i am taking the QM exam, and i found questions in the internet and i started solving it. but i am stuck on 1 that i couldnt figure out. these is the question For which of the following QM elements can the short text be maintained in only 1 language? I found in the system, that the short text inspection metnod and the Master inspection characteristics can be carried out in several languages. but what about the rest of the answer? The right should be only one answer.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "3 - plan header can't be maintained in multiple languages. BTW: I only answered this because its the holidays and we haven't been getting many questions here. Also, i thought this had been deleted by another moderator. In any case, this is a border line question to be asked here."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which report can i get the Work center wise start and finish in hours.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I Need a small suggestion. Now i open CR03 Here i can able to see the work centers list. Under capacity tab and at capacity header i can see the Start time and Finish time.May i know at Which report i can able to get these fields . I can able to get it from table level KAKO , But data is in Seconds wise , actually i need hourly wise. And one more thing is Operation time and Capacity fields i am not able to get it from the KAKO Table. Through the forum i was checked CR05 Report but there is no fields like Start and Finish Time. Can any body tell me In which report can i get the details.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, Check CM01 under Detailed capacity list, here you have an option to choose fields as per your requirement. Available Capacity table KAKO take the fields BEGZT(shift start), ENDZT(shift end) and PAUSE(break time),divide this value by 3600 and you will get it hours. Best Regards, R.Brahmankar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Display of production orders which are only released in co11n screen",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI, In co11n screen when i press the f4 button and i select the search production order by mrp controller by entering the mrp controller say 150 then i should only the production orders which has to be confirmed i should not get the list of production orders which are already confirmed, delivered,teco,and created but not released how i get that in co11n screen Regards Badri",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Badri, In CO11N in production order confirmation screen, on order field when you click F4 or serach, choose te option \"\" In production order using the info system , here you put MRP controller , plant, order type, and in status field restrict as per your requirement, select CNF and click on exclude After searching through this , you get orders which are not confirmed. This will solve you issue. Hope you and try and confirm. Best regards, Sharat"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Delete HCM Process (HRASR_DT) from database which is in completed status.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, Dear All, I am in a great need of your urgent help as today is our Go-live for SAP HCM. In order to check if all is set in production system, I have run 2 HCM processes for testing and they are in completed status now. Now those processes are coming in Process Browser report, I want to delete them from database since they were just for final testing. rocess Browser report How can i do delete them? Kindly reply as early as possible. How can i do delete them? Kindly reply as early as possible. Chohan.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HelloChohan, Chohan Not sure if it is too late for you. You can set the production client as not productive and then use transaction HRASRPROCESS_UTILITY. Once done you can set the client back as production client. Hope this helps. Regards, Sahir."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to block changing a quotation which is adopted by a purchase order?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi people, I'm new to SAP and recently I was tasked to research on How to block changing a quotation which is being adopted by a purchase order. The process scenario should be: - User goes to ME21N and create a purchase order that adopts a quotation. - User goes to ME47 (maintain quotation) and enter the adopted quotation number Expect: not allow user to change that adopted quotation. I am working on an idea of using status profile, but everything is still hard to understand. It's very appreciated if anyone can help me with this (step by step would be very nice). Thanks in advance. Message was edited by: Florian Henninger Moderators Note: Moved it to SAP ERP - Logistics Materials Management (SAP MM) cause of wrong space",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Yes you can do that through enhancement . you can do the restriction in me47 if PO created then user cant change any thing in RFQ. when u go me47 After PO Creation then you got the msg. You can coordinate your ABAPER for this enhancement."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table in FI-TV which has KOSTL",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I need to know the table in Travel Managemant which has the field KOSTL (Cost Center). I've just found some estructures. Thanks, Leandro",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Leandro, Try this one: Field in Extract Structure: TRIP_TOTAL Description of Field in Extract Structure: Total costs for a trip Table of Origin: PTRV_SHDR Field in Table of Origin: TRIP_TOTAL If you want others TV-Tables, please check this link: http://help.sap.com/saphelp_nw04/helpdata/en/4b/5ba0713a6d4a419a617cc3644aa75c/content.htm http://help.sap.com/saphelp_nw04/helpdata/en/4b/5ba0713a6d4a419a617cc3644aa75c/content.htm Hope I help you."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Quantity of plant update in which tables",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, Quantity of plant update in which tables Regards, Kumar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, I think you are asking for the table where the quantity of material is stored plantwise. The table for the same is MBEW. Regards, Komal"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Document which does not contain profit centre",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Gurus, We are using New Gl and Document splitting using profit centre. But while inter segment transaction system allows automatically created line item(TDS) with out profit centre. now i want to delete that document or update profit centre in that line item how can we do that? How we will restrict system from allowing such documents to post? Regards, Devesh Chaudhari.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Devesh Pls check the assignment of Segment in Profit Centre. Better you reverse the existing document and post again. Enable checkbox as profit centre is mandatory in step \"Document splitting characterstics in GL Accounting\" or write a validation with profit centre mandatory. Regards Sridhara Rao D"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which 'TO-confirmation' setting will have precedence",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Folks, I have a setting in SPRO for TO Confirmation as below. Storage Type : Removal-Confirmation required , Putaway-Confirmation required Movement Type : 'Confirm Immediately' I would like to know which setting will have precidence ? Could anybody help on this pls ? Thanks in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, I believe Storage type level comes first, then movement type level. Rgds, Kris."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Migration of Items for which IR done and GR not done",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We are migrating from legacy to SAP. On FI we are migration following items - Migration of Trial Balance as of a cut off date - Migration of AR,AP and GL Open Items We will have some IRs for which GRs are not done, what should be strategy for migrating the same. Kindly note that we are not migrating POs from legacy. Thanks Balla",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "If you don't migrate the PO from legacy to SAP then you will not be able to do the 3-way match automatically on SAP. I suggest you convert IR over as open item in AP but populate the payment block to prevent them from being paid by the payment run. Whenever GR is done in legacy system or manually by paper tracking or otherwise the user should release the payment block on the AP invoice. If SAP is the inventory system I would assume the user also need to perform the GR as a 501 movement type (goods receipt without order). The account used when doing the 501 movement type should be the provision account used in legacy system (provision account for 'invoiced, not yet received')."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which customizing navigation to set the \"Valuation Class\" (T030-BKLAS)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, colul anyone show me the customizing navigation to manage the \"Valuation Class\" (T030-BKLAS)? Thanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, IMG path: MM -> valuation and account assignment->account determination->account determination without wizard->define valuation classes. Best Regards, Gladys xing"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sap Gurus, Can you please explain what is retro in pc00_payresult?how to see which month is going retro.?kindly explain in detail.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Sap Gurus, Can you please explain what is retro in pc00_payresult?how to see which month is going retro.?kindly explain in detail.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HiNandagopi N HiNandagopi N Hi Nandagopi N Nandagopi N Nandagopi N Please Check Payroll Results using PC_PAYRESULT Please Check Payroll Results using PC_PAYRESULT When executing a payroll run, you need to check your payroll results to ensure that employees are paid correctly. It should be done any time after you have executed a Start Payroll, and definitely before you execute a bank transfer in your SAP system.You can use the transactionPC_PAYRESULT,which displays all payroll related tables in SAP. When executing a payroll run, you need to check your payroll results to ensure that employees are paid correctly. It should be done any time after you have executed a Start Payroll, and definitely before you execute a bank transfer in your SAP system. You can use the transactionPC_PAYRESULT,which displays all payroll related tables in SAP. You can use the transactionPC_PAYRESULT,which displays all payroll related tables in SAP. You can use the transaction PC_PAYRESULT, which displays all payroll related tables in SAP. Salient Features ofPC_PAYRESULT:- Salient Features ofPC_PAYRESULT:- PC_PAYRESULT It includescustomer wage typesandtechnical wage types. customer wage types technical wage types Once you executed a \"Start Payroll\", payroll results are created for the selected employees. No payroll results are created during a simulation. You can only display payroll results for one particular employee at a time. TypePC_PAYRESULTinto the SAP transaction command box. Type PC_PAYRESULT into the SAP transaction command box. UnderSelection, Under Selection , Enter thePersonnel numberof the employee/s you wish to view pay results. Personnel number Enter thedateyou wish to viewall results from date all results from Hit Enter Key Hit Enter Key In thePersonnel Numbers Selectedsection In the Personnel Numbers Selected section n theOverview of Payroll Resultssection, you can now see all payroll runs that have been executed for this employee, including any payroll run caused by retroactiveaccountingand off-cycle payroll processing.Double click on thePayroll resultsline Item for which you want to view the tables n the Overview of Payroll Results section, you can now see all payroll runs that have been executed for this employee, including any payroll run caused by retroactive accountingand off-cycle payroll processing. accounting accounting and off-cycle payroll processing. Double click on thePayroll resultsline Item for which you want to view the tables Double click on thePayroll resultsline Item for which you want to view the tables Double click on the Payroll results line Item for which you want to view the tables Current Indicator shows: Status of record: This indicator tells you how old a payroll result is. It can have one of three specifications. Specification 'A'-Used for a payroll result generated by the last payroll run, that is, the result is current. Specification 'A'-Used for a payroll result generated by the last payroll run, that is, the result is current. A Specification 'P'-Used when a payroll result has been replaced by a new record during a retroactive accounting run. It then becomes the predecessor of the current record. Specification 'P'-Used when a payroll result has been replaced by a new record during a retroactive accounting run. It then becomes the predecessor of the current record. P Specification 'O':-A payroll result is marked 'O' when it has been replaced by at least two retroactive accounting runs, that is the record is no longer current, nor is it the predecessor of the current record. Specification 'O':-A payroll result is marked 'O' when it has been replaced by at least two retroactive accounting runs, that is the record is no longer current, nor is it the predecessor of the current record. O Double click on the payroll program table you want to view (i.e., RT, RT_, CRT, BT, etc.). Double click on the payroll program table you want to view (i.e., RT, RT_, CRT, BT, etc.). Double click on the payroll program table you want to view (i.e., RT, RT_, CRT, BT, etc.). The selected payroll program table for that particular payroll run will now be displayed. The selected payroll program table for that particular payroll run will now be displayed. Thanks Omprasad Reddy"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which bapi and structure will be used to update Target Stock field in MM42?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I am trying to update article master using bapi BAPI_MATERIAL_MAINTAINDATA_RT. However, I cannot find out which structure will be used to update Target Stock and Target Coverage in Site view. Does can answer me? Thanks Connie.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, check PLANTDATA structureBAPIE1MARCRTin tables parameters. BAPIE1MARCRT Component nameTARGET_STOCK TARGET_STOCK Last field in the structure: BAPIE1MARCRT Hope this is helpful Regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Changing BS GL which are not open item managed to open item managed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello SAP experts, I am an FICO user. I'd like to change GL accounts which are currently not open item managed to open item managed GL in SAPS4/HANA. I've been informed by couple of SAP consultants that this is possible within SAP even though the GL account balances have non-zero balances. Please could anyone direct me how to do that without having to zero out the relevant GL? Thanks a lot for your help.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which branch of ATOS should I go for??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hello all Which branch of ATOS should I go for SAP training??? I was thinking for Delhi. REgards Jayant",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Jayant, Location should be selected based on your comfort. The important part in SAP training is the trainer & the infrastructure institute has. Try to get the trainer profile & assess on your own. Getting trained under a good trainer having SAP implementation experiences are better. Regards, Ravi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Results Analysis Method is good for LOSS Projects?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, Our client have Loss projects scenario. for Eg. Plan Revenue_: 100, Plan Cost__________: 120 Loss______________: = -20 Loss 20 should post in accounts at first period end closing time itself for that which Results Analysis Method can help me for it. Plz give me your valuable solution soon. Thanks Bhagirath",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, which RA Method you are using. If you are using method 01 then in OKG8,Choose RA Cat RIML(Reserves for Imminent loss) or if you are using 03 method then use POCL .Assign the GL accounts againt these RA cat one B/S Account and one P&L (not a Cost element). Muzamil"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which fields are manditory for oStocktransfer DTW",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have a lot of items that are discontinued and I need to movethem to a different warehouse. I have tried doing the upload and keep having errors. Which fields are manditory on both the stocktransfer and stocktransfer_lines. Also, will I be able to transfer an item that is on hold?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I don't know if this will be ledgable. RecordKey DocEntry Address CardCode CardName Comments ContactPerson DocDate FromWarehouse JournalMemo PriceList Reference1 Reference2 SalesPersonCode Series TaxDate RecordKey DocEntry Address CardCode CardName Comments ContactPerson DocDate FromWarehouse JournalMemo PriceList Reference1 Reference2 SalesPersonCode Series TaxDate 1 01 RecordKey LineNum Currency DiscountPercent Factor2 Factor3 Factor4 Factor ItemCode ItemDescription Price ProjectCode Quantity Rate SerialNumber VendorNum WarehouseCode RecordKey LineNum Currency DiscountPercent Factor2 Factor3 Factor4 Factor ItemCode ItemDescription Price ProjectCode Quantity Rate SerialNumber VendorNum WarehouseCode 1 1 300560 Mushroom Special Blend M44 45.99 6"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which tables TCode S_ALR_87013611 extract Actual & Plan Cost?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi In which tables TCode S_ALR_87013611 extract Actual & Plan Cost? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table name which stoers Opening Stock posting of Inventory",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I wanted to know what is the table name which stores the Opening Stock of Inventory. and also How can i know the price that i had given while posting the Opening Balance for a particular Item. Expecting you early response. Thank you regards, Shreyas",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Shreyas, You can query the table OINM with transtype of '-2' which stand for \"Opening Balance\" for inventory items. The query looks like: Any items' opening transaction can be found there. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "COSTING RUN: materials are exploded from plant which are not mentioned in SELECTION parameters",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts... In costing run (CK40N), when I do structure explosion, system considering materials from other plant which is not mentioned at the time of selection.What would be the reasons? What would be the reasons? For better understanding:consider the screen shots For better understanding: Selection screen: After structure explosion, you see the results as: Please give me your valuable suggestions ASAP Regards.. Jose Jose",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Jose Have you analysed the error log issued at material selection level, some clue may be available there. Have you analysed the error log issued at material selection level, some clue may be available there. Regards Regards Rajneesh Saxena Rajneesh Saxena"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Scrap Sales GL , which type of cost centers need to assign in OKB9",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Seniors, G L account : Scrap Sales: For this GL a/c , cost element created with Cost element category u201C11u201D (Revenues). Now in OKB9 i want to make assignments: With each b.area and cost centers. Now my doubt is : In OKB9 which type of cost center I need to assign from the below. 1.Cost center should be with Cost cntr category u201CFu201D (Production) Or 2.Cost center category u201DVu201D (Sales) and another doubts is , in Cost center -control tab: Actual revenues check box, should i select or not in any case. Please clarify my doubt. Thanks in Adv",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, As scrap sales are revenue to the company, undernoted things to be noted here : 1. The cost element category is V - Sales and the control indicator actual revenues box to be unticked. The posting will be statistical for revenue elements. 2. The revenue recognition has to be equally done in VKOA for the account assignment of this account. 3. You can create a seperate order type for scrap sales and a sales pricing procedure in SD. 4. Check whether the scraps are defined to capture Tax Collected at Source, if so, you have to define condition types for them too. 5. If the material itself is defined as scrap material then in Material master the Profit Center would have been assigned and to capture the revenue assign the scrap sales revenue in VKOA. Best Regards, Sadashivan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CDS:Adhoc Association Exposed Association : Which one to use when ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "There is no difference between Adhoc situation and a join .We see that the join is already created if we click on \"Show SQL CREATE .\" And in exposed association the Join is created on demand . But which one to use and when . (Advantages Disadvantages of each other)",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "table which stores the chages made in infotype 8.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello gurus, I wanted to know the name of table which stores the changes in infotype 8 made. I am able to see the records from pa0008 but it stores records month wise means for the same month change made is being updated. I need to take the wagetype just been chaged on the perticular date with perticular time with the item details(Old as well as new). Can anybody please guide me for the same. Posting same thread for ABAP too.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, For achieving this u have to eanable the change log feature . For viewing the output ->S_AHR_61016380 - Documents -> Infotype Change -> Logged Changes in Infotype Data . For details -Param"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which t code to be used to maintain condition records for PO",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, I have maintained condition table,access sequence and everything. According to those now I want to maintain condition records which T-code will be used for that. Is there any customization required for that Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the order the system selects for the minimum movement and sort of the picking list?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, we wonder what is the order of storage locations the system proposes when using \"minimum Movement\" with the material flow rules and sorting the picking list. In the list you find an example of our numbering structure. Which are the relevant fields? Is it assumed that the order is \"rack-column-row\" or what is asssumed for ordering? warehouse-structure.txt warehouse-structure.txt BR, Klaus",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Klaus, In the case of Source Strategy \"Minimum Movements, System aims to propose Logistics Area (bin) with the largest stock quantities basically sorting from large to small quantities. As the name \"Minimum Movements\" itself is self explanatory, this minimizes movement that need to be carried out by a worker to pick the required stock. I hope this helps. Regards, Sandeep"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Want make User status which blocks Actual cost posting?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I want make user status which blocks actual posting in Project, but allows to run only settlement activity when this status is active in project. How it can be done. Can any body help me out? Regards, Varun Maheshwari",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Varun, You can review my recent article You just need to select from the list of Business Transactions for the User Status what is allowed and what is not. Regards,"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which is latest version of SAP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi which is latest version of SAP. thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi laxman , sap netweaver 7.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Cancel costs which block settlement within SD-order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I have an issue which is derived from an interface error. Users cannot manually produce it. Example: G/L account 4711 1.000 USD posted in June on cost centre. G/L account 4711 -1.000 USD posted in July on cost centre. Result: It is balanced out (zero). When looking at the field status group of the account only the cost centre is open. The SD-order is not open and not visible during manual posting. The account is thus not assigned to any line-ID in CO-PA which is o.K. However, the Interface made a mistake and posted also - in the Background - to an SD-order item. This can be seen in table BSEG for the FI documents in question. Effect: The account 4711 blocks KKA3 (the results Analysis) because it is not assigned to any line ID. ...and we do not want to assign it. Does anyone know about a trick on how to do KKA3 (and the settlement thereafter) nevertheless? Thanks a lot for any Input. Thomas",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, I doubt that your cost centre figures are correct, the value type is wrong. The posting to cost centre is statistical in case a sales order position is another CO account assignment (this is the real one). So any cost center report reporting \"actual\" figures either does not report the statistical posting in june/july or mixes different value types (real/statistical) => no comment. The only \"trick\" that comes in my mind is a temporary line ID assigment in the debug mode but I definitely do not suggest to make it that way. A temporary customizing change for this particular case is the more accurate way, not to forget the correction of the interface. BR Christian"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Materials which have not backflush indicator",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear PP Fellows, we want that if someone mistakenly unmarked the back flush indicator in a specific order then while we doing confirmation in CO11N on that specific order system should give the error. Kindly help me in this regards . Kindly help me in this regards . Regards, Regards, Imran Mazhar Imran Mazhar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Split Valuation of Materials for which Purchase Order exists.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I want to do the split valuation of materials for which Purchase Order already exists and GR has taken Place. Is there any way to do it? Regards, B P Singh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Not Possible to activate the split valuation for the po exist material and stock material. Because valuation class are stored in that material. so u have to cancel the grn and cancel the po first then only system allow u to activate the split valuation for this material. Venkatesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "is it possible to find which MIC's are assign to material?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "any table or t code?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

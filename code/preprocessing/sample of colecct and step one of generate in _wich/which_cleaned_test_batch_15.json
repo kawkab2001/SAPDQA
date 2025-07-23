@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "From Which place I should try for Job?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Friends from India I have complete my course SAP-SD from Hyderabad but not getting any call from any company That so why i want to move either banglore or delhi. Would any one suggest me to that where I should go. Please help me to take decision which place will be good for getting frequently call and walk-In in sap sd. Arun",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Arun, As per my knowledge the place do not matter much. You can upload your CV in jobsite ( naukri, monsterindia etc) and can get the calls. Most of the companies are willing to take the telephonic interview also (especially for the first technical round). The core of this market is knowledge. So practice as much as possible. Do let me know in case of any queries. Hope this helps you. Regards, Rakesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to monitor which are all the orders not closed properly?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Hi, How to monitor which are all the orders not closed properly ? In the sense, if orders are TECOed but settlement not done properly is one instance. Regards, PS R",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HelloPS R PS R PS R It is another case where you need to go to ABAPer with your clear specifications. Here the specifications can be like you want to list all such Orders which could be Similar other situation if any. Regards KJogeswaraRao KJogeswaraRao"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Deliveries for which F8 has been done are appearing in VF04",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, Deliveries for which proforma invoice F8 has been done , are appearing in VF04. I know that +/- indicator is absent in VTFL. What other ways are there to adress the issue. Pl. help. regards.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Whenever Proforma Invoices are created then the Order or delivery status remains open for invoicing. Example: Create a Proforma from delivery. Even then the delivey is open for invoicing. So Deliveries for which F8 has been done are appearing in VF04 is standard system behaviour. regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tables in which Appraisal note data stored..",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi...Experts. I want to know about the tables in which appraisal note data stored. please help me. Regards, Siva",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "https://forums.sdn.sap.com/click.jspa?searchID=9573368&messageID=5013157 https://forums.sdn.sap.com/click.jspa?searchID=9573368&messageID=5013157"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Both T-Code which is S_ALR_87012277 and FAGLB03 is not the same figure.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Expert, S_ALR_87012277 balance is not tally. Need your help why the figure is not same for both S_ALR_87012277 & FAGLB03",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "fico/ps which one is responsible for COPA setting?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI Guru. fico/ps which one is responsible for COPA setting? Regards, aryan",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Aryan, Hi Aryan, According to me COPA setting is responsibility of FICO Consultant. COPA setting involves configuration of following topics which is mostly related to FICO. According to me COPA setting is responsibility of FICO Consultant. COPA setting involves configuration of following topics which is mostly related to FICO. Operating concern Operating concern Value fields Value fields Characteristics Characteristics COPA Master Data COPA Master Data Hierarchy / Derivation etc Hierarchy / Derivation etc Planning option in COPA Planning option in COPA Flow of Actual Value Flow of Actual Value Settlement Settlement Reporting Reporting Regards, Regards, Tushar Tushar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table name which store 'Characteristic Value' in MM Classification",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Once we pass material number in MM02/MM03 and selecting classification we are gettingcharacteristic description' and Valueunder General tab. Once we pass material number in MM02/MM03 and selecting classification we are gettingcharacteristic description' and Valueunder General tab. characteristic description' and Value I just wanted to know wher the TABLE NAME where characteristic Value are getting store. I try to find out its showing only the structure name RCTMS-MWERT/ATWRT but able to find table name in which it getting stored. Can any one help with the table name and how it will link with the master table. I just wanted to know wher the TABLE NAME where characteristic Value are getting store. I try to find out its showing only the structure name RCTMS-MWERT/ATWRT but able to find table name in which it getting stored. Can any one help with the table name and how it will link with the master table. Also I attached the screen shot PFA. Also I attached the screen shot PFA. Looking forward for a kind help........ Looking forward for a kind help........",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "List of all Notifications Number which are connected with Measurment Document",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , Is there any way that I can check list of all Notification Number which are connected with Measurment Document. Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which FI table can I find the triangular deal flag?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi expert, I am looking for the FI table in which I can find the triangular deal flag. In SD, I can see the documents with traingular deal in table VBAK (field XEGDR), but I don't know in which FI table I can find it. Do you have any idea? Thank you. Kind regards, Linda",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can find the field in BSEG, BSAK tables in FI. Regards, Praisty"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How can I see which user created goods issue in SAP B1",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Is there a way to see which user created it?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Please help me: Which transaction to print a invoice?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I have a invoice, i would like toprint this invoice as below: print this invoice as below: 1. Tcode VF02 + invoice number. 2. In invoice screen, menu: GOTO --> HEADER --> OUTPUT (Shift + F8). 3.In output print screen, add a new record intothe output grid list. In output print screen the output grid list. 4. Menu: Output --> Exit (Shift + F3) to back to invoice screen. 5. In invoice screen, menu: Billing document> issue output to *> Printer*. But the problem is here: Menu\"Printer\"is in grey color, I can no longer choose\"Printer\". So I can't print the invoice! \"Printer\" \"Printer\" Could you please help me: how can i print the invoice?Is therean other transaction to executethe records of output grid list in output print (step number 3 above)? Could you please help me: how can i print the invoice? an other transaction to execute Thanks all you a lot in advance, Vinh Vo",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which lead time determines VBEP-MBDAT calculation",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Sap experts, Hi Sap experts, I need your help to determine how VBEP-MBDAT is calculated. I need your help to determine how VBEP-MBDAT is calculated. I have a sales order with requested delivery date in the past, when I run the rescheduling tool V_V2 SAP propose a new delivery date and the date of each delivery step (avail.date / loading date / Transportation planning date / GI date ) I have a sales order with requested delivery date in the past, when I run the rescheduling tool V_V2 SAP propose a new delivery date and the date of each delivery step (avail.date / loading date / Transportation planning date / GI date ) Which parameters can influence the determination of the Avail date (Vbep-MBDAT)? Which parameters can influence the determination of the Avail date (Vbep-MBDAT)?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to determine which table store the condition number which i can get?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, when do SD pricing, before i go to table KONP to get proper price, i should know the condition number which comes from another configuration table starts with 'A*'. i know this condition table in configured by conculstant. different prices need different condition numbers and belong to different condition tables. my question is: is there any good method to find which condition table i need to know when i do pricing? i only have the data of condition type, material, sales Org, etc.. by hand thanks advance!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "FIND WHICH USER HAS RUN MRP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi I need to know who has run MRP for particular materials.There is one big issue due to this iam trying to find through planned orders and purchase requestions about the user who has run the MRP.Iam not able to get it. Can anybody help me out to resolve this issue. Regards Shankar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Table holds material supplied by the vendor?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which table contains the following: Materials supplied by the vendor Actual delivery tems & Payments of the vendor Thanks Imran.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "It is EINA Table,Look at ME11,ME12,ME13 Transaction"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Batch determination picking batches for which no stock",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We are using batch determination in process order for components for which sorting is done on FIFO ( first in first out) based goods receipt date... Now here the problem is system sometimes picking the batches for which stock is not there but batch sorting is happening properly..I am sharing the screen shots of issue.... in the above screen shot system is picking up the batch24782..characteristic sorting ok.. but the problem is for this batch 24782 stock is not there in mmbe..check the below screen shot... 24782 is there anything to change in scope of check..can you help me out... Thanks Kumar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Can you report which days absence quotas accrued?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Through PT50 transaction, I can see that relative day when hours are accrued to an absence quota. This data seems to be pulled from table ZKO in B2 cluster. I would like to run a report for a group of employees to get the actual dates within a year that hours accrued to the quota. Does anyone know how to do this? Thanks, John.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi John, the following link describes how to read from cluster. At the end there is an example program: http://help.sap.com/saphelp_47x200/helpdata/EN/fc/eb3c46358411d1829f0000e829fbfe/frameset.htm http://help.sap.com/saphelp_47x200/helpdata/EN/fc/eb3c46358411d1829f0000e829fbfe/frameset.htm Hope this helps. Regards Bernd"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Extending Standard CDS which has input parameters",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts, I need to extend a standard CDS view which has input parameters. Need to set a default value to one of the parameter. This i want to do it in the extend view. Thanks, Thiyagarajan",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table name to find customer and which sales area he belongs to?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Table name to find customer and which sales area he belongs to?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which table picking quantity is stored",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi, in which database table the values of picking quantity is stored. regards, balajia",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ROE Error - Expected Date Of Recall 01/01/2005 must be greater than Last Day For Which Paid",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I'm trying to generate mass ROE's, we could successfully generate for the Semi Monthly and Bi weekly employees but getting the below error for many of our weekly employees though its generating successfully for some of the weekly employees, error is the same except the Recall date differs, I tried different options in block 14 to no avail. Can someone please help Expected Date Of Recall 01/01/2005 must be greater than Last Day For Which Paid",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Where do you keep the \"Expected Date Of Recall\" since that is not in any stardard field that I know of? Is it in IT0041? For one such employee, check the last day worked and compare it to the \"Expected Date Of Recall\"."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Badi to use for the following IT0045 requirement",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI guys, can anyone tell me which Badi I can use for the following purpose Purpose and Description: Create a new custom field in infotype 0045 u2013 PAYEE KEY. Field should be similar to field P0057-EMFSL u2013 payee key for bank transfer. This field refers to configuration tables: V_T521B u2013 payee key V_T521C u2013 payee authorization for infotypes.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, For enhancing standard with additional fields, you need to use PM01 - Infotype maintenance screen instead of BADI. Please search forum on PM01 usage, you'll find plentry of knowledge. If you have some specific problems while enhancing, please donot hesitate to ask. Regards, Dilek"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which cost report can display the data without allocatioin data from overhead?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "When we run this report(S_ALR_87013611), for certain cost centre the report shows full cost included overhead allocation cost. Can we show \"direct cost only\" for certain cost centre without overhead allocation cost even after CCA Allocation? When we run this report(S_ALR_87013611), for certain cost centre the report shows full cost included overhead allocation cost. Can we show \"direct cost only\" for certain cost centre without overhead allocation cost even after CCA Allocation? S_ALR_87013611",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can use S_ALR_87013615 for example, which breaks the costs by partner; thus, enabling the view without allocation costs. Also, S_ALR_87013616 should be OK for this. Regards, Eli"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Deletion of Inbound delivery which distributed to EWM",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Team We have an issue as per the below The ASN was created and destributed to EWM. In EWM, IDN got created but there is no ID gerenrated due to some errors.Here IDN status is green We would like to reject the IDN but , it says that \"Activity \"Reject Change\" is not permitted; reason: status \"Version\" has value \"Active\" with error message number /SCDL/AF039. Even we can activate the IDN and giving the same error message. Please help to delete the ASN Thank you",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stop user to use Asset Code which has already been used",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI, Once a Asset Code has already used in a PO and again user want to create PO using the same Asset Code, here System not stopping user to use Asset Code (Which has already been used). Is there any method, So that System inform user like. \"Asset Code has already been used, Put here New Asset Code\".",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi You can manually block the asset for acquasition using as05 after using it. Regards Ofer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to find out through which tcode TR is created.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Friends, We have one custom code to create TR for staging of RM for the production. I want to find out whether TR is created through custom tcode or by standard transation. How can I find out this. Thanks, Kiran",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Such information is not captured in the TR tables. If you require this info then you may write some text into the header text of a TR"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to specify the name for SPOOL file, which is creating from Z prog.?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Am creating a SPOOL file from my Z prog. below is the code, fine, its creating. DATA param TYPE pri_params. DATA param TYPE pri_params. NEW-PAGE PRINT ON NEW-PAGE PRINT ON PARAMETERS param PARAMETERS param NO DIALOG. NO DIALOG. LOOP AT it_errors. LOOP AT it_errors. WRITE: WRITE: /15(33) it_errors-matnr, /15(33) it_errors-matnr, 38(55) it_errors-menge, 38(55) it_errors-menge, 75(132) it_errors-error_text. 75(132) it_errors-error_text. ENDLOOP. ENDLOOP. NEW-PAGE PRINT OFF. NEW-PAGE PRINT OFF. Looking forward to assign a name to this created error file, say, my_error_spool_file. So, when the Z prog. creates a file in the SPOOL, it shuld create with the name of my_error_spool_file, always, so, pls. suggest me. thanq Edited by: SAP ABAPer on Aug 5, 2008 8:38 PM Edited by: SAP ABAPer on Aug 5, 2008 8:40 PM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi , Please use the following function module.. This might help you.. CALL FUNCTION 'RSPO_SET_ATTRIBUTES_SPOOLJOB' EXPORTING rqident = ADD = IMPORTING RQ = tables attributes = EXCEPTIONS NO_SUCH_JOB = 1 NO_PERMISSION = 2 JOB_FINAL = 3 INCOMPLETE = 4 OTHERS = 5 . In the RSPOATTR try changing the name and passing it to the FM.. Spool name is stored as TSP01-RQ0NAME Thank you"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to get the status of \"parked and held\" for the invoices which are parked ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, Can you please let us know, how to get the status changed to \"parked and held\" for the invoices which are already parked in the \"supplier invoice list\" application. Note:we are using SAP Public Cloud. Thanks in advance, Ravalika Poola.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to Delete Cost Estimation which is released",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, Can some one please help me on how to delete a cost estimate which is released? Please help me, it bit urgent. I have estimated cost and released later I found that I have entered wrong cost. Thanks & Regards, Giridhar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Go to transaction CKR1 and delete the released cost estimate after giving the parameters like costing varaint and plant. Anand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "GRPO after that Inv Transfer - item link(This item if from which GRPO)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Friends, A) After GRPO, i am doing inventory transfer. At the time of inventory transfer ,how i will know that items GRPO No in inventory transfer row level of items. is there any way to find out? B)One way is make row level UDF, and fill GRPO's no at items row level at GRPO. Design FMS+query to get at inv.transfer screen for that particular item. For that can u send me query. Regards, Mahesh.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi mahesh A In inventory transfer,item field if u press Ctrl + tab now u can see new window for choosing GRPO,issue.... i think this will help your problem"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to get Retro for a period or how to know which month is having retro",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Freinds, I would like to know how can i know which month is having Retro . Iam reading from the FM cu_rgdir and further iam using PYXX_READ_PAYROLL_RESULT to get the payroll results. But when we see pc_payresult if we have for period not equal inperiod there is a retro . Could any one please let me know the functional module which retrives and gives me the Retro result . Or i mean to say how i can read the retro results through my coding please could any one guide me in this regard. Regards divya",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can useHRPY_RGDIRwhich stores all your payroll cluster details. HRPY_RGDIR Regards, Prasad Lad"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table contains net book value for Assets created with AS91.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which table contains net book value for Assets created with AS91. I have a problem locating where the net book value is stored in SAP. Is it simply calculated and not stored in any one place? I am trying to predict how SAP will calculate the net book value for some assets we plan on converting, but my formula doesn't always work consistently and I have not idea what is going on. If it is stored in a table some place, can anyone please let me know! Thank you all",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to reverse an invoice which is paid already",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Friends, Invoice was already paid twice by mistake hence we are trying to reverse via MR8M. \"Document XXXXX already contains cleared items - reversal not possible\" \"Document XXXXX already contains cleared items - reversal not possible\" \"Document XXXXX already contains cleared items - reversal not possible\" I know we can do via FBRA by resetting the cleared item but is there any other options or workaround? Thanks, Kumar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Vendor partner creation through external system. Which is the recommended solution?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi! I'm currently focused on an integration of an external system querying ECC to create vendor master. Now, the request is to mantain the same functionality with the conversion to S4 HANA. Vendor creation is get through batch input; I was checking all the BAPI that can be used for create BP, assign business role, add bank data, etc etc..I am not able to find anything to manage the data for company and purchasing level. Is this the recommended solution? Any suggestion for my activity? Thank you in advance",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which method is better- Partial Payment or Residual Payment?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello guys, I was having a hard time figuring out which payment method (accounts receivable) is better for the \"Client\", partial or residual and what has aging got to do with it. Any help would be appreciated. Regards, MichaelJ",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "help to find which org emp mange",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hallow how i couled see which org.unit emp is mange meaning put emp num and find which org emp is manage today Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Have a look at the infotype 1.Table -PA0001. Regards, Manoj. Message was edited by: manoj kumar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Report showing which customers are Tax Exempt",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Looking at the account details report with the tax data I do not see anything there to indicate whether or not the customer is tax exempt. Is there a data source where this information is stored or is there a way to get this extracted? Mass Data Maintenance extracts do not work. My workaround is to turn on data extractions and dump the entire customer base out into an .xml file and then throw that into excel, and then cross reference codes. Just wondering if there is a different more streamlined way for a user to get that information without an admin.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Disable Change Option to PR which has PO already",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Expert, I want to set up that the PR cannot be edit/change after a PO has been raised against it.. Is there any way to accomplish this? Thanks. She",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Nothing std I'm aware of, though if you have Release Strategy you can assign a Field Selection to your Release Indicator that prevents update of fields e.g. on final release. Rdegards, Nick"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "\"Transaction is associated with system reconciliations which cannot be automatically cancelled\".",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In SAP B1, I am trying to reverse a transaction which was to be automatically done in the following period, however when I initiate the reversal, I get the following message \"Transaction is associated with system reconciliations which cannot be automatically cancelled\". I have no way of clearing this out. So everytime I open SAP, this Reverse transaction box pops up. How do I fix this?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the table used for Users and roles",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi all, In our system we have restricted users on the basis of site level. I want to know in which table can we find users and their corresponding site assigned to them. Regards, Priya",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear, Please refer the below tables, Table USLA04 contains users Table AGR_USERS gives Assignment of roles to users Table USR10 User master authorization profiles USR02 for list Hope it will help you. Regards, R.Brahmankar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which field in sales order lines for customer reference no.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, My customer's purchase order (sales order to me) have two reference numbers, one in header and each in sales order lines. Both no. are unique in each sales orders. NumatCard can be used for a customer reference no. in sales order hearder, but which field am I supposed to use in sales order lines? This field should be unique and does not allow the same varchar in the same sales order. regards, Kim",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Gun Tae Kim, Already replied to you....Please check your previous post."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to get the  table  name of value field...or if anyone of them know  which FM producing  Value  Field in KEA6  T-code",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Guru's, How to get the table name of value field when i went KEA6 T-code i have select \" value fields from op. concern\" and i gave it the concern name \"IDEA\" and click display. when i try to see the table name of value field with help of Presed F1 and i saw its not displaying any table name and field name is not present in technical info..and i went debuging i try to find the FM name also but i could nt find there ...My requirment is displaying the value field and coreesponding description in ALV report .. so can anyone tell me the FM name or solution for that where i have to fetch the data.. Thanx in advance.........",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Srithar, The table name for the above transaction code is TKEBB - Management for Operating Concerns (Cross-Client) and the field for the value fields from Op.concerns is ERKRS. Let me know if you have any queries and appreciate if it helps."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "I have created a new PO , which output type is not coming automatically.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have created a new PO using NB doc type, which output type is not coming automatically. I have created condition record using MN04, still it is not working.. Am I missing anything or some setting is required. Thanks in advance for your answer! Best regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "find which  viewes avialable for material",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, how to find which are all viewes aviable for a material. Thanks in advance. Ramkrishnaiah Y",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Check the field PSTAT and/or VPSTA of MARA: the value of these field should be a sequence of letters, each letter should indicate an active view: A Work scheduling B Accounting C Classification D MRP E Purchasing F Production resources/tools G Costing K Basic data L Storage P Forecasting Q Quality management S Warehouse management V Sales X Plant stocks Z Storage location stocks Reward Points if useful"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Language in which the PO is printed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , Can anybody help me to anwer the query mentioned in following points: 1.For a vendor master record, under Communication, \"English\" has been maintained in Language field. 2.Where as in message condition, language maintained for that vendor is \"Spanish\". 3.In which language, sytem should print the PO? Thanks In Advance!!! Warm Regards, Niti",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which property is the unique identity for a company beside DB name",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi everyone, I would like to distinguish the company, I know for a company DB name is unique,however, database can be restored from other company database. is there any information for one company cannot be changed from SAP UI once it created, and when company DB restored from other company DB, I can compare the new value with last I saved value and know this database different with the original company database. I have considered about company name, in different company DB the company name different, but company name can be changed from SAP B1 Company details window. In one words, I want to know which is the company level identity. Thinks in advance! Kathy",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Kathy, To my knowledge there's no unique identifier. However, it seems that you cannot change the company address (OADM.CompnyAddr) - at least in 2005 SP01; maybe this could help? In addition there are a couple of other settings which cannot be changed once set and transactions booked... Would that give you a bit of what you want? Regards, Frank"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "functions which uses condition technique in SD",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hai Guys, Do help me out in getting informations about the following. pls tell the functions which uses condition technique in SD pls tell the functions which uses condition technique in SD detailed answers or links for this pls... Thanku Regards Jino",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which  Tables are used  for   RequestForQuatation(RFQ),MM",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, When i have created RFQ number, where it holds and TABLES used for RFQ TABLES used for RFQ ? could anyone tel me.............. Thanks in Advance. Edited by: siva kumar kasa on Oct 22, 2008 8:41 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi , Check the following table EKKO EKPO EKBE SO11 SO12 Regards Priyanka.P"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "GL display for inventory account which are not defined as line item display",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, We have inventory gl accounts which are auto post accounts , these accounts get posted when grn is done. these accounts are not defined as line item display accounts, but if we execute the T code: FS10 we get the gl balance display and not line item display. Our requirement is that we should be able to view the line item display matching the GL account balance in that GL account. Can we get the report in MM module line items wise display. Regards Prashant P. Zinge",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, You should use RFSEPA01 program via execute SE38 transaction. This program activate line item for each account. Activation means, this program generate line items to BSIS table. So that after this program running, you can see line items in FBL3N. Regards, Burak"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "TPM1 FOR WHICH PRODUCTS TYPE HAS TO BE RUN?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dears, I have never understand why the TPM1 has to be executed, and also I would like to know for which product type has to be executed? Thanks in advance Kind regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

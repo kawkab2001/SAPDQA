@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "RE: Approving supplement to an appropriation request which was already appr",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All we will create an apropriation request with an initial budget and we will approve one of the different variants of the appropriation request....But in our business process we have to add supplements to the current appropriation requestsevery quarter....And the supplements also have to go through the approval process( It is a requirement).....Can any one help me telling the different solutions. Pleaseeeee every quarter",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Steve, If you can detail out your scenario a little, probably I'll be able to give suggestion. I am getting confused with your budgeting the ARs (as ARs cannot receive budget). Is that another plan value variant is created every quarter and that needs to be approved? Or, you need to give supplement to the associated measure (a WBS) every quarter and want to have approval for that budgeting supplement activity? with regds, Ravi Shrivastav"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which SAP structure for my plant (BOM/Material/construction-type difference) ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear community, I am not sure I understood the right structure to use for my plant, concerning the plantmaintenance. maintenance Currently, a functional location contains the following equipment: Motor, reductor, pump. I would like toassign the spare parts of the pump, which have been standardized in SAP PM asmaterial(gasket, seals...). assign the spare parts of the pump material In the plant, I haveseveral pumps of the same model, with the same spare parts. In SAP PM I have also standardized thecomplete pump as spare part material. several pumps of the same model complete pump as spare part material What is theright way to structurethis? right way to structure 1)Should the pump be in SAP as a material or equipment or maintenance assembly (and should I have different SAP equipment/material for two identical pump in different functional location ?) ? 1) 2)Should I make a material or equipment BOM ? 2) 3)Should I use the material construction type? And so which material/material type do I have to use/create for this ? 3) 4)Should I have the BOM assigned directly or indirectly? 4) 5)How should I put the material corresponding to the complete pump in this structure? 5) Thanks in advance for your help! Don't hesitate for further explanation.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Order Types are supported for Flexible PR Workflow",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello,we are currently testing the PR workflow on item level.When we configure the workflow to start when using the account assingment type F in the PR.We would like to know which order types are supported for the workflow: production order, internal order, maintenance order, sales order, service order?Are there any restrictions?Thanks,Patrik",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the recommended way of adding Items to a Form?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which is the recommended way of adding Items to a Form, and why? Which is more likely to be deprecated soon? Method A Method A SetoItem = oForm.Items.Add(\"Button1\", it_BUTTON) Set Set oItem = oForm.Items.Add(\"Button1\", it_BUTTON) \"Button1\" or Method B or Method B oItem = oForm.Items.Add(\"Button1\",SAPbouiCOM.BoFormItemTypes.it_BUTTON) oItem = oForm.Items.Add(\"Button1\",SAPbouiCOM.BoFormItemTypes.it_BUTTON) \"Button1\" SAPbouiCOM.BoFormItemTypes I often use method B without knowing why Please see attached picture of help file Thanks Leon Lai",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Leon, Both are the same. The complete form is : oForm.Items.Add(\"A\", SAPbouiCOM.BoFormItemTypes.it_BUTTON) In VBA, you can ignore the 'SAPbouiCOM.BoFormItemTypes.' SAPbouiCOM.BoFormItemTypes.' In .Net you can type in complete or in case your class headers has Imports SAPbouiCOM : you can write: oForm.Items.Add(\"A\", BoFormItemTypes.it_BUTTON) oForm.Items.Add(\"A\", BoFormItemTypes.it_BUTTON) Or if in your class header has Or if in your class header has ImportsSAPbouiCOM.BoFormItemTypes ImportsSAPbouiCOM.BoFormItemTypes SAPbouiCOM.BoFormItemTypes you can write: you can write: oForm.Items.Add(\"A\", it_BUTTON) oForm.Items.Add(\"A\", it_BUTTON) oForm.Items.Add(\"A\", it_BUTTON) It is VS things, not SAP. It is VS things, not SAP. Regards Edy"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "kindly share ..in sap which modules are implemented first in E2E",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "kindly share ..in sap which modules are implemented first in E2E",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Hitendra, Any SAP Implementation should follow the ASAP methodology for implementation. You need to understand what modules client is going to implement and based on that considering your project plan you have to start the implementation. As each module is implemented by specific functional temam of consultant you should focus on cross module integration with each other. If everything works fine the testing phase you can go ahead to next phase. My suggestion we have to follow ASAP methodology for implementation and complete the task as per project plan. Best Regards, Avinash"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "A report which displaies orders discerning SETTLED/NOT SETTLED",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Could anyone show me a report which displaies the orders (and type orders) discerning between the orders settled and the ones not settled? Thanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can try using KOC4 . This is not exactly which are you are looking for ,but this report definately is helpful for your analysis whethere the cost has been settled or not . regards Ranjan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Can i change the stock type while doing GRN against PO for which the different stock type selected?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I selected stock type as quality inspection and processed that PO. Now, while doing GRN, i consider that item doesn't require the quality inspection so i wanted to post the stock directly into unrestricted stock. But system is not allowing to change the settings from MIGO transaction. Kindly let me know the way to make the change to the stock type in the configuration settings side.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Unheard system behavior when GR-IV is checked, which effects how valuation of goods is done in SAP.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Everyone, I came across this blog from 2009, (https://blogs.sap.com/2009/10/03/valuation-of-a-goods-receipt-for-a-purchase-order-grir-amount-part-...) as i read it i realized it contradicts my understanding of GR-IV check in SAP. I was of the impression that when we check GR-IV in SAP, systemWILL NOT ALLOWposting an invoice without a GR. However in this blog i see that an invoice has been made for which no GR has been created.sap1.png https://blogs.sap.com/2009/10/03/valuation-of-a-goods-receipt-for-a-purchase-order-grir-amount-part-... WILL NOT ALLOW sap1.png I would request everyone reading this to take some time and read this blog in it's entirety to get a better understanding of my question. I have also made the following journal entries for ease of understanding: gr-iv-checked.pnggr-iv-not-checked.png gr-iv-checked.png gr-iv-not-checked.png",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Micheal, It is SAP standard to allow user to post invoices for a quantity greater than the delivered quantity. OR even if the only goods receipt document is cancelled, system allows the post of an invoice. This happens with or without the the GR-Bsd IV flag set inside the purchase order. But when GR-IV is checked and there is no GR posting yet. System will not allow user to post invoice. You can refer to OSS note below for more details 2055131 - Invoice posted for more than the quantity delivered and GR-Bsd IV is set or not Thanks"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Rebate report or list which shows the balance of each rebate in the list",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, VB(8 list rebates; this report lists the rebates in the selected range and you can drill in...Even after drill in this list does not include settlements or manual accruals and so does not reprent the balance? Any thoughts or experience with this issue? a further question; when you have several hundred, is there a report or list that shows the open balance of each rebate with out drilling into each rebate number? thanks Craig",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Have you tried the following :- Compare Rebate Basis: Billing Documents Versus Statistics Title Comparison of the Rebate Basis and Accrual Corrections Purpose The report RV15B002 gives you the option of comparing statistics from the rebate settlements with the values from the billing documents. These values can differ if you start rebate processing later and want to take into account old billing documents. The report also allows you to post a rebate correction agreement, which corrects accruals. Regards, Amrish Purohit"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "HRHAP00_DOC_BC Apprasial check. How read which button I've pressed?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello experts! I'm using HRHAP00_DOC_BC Badi to check some values when I press the \"REVIEW\" button, but when I press \"SAVE\" I need data to be saved without doing the validations. So I want to identify which button I've pressed, review or save. Does anyone knows if this can be done?. Is there a structure or table in this badi that I can use for doing this? Thanks. Nico.-",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "when user press anything ,its code is abavilabe in sy-ucomm so you will have one identifier for review and one for save .check sy-ucomm for it in your code..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to see which company codes are affected by a WT",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Community, Hope you all are doing well, I would like to consult you because I have this situation, I want to know what company codes are affected by a particular WT in an specific country, is there any report or Transaction or do you know a way to do it? I tried by launching the WT report in a large period for country area with the wt that I want to check but the problem with this is that it may exclude a company code that can have the wt active but was not generated under the period. Please your assistance. Thanks in advance for your time",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Efrain, Not exactly sure your requirement, however there is a transaction code PC00_M99_DKON which will show you the wage assignment. On the selection screen enter your country code as 10 if running for USA and the wage type. Execute it. When you run it for a particular wage type and expand the results 'source system' then you will see the associated Company code for which the wage type is applicable. Hope it helps you. Thx, Ashish"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock posting of 08 inspection lot which is having status of LTCA",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Freinds, I am having problem in posting the stock from Quality to unrestricted. The details are as follows; A stock transfer Inspection lot is created and by mistake given the UD as \"Rejected\" and cancelled the Inspection lot. Later it has been realised and the UD code has been removed and left blank and Saved the UD screen. The stock is in Quality and it has to be posted to Unrestricted. If I go to transaction QA02 to \"Reset the cancellation\", it is greyed out and we are unable to do that. We are unable to give UD also because the Inspection lot status is not allowing. I have used transaction \"MB11\" with movement type 311, I am getting the error as \"Stock posting only possible in QM\". Please let me know how to post the stock to Unrestricted. Thanks Giri Edited by: Giri on Dec 15, 2009 10:23 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Giri kindly implement SAP note 48815 to remove the inconsistancy in the stock Regards Gajesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table updated and how to identify this table.?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, When updating any material in master data,which table updated i.e MARA,MARC,MARD",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI For Client Data 's Updation use Table : MARA Plant level : MARC Storage Level :MARD Regards, senthil."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Can anyone tell me how to report on unapproved leave (leave which is applie",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Can anyone tell me how to report on unapproved leave (leave which is applied but not yet approved by the Manager )? We are using ESS/MSS to log employee holidays, but alot of the holidays of employees are in a a state the manager has not approved them yet. We need a way to report on any requests raised by the employee (leave related) and be able to report on their status. On ESS, there is a Leave Request Overview which shows any pendiong request. Can we somene report on this via ESS or even backend SAP?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, This can be tracked using the task id in the table SWWI HEAD. Use different filters to get the expected results. Hope this helps. Regards Joe"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Closing the qty of PR which was already processed.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "There are a PR of 1000 qty and user has done the PO, gr and IV of 100 qty. Now requirement is to close the pr or change the qty for remaning qty(900), bcoz its showing open qty and they don't want to use these qty. There are many PR like that. so there are any procedure to do it.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI, If you have number PRs need to close, it is better to develop a customised program to set the closed indicator, need to update the EBAN-EBAKZ field in the datbase table, chenna"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which bom & routing selection for costing",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi i have 9 multiple BOM for a finished product and 1 routing. i want to run CK11 AND CK24 for standard cost estimate. my problem is that which bom & routing should be considered for std. cost estimate. for each combination calculated std. price in CK11 is different. how i should address this issue so that i can calculate std. price",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Is there any table which have Stock data?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I found Stock data in OITM table(column Onhand) but it's only collect the last data. I want datas which have in the system report(in Inventory > Inventory Report > Inventory Posting List).It's in the column name \"Balance\",however,the type of Balance column is System Variable so,I don't know where's table I can get this data. Can anybody help me where I can find this data.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Do you need the historical data for OITM ?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to release stocks which are committed through Reservations",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, If we perform Availability Check at the time of creating reservations (through Project Systems), to commit stock, is there is any way to release that committed quantity automatically if the goods are not issued after an agreed time? Please guide.... Many Thanks, Dileepa.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, The reservations will be created, but the system will allow you to with draw for other orders also. The reservations will not make any restrictions for issuing against non-reserved orders. Regards, V. Suresh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How do you see which user created a work center",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I need to know how I can view who the user was that created a work center using transaction IL01. I know I can access IL02 and look at the admin data tab for who last changed it but I need to know who created the original work center.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Post GR without PO unkown (<>501 posting), but which mvt?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, If we receive materials without an PO. 1 Which mvt do I need to use? 2 Later invoice arrives, but how to match, I cannot enter a reference if I use mvt 501, so this is wrong, what is good mvt? Thank you, Eric.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Movement type 501(Receipt w/o purchase order into unrestricted-use stock) is posting material without a Purchase Order. Enter Partner during MIGO. 1.For this you have to tick Auto PO check box in Material master (Purchasing view) 2.Customize Create Purchase Order Automatically in SPRO SPRO>MM>Inventory Management and Physical Inventory>Goods Receipt>Create Purchase Order Automatically:Check Automatic PO check box against Movement type 501. 3.Maintain Info Record bye regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "PS report for Active Projects which are equal to & greater than 10 Crores.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, In my project scenario i wanted to see following report details for Active projects which are equal to & greater than 10 Crores. Other details i wanted to see in the report is as follows. 1) Project ID 2) Division or Business Area 3) Project Name 4) Project Budget Any std tcode avail. in sap ps or any other module like FICO,IM to see above details. pls confirm. Thanks in advance. Regards, Sandeep N.Theurkar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can use Report CN41 to view all those details. Create Exceptions for any criteria's you wish to be highlighted in the report output. For the 'Active Projects' bit use Status Selection Profile. You must have created the Selection Profiles in SPRO. Regards Sreenivas"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which ship to party assigned to sold to party",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have created the ship to party & assigned the sold to party. How can find out which ship to party assigned to the same sold to party? Is it available in any standard report in sap? Pl provide the solution for above requirement Useful answers duly rewarded Regards, Devendra",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Devendra run table KNVP thanks G. Lakshmipathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "HCM - which sub module??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am an HR abapper. I want to get into functional side of HCM. i have knowledge of most of the modules in HCM. But to become a functional consultant in HCM, Do I need to be expert in all the modules of HCM or will it be enough if i can master in specific sub modules like OM, e-recruitment or TM or PY etc.?? - munna,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Using a characteristic which takes up values other than CSEVPERMIT",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear SAP Gurus, I am trying to create a characteristic to take up values of the Auth Grp from the ITOB table and the BEGRU field. and then I am assigning it to a class of type 049, and then assigning a permit group to this class. When I open up IPMD and try assigning any value to the characteristic I mentioned in the class. It does not allow me because only the fields present in the class CSEVPERMIT could be taken up for automatic determination of the Permit in any Technical Object. What should I do so that other fields from other tables other than CSEVPERMIT could be taken up for automatic determination of the Permit in any technical Object. Regards, Muhammad Usman Kahoot",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Why don't you create planner groups equivlent to your authrisation groups and make use of it. I don't think there is any standard to use defferent table other that the structure which is used exclusively for permit determinationCSEVPERMIT. CSEVPERMIT Regards, N.Nagaraju"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How can you restrict a  user to access only one database which has been assigned to Him or Her only.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "How can you restrict a user to access only one database which has been assigned to Him or Her only without Viewing the others databases in SAP Business One on the Choose Company Window.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Janvier, Basically, List of DB details are stored into the SBO-Common DB of SRGC table or exec TmSp_GetCompList, but their is not option of User wise setting, For more details find the below query for your reference. select * from SRGC exec TmSp_GetCompList SELECT * FROM [SBO-COMMON].[DBO].[SRGC] For this enhancement you inbuild mechanism for refresh list of tables with user wise (same as in login screen) Rgds, Kamlesh Naware"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Peformance Management - which element to use for free enhancement",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "when employees add a new position requirement into their performance template, I need to display the following element attributes: 1. therequired competency level.(this is the proficiency level of the position requirement added by user) and required competency level. 2. theactual competency level(this is proficiency level of the qualification that corresponds to the position requirement added by user.) actual competency level does SAP have a standard element I can use as 'Refer to Attributes Of' for free enhancement 'Add Position Requirements' to display the required and actual competency level? if not, can I develop one? how? regards, Tiberiu Edited by: Tiberiu Sasu on Jan 5, 2011 4:47 PM Edited by: Tiberiu Sasu on Jan 5, 2011 5:00 PM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, We can develop our own VB( Criteria Group ) elements and use Value Determination BADIs to populate the data. We can create Free/Fixed Enhancements depending on the requirement. But either of these two would be the right choice. Coming to the \"Refers to the Attributes of\" there are nothing I beleave. I will check and come back to you on this. However the approach to resolve the issue would be same. Regards, Chiranjeevi. Edited by: Srikanth Kancherla on Jan 5, 2011 10:04 PM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table which gives Cost Elements allocated to Activity Types",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hii Experts, I need to know the table which gives the Activity types along with the respective GL/Cost Elements attached to them. Can anyone help me where to look at the table. I see i can get the Activity types with Cost Centers, Cost Centers with Cost Elements but i could not see any table which gives Activity types with Cost Elements. Thanks in advance",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "standard report for billing which also shows profit",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Is there any standard report for billing which also shows how much profit we got . Like in VF05 we get how much billing we have done . I also I want to know how much profit we got for that billing. Which field is use to know profit of billing.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Try the standard SIS report. You might find the sales & cost in there."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which scenarios Invoice Creation is done by Finance?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Everybode, As per my understanding, in Sales, the Invoice is generated by Sales Department. But In some cases the Invoice is generated by Finance also. Can someone tell me in which cases this is done? Thanks and Regards, Sameer",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "For example you would do a financial invoice when you sell a fixed asset like a production machine, or a vehicule. Another possible scenario, may be, ussing financial invoices when you sell or lend, or something to the employees, (in this case you dont use HR). In general, the concept of Commercial SALE is done by SAles departamnet, and all the other sales are done by financial Hopes it help"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Backflashing will Pick which BOM usage by default ?? help",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello friends, We have made a single BOM with BOM usage 1(Production) and BOM usage 5(costing),we are having different components in different usages. Now the question comes that when we perform backflashing of BOM code in T-MFBF: 1)system will Backflash BOM with which usage indicator either 1 0r 5? 2) what are the settings by which system should always consider BOM with usage 1 (production)? Looking forward for response Points will be awarded Thanks Jase",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, SPRO > Production > Basic Data > BOM > Define BOM Usages Here you define whether a BOM is production relevant or not SPRO > Production > MRP > Planning > BOM Explosion/Routing Determination > Define BOM and ROuting Selection Here you define priority of BOM usages. Please check SAP help: http://help.sap.com/saphelp_47x200/helpdata/en/f4/7d2a9c44af11d182b40000e829fbfe/frameset.htm http://help.sap.com/saphelp_47x200/helpdata/en/f4/7d2a9c44af11d182b40000e829fbfe/frameset.htm Regards, Csaba"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "the components  quantity of two order is different which is same material",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I got two order for same material and same BOM, but one of the order, material quantity: component quantity is 1:1,another is 2:1,why this happen?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which trasnaction is used for adding new Materials groups and...",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I need to add new materials group because I am missing one entry and what I would like to know is which transaction I can use for adding new Materials group and most important: when I add new entry in Material groups does this new entry have any dependencies with other SAP components and is this jobonlyfor SAP consultant or it can be done by regular end-user? Sorry, I know this question might sound silly but I need to know this.. Any help is appreciated and many thanks in advamce for prompt replys! Cheers, Sam;) Edited by: samnovice on Jan 26, 2012 2:47 PM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "@redriver and tej I kindly ask you just to answer me on my last question so we could close this topic: I am working on PRD server and I would like to know is it possible to to make all changes on PRD serverwithoutprevious configuration in DEV server and previous transport to QAS? without Thank you.. Edited by: samnovice on Jan 27, 2012 8:14 AM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Deleting value fields which are not assigned to data structure",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi! I want to delete some value fields which are not assigned to data structure i.e to operating concern. when I execute KEA6 with value fields that not used in operating concerns, system is giving option to remove from display in EDiting option. But I want to delete permanently, as we are have not assigned and not using them. How to do that? regs, ramesh b",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi If its not part of Data Str, delete it from KEA6 br, Ajay M"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Query to find out which query category belongs to which authorization group and the user",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I am trying to keep track which query category has authorization based on authorization group and users",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to decide which material will create Pld Order & Which will DepReq?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Actually I'm looking two materials which are almost same in their master record(MM), but they implementing different in MD04 as one creating Pld Order and one creating DepReq. I can't Understand, why there is difference....!!!!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Pls find out this field 'FLSA Description' from which info type.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI experts, Pls find out this field 'FLSA Description' from which info type.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI, http://help.sap.com/search/highlightContent.jsp http://help.sap.com/search/highlightContent.jsp Fair Labor Standard Act FIND the documents here Any more Info Let me Know Reward Points"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Add an Item in delivery which was not ordered",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Can we add an item in delivery which was not in ordered ? if yes then why the item does'nt all picking ? if not then why? Regards, Ashima",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Ashima... Though its not the regular practice to add items to the delivery document, it is possible to add materials straight away to the delivery document and do the PGI... Try the following... Go to VL02n and enter your delivery document no and just add the material to the bottom of the list. go to pick quantity and enter the delivery quantity as the pick quantity. Do the PGI... It should be working fine... Before that, its also advisable to check weather the plant and storage location is maintained for the material.Also check weather the stock exists for the particular material.. Hope you find this informative.. Thanks, Safeer Rahman"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "RPSCO Table Period Field WLP00 to WLP16 brings which value?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I want the Month Wise Actual from RPSCO Table, May I know, the RPSCO Table field Period WLP00 to WLP16 indicate what Value. Please correct me if I am Wrong & also Please Confirm, As of my Knowledge, I got the Below details about RPSCO Table. the WLP00 Bring the Budget Value, the WLP01 brings the fiscal year 1st-month (April) Actual Value & Commitments Value the WLP02 brings the fiscal year 2nd month (May) Actual Value & Commitments Value the WLP03 brings the fiscal year 3rd month (June) Actual Value & Commitments Value the WLP04 brings the fiscal year 4thmonth (July) Actual Value & Commitments Value the WLP05 brings the fiscal year 5th month (August) Actual Value & Commitments Value the WLP06 brings the fiscal year 6th month (September) Actual Value & Commitments Value the WLP07 brings the fiscal year 7th month (October) Actual Value & Commitments Value the WLP08 brings the fiscal year 8th month (November) Actual Value & Commitments Value the WLP09 brings the fiscal year 9th month (December) Actual Value & Commitments Value the WLP10 brings the fiscal year 10th month (January) Actual Value & Commitments Value the WLP11 brings the fiscal year 11th month (February) Actual Value & Commitments Value the WLP12 brings the fiscal year 12th month (March) Actual Value & Commitments Value then Remaining WLP13,14,15& 16 brings what valueand also Please Confirm am I right? then Remaining WLP13,14,15& 16 brings what value I want the Month Wise Actual. For example, I want the April month Actual so if I take the Actual Value from WLP01 is it's Correct? Please Check also Remaining Field WLP13, 14 & 16 brings what value & where that Bring? Please help me to solve this Doubts, Thank You All,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "im trying to generate a repor t which shows the item code item name, qty consumer  unit price & tota",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "1). [SAP AG][LIBODBCHDB DLL][HDBODBC] Syntax error or access violation;257 sql syntax error: incorrect syntax near \"T0\": line 1 col 1 'Backend scheduling job' (OBSJ) (at pos 1)",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How MRP able to know which PR doc type to use when MRP Group NOT in material master",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am very interested on knowing this topic and I am sure some folk out there having the same question: HOW does MRP-run able to pick-up which PR document type to use for PR creation? HOW does MRP-run able to pick-up which PR document type to use for PR creation? Scanning through the website on SDN, I notice most experts out there recommend using MRP Group with transaction code OPPZ, OPPR, OMDT, OMDV, etc. which are all related to MRP group. However, there are situation in which MRP group is not being use for certain company already in place in their production system. Hence, beside all those OXXX transaction code for the MRP group,where to find out this WHEN MRP GROUP NOT USE (i.e. NOT IN PLACE in material master, and yet, the SAP still able to figure out which PR doc type to use after MRP-run). where to find out this WHEN MRP GROUP NOT USE (i.e. NOT IN PLACE in material master, and yet, the SAP still able to figure out which PR doc type to use after MRP-run). Looking forward your feedback\u2026 Regards,Tuff Regards,Tuff",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "SAP uses NB in standard, if you want it different, then you have to use the MRP groups, as described in OSSNote 46919 - Doc.type for PReq during conversion from planned order Note 46919 - Doc.type for PReq during conversion from planned order Note 46919 - Doc.type for PReq during conversion from planned order"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "The Sequence/order in which Data Import should be done?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts, Can anybody suggest the sequance/ order in which we should do the data import using DTW, while setting up a fresh company, so that we can avoid dependancy conflicts? Is there any document available? Thanks and regards Ajith G",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi ajith, Define Company settings,Define/import CoA secondly, thirdly define g/l account determination,define Document Settings, Warehouse creation,accounting definition / Item Group creation,g/l accounting definition, Item master creation,BP Master creation. Jeyakanthan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Report which shows difference between FI ledger and MM ledger",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts, I want to know if there is any report which shows difference between FI ledger and MM ledger. Please let me know.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, Can you try with T.code MB5L. It shows the values as per FI and also as per MM. Thanks and Regards A.Rama Krishna"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how does one see which 'material type' & 'industry sector'",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello once a material has been made and saved. next via mm02/03 , how does one see which 'material type' & 'industry sector' it belonged to in the 1st place ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Manoj In Material Master, select Basic Data1 and execute. There after the material description, there will be a blue icon. Click that so that you can see the material type, industry sector and also created by, created on details. thanks G. Lakshmipathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Report which shows the working place and assigned material",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi @ all, I am looking either for a report or a table which shows, all materials which are assigned to a specific working place. It would be great if someone could provide a soultion for this question. Thank you in advance Christian",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Are you fetching the data for the material assignment for the work center. If yes please go thro the following. 1. There is no direct material assignment to the work center 2. Material will be assigned to the routing operation. to fetch the data 1. In MAPL you can give mateial and plant and you can get the group and counter 2. You can pass the group and counter in PLPO and get the field ARBID 3.Go to CRHD table, you can get the work center number and name 4. go to PLMZ give the group and counter, get the STLNR and STLAL and pass it on to STKO and get the component details. Thanks, JK"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Vendor  List Which Is Wrongly Posted",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Display an Object oriented ALV Report to display the vendor list which is wrongly posted",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which switch to activate in T77S0?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Team When a new job or position is assigned to a Personnel Area, it is not automatically reflecting in PA 0001. Can you please advice which switch to activate in T77S0? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Inventory report which shows batch stock and stock in transit at a specific period",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I Need a report/transaction in which i need to see the stock at the plant level, batch code along with stock in transit at a specific date. For example i need to see the quantity, batch code, plant and the qty in transit on August 31 2013. ANy help would be greatly appreciated thanks jon",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How do I check which localization a company is using?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In SBO 2007A SP:1 PL:9 how to I check which localization a company is using? Is this stored in a SQL Table, if so, which one and what field. Thanks Dalen Edited by: Dalen Fisher on Mar 9, 2010 9:49 PM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dalen, You may run this query to check: SELECT Country From OADM Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which factor determines the RE(return order) should be posted as negative?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear friends. when we billing a RE order, the value were posted to the same account but as negative. how does the system know the value of RE billing should be posted as negative ? is it default? thanks. Michael.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "System would take care based on the Document Category. System would take care based on the Document Category. G. Lakshmipathi G. Lakshmipathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Migrating BOBJ to SAC and HANA on-premise to HANA Cloud, Which should be done before",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Community, we are transitioning the data source from BOBJ to SAC for Analysis for office, while simultaneously migrating from on-premise HANA to HANA Cloud? What are the potential risks associated with this dual migration process?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "which T-code to cal automatic reorder point and update material master",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Expert: Which T-code just to calculate automatic reorder point and update material master? I don't want to run MRP program (MD03,MD02,Md01) please help.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "if you have enabled forecasting view and do you have consumption values maintained or populated in basic additional views, than take forecast run with appropriate model and consumption data and it will change your MRP details accordingly in MM02 itself. You don't need to run any seperate t.code for it. Regards, Dakshesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stop Scheduled job which has no jobs in released status",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello I need to stop some back ground jobs, but in Sm37 i m not able to see any jobs in released status or scheduled status to cancel these job,the job are set to run in a frequency of 2 days please let me know Thanks Praveen",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "you can remove that event from the job which is triggering this .job .."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Confusion in choosing which Configuration scenario to use",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, My product contains 2 BOM levels. One component under the header material has 2 sub-components that needs to be procured from suppliers. All the other components are manufactured in-house. Any suggestions which scenario could be used in the configuration profile. Br, Thileepan P",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Thileepan Paulraj, Thileepan Paulraj, Thileepan Paulraj Are you using configurable sub assemblies which will be decided based upon characteristic value? Are you using configurable sub assemblies which will be decided based upon characteristic value? Ifs its normal FERT material and you are not using super BOM , just by maintaining 2 BOMs for subassemblies and a production version can help you. Ifs its normal FERT material and you are not using super BOM , just by maintaining 2 BOMs for subassemblies and a production version can help you. Production Versions - Material Master (LO-MD-MM) - SAP Library Production Versions - Material Master (LO-MD-MM) - SAP Library Production Versions - Material Master (LO-MD-MM) - SAP Library Please check and come back. Please check and come back. Thanks Thanks Ritesh Ritesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to recover or get old internal notes which were present on equipment?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "When i am inserting internal notes and long text using LSMW,it overwrites existing one.I want to know the history of these which were previously maintained on it.Is there any table or tcode which gives list of all internal notes which were there on equipment?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Have a look in table STXH where TDNAME is the full equipment number (including leading zeros). PeteA PeteA PeteA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table I can get open invoices?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I want fetch details for open invoices from which table I can get those open invoices Regards, Kumar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "List of PR which is not convert to PO",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, i have task to develop on report which displays the list of PR (Purchase Requesation ) which is not yet converted to PO (Purchase Order). kindly give the tables information from which it recognize that these PR status is not converted to PO. Thanks In Advance",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI In table EBAN you can see a field STATU . Give the condition STATU Not equal to B. to get the desired list."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "MM-Report to see the materials which is not used from last 3 months",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I want to find out the materials which are not used from last 3 months.Is there any report? Thanks Vishal",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi check MB5B give material and plant there select valuates stock radio button and NON-Hierarchical representation layout on selection screen give last three month duration period on selection screen and execute report and see total Goods receipt and total goods issue for material Regards kailas ugale"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which info type  I can  find employee swipe in swipe out time recordings details for a day ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts , Kindly help me in the below senario : I'm working for a client where the employee bio metrics are maintained in sql2012 server. my PI consultant will pick the data and place it on application server. here , my problem comes here. my job is to upload the employee swipe in , swipe out for a day in sap. an employee can have multiple swipes . I need to save the swipes in his data . can anyone tell me what is the infotype to maintain these swipes for a day . example data : emp.no date gate no in out 40015 28/06/18 A1 09:10:55 11:23:01 40015 28/06/18 B1 11:30:01 12:04:56 40015 28/06/18 B1 12:06:56 13:56:09 40015 28/06/18 D1 18:10:45 I appreciate if any one help me",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Look atTime Events Infotype 2011(table TEVEN and not PA2011) Time Events Infotype 2011 You could then useBAPI_CC1_UPLOAD_TIMEEVENTand BAPI_TRANSACTION_COMMIT to upload those time events, and trigger their integration to HR withHR_CC1_TIMEEVENT_POST. BAPI_CC1_UPLOAD_TIMEEVENT HR_CC1_TIMEEVENT_POST"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Fms Query which returns the minimum value calculation?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts, I want one FMS query in which there are three columns x , y, z. I calculating through one query (x * y * z / a)=ValueA , (x * y * z / b)=ValueB and so on in that calculation query itself I want to identify the smaller value for example valueB is smaller then the fms want to get displayed as(x * y * z / b). (x * y * z / b) (x * y * z / b) I Request you people to help me in solving this Query Thanks and Regards, Sivaram",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Try this query for value A: SELECT convert(decimal(18,1),convert(decimal(8,1),((select $[$3.U_Declae.number]) * ((select $[$3.U_Cutting.number]) * (select $[$3.U_GSM.number]))))/10000) Value for B: SELECT convert(decimal(18,1),convert(decimal(8,1),((select $[$3.U_Declae.number]) * ((select $[$3.U_Cutting.number]) * (select $[$3.U_GSM.number]))))/10000) Note: Replace with your UDF in above queries. Hope helpful. Thanks & Regards, Nagarajan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which time integration happen with PM & MM",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I want know Which time integration happen with PM & MM Regards, Ram Rathode",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, 1 Non stock material(and servises)- from PM order generates PR, then PO. While GR costs booked to PM order. 2 stock material- from PM order generates reservation,material can be issued to the order against this reservation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Field which relates Delivery and Schedule line of the Sales Order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Can anybody post the table and field which relates the Delivery number with the Schedule line number. For example : Sales Order : 100001 Item : 10 - 5 pcs Schedule line 1: 0001 - 3 pcs Schedule line 2: 0002 - 2 pcs Two deliveries are created 1 . 200001 2. 200002 Now how do we find which delivery is created for which schedule line. Thanks in advance. Muthu",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Muthu You can track the schedule line from Table VBBE - Field Name ETENR in which you cannot track the delivery reference. Delivery reference can be tracked either from LIKP or LIPS. However, if you want to see the document flow for a sale order, use table VBFA. thanks G. Lakshmipathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Indicator on task list and order which shown Document is attached ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have attached a document in task list through PRT in task list succesfully. Is there a indicator in task list which tells that yes a document is attached to task list ? Secondly is there a indicator in workorder which tells that yes a document is attached to this partcular task list ? Regards, Meghana",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Not sure about header level but in operation one check box is available for PRT. If PRT is attached to operation check box is automatically selected.. On header screen at bottom you can see PRT check box if it is attached to first operation. Shail Edited by: Shailendra D Upadhyay on Jan 16, 2012 11:56 AM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which transaction to pay cash to customer",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Guru: Which transaction to pay cash to customer please? Please advise and thanks in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Manthana, Customer related to incoming payments are processed F-28. I am not very sure whether you can process the payment entry here. But you can try in FB70, Start processing as an invoice change revenue account to bank account and and in the payment tab (2nd one) choose any other than invoice, ie payment related. It should work. http://imageshack.us/photo/my-images/507/fb70.jpg/ http://imageshack.us/photo/my-images/507/fb70.jpg/ Warm regards, Murukan Arunachalam"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "could you please with which t-code I can modify table hrp1001",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi all: Could you please tell me with which t-code I can modify table hrp1001? what is the talbe used for ? Thanks a lot . Best regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HRP1001 is a table view to see all the relationships between objects in OM. Instead you go to Tcode PP01, select the object, select relationship infotype and change what ever you want to. This is done thru front end view. Regards, Suhasini"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which are the third paty Converter Server available in Market",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I would like to convert my all drawing(dwg) & office(doc,xls,ppt) files in to PDF. I can achive this functionality by sap converter server or I required third party converter server. If third party then which are the third party conversion server available in market. Regards, Sunny Edited by: Sunny on Sep 19, 2008 12:36 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi! We use Seal Systems (http://www.sealsystems.com/) products to generate PDF for CAD files (AutoCAD/SolidWorks/SolidEdge). The product run well. The product was implemented by ITeam (www.iteam.inf.br). Ramiro"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "A TABLE which shows the global commitment created for a cost center",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, could anyone tell me in which table i can find the global commitment created for a certain cost center in the current year? Thanks G.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Table COEP is the table Field \"Value type\" will help you to seggregate Commitments on account of PR, PO, etc Regards Ajay M"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to know/configure which transfer order should be confirmed?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi everyone. I realized that i don't have to confirm transfer order(picking) before post good issue if i create a transfer order for standard order's delivery. However, if i created a transfer order for consignment fill-up's delivery, i have to confirmed the transfer order first, then post good issue. Then i checkedhttp://help.sap.com/saphelp_45b/helpdata/en/c6/f83da44afa11d182b90000e829fbfe/content.htm, it says\"Depending on the movement type, not all transfer orders must be confirmed.\" http://help.sap.com/saphelp_45b/helpdata/en/c6/f83da44afa11d182b90000e829fbfe/content.htm \"Depending on the movement type, not all transfer orders must be confirmed.\" Depending on the movement type, not all transfer orders must be confirmed.\" Then i go to SPRO, define movement type.. i can not find my warehouse no+ 631(which is consignment fill-up schedule line's movement type).. So, can any one please tell me how to know if an transfer order have to be confirmed. and how to configure it? Thanks & Regards.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I figured this out..problem solved. alone with movement type. storage type need to be configured as well. ."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which requirement to be fullfilled first??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear experts, in our industry ,we've implemented Strategy 40(planning with final assembly) for FG . Now if i'm having PIR in parallel to a sales order requirement ,while making a delivery by GR to warehouse,which requirement of the two will be catered first i.e. Requirement against against PIR or against sales order. How system will behave in this case?? Seeking for your valuable inputs .... Regds",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Unless I misunderstood you scenario, with planning strategy 40 PIR and sales orders are not in parallel. Sales orders reduce PIR according to the consumption indicator and periods. The Product GR has no effect on PIR or sales orders, the production order will disappear in MD04 and turn it into stock. Regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Transaction CN41N at which release available",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi @ all, I hope somebody can help me in case of my question!? At the moment we have a ECC5.0 System and we would like to use the transaction CN41N, however, I gets an error message that this transaction isn't available. Thanks for your help. Kind regards Marco",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Marco, There is a simple way find that wheather this TCode exists or not your current system Goto \"SE16\" in Table Name Field fill \"TSTC\" & press Enter then in Transaction Name field fill CN* and press F8 you see all the TCodes strating with CN <b>But this CN41 is for Project Structure Overview in ECC5.0 may be in ECC6.0 it is upgraded as CN41N.</b> Hope it is helpfull Regards Rehman <b>Reward Relevant Points if Useful</b>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SD report on sales which have been delivered but not yet billed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, Do we have any SAP SD standard report showing a total of the value (preferably by sales office) of sales which have been delivered but not yet billed. Client has a legacy system which shows report showed up goods which have been PGI'd/delivered but not invoiced - this is exactly what what is required in SAP report. Thank you in advance, Sastry",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No such standard report is available. You have to develop a zee report on your own. thanks G. Lakshmipathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Outbound Delivery which is created from MF60 is not send to EWM (Queue is Stacked)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, Outbound Delivery which is created from MF60 is not send to EWM (Queue is Stacked) Error Message is \"Field Item: Production Supply Area is a required field for the action HDR\" Which configuration should I look into? Best regards, Arata",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Urgent Help : How to find out test plan role ID template which are tied to security profiles",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I need an urgent help. I downloaded the test scripts from SAP Best practice explorer for scope item BD9. I am trying to find out test plan role id\u2019s (i.e. role ID template) which are probably tied to security profiles that show all the SAP transactions that are associated to that role. It depends on the test script. Each test script will have a different set of roles. What I am looking for is how to get to the master set of roles (independent of test script). Kindly refer to attached image for better understanding of my requirement. There is a link that I found that may help. Can you kindly help. This is very urgent for me. https://help.sap.com/viewer/a630d57fc5004c6383e7a81efee7a8bb/2011.500/en-US/8980ad05330b4585ab96a8e0... https://help.sap.com/viewer/a630d57fc5004c6383e7a81efee7a8bb/2011.500/en-US/8980ad05330b4585ab96a8e0...",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Somray, A spreadsheet with all the business role IDs and associated apps and process steps is available in the Activate Methodology for S/4HANA Cloud. Below is a direct link to the document: https://support.sap.com/content/dam/SAAP/Sol_Pack/BP_CLD_ENTPR/BP_CLD_ENTPR_S4CLD2011_22_Process-Ste... https://support.sap.com/content/dam/SAAP/Sol_Pack/BP_CLD_ENTPR/BP_CLD_ENTPR_S4CLD2011_22_Process-Ste... SAP Activate Methodology: https://go.support.sap.com/roadmapviewer/#/group//roadmap/IMPS4HANACLDENMGMT/node/901B0E6D3F501EE6AC... https://go.support.sap.com/roadmapviewer/#/group//roadmap/IMPS4HANACLDENMGMT/node/901B0E6D3F501EE6AC... Kind regards, Martin"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP | Licenses | What is an \"Active\" user for which you need a license?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, an consultant/auditor told me that you only need alicensefor\"Active\" Dialogusers. But what does \"active\" mean here? license \"Active\" Dialog We came up with this definition for active: 1 Notexpired expired 2 Notlocked locked 3 Not logged in for 30 days or more (we have a setting which auto locks these so they fall under cat 2) What is your opinion on this, is this a correct andcompletedefinition? complete For example, IT team members have two accounts, i.e. one limited end user one and a separate administrator account which is locked by default. ---> If the admin account wasn't locked, we would need two licenses for each one ---> In the current situation, we need one license for each one ---> What if my employee is locked the whole year except for an emergency case where he needs his admin/emergency account for only a few hours? Thx in advance!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "If your company has this strict policy, the only option might be: assign all licenses to allStandby accounts. Otherwise, whenever thisemergencyusers need to use system, it will not be available. Or always have some superusers available to reassign licenses to them. Standby accounts emergency Actually,Activehere is simply refer to the users need license. There is no question about it. Active"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Does \"Purge Key Figure Data Outside PA Planning Horizon\" delete POs which are not initialized?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Below are the details of the steps we performed - 1. We have created a New Planning object through \" New Planning object\" button in Excel UI. 2. Saved the data and the newly created Planning object is not visible in the excel UI as we have not inserted data (Either Zero or any other value) in any of the Key figure as the objects are not initializedwhich is correct as per standard behavior. which is correct as per standard behavior 3. When we execute the operator, it says one plan object purged. Is this the standard behavior of the operator to purge plan objects which are not initialized? Regards, Naveen K",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Naveen, Yes, it is the standard behavior. Please see SAP help for detail- https://help.sap.com/viewer/feae3cea3cc549aaa9d9de7d363a83e6/1802/en-US/f4f916583d5b0a02e10000000a44... https://help.sap.com/viewer/feae3cea3cc549aaa9d9de7d363a83e6/1802/en-US/f4f916583d5b0a02e10000000a44... Thanks, Rohit"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "On menu item click, show a Windows form, which is part of my addon",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I realized it is possible to create an addon for SAP B1 9.0, using UI API, and open a Windows form (which is part of the addon application) at addon startup. But how can I open such form on an event in SAP B1 client? For instance I need to trigger it on a click on a menu item. I tried: private void SBO_Application_MenuEvent(ref SAPbouiCOM.MenuEvent pVal, out bool BubbleEvent) { BubbleEvent = true; if ((pVal.MenuUID == \"MyMenu\") && (pVal.BeforeAction == false)) { Form1 f1 = new Form1(); f1.Show(); } } but, when I click on the menu item, the form appears on the Windows taskbar, but is inactive, if I click on the taskbar it doesn't even show me the form. Is there a way? Thanks!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I found this solution:http://scn.sap.com/message/14561194#14561194 http://scn.sap.com/message/14561194#14561194"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sales Orders Report which are invoiced",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi gurus, I want to take a report of Sales orders which are invoiced. Its order related invoice. Eg. from 01.04.2008 to 30.04.2008 I created 120 Sales orders, out of 120 i created invoices for 80 Sales orders. Now i want the report of the Sales orders(80) which are invoiced. How can we get this report. In VA05 Report we can find out open & all sales orders, but we cant find this report. other than this any report is there, please let me know. Cheers, Sumith",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which iview can select an employee?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all,my mss version is BPERP5MSS13. when I preview some iview ,show me \"To display data, first select an employee\", I know the old version should add a teamview iview to a same page,but I can't find the teamview iview in currently version. who can help me.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, There is an iView called 'Employee Search'. This is the iView where the manager is shown a list of employees under him. He/she can then click on the iView to see details of the employee. This iView has some properties that reflect settings in Object and Data provider on the backend. Add this iView to your page and preview the page - not individual iViews. For example, there is a page called 'General Information' under line_manager -> Pages -> HCM. Preview this page, then you will be able to understand how MSS works. Regards, Priya"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which edition of SAP S/4HANA introduced the universal journal?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which edition of SAP S/4HANA introduced the universal journal?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How the system understand which cost element is assigned for Subcontracting?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "How the system understand which cost element is assigned for Subcontracting? Regards Veenu",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Veenu, 1) Create Sub Contracting charges as a cost element 2) Add it in cost component structure 3) In OBYC following needs to be done For Matl provided to vendor assign valuation classes for raw material and conversion charges withGBB - VBO GBB - VBO 4) Create overhead cost element 41 catg for sub contract overhead and define the costing sheet paramters accordingly. Here you can either credit to Purchasing cost center which absorbs the sub contract overheads. 5) In OKB9 - restric sub contract charges postings to Purchasing cost center - to have better control - If you wish to have it. Thanks & Regards Srinu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table contains order activities data (CO)?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello When using the transaction KB23 or other transaction to see the activities, I can see the activities for cost centers and for orders. I am interested to extract data of orders activities like presented in KB23. Let me know, which table contains the data presented in KB23? Your help will be appreciated. Regards, Kooyot.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "COSS table contains the activites of the order. But in this table there is objnr object number no order but you can find your object number from aufk table. KOB1 report is also a goo alternative for you..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which condition a client should have more than one \"operating concern\"?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Our holding operate in various business (like manufacturing: detergent, cosmetic, food productions, kitchen accessories, ..; sale and distribution; Training and University field,....). should we use multiple operating concerns? if we should do so, according to which market characteristics we should divide the client between operating concerns? would SAP characteristics help us to divide it? according which characteristics we should divide the operating concern between \"controlling area\"s?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Kindly go through this site for details of operating concern. http://help.sap.com/saphelp_46c/helpdata/en/c6/f22c7dd435d1118b3f0060b03ca329/frameset.htm. http://help.sap.com/saphelp_46c/helpdata/en/c6/f22c7dd435d1118b3f0060b03ca329/frameset.htm Details of efine operating concern with characteristics,Value fields & Maintain operating concern are maintained here. The characteristic define to the operating concern are based on the requirement from the customer point of view. Some case it may be to Project,i some case it may be to Sales & distribution,Product etc.... Look in SAP Market place also for best practice to define this for the specific industry type. Regards, Raj"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which EHP need for SAP ESS MSS",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I am web dynpro ABAP Consultant. We are going to implement SAP ESS MSS portal for an HR project. Project requires lot of adobe interactive forms and web dynpro ABAP stuff. Currently we have EHP.0 . I dont know whether EHP.0 is enough or i have to go for higher verisons like (EHP 3..4..5) Please let u know which EHP verison have to implement. PLease help me ... Thanks In Advance. Sudhira",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I would recommend you to implement EHP4 as you have Processes and forms which are based on interactive Adobe forms and can be used for the scenarios you mentioned. Both your backend and frontend should be on EHP4. Also its better to have ehp4 as it has more functionality than EHP1,2,3 Refer the above link to get exact sp levels you nedd Also refer here Please refer here https://websmp104.sap-ag.de/erp-ehp https://websmp104.sap-ag.de/erp-ehp under SAP ERP Human Capital Management You ll find lots of information http://help.sap.com/erp2005_ehp_04/helpdata/EN/2e/5a5d45d9f24fbdb06be2ff53651c3e/frameset.htm http://help.sap.com/erp2005_ehp_04/helpdata/EN/2e/5a5d45d9f24fbdb06be2ff53651c3e/frameset.htm http://help.sap.com/erp2005_ehp_04/helpdata/EN/80/7d6641df6c7f47e10000000a1550b0/frameset.htm http://help.sap.com/erp2005_ehp_04/helpdata/EN/80/7d6641df6c7f47e10000000a1550b0/frameset.htm for ehp5 http://help.sap.com/ERP2005_EHP_05/helpdata/EN/06/21FE58443949769EA924C9A8A1D8DE/frameset.htm http://help.sap.com/ERP2005_EHP_05/helpdata/EN/06/21FE58443949769EA924C9A8A1D8DE/frameset.htm https://websmp104.sap-ag.de/~sapidb/011000358700000904092010/ https://websmp104.sap-ag.de/~sapidb/011000358700000904092010/"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Time Type 0904 generates from which rule?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Time type 0904 is used in Overtime Calculation. But i am not able to find from where Time Type 0904 is gets generate. Rule TP01 only initializing 0900. Please help with Time type 0904 generation process. Thanks, Viru",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Have you checked table V_T555Z - time type determination. Maybe someone had set this time type to generate automatically (unlikely). Or Table V_T559P - Limits for time balances? Otherwise it must be coming from a rule within your schema. In which case you should drill into the display log for the whole day and then do a search for the time type and see where its first created."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reversing of a deal which has been used for a netting",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello expert, we would reverse a deal which has been used to net other flows. I got the error T4037: \"Activity cannot be reversed as flow included in a netting transaction\" How can I solve this issue? Thanks Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Larissa, You need to run TBR4 to undo the netting and then you can reverse the transaction. Regards, Feng"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which restrictions in procurement based on price validity / availbility of the info record",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Good morning from Germany! Is there any overview how the avialibility and price conditions in the vendor info record are working together or do restrictions on processes. My questions goes in those directions: Given that, availibility from is January 2018 to December 2018, price validity is the same - Can I create a PO TODAY (before 2018) in the ERP? - Can I create a PO in November 2018 with due date February 2019? We have an internal business unit claiming, that they are not able to place a due date outside the availibility even when for their business the PO CREATION DATE is in the avialibility. Is there any official help text about?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Nicolas, You can only have the current period you are in, and the next period - the creation of the PO will always default to the current 'valid from' date, so, anything created now would carry over to the next period (2018) - this will throw reporting, etc off somewhat. (Also bear in mind that POs, when created, are legal documents, so it would make sense to create 2018's in 2018) For 2019 however, it is not advised to do so in this way (your current period is 2017, next one is 2018, 2019 does not exist yet in the system) You cannot create multiple future periods - please review KBA 2499153. Hope this helps!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Movement type to which GL account",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Which config/tcode to check on movement type assign to which GL account during physical Inventory physical & qty diff? Thank you.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which program used to clear data in EMFOR",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear i want to use background job to process data in EMFOR, but i dont know which program can be used",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which value should I send for the field \"business partner type \" in DTW",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I need your help. I am trying to create a new business partner using DTW. Please let me know wich possible values should I send to DTW for the field \"Business Partner Type\" (this label appears on sap-bo when enteringa new BP). The database field name is OCRD.cmpprivate, so I tried to find the related field in the input file and I found \"CompanyPrivate\" is this the corresponding field for the \"business partner type\"? I have been trying with the following values but the DTW fails with the error \"invalid item name in enum BoCardCompanyTypes\": tYES tNO cCompany cPerson I C cI cC Thank you for your help Jorge Manzo",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Please note: I use DTW Version88.1.7; API Version8.81.319 88.1.7 8.81.319 To set CmpPrivate (it is exactly BoCardCompanyTypes) use following: cCompany- Card represent a company. cCompany cPrivate- Card represent a private person. cPrivate To set CardType see Godon's replay. A lot of info you can find in \"SAP Business One SDK - Help Center\" docs. Thanks, Grzegorz"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to transfer requirements to item which is not in BOM",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, we have finished product for which we load the forecast and need the net requirements from this finished product to be mirrored to the component which is not in the BOM (it is send along with finished product to the customer and they don't want to have it in BOM). Is there any way in SAP R3 to set up that component planning that way? thank you regards Pavel",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Vendor Returns for SLED materials which are blocked",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, We have certain materials for which Shelf Life has been expired. Using QA07, we have blocked these materials. Now we need to return those materials to vendor. We tried creating return PO. While doing MIGO (using 161 mov type ), it is showing the error \"SLED 09.06.2011 of batch A has been exceeded\". Please let us know how to return those material to vendor from blocked stock. Regards, Rosh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, In Transaction OMJ5, For Movement Type \"161\" and \"122\", keep SLED Check as Blank i.e. \"No Check\"."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which form's typeex property is 38?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which form's typeex property is 38? thanks in advance!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "\"Settings - User Defined Fields\" Accessible from Tools / User Defined Fields / Settings, when a UDF window is being displayed. John."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which module will supposrt asset configuration features",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , I have following requirements . Initially I felt it is to be met maximum with Z development , later while googling I felt IPPE can meet these . Has any one have better ideas",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "It's Plant Maintenance module, which will cover your requirements. I would request you to elaborate more on these points; Regards, Ketul"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "who printed or which printer was used",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, please, does exist a possibility to create a query to see, who printed some documents or which printer was used for printing? Thank you for help, regards Jonmar7",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Jonmar7, That kind of info will not be saved on any B1 tables. There is no way to create a query for it. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which stack does SAP Recipe Development rely on?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Does SAP Recipe Development webdynpro applications use ABAP or Java stack? The SAP provided Webdynpro components for recipe development involved ABAP code, however I wanted to confirm which stack we should use to modify the existing recipe development applications? Can Java stack be used for SAP Recipe development? If we use Java, wouldnt it be on a separate system? My understanding is that we cannot have Java and ABAP stack on same system and since Recipe Development is dependent on EH&S, it probably will use ABAP stack since both EH&S and Recipe Development exist in the same system. Please suggest. Thanks & Regards, Naresh Makhijani.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Naresh, Recipe Development is part of SAP PLM 7.01/02, and as such, is entirely included in the NetWeaver ABAP stack. There is no need to use Java stack in this regard. Best,Rajeev"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "COPA: How I can easily identify my sender cost element is in which assignmt",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Guru, In Settlement, how I can identify my sender cost element is in which allocation assignment in Tcode KSES? I am struggling to find it in the assignment one by one Thanks. Kick",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Check this Structure Sender In assessment, each sender is defined by: Either cost centers or business processes (where the data to be allocated originates) Either a cost element or a cost element group (what is being allocated) Sender value (the value is being allocated) You enter the cost centers or business processes in the Allocation characteristics frame. The sender cost elements are grouped into a single assessment cost element or alternatively into several assessment cost elements via an allocation structure before being allocated to CO-PA. You enter the assessment cost element or the allocation structure in the segment header. You enter the sender cost elements to be grouped under allocation characteristics. The sender value can be calculated using various rules. You also enter the rule you want to use in the segment header. You must also enter a percentage for the sender value (with which the sender value is to be credited). The following are possible sender rules: Posted amounts (rule 1) Fixed portions (rule 2) Fixed prices (rule 3) If you use rule 2 or 3, you have to enter the fixed portions or prices for the individual senders in the sender values frame. Receiver The receiver is defined in assessment by: The profitability segment (which market segment is being allocated to / what generated the costs? The value field (which is being allocated to) Tracing factor (according to which distribution to the receivers occurs) The profitability segment for the receiver is defined by a combination of characteristic values. You enter the characteristic values in the Allocation characteristics frame. You can use a characteristic group to restrict the amount of characteristics offered at this point. Furthermore, to assign the respective characteristic group to the business transaction for indirect activity allocation to CO-PA, choose Actual Flows of Values \u00ae Transfer Overhead \u00ae Initial Steps \u00ae Assign Characteristic Groups to Actual Cycles in Customizing. For the allocation of planning data, choose Planning \u00ae Integrated Planning \u00ae Transfer Cost Center Planning/Process Planning \u00ae Initial Steps \u00ae Assign Characteristic Groups to Plan Cycles. In the segment header, you specify the value field (or value fields for fixed and variable portions, depending on the sender selected in the cycle header) into which the sender cost elements are to be entered. Alternatively, you can enter a PA transfer structure with which several value fields can be found for each sender cost element. The tracing factor for allocating to the receivers can be selected using various rules: Variable portions (rule 1) Fixed amounts (rule 2) Fixed percentage rates (rule 3) Fixed portions (rule 4) If you use rule 1, you need to enter an allocation base for calculating the variable portions. The allocation base can be either a value field or a key figure and it is obtained by adding and subtracting value fields in CO-PA Customizing (by choosing Flows of Actual Values \u00ae Transfer of Overhead \u00ae Initial Steps \u00ae Define Calculated Values for Use as Reference Values). Using rule 1 can sometimes result in a negative tracing factor. You therefore need to specify what scaling should be used in such instances. With receiver rule 1, you make the other entries for the tracing factor in the segment header frame. You can change and specify your entries in the tracing factors frame. The variable portion that is produced by the tracing factor can be manipulated again manually by choosing Receiver weighting. You can enter receiver-specific weighting factors, which are multiplied by the portion the system has calculated. Hence the portion calculated automatically and the receiver weighting factor you enter are both involved in the allocation. Reg *assign points if useful"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in third party process when vendor is delivering the goods to customers which invoice",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "in third party process when vendor is delivering the goods to customers which invoice vendor will send along with dispatch and whoose name plesase give me solution..... in third party process when vendor is delivering the goods to customers which invoice vendor will send along with dispatch and whoose name plesase give me solution.....",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "vendor would send the deliver challen to customer with the dispatch of customer number.. suggestme is this correct.."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to remove Planning Area which is active in Product Planning",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Team, 1) We want to remove Planning Area 131000 from all products - please suggest if possible... 2) We have other locations where no purchasing is required, only stock transfer should be done.... How to configure Material for same... For e.g... 121000 we can set procurement as external but 122000 we don't want procurement at all... all materials going to 122000 should only be by stock transfer. (can anyone explain how to setup system for this) Regards Vishal Kambare",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Vishal, Once activated for planning am afraid it is not possible to remove it. For your other query against material XYZ for planning area 122000 you can set the procurement type as internal procurement or Source of Supply Priority Rule to bring products to this area by stock transfer order. Regards Leo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to figure out to which PR planned orders are assigned in MRP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear experts, inMD04I see planned orders unter purchase requisitions (PR). MD04 How they are linked? Is there a like anyhow? How ca I get related Planned orders for PR or PR for planned orders? Many thanks in advance. Best regards Patrick",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Patrick There is no fixed link between the requirement and the replenishment element generated by MRP. You can try to use transaction MD09, where system dynamically tries to find this link. See my answer on threadhttps://archive.sap.com/discussions/thread/3414449for more details. https://archive.sap.com/discussions/thread/3414449 Regards, Caetano"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to display the public projects which I am not project partner/project accountant/project controller of this project?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "The Project has been in execute phase and \"public project\" has been turn on. I am not project manager or project partner or project accountant or project controller of this project. I belong the same service organization of the project. But I need to have visibility of this project. how to do that? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "\u200eHi \u200e@Sally, You can search for the project with the project ID/Name in the \"Plan Customer Project\" app. However, your business user should have assigned with \"SAP_BR_COM_PROJ_MNGR\" role with read access. Thank You, Vijay"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP standard event which is triggered",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Friends, I want the SAP standard event which is triggered whenever a vendor is created in SAP R/3(using transaction FK01 or XK01.). Help will be rewarded. Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "try MM forum"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

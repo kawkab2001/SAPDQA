@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "How to reopen a assets fiscal year which was closed by mistake",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Friends Here we are stuck in a situation where one of my consultants close assets fiscal year by using the Tcode AJAB (which is not suppose to be done till march 2009) what should be the possible remedy to reopen the closed fiscal year Pls give us some inputs so as to reopen the fiscal year of the assets many thanks in advance kishore",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Where is  landed cost document in which module",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI,, above one is my question.. if u dont mind can u plz show me the pic...",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Landed Cost comes under Purchasing A/P. Thanking You Malhaar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which of User Exit or BADi could be used to populate equipment number in operation equipment field",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, I want to populate equipment number in the operation equipment field as snapshot shows. I have custom logics to populate sub equipment number, but I need to find a user exit or BADi to realize it. I want to populate equipment number in the operation equipment field as snapshot shows. I have custom logics to populate sub equipment number, but I need to find a user exit or BADi to realize it. I found 2 BADi (ALM_ME_001_ORDER Order/Operation Data, WORKORDER_UPDATE Business Add-In PM/PP/PS/PI Orders Operation: UPDATE ) from internet, however I am not sure whether these BADi are applicable for this requirement as I have less experience in ABAP development. I found 2 BADi (ALM_ME_001_ORDER Order/Operation Data, WORKORDER_UPDATE Business Add-In PM/PP/PS/PI Orders Operation: UPDATE ) from internet, however I am not sure whether these BADi are applicable for this requirement as I have less experience in ABAP development. Could you kindly help me have a look at these BADi. If they are not applicable, is there other user exit or BADi which fulfill customer\u2019s requirement? Could you kindly help me have a look at these BADi. If they are not applicable, is there other user exit or BADi which fulfill customer\u2019s requirement? BTW, if I want to get technical document of BADi, where can I get it? BTW, if I want to get technical document of BADi, where can I get it? Thank you very much! Thank you very much! Wesley Wesley",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HelloWesely, Wesely Wesely I think you are in EHP5 or above, where Business functionLOG_EAM_OLCwas activated. Perhaps this makes the Equipment field of the Operation tab enabled. The earlier versions do not have this. However, coming to your query: LOG_EAM_OLC 1. About the BAdi 1. About the BAdi To my judgementWORKORDER_UPDATEwould the job of updating this field. Using methodBEFORE_UPDATE. WORKORDER_UPDATE BEFORE_UPDATE. Also the other BAdi namelyALM_ME_001_ORDERdoes not seem is for this purpose, also should not be preferred, because this is not for multiple use. (BAdiWORKORDER_UPDATEis for multiple use). ALM_ME_001_ORDERdoes not seem is for this purpose, also should not be preferred, because this is not for multiple use. (BAdiWORKORDER_UPDATEis for multiple use). ALM_ME_001_ORDER WORKORDER_UPDATE Also you can use fmCO_BT_AFVG_UPDATEin user-exitIWO10009to update this Equipment field at SAVE event of the Order. CO_BT_AFVG_UPDATE IWO10009 2. Document on BAdi 2. Document on BAdi Step by Step guide for BADI Multiple use implementation Step by Step guide for BADI Multiple use implementation Searching and implementing BADI - An example Searching and implementing BADI - An example Detailed explanation about BADI and the ways to find the BADI with an example (ME23n transaction) Detailed explanation about BADI and the ways to find the BADI with an example (ME23n transaction) Creating our own BAdI Creating our own BAdI Regards KJogeswaraRao KJogeswaraRao"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Via Which Transaction, I can post the values for ASSETS??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Via AS01, I created a my_asset_1 with quantity of 100, fine. But, pls., let me know that, 1- How/Where shuld I post the values for the my_asset_1? 2- While creation via AS01, system did not asked me the Inventory#/Material#, so, Where shuld I post/assign the same? ThaNQ.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi While creation of asset you should not fill in the quantity filed with value the value for quantity filed gets updated when you procure an asset via F-90 or MIGO. When you procure an asset via F-90 you have the quantity filled that has to be filled in, which in turn will update the asset master record automatically after posting the transaction. Good luck Hari"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "IDES- which company code is adviceable to integration test of FI-SD & FI-MM",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi gurus, Can any one tell me at IDES system which company code is sutable for SD & MM module integration with FI. Regards, RAM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can use 1000"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP WM RF technology replacement - which is the best in market - ITS Mobile / Mobisys / ??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, Please note that we are working on an RF device replacement project in which we are replacing existing SAPConsole based RF devices to latest RF devices. In that direction, I am requesting feedback on below two basic but important questions: 1. What will be the better choice for RF software? One segment of our org. uses Mobisys with SAP EWM. But the present scope in hand is for ECC WM and we will upgrade to EWM in 1-2 yrs. My understanding is ITS mobile is the better option for SAP WM/EWM instead of Mobisys. However, if anyone has the experience, knowledge of comparison on these two technologies, or any other better-suited option, that will be highly appreciated. 2. Can anyone suggest a few best-of-the-breed device models? BR, Jayc",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Need to return goods which is initially uploaded..",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, In my system stock of material (suppose material is \"x\") is there say qty -600 which is initially uploaded(561 movement) And now i want to return 200 out of it to my vendor...How i can return this to him if i want to return invoice (J1IS) against it. Please let me know the process or any other alternative to solve the same. Thanks, Naren",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Do 1. Return p.o against vendor 2. Goods receipt -MIGO(movement type - 161) 3. Do J1IS - ref doc type - MATD 4. Raise credit memo."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "I need a report in SAP which allows multiple Profit centers selection with",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Cany anybody help me with below issue - I need a report in SAP which allowing multiple Profit centers selection with : - Profit Center # - Profit center Name - Profit center long text - Profit Center group - the related PC node showing the BU and the product category group. Let me know is there any report which can provide us with all this details. With regards.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, If I have understood your requirements correctly, you want to do master data reporting and the master data index report KE5X must be of use to you. Good Luck!!! Assign points this input was useful to you. Thanks and Regards, Bhuvaneswari.S"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "to find cost element in which cost element group",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Need advice. We have many cost element group in KAH3. If I want to find the particular cost element is maintained in which group, may I know how to check? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which data is contained in the settlement profile?...",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello SAP-team! Which data is contained in the settlement profile? - The possible types of settlement receivers - The settlements cost elements - The order types that can be settled - The document type used for settlement to external accounting - The Accounting Clerk I D ps: thanks to SAP-community! Eugene",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Which data is contained in the settlement profile? - The possible types of settlement receivers- True - The settlements cost elements-False - The order types that can be settled-True - The document type used for settlement to external accounting-True - The Accounting Clerk I D-False Regards Sudhakar Reddy"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to settle freight, which maintain through contract",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "This is my requirement. I want to settle freight cost, to freight vendor. To settle freight cost, my client needs to create contract for freight vendor. I know freight can settle by planned or unplanned delivery cost. In case of planned and unplanned settlement freight charges post on to material account. Same like 1>If freight settles by contract, need to post on material account how to do that? 2>How to combine material invoice (PO), freight invoice (contract) and make the freight invoice to post on material account? 3>How to map contact and material PO combine settle both (freight and material cost) in invoice?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi You can enter the freight condition in the PO with freight vendor at condition tyep level. This will help to post the material & freight cost to material. Regards Prasad"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How is determined which contact is standard in OCPR?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi guys, I am looking for a way to get the standard contact person for my customers into a query. I can't find a field in OCPR that determines whether somebody is the standard contact for a BP or not (i. e. the bold one). Please help Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Carlin Hush Try this SELECT T0.[CardCode],T0.[CardName], T1.[Name], T0.[CntctPrsn] FROM OCRD T0 INNER JOIN OCPR T1 ON T0.CardCode = T1.CardCode Regards Jenny"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ECCS: Which table is based on CX34A?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "What table in the transaction se16 in SAP derives its data from the transaction CX34A, that is \u201cDatabase list of totals Records (Selection using consolidation logic)?\u201d For example the table ECMCT derives its data from the transaction CX34, that is \u201cDatabase List of Totals Records.\u201d Which table is based on CX34A? @ sibylle.schaecher, you have had some helpful answers in the past, maybe you can help?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In Which criteria Batch determination & Stock determination will Works",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, In Which criteria Batch determination & Stock determination will Works. Please provide the details. While issuing the component in CO11N I am finding stock determination & batch determinination. Which one is mostly used. Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Don, both are quite often used. To enable batch and/or stock determination you need to define stock and batch determination rules/strategies and activate the determination for confirmations via customizing OPJ2. Regards, Andreas"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Unique part which is used for perticular to that varient only",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello All, I need to find out the Unique part which is used for perticular to that varient only . can you please guide me one this. Thanks Chandan.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Chandan Konapure, Chandan Konapure, Chandan Konapure It sounds like you need to create a custom report to feed in list of materials for which you want to find out if those are unique to any BOM in system. Please check below it may help you. Have you tried where used list for a part number, you can feed in an material and run this report to see in how many BOM's its being used as component. CS15- Single-Levelwhere-usedList CS15 where where where used used used Production\u00aeMaster data\u00aeBills of material\u00aeReporting\u00aeUsage\u00aeMaterial. Production\u00ae \u00ae Master data\u00ae \u00ae Bills of material\u00ae \u00ae Reporting\u00ae \u00ae Usage\u00ae \u00ae Material. Another report is available in standard SAP to do BOM comparison to find differences in BOM. Executing a BOM Comparison - BOMs (PP-BD-BOM) - SAP Library Executing a BOM Comparison - BOMs (PP-BD-BOM) - SAP Library Check this two transactions and it will give you idea on how to proceed on your custom report. Thanks Ritesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Non saleable returned finished goods which are discarded handled in SAP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, I have a question with regards to Sales return. I have some returned finished goods which was taken back in the system and reserved for quality check. Here FG stock was debited and COGS was creditedat the time of physical receipt of material. But after quality check it was decided to scrap the material. How does the system pass the entry for the discarded stock. Rgds, MRS",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi The entries you have mentioned had set off the goods issue entries. Now when damaged - the materials can be scrapped with movement type 551 thanks"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Businnes Object for \"Purchase Requisition\" ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dears , I would like to test the possibility to use the GOS feature to attach Original documents to a Purchase Requisition. I want to store these Original documents into an external Http content repository already connected to my Sap system. I read the SDN link found on note 961713. According this I should use a Businnes Object , but in tx SWO1 I see only the object \"BUS2052 Outline purchase agreement\" Is that normal ? Which Object Type I should use for the Purchase Requisition ? Then I will use this object in OAC3, combining it with the Http external repository already existent in OAC0. Best Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which type of issues we get in SAP PP/QM Support",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, I m new to PP, Can any one tell me which type of issues we get in SAP PP/QM Support in Process industry. Regards, Anand",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which license I need to use to create document in SAP Business One from DI?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I currently have a 3rd party external program that uses the user \"manager\" with Pro license to create a document from the DI. I wish to save some money for my company by assigning one of the following free SAP Licensing: \"Compatibility License for AddOns\" / \"SAP AddOns\" /\"Software Development Kit - Implementation-Version\" /\"SDK Tools\". Can I assign a different license (a free one) to allow an external program to create documents in SAP B1? I would be more than happy if someone can point me to a relevant SAP Official document that clears up this subject. Thanks,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Aviv, If user need to use only DI API program and he/she does not need the access to SAP Business One, you can use \"Indirect Access User\" License. It has the Full Authorization for running the SAP Partner add-ons. Here is a detailed list about all the Licenses: License Comparison Chart License Comparison Chart Hope it helps! Kind regards, Kind regards, ANKIT CHAUHAN ANKIT CHAUHAN SAP SME Support SAP SME Support"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Activatemenuitem(\"1300\") - Which is this menu item",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Can any one tell me the menu id \"1300\" is associated with what action? Regards Rohan S.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Its changing width of column in matrix."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Why does the system accept Order Number which is out of range defined in KONK?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Why does the system accept Order Number which is out of range defined in KONK? Eg. I create in KO01 new Order: RMTESTTEST (10 characters and more) and it is acceptable by the system. While the number range in KONK for this type of orders is: RMAAAAAAA - RMZZZZZZZ (9 characters) ? Why don't I get any warning and can create the order ? I work on SAP ERP 6.0",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which movement type to show Directly Procured material in stock?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All Is there another movement type that I can use to reverse from a network, Directly Procured material in to stock? Our issue is that we plan and have delivered directly procured material to out production plant (Plant A) and the PO has an account assignment of 'N'. The production team then decide (due to unforseen issues) that they do not need it anymore for that network/WBS and want to send it to our central warehouse (Plant B) In order to recover the cost from the network, we process MB1A mvt 222 with reference to the WBS in Plant A and then stock transfer to our central warehouse, Plant B My question is....can we use another movement type to remove the cost from the project/network/WBS and return the material in to stock? I don't want to reverse the PO but can i use that as a reference? Your help is appreciated Regards Darren",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "MB1A transaction is a goods issue goods issues are valuated with the material master valuation price. in goods issues you cannot reference purchase orders (this is only possible in receipts) there is no goods receipt transaction for material which was already received against a PO. You credit the network with the leading price from material master, there is no value flow in the opposite direction. But you can control the valuation if you allow external value entry in the movement, which is usually not liked by auditors, especially as such movements are executed by warehouse personnel"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which one is Workflow iview for Leave Request",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi SAP Guruu2019s I have taken workflow iview for leave request from content administration->portalcontent->content provided by sap->standard portal users->iviews->Universal Worklist(iview) content administration->portalcontent->content provided by sap->standard portal users->iviews->Universal Worklist(iview) So please confirm is this correct iview for the leave request workflow because it is not showing leave request mails in my ESS.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Sushil, Thanks a lot buddy , according to your step I have configured UWL and now employee is able to apply leave request and it's coming in manager workflow inbox but when manager is clicking on the link, getting below mentioned error :- com.sap.tc.webdynpro.services.sal.core.DispatcherException: The requested deployable object 'sap.com/ess~lea' and application 'LeaveRequestApprover' are not deployed on the server. Please check the used URL for typos com.sap.tc.webdynpro.services.sal.core.DispatcherException: The requested deployable object 'sap.com/ess~lea' and application 'LeaveRequestApprover' are not deployed on the server. Please check the used URL for typos I have tried to search in sdn I got two solutions But these recommendation are not resolving my problem, please suggest if your have any solution"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Pay a purchase invoice which has been partially reconciled",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello experts Accounting users are asking if it is possible to take a purchase invoice which has been partially reconciled and pay the rest of it with a different payment method (not reconciliation). It doesn't seem to be possible, as affected invoice's payment method is informed as \"Reconciliation\" and it is not possible to change it back anymore. Due to this Payment Wizard is not being able to catch the invoice. Is there some solution or workaround? Thanks in advance and regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, It is not possible to change invoice payment method after you have partial payment. This is by design. The work around is to pay on account and reconcile it with invoice. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Please help me: Which transaction to print a invoice?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I have a invoice, i would like toprint this invoice as below: print this invoice as below: 1. Tcode VF02 + invoice number. 2. In invoice screen, menu: GOTO --> HEADER --> OUTPUT (Shift + F8). 3.In output print screen, add a new record intothe output grid list. In output print screen the output grid list. 4. Menu: Output --> Exit (Shift + F3) to back to invoice screen. 5. In invoice screen, menu: Billing document> issue output to *> Printer*. But the problem is here: Menu\"Printer\"is in grey color, I can no longer choose\"Printer\". So I can't print the invoice! \"Printer\" \"Printer\" Could you please help me: how can i print the invoice?Is therean other transaction to executethe records of output grid list in output print (step number 3 above)? Could you please help me: how can i print the invoice? an other transaction to execute Thanks all you a lot in advance, Vinh Vo",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, To print the invoice goto VF02, enter the invoice number. Do not click enter. Click on billing document above. Choose \"Issue output to\". There choose the output you want a print of and in 'Print options'. Enter the printer details and then click on the \"print\" option. Regards, Shanu."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Project report which includes payments received - ByDesign",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello. We are trying to create a report which will include the project information, invoiced amount and payment received all on one report. Has anyone else been able to create this report? We are not seeing a standard report option. Thank you! Christie Robinson",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which SYSTEM User is required for HANA DB Upgrade - SYSTEMDB or Tenant DB",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Guru's, Thanks in advance We are planning to upgrade HANA DB Version from HANA 2.0 SPS 3 to HANA 2.0 SPS 5.Which SYSTEM User we will be providing it? SYSYTEMDB User or SYSTEM User of Tenant. Incase If i Have more DB SIDS - like DBM/CRM/SRM in a Multi-Tenant Database. Is it possible to upgrade only DBM DB and leave SRM and CRM? or Do I need to upgrade all at one stretch? Kindly do the needful Thanks & Regards, Mithran",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Please advice which T-code can I use",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi experts, I need a report to display the entire PO created by Company code xxxx from July to Sept 08. Please advice which T-code can I use. thanks in advance, mohammad",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Use ME2N Report on Purchase Orders and Input Document Date From Date and To Date Field and Select the scope of List as ALLES_ALV / as per your Requirement and Execute. Else Go to SE11 and Input Table EKKO and then Click on Display / F7 then Execute / CtrlShiftF10 and Input Document Date and Execute. Shift"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "XL Reporter - Which dimension for BOM reporting??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I was wondering in which file I can find (or put together) BOM master data. I tried few tests with Product View, but measures related to it seem to belong to transactional more than master data. Thanks a lot !! Charles",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can use Dimension - ProductTree & Items, Measure - Quantity to get BOM master data. You can add IssueMethod or something more if you need. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "To Reduce Asset Value Which has Run Depreciation",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have a request to reduce asset value, but the asset has run depreciation for three month in the system, I want to know how to reduce the asset value and recalculate previous depreciation posted value of the asset? Please share the detailed procedure within the thread, if can provide the manual for this case step by step, it's better! Thanks in advance. All suggestion will be awarded. Tao",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Tao, Do you want to reduce the Asset value from $10,000 to $ 5,000? If so, please post a Credit entry to the asset account. pstg CR 75 Asset account **** DR 40 Concerned account **** If you are in the same year, then the system would recalculate the Depr and post the difference in the next Depr run. But if you are in the different FY, then post a write up depr for the Asset value reduced (Depr on $5,000 in previous FY). Use t-code ABZU to post the write up. Please revert in case you have any questions."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which fiori app can get me cumulative total commitments and number of new orders?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I am trying to develop a dashboard view with one of the fiori apps where I can get the cumulative total commitment and count of new orders. Our orders will come from the PO side most likely. At the moment I get PO amounts from the Actual/Planned Purchase spend (PO and scheduling Agreement Value) tile and for commitments, it seems the best place as we also use actuals in conjunction with commitments is the Project Cost Report - Line Items as I also get a graph for that information.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In Which table the Authorizations data is Stored ?????",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I would like to know in which table the Authorization LIST is Stored ???? I have checked through View System Information and as per that it shows - OPRM. But when i write a Select Query, it says me Invalid Object ???",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, you would not find the table for authorization but you could import it to excel file user per user. if you have new database and have same authorization setting with old database, you could use copy express addon. Rgds,"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "For which SAP versions i can use LSMW",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "For which SAP versions i can use LSMW tool for data migration",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Reddy, I have used LSMW for SAP 4.6c, 4.7, ERP 2006 (also known as ECC 6.0). So I can surely say u can use LSMW for all of them. I have never worked on 4.6b or earlier versions, and infact they are also obsolete. So with SAP 4.6c onwards to ERP 2006, you can use LSMW. Regards, Anirban"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Query to see which SAP user has the Professional license assigned",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I know the licences are not stored in any table. But the license assignment should be in an SAP table. I have multiple users that sometimes I want to see which one of them has the professional license assigned. Is there a query to do that thanks in advance",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Invoice/credit number -  which table?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi friends, I have to create a new report and I need to include the information: \"INVOICE/CREDIT NUMBER\" I have never seen this in SD before. Does anybody have a clue where I can find the table and the name of the field? Thank you, Roger",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Information is lost after redeployment of SAPMEINT - which workaround?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello! After redeployment of SAPMEINT I noticed that some information concerning the SAMEINT MII webservices gets lost. I corrected this information manually afterwards - the information can be found in the old SAP ME 5.2 documentation (pre SP05). What I did was first undeploy of SAPMEINT and immediately afterwards a new deploy. Was the undeploy step unnecessary and therefore this step caused this annoyance? Or is it always necessary to re-run the SAPMEINT configuration wizard? I know that it is this configuration wizard, which updates the information as part of its function. This is the manual workaround: 1. Log on the SAP NW admkinistratior console 2. Goto Configuration Management / Infrastructure / Java System Properties / choose Applications tab 3. Search for application xappsmeintegration~ear 4. Change the following properties: webservice.authenticationMechanismType = 1 webservice.Username = MESYS webService.Password = <password of MESYS> webservice.EndPointUrlPrefix = <URL to (MII hostname:port)/XMII/SOAPRunner> Kr, Erich Lind",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Erich, Could you please explain why did you undeploy/deploy SAPMEINT? Usually standard update procedure in JSPM is needed. As you know ME 5.2 SP5 CTC Wizard is provided, which must be updated together with SAPMEINT, to configure the integration. And yes, re-running of CTC Wizard is necessary after update. Regards, Alex."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Processing Cancellation Invoice for which Delivery Document got archived",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We have a scenario where the Delivery Document with reference to which the Cancellation Invoice was created has now been archived. The Sales Document is at status 'Completed'. But we are not able to post the Invoice document as it checks the status of the preceeding document which got archived. We are not able to post this Cancellation Invoice nor are we able to Cancel the same as the system keeps checking the preceeding document status. Is there any way to get rid of this document in the system or process it further? Can we process this document through transaction FB70 where we provide the reference to this Cancellation Invoice and post it? Please guide in this regard. Regards, Piyush Sagolekar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "How you can create a Cancellation Invoice wrt the Delivery Number. As per the standard process , cancel the Invoice wrt to Invoice which has already been created.In case if your Delivery is archived , you can still post the Cancel Invoice if both are in the same Billing Date. If the Invoice or PGI was done on previous month & the period is closed then it that case , it will not allow to post the Cancel Invoice. Best Regards, Ankur"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which address is used by the Account Statement?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi expert, Do you know which address is printed on the account statement? (Transaction F.27 Account statement ). Is it the address in the customer master data? Or is there another address field? Thank you. Kind regards, Linda",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Customer Master Data."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tax code assignment to Discount and Surcharge condition type which is non-taxable",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Team I have assigned a discount condition type to a pricing procedure & G/L account assignment in VKOA for the condition type. However the condition type is also picking up a tax code and though it is not a discount condition type. Can you tell me why discount and surcharge condition type is picking tax code as there is no OB40 setting for the same. Due to this Tax code is passing to accounting entry. I am attaching the screenshot. Regards Prasanta Ray",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Internal Reconciliation - which field stores date of Reconciliation",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, I am looking to produce a rerport with shows payment on account and invoices and the date that they were Internally Reconciled against each other. Is this date stored in any table? I have checked the ORCT table and on Internally Reconciling a Payment On Account to and Invoice the following fields are updated: OpenBal OpenBalSc However, I cannot see that the date of the reconciliation is stored. Is it marked elsewhere, perhaps in another table? Thanks Greig",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "What is the name of the new App which will be delivered to deactivate the EU-flag for country code GB - Brexit?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, See new app in picture. We will deactivate in Q and P at the correct moment. Then we will remove the app by authorization adjustment. Eric. Brexit European Indicator Great Britain"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Query to show which User created an Activity",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts Does anyone know how I can find out which User created an Activity? I tried using the OCLG table and the OUSR table but it doesn't bring back the information I need. Many thanks Caroline",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "select OCLG.ClgCode, OUSR.USER_CODE,OUSR.U_NAME from OCLG inner join OUSR on OCLG.UserSign = OUSR.USERID Krishnan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Transaction/Report to show Chart of Account in S/4 HANA",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi everybody, I'm searching for a way to display the CoA in S/4 HANA System. However, this Transaction or Report must be accessible for the users. Thus, SE16/SE16N is not allowed. The only report I've found so far is S_ALR_87012333 but it only shows numbers and description of the operating CoA (company code segment) and not the client segment. All other reports in this area are not available anymore: Thanks for your help",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Version of SAP B1 which are still supported by SAP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "What Versions of SAP B1 are still maintained by SAP after the release of version 9.0 PL05?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Maree Palmer, There are no more patches provided for versions lower than 8.82 & 9.0. All the best, Kerstin"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which could be better implementing ess or company's portal",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts One of my client wants to know that which would be better option for them considering reducing hr workload and cost factor ESS or Companys portal.They are having ESS but they are only using it for leave and personal information.They want to add many more like Fun forum Discussion forum IT tax module Help desk Ask an expert opinion polls employee satisfaction survey Newsletter and many more I want to know what i should suggest them.What i believe is ESS will be quite expensive to them bcoz license will be required.Plz Let me know if license is required in ESS then for what license will be required.They also wanted salary slip.Or portal will be best option.Plz let me know the comparison between both. ShubhaC",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI, I think they need ESS licences to implement ESS. But when they put in additional services they don't need to Pay extra, But they have to customize or develop all these services which might take both time and cost. Via Portal also they can do this that is also good option. One thing i have to say is they can also use portal and ess both at the same time. Mean let them create portal and provide all these funcionalities there and use ESS as link and give them what ever SAP Standard ESS provides i.e salary slips showing,leave application and approval via workflow, display or change personnel data, family data,etc. Hope you got your answer atleast some idea if not full. Regards. Afrasyab"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "What is link of Service Conditions for PO which is stored in KONV table?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, I want to fetch the details of Service Condition for a particular line item, i have found the entry in KONV table by searching on amount. Do you know how Service Conditions are stored in KONV and how they can be linked to a purchase order? Thanks in Advance!!!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear, Check: Regards, Syed Hussain."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the best SAP course suited and where in Delhi NCR",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello All, I am basically from the pharma/healthcare/life science domain and I have got 4 years of experience in the same domain as QC/QA Microbiologists. Now I am looking to switch my career to IT and specially in SAP (As it is in demand with secure future), so please suggest my the best SAP course to opt for and where in Delhi NCR considering the fact that I do not come from IT background plus if possible my experience can be counted in my future career in SAP. One institute which I have in my mind is Atos but if there is any other please let me know. Looking forward for your response. Regards, Nandini Sharma",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Nandini, Regarding the institute please go through the following link http://scn.sap.com/community/career-center/blog/2015/08/13/best-institute-for-sap-training http://scn.sap.com/community/career-center/blog/2015/08/13/best-institute-for-sap-training Regards Shaik"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Throw error message during order creation for recipe which are not released",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, My client uses Process Orders,they have got production versions.In those production versions for some of the finished products they assigned recipes with status other than release.They are wanting that while creating the Process Order the system should not allow recipes which are not released. While creating Process order with the recipes which are not released the system is throwing an information message that the recipe is not released ,but while pressing enter it is allowing to proceed and then one can save the order. To prevent order creation with unreleased recipes 1.I changed the message type to error but still it is having no effect. 2.I assigned the automatic selection of recipe with status 4 only. 3. In OP46 where configuration of status is maintained I have checked the check box rel ind with staus 4 only. What else I need to do to restrict the recipes without release status to create the order. Regards Sandip Sarkar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear, Please refer OSS note 416344 and 357368 for modification of warring message CO261. Regards, R.Brahmankar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "From Which place I should try for Job?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Friends from India I have complete my course SAP-SD from Hyderabad but not getting any call from any company That so why i want to move either banglore or delhi. Would any one suggest me to that where I should go. Please help me to take decision which place will be good for getting frequently call and walk-In in sap sd. Arun",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Arun, As per my knowledge the place do not matter much. You can upload your CV in jobsite ( naukri, monsterindia etc) and can get the calls. Most of the companies are willing to take the telephonic interview also (especially for the first technical round). The core of this market is knowledge. So practice as much as possible. Do let me know in case of any queries. Hope this helps you. Regards, Rakesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Deliveries for which F8 has been done are appearing in VF04",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, Deliveries for which proforma invoice F8 has been done , are appearing in VF04. I know that +/- indicator is absent in VTFL. What other ways are there to adress the issue. Pl. help. regards.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Whenever Proforma Invoices are created then the Order or delivery status remains open for invoicing. Example: Create a Proforma from delivery. Even then the delivey is open for invoicing. So Deliveries for which F8 has been done are appearing in VF04 is standard system behaviour. regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "In Which table is the PO\u00b4s text ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "As you know PO has 2 texts, at heading and position level?, Do you know the table where this data is located?. Thnks. Belinda",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear, Please check below links . http://scn.sap.com/thread/1537830 http://scn.sap.com/thread/1537830 http://scn.sap.com/thread/1537830 Note before posting here check in Google . Note before posting here check in Google . Thanks, Thanks, Naren Naren"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which tables is the delivery date of ME23N stored?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I'm trying to map the delivery date of a PO to a SAPscript. I'm not sure if it's stored in EKPO or PEKKO.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to  restrict the IP which can connect to SAP S/4 HANA Cloud URL",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello expert\uff0c For more security\uff0cour company wants to restrict the IP which can connect to SAP S/4 HANA Cloud URL. For example, we just want IP A or B can connect and access SAP S/4 HANA Cloud URL, the other IPs should be forbidden to connect and access SAP S/4 HANA Cloud URL. Becasue it is SaaS mode, we can't do the access control policy inside our compony using the network devices. So we are dying to know if there is any way we can do in the SAP S/4 HANA Cloud. Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Free Samples which are excisable.?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi friends, Some time we need to issue free samples to our clients : 1) Create a BP u2013 Free Samples 2) Create Sales Order (Separate order series for Free Samples 3) Create delivery of the frees sample 4) Pass Outgoing Excise invoice based on Delivery 5) Close the Delivery manually/Forcefully 6) Pass JV for closing the Open Excise transaction Whether this is OK ? In this case, we will not come to know about the Quantity /value of Frees sample issued during the year. Suppose we want to capture the quantity & amount of the cost which is related to Free Samples, than whether any other procedure needs to be adopted ? Regards, Mahesh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi! The process is fine for Free Samples. if, u want any Details like, what is the Expense incourred for Free Samples, u write Query reports."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In EDI, the segment E2EDK02/BELNR is for which purpose ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In EDI, the segment E2EDK02/BELNR is for which purpose. Is it for PO or Document no. Can anybody pls let me know regarding this. It's very urgent.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, it is an IDoc Document number,, please assign points if it is helpful regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which DMIS SP Stack for S/4HANA 2022 FPS1?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Community, my customer run into an issue after the upgrade to S/4Hana 2022 FPS1. They have dumps. The DMIS has SP22 installed and SP23 is compatible with 2022 FPS00. As Sp24 is released, should we install SP24 for 2022 FPS1? What is our guidance/experience to tell my customer? Thx for your support. Cheers,Sang",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "hold an  Iv which is parked",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Friends, CAn we Hold a Invoice document that is already parked ? I found, 1)Create , Change ,save, save as complete, post (FI and MAt doc created) is possible. 2) An IV can made to Hold initially also , and then Post . My question is specific, CAn we Hold a Invoice document that is already parked ? I tried but i could find other than post or save to an alreadt created parking document.\\ regards Manu Edited by: manu m on Jul 31, 2009 10:55 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "In fv60 / mr42 you have an option of Save parked Document as completed (CtrlShiftF6) ... i feel that solves your purpose. Pls check n confirm Shift Plz consider the basic definitions/ purpose of Parking/Holding an invoice ... i hope you'll also be able to convince the client on this."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Want to know TABLE which gives account assignment reference no when input is co code and Transaction no.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts , I would like to know a TABLE which gives me account assignment reference number when input is co code & Transaction number ( money market OR Securtiies). This is in case of SAP Moneymarket & Securities . regds, Swaroop Gujarathi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, you could check view TRACV_POSCONTEXT - but as the account assignment reference is an attribute of the (tpm20) position and not of a single deal, you will only be able to select by deal number for OTCs. For securities, you will have to select e.g. via security ID or other differentiation criteria. Best regards, Marie"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Changes on debit memo request which was created by DP90",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, we use DP90 to create debit memo requests for service orders. In some cases we need to adopt the debit memo request after the creation - e.g: - Creating some textpositions in between to explain what the technician exactly did. - Split one service position with 20 hours into tow positions each 10 hours But if we choose \"Change\" in the DP90 created debit memo request (VA02) not all fields are changeable. The created positions and their amounts are greyed out. Is there a customizing or userexit or BADI to change this behaviour? Or what is the concept to do some changes on the debit memo request before creating the bill? Thank you Kind regards Manfred",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Manfred Have these items been invoiced? PeteA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SA price should not be changed which is copied from info-record.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, we have requirement, while creating purchase SA, the price is copied from info-record and user is able to modified the price in SA. the requirement is. 1. Need restriction i.e. user should not allow to change SA price which is populated from info-record 2. the restriction should be for particular user's only not for all , for some user's system should allow to change the price at the time of creation and change. 3. how we can achieve, with authorization object it can be achieved, if yes please provide the details.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Jaya, You can achieve this by the concept of Function Authorization. Scheduling Agreement: Info Record:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Where can do the post and settle for the BoE which status is in payment?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Where can do the post and settle for the BoE which status is in payment?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "There are two methods to do the settle and post as below:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "I would like to know the changes which have been done on Release\u00a0strategies release code.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi SAP Experts, I would like to know the changes which have been done on Release strategies release code. For example:- For level 10 release codes earlier the user was having authorization for value Rs-5000/ & then later on some made the changes and the gave the authorization for value Rs-10000/. we would like to see the changes that who made the change and what is the new value added to his role. I checked the change logs option which is there in Utilities Header level of release strategies. But was unable to find any changes. Even though i have made the changes just for testing. Is there any way from where we can see the changes. Regards, Pranav",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "in trx O1CL check for class type 032 class types whether 'Change Docs' is ticked. Try also CL20N to show change documents."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to reprint ACH payment remittances which are not delivered to the vendors ??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "We have an issue with payment remittance e-mails not delivering to vendors. We have to go to SOST and push the emails to the vendors. Our business users does not have an access to get into SOST to push the e-mails. Is there is any other way for users to send the e-mails struck in SOST? I was told by basis team that they cant give access to users for SOST Tcode. However, our team came up with an idea to develop a tcode which looks similar to the selection screen of program RFFOEDI1 but with Vendor #.In other words for ACH payments our team wants to reprint the remittances which are not delivered to the vendors for the payments which are already made so that users can go to this T-code and get access to the remittances to resend them. In other words for ACH payments our team wants to reprint the remittances which are not delivered to the vendors for the payments which are already made so that users can go to this T-code and get access to the remittances to resend them Please suggest any ideas to solve this issue. Thanks, Chaitanya.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Chandu, Few question here - 1) What is the triggering event of these ACH vendor notification? 2) How do you/user get to know that something is stuck into SOST? 3) How frequently this happens? I suggest you to create a custom program / t-code which will copy and store all the notifications triggered from SAP. The t-code should have resend button and check box. If user receive any inquiry from vendor or realizes that this has not been sent to the vendor, user can go the t-code, select the particular notification and click on 're-send'. These notifications can be saved for few weeks. and later on automatically deleted. -Vedavatee."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which Business Function should be activated for trans code FMPEPE",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "When I execute FMPEPE (easy multi-year budget entry in FM-BCS), I message to activate relevant Business Function. I have gone through SAP documentation but can not find relevant business function to be activated. Please help and thanks!!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Ravi, In order to activate FMPEPE, you have to define your own Z Business Function: Choose the type \u2018G\u2019 : Then assign the switches PSM_FM_BCS_FMPEP_REVand PSM_FM_BCS_FMPEP_2_REV : Save and Activate the business function. Last step: go to transaction SWF5 andactivate the custom Business Function. Regards. Pierre-Emmanuel"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "client  wants one report to know which documents are credit management and which are avil check",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear sd Experts First of all thank you so much in Advance Dear i have one requirement From client side , we have different type of documents , but my client is asking only which documents are maintained with credit management and which documents are maintained with availability checks ex we have some documents 11.... no credit management,, avial check 12----- no credit management 13......credit management,,,, avial check 14 ------no credit management 15------- credit managment he wants one report to know which documents are credit management and which are avil check plz let me know , if you feel this is generic question plz forgive me , but i need your help",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear For credit management status please use Field CMGST in VBUK table. In this field system saves credit management status data. If credit management is not performed there will be nothing in this field e.g. CMGST = Space. For availability check you can use field VERFP in VBEP table. If there is availability check then there will be x in this field and if there is no availability check then there will be nothing e.g VERFP = Space. You can create report with SQVI or SQ01, SQ02 and SQ03. IF you don't know Query report you can create ABAP report too by using these two fields. Thanks"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Installa ECC 6 EHP5, which DVD to download",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello , I am trying to install ECC 6 EHP5 (Windows + Oracle 11.2), i was looking for the media list, but in the installation guide they refer to Netweaver media list. and in the installtion page on SAP marketplace there are lots of parts for WIN +ORACLE to download. in the media list it is really complicated to know which DVD to download and install. I have read the installation guide for ERP - then for netweaver but it is really getting me more confused. Is it really necessary to install Netweaver before insatlling ECC? Can somebody please explain which DVD to download as it seems really complicated Edited by: Hassan Khanafer on Sep 19, 2011 10:09 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Go to SAP Marketplace : software download --> Installations and upgrades --> A-Z index Installations and Upgrades - E> SAP ERP> SAP ERP ENHANCE PACKAGE --> EHP5 FOR SAP ERP 6.0 Regards, Rupali"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Any standard process which we have to follow to optimize our purchase",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "we are creating PO after doing inbound delivery and delivering the goods. currently we creating po's manually. there is no system calculation or consumption details. so, to avoid over purchasing and over quantity how can will control or which process we have to follow.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which PAPI to use when I need to Import the DC into MES",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello guys, I need to find some PAPI to import the Data Collection related data into the MES rather than maintain the DC manually by \"Data Collection Maintenance\". The business situation is that there are so many DC Goups to maintain that the customer are nearly crazy. Therefore, I try to solve this problem by some PAPI. I try to find the PAPI to create and update the DC, add and update the attachment of the DC. At last, I only find the PAPI to create the DC can work, which is createDCGroup in DataCollectionConfigurationServiceWSService. The PAPI whose name is createAttachment in AttachmentConfigurationServiceWSService could add the data in ATTACHED and ATTACHMENT tables but cannot find the corresponding attachment in MES. I have searched the PAPIs inDataCollectionConfigurationServiceWSService,AttachmentConfigurationServiceWSService and DataCollectionServiceWSService. I find some related PAPIs but they cannot work well maybe because I don't know how to use them. DataCollectionConfigurationServiceWSService,AttachmentConfigurationServiceWSService and DataCollectionServiceWSService. I find some related PAPIs but they cannot work well maybe because I don't know how to use them. AttachmentConfigurationServiceWSService and DataCollectionServiceWSService. I find some related PAPIs but they cannot work well maybe because I don't know how to use them. Could you give me some name of PAPIs that can work or give me some instructions how to use the PAPI? Could you give me some name of PAPIs that can work or give me some instructions how to use the PAPI? Thanks and best regards, Thanks and best regards, Teson Teson",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Teson, You seem to have found correct PAPIs but they might be used in an improper way or might just have a bug. I would suggest that you create a DC group via GUI and a similar DC Group via PAPI, then compare their data in DC_* and ATTACH* tables to find the difference. Once found, try to find the respective tags in PAPI request to check if it is populated properly. Please consult Javadocs for your ME release - it is available at SMP. If you come to a point when you are sure that your PAPI request is correct but still does not work, then please submit a support ticket against MFG-ME-API component. Regards, Sergiy"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the table of Total (LC) of A/P Invoice in Purchasing A/P SAP B1 9.1?.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I have a problem in SAP B1 9.1. I want to design report of A/P Invoice of Purchasing A/P, but I don't find where field of Total (LC) comes from, So how can I find a table which contains Total (LC) of Purchasing A/P in SAP B1 9.1? So how can I find a table which contains Total (LC) of Purchasing A/P in SAP B1 9.1? The table of header and footer is OPCH and again the table of rows is PCH1 but I don't find field of Total (LC) in PCH1. The table of header and footer is OPCH and again the table of rows is PCH1 but I don't find field of Total (LC) in PCH1. How can I find that the field in order to finish my query? How can I find that the field in order to finish my query? Please anyone can help me to find Total (LC) field. Please anyone can help me to find Total (LC) field.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Line Total is 'LineTotal' field in PCH1 and Document Total is 'DocTotal' in OPCH. Regards Shiva"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "EC to HCM integration: Changes to field \"Region\", which is not designed for use, are deleted",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hello everybody, we implemented the Employee integration between SF-EC to HCM using HCI standard package. During the employee replication we have a warning message in SLG1 : 'EC to HCM integration: Changes to field \"Region\", which is not designed for use, are deleted'. EC to HCM integration: Changes to field \"Region\", which is not designed for use, are deleted EC to HCM integration: Changes to field \"Region\", which is not designed for use, are deleted After that we see the field \"region\" in HCM (PA30) is empty. This is very strange. Someone have a suggestion?. capture.jpg capture.jpg",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Please check here at the note 2163326 - Sending a form to database results in warning message PBAS_SERVICE067"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "condition updated in which table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "dear all, ply help me that whatever Po condition like \"PB00\",\"FRC1\" and others condition get stored in which table. Ply tell me that where will i get Po No and condition details regards amey",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can check table KONH (Header) and KONP (Item). Good luck Z.T"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to check material documents that are posted for the stock which is in stock in transfer in MMBE?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "How to check material documents that are posted for the stock which is in stock in transfer in MMBE?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Issue stock to Production order which is assigned to WBS element",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hello everybody: The situation I am facing is: We create production order facing WBS Element (tcode: CO07), in production order, all components are maintained. Now I want to issue unrestricted stock to such production order. But unfortunitely, the project are created as with non-valulated stock. When I issue stock to production order, SAP will throw out an error message. I have change the project profile customizing, non-valuated stock --> valuated stock. And My idea is to transfer the unrestricted stock to certain project stock first (MT 412Q), then issue such project stock to production order(MT 261). I have tested, and it works. The problem is, how can I issue unrestricted stock to the existing WBS Element. As I know, I can not change non-valuated stock --> valuated stock in project master. Please do advise, points are assured for helpful replies. Andy",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, In case of existing WBS, it looks difficult as Stock parameter defined at Project Level gets greyed out at creation time. You will have to close existing Prject and create new. Regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BOM is used for PI module",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, All Which type of BOM is used for PI module?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "PI uses the same BOM which you use in PP module . Same tcode CS01"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Developing UDO Plugin (which compiler version preferred?)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello I saw in the SAP documentation that only C++ is supported for creating plugins for UDOs. My question is if they mean only \"Visual C++ 6.0\" (i saw a screenshot and it looked like v6.0). Or does it work on any C++ platform like Visual C++/.NET ? Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi I suppose you are talking about the optional implementation DLL file, right? There's nothing that should stop you from using VC++ .NET as the resulting DLL file does not require .NET framework installed - unless you include .NET libraries. VC++ 6.0 is simply a commonly used development tool in R&D - that's why you saw it in some screenshot... I hope this answers your question. Regards, Frank"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the evaluation path between org unit and cost center?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I need to get the Org Unit's Cost center with RH_STRUC_GET function. I tried to use'OMCOHI'evaluation path, but it isn't suitable. 'OMCOHI' If the Org unit doesn't have cost center I'd like to get the higher org unit's cost center. Do you know solution for this? Regards, Mark",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Try using the below Evaluation paths Regards, Raja Sekhar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "What is order type VP ? In which Tcode or Field can I see order type VP?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "PP members: I was reading through the Planning Without Final Assembly, this is what I understood At component levels we manufacture the goods ( Using PIRs are created for the finished products), it is the sales order that triggers the <b>Assembly of the components</b> Final Assembly is triggered upon the receipt of sales order of the finished product Where after the author mentions \"These planned independent requirements are created for the finished product. For these requirements, the Material Requirements Planning run first generates planned orders for the finished product, which <b>cannot be converted</b> into a production order (in SAP R/3: <b>Planned orders without a conversion indicator and the order type \u201eVP\u201c</b>and in SAP APO: Planned orders without conversion indicator). You can only convert these planned orders into production orders once the sales order has been received. This then triggers final assembly. I didnot understand the concept of order type VP in this particular scenario, Does Order type VP holds the conversion of planned order into production order until the sales order comes or it has some other factor Where I can see the order type VP, I tried to look into CO01, it was not much help Please carify on the above Thanks Suren R",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, As you understood, In this case Final product will be planned in Demand management(say 100 To) and when you run MRP the order type created will be VP with planned order qty 100. This will explode the BOM components and you can start procuring the items when in advance of sale order receipt. Now once you get sales order (say 25 To) in the system, system will create a planned order of normal type for 25 to and reduce the qty from VP type (from 100 to 75) so that BOM component qty is still maintianed at the same level of 100 TO Hence original qty of VP orders = New planned orders qty + lefet over VP order qty 100 = 25 + 75 please come backI"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which object is used for connecting company",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI.. Normally we are connecting to the company through the sdk..code May i know which object is used for connecting company.. I know something but.. i would like to know the exactly ans...",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, SboGuiApi =newSAPbouiCOM.SboGuiApi(); new SAPbouiCOM. SboGuiApi (); string sConnectionstring = \"0030002C0030002C00530041005000420044005F00440061007400650076002C0050004C006F006D0056004900490056\"; SboGuiApi.Connect (sConnectionstring); // SboGuiApi.Connect is used to connect to the company. SboGuiApi.Connect (sConnectionstring); // SboGuiApi.Connect is used to connect to the company. Regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to wite a vb-coding for decrypt the password which was stored in sap b1 db?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "For Example (login screen) Username : Manager password : ss@123 But the password stored in backend is Like this 8D780DF364F3ECA51CDD338432A7D167FDB9088F.. Now the problem is If i created the login screen with link of ousr table. I can't able to login with ss@123(password) via vb coding.. how to solve this issue and how to write a coding to decrypt the given sap paasword which is understandtable to backend Kindly any one help to solve this issue",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, The password in the database is encrypted. Your login will work if you use the DI API method for logging in, and you know what theuser nameis and what theactualpassword is. user name actual So you need to code your addon to first get the user name from OUSR, based on the email address. Please note that technically there can be multiple users with the same email address. Regards, Johan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which vendor to put in PO?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , just wanted to quickly confirm something :--- We have two vendor roles - an external vendor role ( that wil be the payee as well) and another vendor role for ordering address. The external vendor is linked to the ordering address vendor using partner functions but the OA vendor does not have a link to the other vendor (ie payee) I've two questions: is this setup correct or do we also need to link the OA vendor to the main payee vendor ii) when raising the PO which vendor should be specified? the main vendor to whom payment will be made so that at time of invoice verification , relevant account can be automatically determined & then figures posted?? this is what I think should be done. But some users have specified the OA vendor in the PO? Is this wrong now b/c OA vendor is not linked to the payee vendor... or in PO we should only specify the final payee vendor. your advise is appreciated... thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Normally the PO will be created to the vendor to which it needs to go.( the vendor who receives the PO).at XK02--Partner functions, this vendor will be provided with the partner vendors.for example X is the vendor to receive the PO(in the PO this vendor has to be there), then in the opartner profiles provide y as OA and Z as IP ETC. After providing the roles if you create the PO to this vendor X , if you check the partner tab in header these details will come."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Freight Value missing for line item which is not available in the screen.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I created a sale order with the reference of another order,but i wanted only one line item therefore deleted other line item. But when i am trying to save it ,it says freight value is missing for line item 005 , which i have already deleted. Please do let me know if you required more info. Thanks in advance.. Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Why to copy all the line items and delete them again in sales order? When you click on \"Create with reference\" a pop-up appears. On its right bottom, there is also an option \"Item Selection\". Here, select only that material for which sales document to be created (do not select rest materials). After selecting the required items, click on \"Copy\" and check the outcome. Create with reference Item Selection Copy Regards Kamlesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which is solution for selling from company to branches ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all I have a company X and some branches. Company actually sell goods to branches and issue invoices (not a consignment). Branches sell goods to agents and end-customers, they just sent tax report to government. Company report balance sheet, P&L to government, branches not report balance sheet, P&L to goverment. I can't set up each branches like a company code because they actually not a legal company and implementation cost will be high I can't set up each branches like a business area because Business area can't not have a tax report. If I setup Comany X = company code and each branches is a plant, can company make sale order and issue invoice to branch ? can each branch has a tax report ? Please help me Thanks & best regards QuangDD",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Quang DD you can define your branches as plants and create your branches as internal customers you can run transactions from branches and maintain seperate pricing procedure as requires and ful fill stock transport requirements in img > material management > purchasing > purchase order > set up stock transport order and give branch (plant)as customer and sales area. i think it solve your problem cheers"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Report -  SO which is having particular discount pricing condition type.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Friends, Requirement: Requirement: Our client wants to know all the sales order (in particular month) which is having particular discount pricing condition type Query:Is there any standard report is available for the above requirement from our clientAlternative: Query: Alternative: If there is no standard report available, please find below our plan to create a Z report. Please input your valuable suggestion on this Step 1: Step 1: Select the field Doc. Condition (VBAK- KNUMV). Step 2: Step 2: Input the results into field# Doc. Condition (KNUMV-KONV) in table#KONV along with the field#condition type (KONV- KSCHL). So that we could get the list of sales orders which is having the particular condition types as per client requirement. Thanks in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No customized report is required. Execute SQVI, Data source should be Logical database and finally input VAV against Table/view and execute. All SD tables would be joined by doing so where you select KSCHL as both input and output parameters. You can also set any other fields like VKORG, VBELN etc as an input parameter."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "find the age of the raw material in the inventory which is not consumped",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, We have the requirement to calculate the ageing of the raw material in the inventory which is not consumed for 30 days and 60 days and 90 days we use the logicage = GR date of the raw material To till date that lay in the inventory without consumption. age = GR date of the raw material To till date that lay in the inventory without consumption. my question is. we do lot of GR for a material and put in the same place in the storage location. and consume partial amount for the production (GI ) So how we can calculate the age of the material with refernce to GR. Since wedonot know what material is used which is received by which GR no., Thanks VRaj",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Raj, Check whether MC46 can help you. Regards Mangalraj.S"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which standard templet used for operative project",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Expert, Last year My client created operative project with standardtemplate now they want to know which standard template used for creation. As permy understanding it is not possible to identify or any option available? Regards Deepak M",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Deepak, Yon can get the details for the Std. template in PROJ table Field Name SPSNR \"Curr. Proj\". Regards Sammar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table COBRB shows which CDS is used in the Cloud",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dears: I hope to get the information of the settlement receiver of the production order. The table corresponding to the OP version is COBRB, which CDS can the Cloud use to get it? Thank you very much.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Special stock W - which movement type?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I need to know if it is possible to relocate stock from one special stock W to another special stock W. Partner A: stock of 10 --> should be 0 Partner B: stock of 0 --> should be 10 Is there a movement type which to use? I tried 301 but it doesnt work fine. Regards. chris",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which BAPI is used  to create  Multiple assets in the asset master creation",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "which BAPI is used to create Multiple assets in the asset master creation",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Check out, <b>1022 BAPIs for BUS1022 (Fixed asset)</b>BAPI_FIXEDASSET_CHANGE Changes an Asset BAPI_FIXEDASSET_CREATE Creates an Asset BAPI_FIXEDASSET_CREATE1 Creates an Asset BAPI_FIXEDASSET_GETDETAIL Display Detailed Information on a Fixed Asset BAPI_FIXEDASSET_GETLIST Information on Selected Assets BAPI_FIXEDASSET_OVRTAKE_CREATE BAPI for Legacy Data Transfer BAPI_FIXEDASSET_TEST <b>ACC5 FI/CO: BAPIs Asset Postings</b>BAPI_ACC_ASSET_ACQ_SETT_CHECK ACC: Asset Acquisition - Synchronous Determination of Capitalization V BAPI_ACC_ASSET_ACQ_SETT_POST ACC: Asset Acquisition-Asynchronous Determination of Capitalization Va <b>AMFA Fixed asset posting BAPIs</b>BAPI_ASSET_ACQUISITION_CHECK Check asset acquisition BAPI_ASSET_ACQUISITION_POST Post Asset Acquisition BAPI_ASSET_POSTCAP_CHECK Check post-capitalization BAPI_ASSET_POSTCAP_POST Post post-capitalization BAPI_ASSET_RETIREMENT_CHECK Check asset retirement BAPI_ASSET_RETIREMENT_POST Post asset retirement BAPI_ASSET_REVERSAL_CHECK Check Asset Document Reversal BAPI_ASSET_REVERSAL_POST Post Attachment Document Reversal Reward if useful!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table can I find the relationship between BELNR and AUFNRD",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I need to find the relationship between BELNR (document number) and AUFNRD (order number). Any help will be appreciated and rewarded. Thanks in advance, Fede",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Check the table BSAD and BSID,. There you will get both BELNR and AUFNR Hope this helps. Pls reward if this helps."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which settings take priority In MRP group or in Material master(strategy gp",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have 2 different settings for consuption mode, one in material master and one in MRp group.Which one takes priority when MRp is run. Please reply.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Ashish, What you have defined in Material Master MRP3 view would be the first Priority, if it is not defined here then it would consider MRP Group parameters. Regards, Prasobh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Depreciation calculation based on which date",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi ALL, We have depreciation key configured with period control 03 (Pro rata at mid period).In Asset master , ordinary depreciation date is mentioned as 01/04/2013 while Capitalised On date is mentioned as 30/04/2013. Depreciation is calculated for the full month & we would like it to be calculated for half month as asset capitalised date is 30/4/2013. Kindly let me know the check points so that system calculates depreciation for half month if capitalised date is mentioned any date after mid of month. Thanks Kishore Jain",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "UI: Create User Defined Fields: Which events",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all Is there an event that shows that the user is trying to create a User Defined Field? When a user tries to create a UDF while my add-on is running they get the familiar message, that there are other users attached to the database with a reference to the local PC. That's not really a surprise as the add-on has a connection to the database. The question is how do I detect that the user has accepted that all windows will be closed so I can detach my add-on from the database as well? I can't find any reference to an event that tells me this. Best regards Jesper Carstensen",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, I havent found any way to catch any DI event. I don\u00b4t think it is possible. But you could catch the click event from the UI that throws that process. More experienced developers should know how to do this (I\u00b4m still a novice). Regards, Ibai Pe\u00f1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table for the field\"Planning level\" in the G/L account (FS)?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Could anyone show me in which table I can find the field 'Planning level' shoved in the tab 'Create/bank/interest' of t,code FS00? thanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, check in SKB1 - GL account in company code level data. Thanks, Suresh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which areas planned values affect..",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, Can You tell me that in which which areas and modules the planned values of asset module is connected... E.G. If we change anything related to life of the asset or something else where where it wil affect. If any one has any chart or PPt regarding that.. can you share?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi It will affect the Planned Values (Dep Values) in the Asset Master in AW01N Upon next dep run, the differential depreciation of all open previous period / Fiscal year will be posted in the next period / over the next periods Eg: APC Value 12000, Use ful life 12 months.... So, Dep each month is 1000... You posted Dep till March (3 months)... You change the useful life to 6 months in April.... So, the depreciation posted in April will be 12000/6 (2000)+ (2000-1000) x 3 = 5000 i.e. 2000 of April month + delta depreciation 1000 of earlier months.... This is if you dont tick the SMOOTHING indicator in OAYR If you tick the smoothing indicator in OAYR, the delta depreciation 3000 will be spread over Apr-Dec i.e. 9 months instead of posting in April itself Br, Ajay M"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Employee data synchronization- which option is better suited in SF?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello experts I'm looking for some advise related to the employee data synchronization scenario from SAP -> Successfactors. In your experience which of the integration option is better suited from a successfactors view point- Files or webservices(Using SF API)? SAP provides standard integration content for both file based integration as well as SFAPI based integration. However on the successfactors side are there any huge limitations and/or advantages of one over the other? PS: I'm aware of the technical dependencies and the limitations that come with both these options. Also we use SAP PI as our middleware, so personally my preference is to use webservices/SF API for this scenario, however I would like evaluate options from a functional person's/successfactors viewpoint. Regards Chandra",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Chandra, On the SuccessFactors side there is no difference to which is used. The real difference is that file upload is only supported for basic employee data. The other processes all require middleware (PI or HCI). Best regards, Luke"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which OS does PRODUCTIVITY support?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, Please, would you like to give me know what OS support PRODUCTIVITY PARK? p/s: Does PRODUCTIVITY PARK support for window2008 server? Thanks Duypm",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi You could the relevant information what you are looking atwww.service.sap.com/pam www.service.sap.com/pam Regards Uday"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CDS view which combines Cost data and MM data for WBS,  Work order or Network order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi,Are there any standard CDS views or Fiori apps in S/4 Hana on prem which can solve the following requirement:User can insert a cost object like a WBS, Work order of Network as a search criteria/filter and get the connected cost and MM data in the output ; like data from connected PO, SE/GR and Invoice. Displaying the delivery status , invoiced amount, ordered amount. etc.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Need the Equipment list, which shows that BOM is exist for this Equipment or not",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Expert, My client have following requirement - They need the Equipment list, in which they can check that this Equipment has BOM or not .....If its Yes or No ...then also its fine. Please guide on above query. Thanks Sandeep",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Sandeep, As per my knowledge there is no Standard Transaction to see the Equipment list which provides you the BOM information. You need to go with Enhancement by using Table EQST which will give you the Equipment to its BOM Link. Br Rakesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to show information  (which marked with yellow in picture) as a list for multiple notifications",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "How to show information (which marked with yellow in picture) as a list for multiple notifications (IW52)",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to read sales order which has more than one document lines in SAP B1 by using DI API?.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I have a question about document lines in SAP B1. I know how to read data into database by using DI API, but the problem is I do know how to read for example sales order which has more than one document lines. $oOrder=$mycomp->GetBusinessObject(17); $oOrder->CardCode=\"CM001\"; $oOrder->DocDueDate=\"07/06/2016\"; $oOrder->Lines->Itemcode=\"01-002\"; $oOrder->Lines->Itemcode=\"01-002\"; $oOrder->Lines->Quantity=2; $oOrder->Lines->Quantity=2; So here I can replaceCM001,03/06/2016,01-002 and2to variables like CM001,03/06/2016,01-002 and2 03/06/2016,01-002 and2 01-002 and2 2 $oOrder=$mycomp->GetBusinessObject(17); $oOrder->CardCode=$CardCode; CardCode $oOrder->DocDueDate=$DocDueDate; DocDueDate $oOrder->Lines->Itemcode=$Itemcode; $oOrder->Lines->Itemcode=$Itemcode; Itemcode $oOrder->Lines->Quantity=$Quantity; $oOrder->Lines->Quantity=$Quantity; Quantity How can I readsales orderwhich has more than one document lines? I'm using php. How can I read sales order which has more than one document lines? I'm using php. Please anyone can help me.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Ruragwa, Order lines are a collection of rows - records. For this reason you have to handle it like an array. As far as i remember php is flexible (instead of other programming languages) and with your syntax returns you the element 0 of the array. So, you have to use a loop (while statement) and at the beggining of each loop you have to \"declare\" wich line are you going to read/write with the SetCurrentLine method. A sample of this command in c# is... oOrder.Lines.SetCurrentLine(iDocRow); Good luck!!! Evanggelos D. Plagianos"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

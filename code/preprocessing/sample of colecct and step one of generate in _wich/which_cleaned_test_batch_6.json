@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "Hisotry log - which user created a sub address",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All I would like to see which user created a sub address on a business partner Please can some advise on how to query this. Which table do I query for this information? Thank you",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Modify below query as per your requirement: SELECT SELECT T2.[CardCode], T2.[CardName],T2.[GroupNum] as Newvalue, T2.[CardCode], T2.[CardName],T2.[GroupNum] as Newvalue, T2.[GroupNum] as Newvalue, T1.[GroupNum] as Oldvalue, T3.[U_NAME] as UpdatedUser , T4.[U_NAME] T1.[GroupNum] as Oldvalue, T3.[U_NAME] as UpdatedUser , T4.[U_NAME] T1.[GroupNum] as Oldvalue as CreatedUser FROM ACRD T0 left join ACRD T1 on t0.[CardCode] = as CreatedUser FROM ACRD T0 left join ACRD T1 on t0.[CardCode] = T1.[CardCode] and t0.loginstanc = t1.loginstanc-1 left JOIN OCRD T2 T1.[CardCode] and t0.loginstanc = t1.loginstanc-1 left JOIN OCRD T2 ON T0.cardcode = T2.CardCode left join OUSR T3 on t3.userid = ON T0.cardcode = T2.CardCode left join OUSR T3 on t3.userid = t0.usersign2 left JOIN OUSR T4 ON T4.USERID = T1.userSign left t0.usersign2 left JOIN OUSR T4 ON T4.USERID = T1.userSign left JOIN OCTG T5 ON T0.GroupNum = T5.GroupNum WHERE T2.[GroupNum] <> JOIN OCTG T5 ON T0.GroupNum = T5.GroupNum WHERE T2.[GroupNum] <> T1.[GroupNum] and datediff(dd, T1.[updateDate] ,getdate())<=0 T1.[GroupNum] and datediff(dd, T1.[updateDate] ,getdate())<=0 GROUP BY T2.[CardCode], T2.[CardName], T2.[GroupNum], T1.[GroupNum] , GROUP BY T2.[CardCode], T2.[CardName], T2.[GroupNum], T1.[GroupNum] , T3.[U_NAME] , T4.[U_NAME] T3.[U_NAME] , T4.[U_NAME] Thanks Thanks"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Source determination of agreement which used SC vendor.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Need to deliver to vendor B when purchasing one item on agreement 4601001470 from vendor A. The user tried ticking the SC vendor checkbox on the delivery tab for each item in the agreement and also entered vendor B. This did not work. When the tickbox is checked and SC vendor number entered the agreement details do not autopopulate into the requisition. It is also then not possible to manually assign the source of supply in the requisition. we can't get source determination to work on this material, even though the contract and source list looks OK. If anybody have solution,Please help me.Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Have you done PIR on Subcontract Info category for Vendor B.? Check Source list for Vendor B maintiaed or not. Try 1 : Give the Vendor B ( Subcontractor ) In te out line document by following the path Seelct the line in O.A go to Item - > more function - > Delivery Address, you will get the pop up, where you can maintain the Subcontact vendor with tick. Try 2 : By fixing the vendor in SOuce list Let me know if still problem is there.?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "pricing updates depend on which date",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "dear all price updates depend on which date. required delievry date i think but if i m changing the required delivery date what ll be the effect to others.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Subu, Yes your thinking is correct the price will be updated for the open orders based on the required delivery date. For newly creating orders system will pick the new price or changed price automatically. If you change required delivery I hope it will not effect others any way you are going to delever the open items in the future only. Recently we have changed the CST from 3% to 2% to get this updation in the open order we have changed the Required delivery date to this month. I hope it will help you, Regards, Murali."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Report from SAP ECC 6.0 to Ariba SLP?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Community,We have integrated SAP SLP in a SAP ECC 6.0. The customer wants to keep the ECC as the leading system. I learned that there is a REPORT for the delivery data replication from ECC to Ariba. Can you give me a hint, maybe a link or something.We use CIG and CIG is only for the way from Ariba to ECC, as far as SLP is concerned, I was told several times. Is that also true so far? Would appreciate an answer very much.Best regardsJulien Meinert",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which IDOC to use for Goods Receipt",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all; Hope someone can help me. The business scenario is: we send PO to a trade partner (another company code in my organization). The trade partner fulfill the order and complete PGI. We receive the goods (post goods receipt and MIGO) in our system. I will have to automate this process: when the trade partner completes PGI I will have to create an IDOC and receive this IDOC to do post goods receipt and MIGO. Question: which IDOC type should I use? Can I use DELVRY03? the goods receipt is against PO. Thanks in advance",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which parameters influence the calculation of Requested Delivery Date  ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All , Which parameters influence the calculation of Requested Delivery Date in Sales Order ? Actually i checked the Tcode VOV8 and found the lead time as ZERO and the indicator \" Propose Del date \" is also set. Inspite of this for a particular plant the lead time is taken as 3 days and system proposes the Req.Del Data as 3 days from today. Let me know where is relevant config or where is it maintained. Regards Ramesh Ch Edited by: RAMESH CH on Dec 10, 2009 12:23 PM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "As mentioned, if Lead time in days mentioned in doc type details, then system takes priority from the sales doc type & isses RDD in SO, if this field is maintained blank & \"Propose Delivery date\" is marked , then current/Creation date will be set as RDD, but the confirmed delivery date calculation starts when actual RDD is determined which may impact the lead time in MMR , transit duration from the Route , factory calender etc..,"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAPI should be used to simulate an ATP check in R/3?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, we need a BAPI (rfc call) to simulate an ATP check for a sales order in R/3 . Can you advise please which would be the correct one? Thanks a lot.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, BAPI_SALESORDER_SIMULATE .. BAPI_MATERIAL_AVAILABILITY Hope this will help you Regards, Seegal Edited by: Raga on May 14, 2010 5:37 AM Edited by: Raga on May 14, 2010 5:40 AM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table field stored the exchange rate for controlling documents?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, May i know which table field stores the exchange rate used for a controlling document?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, The exchange rate is not specifically stored in CO. In table COEP, the data in transaction currency, object currency and controlling Area currency is stored. You can derive the exchange rate from here. Rgds Shivram."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which framework do you suggest to develop an add-on for SAP Business One?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I'm looking for a a framework C# that enables rapid addon development for SAP Business One and helps to enhance feature like versioning, future upgrading (code and db), logging, internationalization and localization, etc. I sawDoverandITCO-SBO-Addon-Framework, but both do not seem to have a very active community, so do you have another one to suggest? Dover ITCO-SBO-Addon-Framework Thanks Gianni",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "There are several frameworks, but as you mentioned, the issue is the lack of activity around it.When I speak with partners, their reason is mainly to not rely their solution on top of a code that they don't know who will maintain (and normally don't want to fix problems themselves)I followed the development of Dover and particularly know the developer. If I had to choose, that will be the one. I also know some solutions that are developed on top of it. And seem to work quite well."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "open PO's which are partially delivered",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, can anybody tell me how to get the open po's which are partially delivered.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "http://oracle.anilpassi.com/encumbrance-migration-to-oracle-grants-for-open-purchase-orders.html http://oracle.anilpassi.com/encumbrance-migration-to-oracle-grants-for-open-purchase-orders.html http://www.csun.edu/sponsoredprograms/2.2.5%20Purchase%20Order/Purchase_Order.htm http://www.csun.edu/sponsoredprograms/2.2.5%20Purchase%20Order/Purchase_Order.htm http://groups.google.co.in/group/microsoft.public.access/browse_thread/thread/5cb8405ba5bd7911/79c4c...toopenpurchaseorderswhicharepartiallydelivered#79c4c574d876dd3f http://groups.google.co.in/group/microsoft.public.access/browse_thread/thread/5cb8405ba5bd7911/79c4c... to purchase which partially check these they may be use ful. Regards, Muneesh Gitta."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to cancel Transfer order which got confirmed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, Can any body let me know the procedure to cancel Transfer order which got confirmed? This Transfer order got created agaisnt Inbound delivery. I know we can cancel confirmed transfer orders by using LT0G.(But this is for outbound deliveries) Can you please help on this? Thanks in advance Babu",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "From Which tables production month date is taken in transaction KOB1",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts From which table production month date in taken after we run KOB1 transaction, we have one table COEP and we wanted to know the list of tables from where production month field is taken from the issue is for some line items production month field is filled and for some line items production month field is blank, we wanted to know from where the date is taking from. Thanks & Regards Jithendra Shivashankar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Filter the work orders which contain task list.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have a extract of list of work orders having status \"In process\" and \"outstanding\". I need to filter the work orders which contain task list.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which method is better to define the planning plant",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear PM Guru's i have one issue in PM implementation project, physically plant is one and they manufacturing the three different products and each product is dependent on other product. As per client business requirement, in MM module they create the 7 plants as logistic plants. So automatically 7 maintenance planning plants or maintenance plants are created when plant is created. In this industry basically three different units, 1. Spinning, (for this unit Spinning maintenance department is separate) 2. Fabric Preparation (Weaving Unit) for this Weaving Maintenance Department separate and 3. is Processing unit. for these three units three Production maintenance teams are separate and One Electrical department for these three units and One Common Utilities team for these three units. Electrical & Utilities maintenance planning is done at central wise and rest of production maintenance is done at individual plant wise. Client asking the Department Vs Plant specific costing report. My Electrical operation & Utilities operations are common for all the three units, how i can assign these electrical and mechanical planner groups? If i made one planning plant, then it is very good for electrical and mechanical but its not suitable for Rest of three units. If i made individual planning plant how i can assign the electrical & utilities planning group. So i am requesting you please suggest the good method to define the PM organization structure. If i made the one planning plant then my entire MIS reporting structure is depends on planning plant and planner group and every time i need to select the maintenance plant and some other reporting fields. thanks in advance to all the PM experts.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You go with different Planning Plant. Even though Electrical & Utilities are common across the plants, you can create multiple Electrical & Utilities planner groups & assign to different plants. In the reports, if you want to see Electrical or Utilities together, you can select all Planner groups. If you want to be specific, then you can go with any one Planner group."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Cancel a salesorder which is linked to a delivery",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I am a novice in SB1 with a tricky issue for me. I would be glad to be helped ! Indeed, I want to know how to cancel a salesorder which is already linked to a delivery. (If the salesorder is not linked to any document, it's ok I juste cancel it). I ask this question because the consequence is that my turnover is affected by the the salesorder that I don't manage to cancel when I use the sale analysis query available in SB1. For the moment, I designed a User area but I would like to find a better way Regards, And thank you for this forum where I learn many things",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "If the sales order is already linked to a delivery, it means the order has already been executed and now can't be cancelled. The status of the order would be 'closed'. If the order has been partially fulfilled, the status of the order would be 'open', but since a part of it has been executed, you can't cancel it. To close it, you have to manually close the document."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Need to know the Customer which has not yet made any Transcation",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts Am having around 25000 Customers in my System, in which only some are Active and having transaction now i need to clean up my system, for that i need a query, which shows me the List of Customers who has not yet done any transactions till now so that i can remove it from the system Am using sap 9.1 Version Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, this query will help you in identifying the customer with 0 balance. SELECT T0.[CardCode], T0.[CardName], T0.[CardType], T0.[Balance] FROM OCRD T0 where t0.cardtype = 'C' AND T0.BALANCE = 0 the below query will help u in identifying the customers who don't have any journal transactions. select cardcode, cardname from ocrd where cardcode not in( select c.cardcode from jdt1 b inner join ocrd c on b.shortname = c.cardcode) and cardtype = 'C' Regards, Vinoth"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Special G/L Indicator: which customizing steps to set them?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, could anyone show me the customizing steps for Special G/L Indicators? Thanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Execute T Code FBKP and click on Special G/L. In the following screen, click on Create (F6) button and configure Special G/L indicators for account type D (Customer) and/or K (Vendor) as required. Specify the recon. account assigned to customer/vendor master data and the alternate recon. account to which the general ledger posting should go to. Create master data of the alternate recon account. In FB01, etc., use posting key 09/19 for customers and 29/39 for vendors so you could post with the special GL indicators created."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "reg:table which contains open STO's and P2P orders",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Can any body please tell me the table which contains open STO's and P2P orders. Thanks&Regards, Usha.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Please refer to table EKPO where field ELIKZ is not equal to \"X\". Regards Bhavesh Mistry"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which table save the queries command",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I want export all users queries and export into a file, does anybody knows which table save those queries ? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Try this, Thanks. Clint"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Storing Overtime (IT2002) which occur overday",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Expert, How do we store overtime that occur overday? For example he work overtime start at 22:00 until 03:00 the next day (5 hours overday). We can not input the time if the day were different in attendance infotype. Please advice. Thanks Hendri Salim",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Sir, I have just give some information onabout this. You should use the Previous day indicator (VTKEN) when entering the Attendance. Please refer to that thread. Regards, Bentow."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "read from the 2nd, 3rd and 4th characters from the field which start with R",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Guys, program populates a company code which is read from the 2nd, 3rd and 4th characters of the u201CRu201D cost center (ex: cost center R3703400C reads 370 as the company code, however cost center R03705E reads 037 as the company code); therefore the requirement is to read the company code and product from the master data record of the u201CRu201D. Pleaseprovide me some sample code. Thanks in advance. adepus",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Adepus, This is a basic question & can be solved using string offset functions. Do a search in SDN & you will find ample examples. BR, Suhas"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Transfer of an Asset to another company code which is not in SAP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Gurus, Currently we have 2 company codes in which one company code is using the SAP and another one is not. Now they are transferring the assets from one company code to another which is not in SAP. Request you to shed some light and share your Inputs. Regards, RR",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Well, you have to retire the assets in your SAP company code, and recreate them with the relevant data in non-SAP one. What is your doubt exactly? Regards, Eli"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to find table about users which contains fields: User, First and last name, Department?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, How to find table about users which contains fields: User, First and last name, Department? I tried using tables USR1, USR2, USR3 but I can't combine these columnes together because I am always missing column User or Department etc. This is what I need: User First name Last name DepartmentJackW Jack Welch Management Any help is appreciated! Thanks,Sam",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi sam, To obtain the data that youre asking you need to join the following tables: USR21 - ADRP - ADCP These tables has all the fields that you need: USR21: has the username ADRP: has the first and last name ADCP: has the department field Regards, Mariano."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Delete the Reservation which is created Automatically by Process Order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Sap gurus How can I delete the reservation which is created automatically by process order without Tecoing the order. I have check in MB22 it is not possible by this transaction. It there any transaction ? Best Regards, Parag Save. Parag Save.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Parag, Auto Reservations can not be change manually.So if you want to close that reservation without changing the order status TECO, then activate Final Issue indicator for all all Components in Process Order Material Screen. Regards, Dhaval"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sold to party is going to FI module at which transaction.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I know that Sold to party and Payer in partner function is going to FI module, payer at the time when we release accounting document at VF02 transaction. But anyone tell me thatSold to party is going to FI module at which transaction?? Sold to party is going to FI module at which transaction??",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Rohit, the below settings in billing can take as sold to party as priority to send to FI module . Please find the below screen shot . Regards,"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which customizing navigation to set the \"\"Transaction Key\" (T030-KTOSL)?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, could anyone show me the customizing navigation to set the \"Transaction Key\" (T030-KTOSL) Thanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "IMG path: MM -> Purchasing -> Conditions -> Define Price Determination Process -> Define Transaction/Event Keys"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which location is modified by snote,spam,sum?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi SAP Experts, When we modify system using snote,spam,sum, they modify the data in database or the kernel data on OS file system? Best Regards szw",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "SPAM and SNOTE both update ABAP Code and Data Dictionary objects within the Database. The SAP update manager supports more complex changes to the system. This includes Support Package Stacks and Enhancement packages, as well as Upgrades. In the case that a new kernel is required (eg. Upgrade, SP-STACK) then the new kernel will be deployed to the relevant OS filesystem. A high level description of SUM is available atSUM for ABAP - Troubleshooting Guide - Software Logistics - SCN Wiki . SUM for ABAP - Troubleshooting Guide - Software Logistics - SCN Wiki . You can reference SAP note 19466 (http://service.sap.com/sap/support/notes/19466) which describes the kernel patch process. This includes the location on the file system that the kernel is stored. You can reference SAP note 19466 (http://service.sap.com/sap/support/notes/19466) which describes the kernel patch process. This includes the location on the file system that the kernel is stored. http://service.sap.com/sap/support/notes/19466"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table could i find the creation date and time of the PR document?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In which table could i find the creation date and time of the PR document? Especially for the <b>Time</b> . hour.mm.ss etc of the PR. Thanks!! Message was edited by: Hoo Laa",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Hoo Laa, It is not possible to get the Time for newly created PR But for the Changed PR. Whenever u change the PR , U get the Change time for the PR.And this is required for Business process also instead of PR created time. Go for table CDHDR. Enter TCODE= 'ME53N' and execute.(Not ME51N) Rewards...If useful Regards Sanjay L"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "I want to take printout of PO which is cancelled by user.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I want to take printout of PO which is cancelled by user. but s/m not allowed to take printout.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI, We cannot able to take deleted PO using T-code ME9F because it shown 'document not available' during ME9F printout. So, if you want to take deleted PO with ABAP consultant 'Z' program developed (like ZME9F) and execute the program PO take printout. In this way only we take deleted PO printout(our company also doing this way). Hope, it is useful for you. Regards, K.Rajendran"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "S/4 EHS: which movement type to track for Hazardous substance inventory list (Gefahrstoffkataster)?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello experts, for the implementation of the fiori app \u201eManage Hazardous Substance Inventories\u201c (for creating the \"Gefahrstoffkataster\") from the solution \"Health and safety management (EHS-SUS-HS) it is possible to customize the movement type (IMG Configure Hazardous Substance Inventory). The movement type will be tracked for determining the annual tonnage amount and the current hold-up amount in stock. Which movement type should be considered besides \"101-GR goods receipt\"? Many thanks in advance",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "COKEY and COSP table maintainance from which transaction in ECC",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We have an ongoing report in bw which is pulling data from \"0CO_PC_01\" data source which uses COSP and COKEY tables to get Material number (Consumption Material) for production order. Now, we got an issue where one production order is having two line items that are having two different account, now for one account in that production order the above data source is pulling material but for another it is not. We found that for second account there is no SUBKEY (COKEY) in COSP table which is why fm is not pulling material for it. Now, here FI-CO team is not able to find how to maintain COSP and COKEY (it is standard maintenance issue), so need your guidance to know from where we maintain subkey (tech name-cokey) in COSP and with reference to sub key, material in COKEY (table name is same as a field name in cosp). Please guide, it has became urgent.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Weight unit issue in sales order which is being pulled from material master",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Everybody, Since we purchase all our materials in quantity (EA) and weight unit in grams (G) from our parent company in Asia (Metric system) all the materials wt. unit is maintained in Grms(G) in the dimesions field in basic data tab in material master. But our customers are in US and needs everything in Pounds (LB). I am SD guy and not much into materials, but I did some leg work and know that it has something to be with base unit of measure, alternative unit in additional tab. But my confusion is as following: we have base unit of measure as - EA (in basic data tab) and Wt. unit as G in dimensions. note: we also sometime use alternative unit as I box = 10 EA, and 1 Case = 200 Ea which is maintained in additional tab. Now what we want is ., if we create a sales order for 1 quantity, or 1 box, or 1 case then the Wt. should be in LB. But when we purchase material from Asia, we want to get it in grams and maintained in grms in stock with us. But our all Wm reporting and outgoing deliveries(856) invoice(8100 shld have LB. My try: My try: base unit of measure: EA wt. unit: G Sales unit: LB Order unit: G additional data tab conversions : 1 EA each <=> 1 EA 35.380 G g <=> 1 EA 77.930 LB US pound <=> 1 EA 1 PAC Pack <=> 10 EA 1 CV Case <=> 200 EA But still in the order I am getting G. All the guru's please help me out. Thanks in advance and answers will get good points. Cheers, SAPcontributor.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, you have to transform the unit in an userexit of the order fron g to lbs. The right place is MV45AFZZ User-Exit USEREXIT_MOVE_FIELD_TO_VBAP. In MAAPV you habe the material data. Try it out, if you have only to change the unit in maapv or if the copy from maapv tp vbap ist alre4ady done. If done change the unit at this place ( and change the weight to the new value ) . This coding, you can do in dependence of your vkorg or werks or auart. hans"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ECM belongs  to which component",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, ECM belongs to which component whether it comes PLM,PP or Cross Application Component. Regards, Srini",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Srini.., It is a Cross Application component. regards."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAPI to use for Quotation?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I found 2 FM in SAP. BAPI_QUOTATION_CREATEFROMDATA and BAPI_QUOTATION_CREATEFROMDATA2. Which is the latest and which is a better option for me? I find BAPI BAPI_QUOTATION_CREATEFROMDATA is simplier. Can someone advice. Thanks Bye Colin",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I Hi Colin BAPI_QUOTATION_CREATEFROMDATA its easy to give few input parameters required while quotation creation MPORTING *\" VALUE(ORDER_HEADER_IN) LIKE BAPISDHEAD *\" STRUCTURE BAPISDHEAD *\" VALUE(WITHOUT_COMMIT) LIKE BAPI_STAND-NO_COMMIT *\" DEFAULT SPACE *\" VALUE(CONVERT_PARVW_AUART) LIKE BAPIFLAG-BAPIFLAG *\" DEFAULT SPACE *\" EXPORTING *\" VALUE(SALESDOCUMENT) LIKE BAPIVBELN-VBELN *\" VALUE(SOLD_TO_PARTY) LIKE BAPISOLDTO *\" STRUCTURE BAPISOLDTO *\" VALUE(SHIP_TO_PARTY) LIKE BAPISHIPTO *\" STRUCTURE BAPISHIPTO *\" VALUE(BILLING_PARTY) LIKE BAPIPAYER *\" STRUCTURE BAPIPAYER *\" VALUE(RETURN) LIKE BAPIRETURN1 STRUCTURE BAPIRETURN And wher as BAPI_QUOTATION_CREATEFROMDATA2 More input parameters required to create quotation with new release IMPORTING *\" VALUE(SALESDOCUMENTIN) LIKE BAPIVBELN-VBELN OPTIONAL *\" VALUE(QUOTATION_HEADER_IN) LIKE BAPISDHD1 STRUCTURE BAPISDHD1 *\" VALUE(QUOTATION_HEADER_INX) LIKE BAPISDHD1X STRUCTURE *\" BAPISDHD1X OPTIONAL *\" VALUE(SENDER) LIKE BAPI_SENDER STRUCTURE BAPI_SENDER OPTIONAL *\" VALUE(BINARY_RELATIONSHIPTYPE) LIKE BAPIRELTYPE-RELTYPE DEFAULT *\" SPACE *\" VALUE(INT_NUMBER_ASSIGNMENT) LIKE BAPIFLAG-BAPIFLAG DEFAULT *\" SPACE *\" VALUE(BEHAVE_WHEN_ERROR) LIKE BAPIFLAG-BAPIFLAG DEFAULT SPACE *\" VALUE(LOGIC_SWITCH) LIKE BAPISDLS STRUCTURE BAPISDLS OPTIONAL *\" VALUE(TESTRUN) LIKE BAPIFLAG-BAPIFLAG OPTIONAL *\" VALUE(CONVERT) LIKE BAPIFLAG-BAPIFLAG DEFAULT SPAC Regards, Seegal"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP S/4 HANA International Trade-Intrastat declaration, which plants to you add in POI tcode",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, In SAP S/4 HANA International Trade module for Intrastat declaration, in the transaction code /SAPSLL/POI_EDIT (Providers of Information), which plants do you add in the below 2 sections of the screenshot (\"Plants\"section and\"Delivering Plants in Intercompany Sales\"section). Please clarify. \"Plants\" \"Delivering Plants in Intercompany Sales\" S4H 2023-Providers of Information S4H 2023-Providers of Information S4H 2023-Providers of Information",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In Migo can someone kindly advise which movement code I need to for transit stock to unrestricted?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Can someone kindly advise me on which movement code I need for moving materials from transit stock to unrestricted stock in Migo?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "New Write up transaction type which can post to Affiliated company",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, Can you please help me with this request. I have been asked to create the New Write up transaction type which can post to Affiliated companies copy of transaction type 700. But i dont see any such option (Posting type) in transaction AO78. Where as i can see the option in Transaction AO73( Acquisition) and AO68 (Retirement). Can you please guide me how can i create this transaction type if i can and the reason if i cant. Appreciate your time and early reply Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Look if you can use OA81. I don't think it is possible you want. I write up is only an asset posting and will be posted in the depreciation run Acquisition and Retirement create in most cases direct a posting in FI"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which scenario sales order costing is needed ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Is it mandatory to have every time for a sales order to have sales order costing? is it mandatory to have SO costing in MTO scenerios always? in which scenerio SO costing is not applicable in MTO scenerio ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Sale order costing will be used only when you do not know the actual cost of product since the customer may ask for a product mix or custom product. in sap we have configurable material which will allow customer to pick and chose what he wants. e.g. laptop with different customsing options like hark disk capacity, processor... etc. in this case we need to use sale order costing to arrive at the cost, since each variant will have different raw material used. hope this helps. regards sarvan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which screen can I see profit centre MARD - PRCTL",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts, In the material master screen where can I see the MARD-PRCTL field. I am not able to find it. Any suggestion would help. Assure of points. Francis Edited by: Francis Yesudas on Jun 11, 2008 2:08 PM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "It will be in the Sales:Genrl/Plant data View of MMR."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which transaction to execute a preliminary settlement?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Which is the transaction code to execute a preliminary settlement? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "HI, I am not totally sure if thats what you are looking for, but if you mean \"partially capitalization\" this is KO8G, processing type 3. BR Christian"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How can we find the Idoc number which posts the material document in SAP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, How can we find the Idoc number which posts the material document in SAP. We could not able to find the IDOC number from the material document which was posted by Idoc. Thanks Chandru",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, In MIGO you can go to service of object(Just above show overview) and check 5th option workflow you will find the idoc number. regards suresh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which ways is side by side extensiblity in public cloud limited?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "SAP S/4HANA Cloud ABAP Environment (Embedded Steampunk)] - In which ways is side by side extensiblity in public cloud limited in comparison to what we can do in private edition?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You can use BTP for side by side without any constraints. Only issue is using the SAP released apis and without modifications"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Determining which SAP Notes are required",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Good morning recipient, To comply with Portugal's regulations our company would like to implement the QR-code and ATCUD code on the delivery note. As I'm quite new to the use of SAP Notes I was wondering how one would determine which SAP Notes are required to implement this functionality. I've already found the SAP Notes related to SD Outbound Delivery Adaptations, but I'm still quite confused on how we, as a company, should determine which of these SAP Notes need to be implemented. I look forward to your response. Kind regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which SAP module to recommend ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Friends, My friend has 3 years of Pricing experience having worked for a credit card company and would like to become a SAP functional consultant. Please could you advise which SAP module (s) is suitable for her profile? Thanking you in advance. Best regards John",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, in put Pricing alone will not sufficient- What is his education? in SAP- Pricing will be integration of SD-FI or MM -FI If he is familiar with Fi-co processes then it is prefer SAP-FI Thanks Chidambaram"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Can we reverse the Internal order settlement  after clossing that posting period, in which it was settled?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All user had settledinternal order in period 05, now that period is closed butuser want to reverse that internal order in period 07 without open the period 05. user want to reverse that internal order in period 07 without open the period 05 i tried by T-code (KO88)-->menu--> settlement--> Reverse. But system not do the needful.Please suggest",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Rohit It's needed open the period 05 for run reversal internal order, Tcode OKP2, or you may transfer the costs through Tcode: KB11N, from an internal order to another. Best Regards Jandoval Nascimento."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which report I can use ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which report I can use for 1. total purchase value for a period 2.Material with standard unit price and unit price. 3. Material inventory with project",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "1. total purchase value for a period =ME81N, MCE1, MCE3, 7 2.Material with standard unit price and unit price.= MM60 3. Material inventory with project=MBBS, MB52 with Project stock indicator"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "COE#DE01 - Please can you also confirm in which CDS views we can find the following fields",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "fields-as-they-appear-in-the-event-based-revenue-r.png fields-as-they-appear-in-the-event-based-revenue-r.png Good day,Please can you confirm in which CDS views we can find the fields below:- \"Sales Deduction /Surcharge\"- \"Last evaluation per\"- \"Processing Status\"- \"Billing Element Desc\"I have also attached a screenshot of the fields as they appear in the \"Event-Based Revenue Recognition\" application. This is asked for because we are building a Custom Embedded report.Regards,Keith",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Keith, Could you please check C_EvtBsdRevnRecgnProjMonitor or C_Trrmonitor Best Regards,Owen"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which db table stores inv.program position ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello guys, Which database table stores the info about wbs element assignment to inv.program position ? Thanks guys ! Laimonas",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Not sure but check out below table, IMPR : IMPR-OBJNR IMZO : IMZO- OBJNR You can also use standard IM Reports. WIth Regards Nitin P."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to  restrict the IP which can connect to SAP S/4 HANA Cloud URL",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello expert\uff0c For more security\uff0cour company wants to restrict the IP which can connect to SAP S/4 HANA Cloud URL. For example, we just want IP A or B can connect and access SAP S/4 HANA Cloud URL, the other IPs should be forbidden to connect and access SAP S/4 HANA Cloud URL. Becasue it is SaaS mode, we can't do the access control policy inside our compony using the network devices. So we are dying to know if there is any way we can do in the SAP S/4 HANA Cloud. Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Free Samples which are excisable.?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi friends, Some time we need to issue free samples to our clients : 1) Create a BP u2013 Free Samples 2) Create Sales Order (Separate order series for Free Samples 3) Create delivery of the frees sample 4) Pass Outgoing Excise invoice based on Delivery 5) Close the Delivery manually/Forcefully 6) Pass JV for closing the Open Excise transaction Whether this is OK ? In this case, we will not come to know about the Quantity /value of Frees sample issued during the year. Suppose we want to capture the quantity & amount of the cost which is related to Free Samples, than whether any other procedure needs to be adopted ? Regards, Mahesh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi! The process is fine for Free Samples. if, u want any Details like, what is the Expense incourred for Free Samples, u write Query reports."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

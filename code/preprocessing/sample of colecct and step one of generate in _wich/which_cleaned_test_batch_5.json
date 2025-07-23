@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "Log to check as to which user has accessed which report?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am using BOBJ for report creation and SAP BI for datawarehousing. The user can access these reports using the iviews created in the portal. Due to some performance testing requirements we need to check which user accessed which report and if he has drilled down to a particular level in a report, then there should be a means to know that as well. BO offers a few standard activity reports to check which user has done which activity. However the details of drill down etc. cannot be checked using that. Please help as to how can we check that too. Best Regards, Neha",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, See [Business Objects|/community[original link is broken]; and [Crystal Reports|/community[original link is broken]; forums for this topic. -Paul"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AA: which  depr. area should post real time and which periodically",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, according to group rules IFRS depr.area shall post real time and local trade law (ROC) periodically. But there is a request from India that ROC should post real time and IFR. Is there a legal requirement? How multionalals sove such problems? Thanks BR Tarik",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "The requirement toi post to Books of accounts is there as per ROC. The real time posting is not there. So you can create a depreciation area which posts on a periodical base to the books of accounts."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "There are 2 places to define Company Code, which is correct.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "There are 2 places to define company code i.e.: IMG -> Enterprise Structure -> Definition -> Financial Acc -> Define Company, and IMG -> Enterprise Structure -> Definition -> Financial Acc -> Edit, Copy, Delete, Check Company code. I know the one path updates table T001 and the other T880 but I don't understand the differences... probably as I am abapper. Edited by: Gemini Twin on Jun 15, 2011 10:43 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Gemini, Company and Company Code are different. The first path is to define Company: IMG -> Enterprise Structure -> Definition -> Financial Acc -> Define Company Second path is to define Company Code: IMG -> Enterprise Structure -> Definition -> Financial Acc -> Edit, Copy, Delete, Check Company code. (the practice when creating any new config in SPRO is to used Copy function instead of Create) We can make do without Company. In my customer's system, we do not set up Company. Company Code is a must and is the first step that you need to define before defining anything else (Pers Area, PSA, etc). Chart of Account also linked to Company Code, not Company. The two are different, please do not confused them into one."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table 4 the Total of the Debit and Credit Postings of a G.L.account?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, coulod anyone tell me in which table the Total of the Debit and credit Postings of a G.L.account for each Period are stored ? Thanks Gandalf",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear, Please use the table FAGLFLEXT in ECC 6 or GLT0."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "invoice not blocked for payment by inspection lot which created with HU",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I have a scenario where I don't want to process the payment if Quality lot is not cleared or rejected. I understand this can be done by using control key 0007 and ticking the QM in procurment in QM view of Material master. I have done this and it does work if the inspection lot creating by MIGO with inspection type 01 generally. But, if the inspection lot creating via inbound delivery packing(we are using wm and HU),it doesn't work. Please let me know if you have any information about this. Thank you! BRS Murphy",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "SAP NOTE 2160191 - QM in procurement with Handling Units:You want to use QM in procurement and also Handling Units Management, but the combination does not work together."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Creating Contract with dummy material which we don't want copied",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We have a situation where we wish to use a contract so as to set the partners for susequent orders for a Customer. (The customer has many ship-to's and many specal defined partners (their customers) of which we want only one of each for a construction project) The pricing of materials is performed on Product hierarchy via sales deals and actual sales line items are unknown until the creation of the sales order with reference to the contract. We therefore are creating a contract with a dummy material (you cannot create the contract without this material) and unfortunately this is copied into the subsequent orders. My question is, is there anyway apart from the Customer services department flagging the item for deletion to create the order without the material from the contract.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, It sounds weird why you would not want the item copied into subsequent Orders. Probably is the nature of the business that you are facing. For your queries, in VTAA copy control, in the entry of Source doc (Contract) to Target doc (Order) and the ItemCategory used, you may want to change your Copying Requirement routine from \"303\" (Standard - Always an Item) to \"302\" (Do Not Copy Item).. This way, it will not copy the item of your Contract to the subsequent Order. Hope this helps. Thanks. Rgds. Edited by: PKW on May 6, 2010 9:01 AM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Delete outbound delivery which contain shipping unit.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello! Could you, please, give an advise on how can I delete delivery while shipping unit is assigned to it? I receive a message VL639 - Delivery still contains shipping units. And found that it should be unassigned from delivery before the delivery can be deleted. But I am not aware on how to do it. If I should delete shipping unit totally from delivery or there is some other procedure? Thank you in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to repay Investment Support on the asset? thru which TTY?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello guys, Have anyone used TTY J01/J02 to repay investment support? Because SAP does not allow you to configure custom TTYs under tcode AO83 for repayment of invest. supprt. and J01/J02 uses TTy group 52 \"Extraord. write-off invest supprt\" which gets classified as unplanned depreciation under Area 41 instead of reducing the Investment support posted under same area 41. Is this the correct way of repaying/refunding? If not, what TTY to use to refund or repay the support (either partially or fully) and if there is any way to customize TTY specially for repaying/refunding this support. Open for any suggestions. Thanks, Kartik.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi : ) I know this thread is quite old, but I recently had the same problem as Kartik and was able to change an automatically created transaction Type eg. I, J and K using transaction AO73_INV. This allowed me to copy transaction type K and I was able to configure my own transaction type for investment support which now allows posting of investment support refund without the retirement of the asset and reduces the amorisation as expected. Hope this helps : ) Tanja"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Revision Level of a Material has I used ????",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have an 2 equipments made up of one material which have different revision levels - how can I from the equipment find which revision level this has been made from?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Maplan, 1. There is connection between the Revision level and the material master when it comes to stock. 2. so same will be the case of the Equipment, if you are producing the equipment from material then it is not possible to track the revision level. let us see if there is any option than that. Reg dsk Edited by: DSk on Sep 20, 2010 4:25 PM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "VF01 (we wants to show the alternate unit of material which is \"number of bags\" in CDS views)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "here",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Please refer to below help documentation to get the business context and BADIs for billing document. 1. App Extensibility: Billing Documenthttps://help.sap.com/docs/SAP_S4HANA_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/2b6a1d57e6f0e974e1000000... https://help.sap.com/docs/SAP_S4HANA_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/2b6a1d57e6f0e974e1000000... Sales: Billing DocumentSales: Billing Document Item 2. Business Add-Ins (BAdIs) for Sales Billing https://help.sap.com/docs/SAP_S4HANA_CLOUD/a376cd9ea00d476b96f18dea1247e6a5/3714184b72b54dad819a7c39... https://help.sap.com/docs/SAP_S4HANA_CLOUD/a376cd9ea00d476b96f18dea1247e6a5/3714184b72b54dad819a7c39..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BF or UserExit we have to activate to use Single-Unit Batches?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello everybody, there is the possibility to use Single-Unit Batches with SAP Mill products: https://help.sap.com/saphelp_erp60_sp/helpdata/en/cb/cdc353b677b44ce10000000a174cb4/content.htm https://help.sap.com/saphelp_erp60_sp/helpdata/en/cb/cdc353b677b44ce10000000a174cb4/content.htm We have SAP Mill, but something need to be activate, because we don't have the field XPCBT in the table MCH1, here under the first .append: http://www.se80.co.uk/saptables/m/mch1/mch1.htm http://www.se80.co.uk/saptables/m/mch1/mch1.htm We know this, but we can't use it: http://help-legacy.sap.com/saphelp_erp2005/helpdata///EN/81/0bc93a5fc1093ee10000000a11402f/content.h... http://help-legacy.sap.com/saphelp_erp2005/helpdata///EN/81/0bc93a5fc1093ee10000000a11402f/content.h... So something need to be activate, like here is mentioned: https://archive.sap.com/discussions/thread/1839531 https://archive.sap.com/discussions/thread/1839531 But what? Thanks for help",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Benjamin,on which release are you? ERP 6.0 (as the help link indicates)?There are 2 things that need to be considered:a) Do you have the discrete industries mill products industry extension (DIMP_SDUD )activated? I know this is sometimes confused. People run SAP for Mill Products, but do not necessarily activate the industry extension on top. If you run S/4, this question is no longer relevant. b) If this is the case, you need to activate this is in the material master on the additional tab for product units of measure. Best regards, Stefan Weisenberger"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table to find which cost centers map to a particular profit center?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Guru's, We have a ton of profit center's that map to different clients / customers in SAP. We are trying to figure out which cost centers map to particular profit centers. I can go to the master data of the profit center which shows which cost center, but we have tons of profit centers to look up. I am trying to find an easier way to handle this. Is there a way to get a over all hierarchy that shows Y profit center maps to Z1 cost center, Z2 cost center? Please can someone help me. Many thanks! Best Regards, Yasmeen",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Planning Strategy to use??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I'm creating the customer requirements (say, for the next 3 months) using Transaction MD81 (Unlike PIR Creation using MD61) and after that, I'm going for the MRP Run. Now...I'm bit confused regarding which Planning Strategy to use (10, 20, 40, 50, etc.)?? Is it a MTS or a MTO process? Regards, Kaushik.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, In MD81 you will be giving some requirement type. You have to select the strategy which is suitable for the requirement type. You can refer the table containing assignment of strategy type with customer requirement type. http://help.sap.com/saphelp_erp60_sp/helpdata/en/cb/7f9b7043b711d189410000e829fbbd/frameset.htm http://help.sap.com/saphelp_erp60_sp/helpdata/en/cb/7f9b7043b711d189410000e829fbbd/frameset.htm Hope this will help. Regards, Navin"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which scenario function SFCLM_CPC - Check house bank account in payment configuration is used?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which scenario function SFCLM_CPC - Check house bank account in payment configuration defined in the configuration step Define Functions (SSCUI 101065) is used?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "For usage of function SFCLM_CPC - Check house bank account in payment configuration, kindly refer to KBA 3219610 - Function SFCLM_CPC - Check house bank account in payment configuration Regards Priyanka"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Adding a line to inbound delivery which is already saved",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have one query on Inbound delivery: Inbound delivery should be modifiable for adding new line items. At present only deletion of line items & reduction in quantity is possible . In case of missing of any line item from any big shipment, we will have to create another Inbound delivery just for that one line. Kindly let me know the answer Thanks alot for your kind help Sri",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "if it is there line item in sales order.. we can add otehrwise create another sale order and combine delivery is possible.. rewad if it helps ramki"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to define which Customer or Supplier Account Group(s) can be created for a BP Grouping",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello SAP S/4HANA Cloud Community, I was asked recently \"How to define which Customer or Supplier Account Group(s) can be created for a BP Grouping\". So, I thought it would be beneficial to share the steps here on the SAP S/4HANA Cloud Community to build a repository of information to help out future customers find answers to their \"How-To?\" questions here on our community without having to create an incident. Kind Regards,StephenSAP Product Support",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Please see KBA 2805232 - How to define which Customer or Supplier Account Group(s) can be created for a BP Grouping in S/4HANA Cloudhttps://launchpad.support.sap.com/#/notes/2805232 https://launchpad.support.sap.com/#/notes/2805232"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Error which checking Print preview",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Iam getting this error when I tried to see the print preview of purchase documents, \" No matching Records found (RITM) (ODBC - 2028) Error msg [131-183] And when it is not allowing me to change the PLD also. ThankYou.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Error clearly shows RITM table is corrupted,It may happended after patch upgrade, Raise a support ticket to SAP in service market place."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Is it possible to print Cheque which is not posted in Ledger( say it is parked document)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, We have configured the APP with Cheque printing. Our clients requirement is like that: The scenario is like,they want toissue undated security chequeto the party andthey don't want to post the document in ledgeras the cheques are not used being currently used(may be used in future - date is uncertain in this case) . issue undated security cheque they don't want to post the document in ledger All i want to know, is there any way that we can do cheque printing without being posted the document in Ledger.( say document can be parked - no impact on vendor ledger) or is there any other Option/Alternate available. Please advise. Regards, Karandeep Bhagat.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Actually client is giving UNDATED SECURITY CHEQUES. So, they cannot post it into Ledger as they do not know the date yet. I understand your point and thanks for your support . And if we develop Z OUTPUT, what are the necesaary things which need to update. Please advise."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "batch assignment at which stage?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "For batch management where is the best place to get the batch assigned. Is it at the process order creation/ save? Is it at the process order release? Is it at the confirmation of the order: is it with the confirmation parameter or with the movement type? What drives this decision in a FDA regulated chemical process industry. we are planning to use sap assigned batch no., without any intelligent number in it. Thnx!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi I do not think USFDA suggests when batch # should be assigned. It purely depends on what you are doing in real time. Normally in chemical/ Pharma batch number should be assined during production order either ducring creation or release. I do not understand you last sentence \" SAP assigned batch number without any intelligent number.\" Regards YMREDDY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to change the cost center and GL account to which F.05 posts Foreign Currency Revaluation entries?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Good Day! We use F.05 to post monthly revaluation for AR, AP and banks. I noticed that after we run F.05 a manual entry is being done to reclass the revaluation entries to the correct cost centers/GL accounts. I would like to know how to change the default cost centers and GL for the postings created by F.05 so we can fully automate the revaluation process of our company. Thank you very much and God bless!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, accounts are determined via OBA1, cost center is taken from OKB9. kr Nico"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which accounts Hit for movement types",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear gurus, pleas help to find out which account get hit with movement types. thanking you in advance regards, raghu",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hello, Just adding to what Raf wrote, you use can use table T030 to see as a report."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Exit which triggers after SO Save",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, I have a requirement to send auto mail to user on customer credit status when user create Sales Order and save. I did all the necessary code in the form routine USEREXIT_SAVE_DOCUMENT of include program MV45AFZZ. USEREXIT_SAVE_DOCUMENT will trigger before the document save but I need the condition value for that SO and that will be available only after the Order saved therefore my requirement will be completely fulfil if there is any exit which triggers after Order saved, please let me know if there is any exit triggers after SO saved. Thanks in advance... Regards Venkat",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Check this thread where the same topic was discussed [Re: Userexit/Function after sales order save|; thanks G. Lakshmipathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which enhancement can i do for VA02 to greyed out line item for partner",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I need to make address from master data(document header) of tab Partner non-editable in VA02. Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Partner determination is driven by the configuration. Ask your SD consultant first before rushing into any enhancements. \"Think first, ABAP later\" works wonders and allows to avoid most work."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which SAP table attchment link stores ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I have connected SAP to one external DMS as a content server. It is working fine my scenario: say for example i create a finance document(business object BKPF) and attach the link of the document which is lying there in my DMS and its link is there in SAP table TOA01 query : once i attach a document to this finance document , where this link of attachment gets stored? ---sandeep",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Cost for the same Material Code which is produced (standard cost) and also purchased.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Friends, I use a single material code for production and in the purchase process. We have assigned a standard cost. 1) When this material is produced it takes up the standard cost defined in the system (This is fine) 2) When we use the same material code for purchasing this material (import), this again calculates the costing based on standard cost and post the difference in (stock difference gains). (We need the purchase calculation to happen based on the PO value and not on standard cost as the valuation is incorrect). Requesting for a solution. THANKS in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, It is Standard beheviour - When your material have Standard Price Control (S),the system carries out all stock postings at a price defined in the material master. Now as you alreday have a material number(A) in your system with Standard Price Control which is produced, all stock postings will be with price defined in material master(A).Again same material procuring from vendor and want have some differentiation, then go for following one option:option:1-Either go for Batch management process just to differentiateoption:2-Or go for spilt valuation by having concept for maintaioning two different price for same material number. ifferentiation But as your material already created with Standard Price Control (S) and having material ledger activated, check with finanace team to havePrice Control V for same material for spilt valuation process. Price Control V for same material for spilt valuation process Cross check and do impact analysis for material number(A) as you haveruning systemand then go for spilt valuation process orcreate another material number(B) with Standard Price Control (S) which to be procured from vendor. runing system create another material number Regards, Biju K"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Payment run error \"No check exists which meets the selection criteria\"",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have done a payment run successfully, maintained a variant for the check print program but when I want to display the cheques i get this error: \" No check exists which meets the selection criteria\" I have mantained the check lot for the house bank and the ID as well. What could be the problem? Please help. Regards Debra",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Goto FBZP T.Code and check the check form names and also check the FCHI (check lot). Which Banks u assigned. Hope this helpsul to u Shammi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "S/4 HANA Cloud UI5 , which version is supposed to be used?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, experts. I cannot find any good information about the UI5 version used in S4HANA cloud .When I checked the version of UI5 in S4HANA Cloud, it is 1.56.7, which is in Innovation Status.So if I create any extensibiliy apps running on S4HANA Cloud, which version shoud I use?If there is any info, please let me know. Thank you. s4hana-ui5-version.png s4hana-ui5-version.png",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, My suggestion is to always use the latest version. When it comes to UI5, usually these applications are what we call 'Side by Side Extensibility'. Side by Side Extensibility Best, Adriana"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reverse MMPV - How to Reverse the Posting which is done done till Jan 2007",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, By mistake i had closed the period for Mat Master records till Jan 2007 (01/07) & now I am unable to do postings. In MMPI, it asks me to refer to note 487381..etc . Alsp MMPV was also of no use to me. How can i reverse my postings till NOV 2006. Pls help me. I am unable to do PGI nor craete a delivery properly(Vl01n) Pls help me. Points will be awarded. thanks Harikumar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Ashish, Yes It has worked. I had seen that in Tcode: OMSY, the year & month for relevant Co Code has been set to past date. But the PGI for the goods errors out still on this issue? Any ideas u can share with me ?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Run ko88 with WBS substitution, the line item which not meet the prerequisite is also substituted",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "set FI substitution step of wbs element substituted when run ko88. but the line item which not meet the prerequisite is also substituted. e.g. Prerequisite: BKPF-BUKRS = 'xxxx' and BSEG-HKONT = '00001' Substitution: WBS = 'PROJ1' After run KO88, whether line items meet the prerequisite or not, also be substituted. PK 40 ACCOUNT 00001 WBS PROJ1 PK 50 ACCOUNT 00002 WBS PROJ1 why the second line item would be substituted? how to solve?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I have found the notes. Notes 1916787& Notes 2056977."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Remocal of material which are flagged for deletion",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Everyone, I have to remove all the materials which are flagged for deletion. How can i put these materials into some archiving setup. Please solve this query.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Set the deletion flag in MM06 after copying the whole field content of MATNR in MARA. Afterwards you can run the archiving process for this materials in transaction SARA object MM_MATNR, please make sure that you COPY THE MATERIAL MASTER BY FOLLOWING THE WAY ABOVE in transaction SE16 for table MARA. go transaction SARA Type in object name MM_MATNR Create a variant Execute the archive run If successful, execute the delete run Record the number of entries deleted (Management screen). Regards, ian, Wong Loke Foong Edited by: Ian Wong on Oct 5, 2011 2:28 PM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CONFIGURATION OF EXPIRED CURRENCIES , WHICH ARE NOT USEFULL",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI please let me know the SPRO path or T.Code to configure the Expired currencies, which were not required. Thanks in advance REgards Srikrishna",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, SPRO->SAP Netweaver->General Settings->Currencies->Expiring Currencies. (In ECC5). Rgds."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which data are stored in the table GTL0?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, cuold anyone tell anything about the table GTL0? What is it for? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You mean GLT0... It's the totals of G/L (when new G/L is not activated) Regards, Eli"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sales plan in PP for materials which are purchased for purpose of reselling",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear SAP gurus, At our company we use HR, MM, SD, FICO, PP modules, SAP ERP ECC 6.0. I am trying to find solution in SAP which which enables most basic Sales planning where I am able to make entries for target sales quantity, target sales total amount, etc. on monthly basis, on material and plant level. After some research I found that for this purpose it is best to use: #option 1 - APO (as part of SCM), #option 2 - APO Add-in for SAP ERP (ECC) or #option 3 - stick to core functionalities of SAP ERP (ECC). Since there is very little chance my company will decide for options 1 or 2, our goal is to make best of option 3! Closest I have found is this link bloghttps://blogs.sap.com/2015/08/13/sales-operations-planning/under section STANDARD SOP for Material. https://blogs.sap.com/2015/08/13/sales-operations-planning/ It seems that Sales plan is under PP module. Since we have little materials that we produce, my question is can we still make sales plan in this module, for materials which we didn't produced, instead we have purchased the for purpose of sale to other parties (reselling)? BR.Sam",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Sam, Question: Question: It seems that Sales plan is under PP module. Since we have little materials that we produce, my question is can we still make sales plan in this module, for materials which we didn't produced, instead we have purchased the for purpose of sale to other parties (reselling)? You can use demand management and MRP component to plan materials that you purchase and purchase (trading goods). trading goods) You should also take into account the option of usingSAP IBP, because SAP APO will be end of support by 2025. SAP IBP SAP IBP https://help.sap.com/viewer/product/SAP_INTEGRATED_BUSINESS_PLANNING/2002/en-US https://help.sap.com/viewer/product/SAP_INTEGRATED_BUSINESS_PLANNING/2002/en-US Regards. Farid."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which FM can use for mass lock or unlock production versions ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , Is anybody knows which FM can be used for mass lock or unlock production version ? Thanks !",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Please check with Table MKAL and Field MKSP. This Table allow to change the values. I donot recommend to change the value directly on table. Hence u have to use uploading tools like LSMW & BDC. Pradeep Edited by: Pradeep Kumar on May 19, 2008 4:43 PM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Population of MARD-PRCTL: Which View is used",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Can you help me to explain the difference between MARD-PRCTL and MARC-PRCTR ? I can see that MARC-PRCTR is populated from e.g.. Plant/Storagedata 2 or Sales General/Plant view, but from which view is MARD-PRCTL populated ? Cheers, Claus",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Claus, The MARC table holds the Plant Data for Material in the material master. The MARD table holds the Storage Location Data for Material. The MARD table is populated when the stock level of the material is updated. So, the subsequent fields of the table including PRCTL (Profit center) gets populated when the corresponding transactions for updating the material stocks are executed. Regards, Thangesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP B1 HOW TO QUERY ON FLOAT AR RESERVE INVOICES WHICH ARE NOT YET POSTED IN DELIVERY",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts. I'm trying to query alert message which can alert the user all AR Reserve Invoice transaction floated and not yet posted in delivery. Thank you & best regards.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "SELECT T0.DocEntry, T0.DocNum FROM OINV T0 WHERE T0.CANCELED = 'N' AND T0.InvntSttus = 'O' -- delivered or not, O means not delivered AND T0.isIns = 'Y' -- reserved invoice flag. Hope this help."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which S/4 Hana certification is suitable for Utilities Functional Consultant?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I am a SAP ISU Utilities Functional consultant with 12 yrs of experience. I wanted to do certification in S/4 Hana as more and more clients are going for S/4 hana solution. However, when I checked the SAP certifications, there are many S/4 hana certifications but nothing specific to utilities. Could anyone suggest what should be the most suitable S/4 Hana certification for me, given my background in utilities? Thanks, Twinkle Upadhyay",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which strategy to be used?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, PS module is there. But for one product client wants a different strategy. Client gets an order of say 1000 scanners to be manufactured.Client has to manufacture 300 in first 3 months, next 220 in next 3 months and 200 in next 3 months and 280 in next 3 months. Customer can increase or decrease the demand in any quarter or can ask for some quantities in next 2 months say. How to map this scenario? which strategy to be used? What extra is to maintained in material masters? Regards, Mohammad Arif.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can use Strategy - 40 (Planning with final assembly) You give your requirements in MD61 based on the customer schedule as 300 for the first quarter, 220 in the second quarter and so on. When there is a sale order, with an increase in the schedule qty, it gets adjusted in the next plaaning. Decrease in the sale order qty causes an increase in the plant stock whereby you can adjust in the production of the next period. Check up with the foll link: [Strategy-40|http://help.sap.com/saphelp_47x200/helpdata/en/cb/7f93e643b711d189410000e829fbbd/content.htm] In Material master, in MRP-3 view, maintain 40 for startegy type. Hope this helps.. -Thaila Shree"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "settlement rule of rework order which is  created by trigger point",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts I am creating a rework order automatically with the help of standard trigger point.For this I already defined reference operation set and rework order type. I assigned trigger point to the rework operation in the routing.With this whenever we try to conform the rework operation during cor6 , rework order being created automatically.But after we enter rework qty and reference operation set , rework qty getting conformed and terminated.But I have to enter settlement rule as the case of manual rework order(co07) which is very much vital for the cost valuation of rework qty. Shall anybody give the solution why It was being terminated with out asking for settlement rule and how to solve this? Thanks in advance for the solution. full points would be rewarded if found currect solution. Thanks and regards srinivas.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi , Your requirement is not clear, are you creating rework production order through CO07, or inserting the rework operation in existing production order by trigger point? When you create production order with out material then you need to give settlement rule any cost object like cost center, Production order etc, but when you trigger the rework the additional cost will incurr to original order. Regards, Anupam Sharma"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which field is the workflow trigger for a Contract Agreement ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Greeting everyone, I am not sure if this has been answer before or if this is the correct forum. If not, apologies in advance and do direct me to the appropriate topic/forum. I have an inquiries with regards to Contract Outline agreement and workflow trigger. Based on my company configuration, the trigger is based on the changes in value and release strategy. What I am unsure is that which field the workflow-trigger checks? What I am unsure is that which field the workflow-trigger checks? Does SAP checks the field \"Target Value\" in contract header, or the sum of net value in each of the contract items? Thank you",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Sek, In contracts, the target value is used for the release strategy determination and not the net contract value. If you maintain a target value in the contract header, this value is set in field CEKKO-GNETW to determine the strategy. If no target value exists on header level, a cumulation of the target values of the items is carried out and used for the release strategy determination. Regards, Mauro"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Form Template for Supplier Invoice which Entry Type = [Online] and [Invoice from Parking Function]",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, Hello Experts, Supplier Invoice with Entry Type=ESR have output tab and we can view the form template for those Supplier Invoices. Supplier Invoice with Entry Type=ESR have output tab and we can view the form template for those Supplier Invoices. But supplier invoice with other Entry Type= Online, Invoice from Parking function and etc.. do not have output tab and we cannot view the form template. Only ESR type can view form template. But supplier invoice with other Entry Type= Online, Invoice from Parking function and etc.. do not have output tab and we cannot view the form template. Only ESR type can view form template. Could you please guide us how to view the form template for supplier invoices with other entry types? Could you please guide us how to view the form template for supplier invoices with other entry types? #Supplier Invoice template, #template for Entry Type Online, #template for SIV entry type #Supplier Invoice template, #template for Entry Type Online, #template for SIV entry type",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which table contains user name",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, For certain travel expense(T-Code:TRIP), I would like to know who created it and checked table PTRV_HEAD, but it seems no corresponding field exist. would anyone help me? thanks, Ben Wu",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Ben In the report S_AHR_61016104 there is a field in the dynamic selection created by thro which you get all the trip and the details of who has created. thanks Ashok"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Programs which can trigger GLPCA table entries",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi SAP Community, I am looking for a complete list of programs which can trigger GLPCA table entries. I am currently in the process of running related transactions manually, but to be on the save side, I would really appreciate the feedback from you guys. Thanks in advance for your support. Cheers, Chris",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can find the programs where the table GLPCA is being used. For this use transaction code SE11 and enter the table name GLPCA and click on the icon where used. A pop up window will be displayed and you can click on Programs only. This will display all the Programs where the table GLPCA is used including any Z programs developed in your system. Thanks Murali."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Condition which not restricts",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi ! i did wrote a simple query the following, But the result seems it is not restricted according to the condn. it also retreives the records which holds the price equal to the list price. helpless now... any there to lit light? THNX.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, your query seems to work correctly at my system. Are you sure you have chosen the right price list? Are you running the query with SQL Server Management Studio or with SAP B1? Is there the same result? If not, what version of SAP B1 are you using? Marcus"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "S/4 Hana Cloud or On-Premise - Which System am I using?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello everyone, Im currently at a Client's Site and I would like to find out, whether the System is run On-Premise or Cloud. Can anyone tell me how to easily identify this within the system? Looking forward to your replies. Thanks and best regards, Andrzej",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Does SAP could distinguish which continent a country is belonged to?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi: Does SAP could distinguish which continent a country is belonged to by given Country code?? Asian; continents of North and South America...etc How to?? Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Hoo Check the link <a href=\"http://help.sap.com/saphelp_47x200/helpdata/en/95/9343fede5f11d1890e0000e8216438/frameset.htm\">Combining Segments</a> Thanks G. Lakshmipathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which app can be used to issue & print withholding tax certificate for Vendors in India",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello All, Which app can be used to issue & print withholding tax certificate for Vendors in India. Regards Jasmit Sarna",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Jasmit, There is no need to take it from SAP system it can be taken from NSDL, then you can print at your end. Best Regards, Vijayendra"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "What is the field which describes material division in which table?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "What is the table name and the field name whch describes the following material division?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "I think MARA-SPART ."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "pricing updates depend on which date",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "dear all price updates depend on which date. required delievry date i think but if i m changing the required delivery date what ll be the effect to others.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Subu, Yes your thinking is correct the price will be updated for the open orders based on the required delivery date. For newly creating orders system will pick the new price or changed price automatically. If you change required delivery I hope it will not effect others any way you are going to delever the open items in the future only. Recently we have changed the CST from 3% to 2% to get this updation in the open order we have changed the Required delivery date to this month. I hope it will help you, Regards, Murali."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "function module which calculates GL balances",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello to you all, I am looking for a function module which calculates balances for GL account as Tcode FS10N do. I would like to implement this FM in an ABAP program, Thanks, Amir",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

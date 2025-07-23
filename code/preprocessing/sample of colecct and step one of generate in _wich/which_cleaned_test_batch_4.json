@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "Can I find out which batch job did these changes through the user name?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Hi Experts, Atthe deliverylevel there are some changes & when I go to environment>changes it shows as \u201com_futdel\u201din user name column. Atthe deliverylevel there are some changes & when I go to environment>changes it shows as \u201com_futdel\u201din user name column. the delivery Can Ifindout which batch job did these changes throughthe user name? Can Ifindout which batch job did these changes throughthe user name? find the user name",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can use TBTCO TBTCP table by inputing user name, you will get all details of job regards, santosh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "VA02 availibility check for a material which is in stock",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I have a material for which the field MARC-PLIFZ and MARC-WEBAZ have respectively 10 and 2 as values. The above material has been just purchased and is in stock. When this situation happens If I want to create the delivery I always have to execute VA02 and repeat the availibility check, after this the material is available and the delivery can be created. Is there a solution which allows this without repeating the availibility check as the material is just available ? Thanks Best Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, Firtsly if the Stock is not confirmed in Sales Order, then you will not a able to create Delivery. What you need to do it get the Stock COnfirmed in Sales Order through changing settings in T-Code - OVZ9. Here you should leave the Check Box of Checl Without RLT Blank I mean remove the Tick mark in Check Without RLT Box. This will make sure that evven if you do not have stock, system will confirm the Stock in Sales Order based on Planned Delivery time. Hope this helps, Thanks, Jignesh Mehta"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table for \"Freight\" in PO and SO or AP Invoice, AR invoice",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "The system PO did not have Freight in the PO, which table has Freight for PO, SO, AP Invoice and AR Invoice?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Lily, ->> Open the Require Document PLD. ->> Add the New Repetetive Area on PLD. ->> Create1 Databasefield and1 System Variablefield in (new)Repetetive Area. 1 Database 1 System Variable Database field isFreight Name. Freight Name. System Variable field isFreight Amount(Freight Charge). Freight Amount Regards, Madhan."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "According to which logic does the the item numbering in the billing documents occure?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Once collective billing documents for more than one delivery has been created, an interesting item numbering in the billing documents is observed. For example: Firs billing document has item numbering: 20 21 Second billing document has item numbering: 1 Third billing document has item numbering: 10 11 20 30",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "The behavior is described in detail in SAP notes 1707736 & 2102821. You could assign new item numbering for documents from LF delivery to F2 invoice, if you un-flag the 'Copy item number'-flag in SSCUI 102763 (Delivery Document to Billing Document)."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which process to go for MTO or REM ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "My company is launching a new SUV. For that the production qty is 900/year so is it feasible to use MTO process? OR better to go with the existing REM process only? Please suggest.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Anand, Looking at your requirement it is better to stick to existing REM process. If you want to do so It will be the big change for the product costing, sales cycle, inventory transfer and many more process. Also consider following points 1. MTO process is customer requirement driven so it follows PULL methodology is Supply chain. It is only adopted where in end product is slowing moving and company don't want to make inventory with of sales order. 2. MTO is not recommended for the higher production rate and line based production as mentioned in you case. 3. REM is good for rate/schedule based production. Please share feedback on same. Regards, Shekhar Damale"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Removing ledgers which is not required",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I only require the 0L Ledger, rest I want to remove them at a one go. How would I do that Warm Regards, Samudra Gupta",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which price will take in sales order creation if VK11 is not maintained?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, If a material is not maintained in price list for any of the access sequence, which price will take while sales order creation for that material. Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Thiyagu, While creating sales order First system will trigger the pricing procedure based on the sales area. In second step system will find what are condition types available in that procedure. Now when you enter the data like customer,material,price list etc..system will search is there any access sequence for this combinaton of fields then search is there any condition records exists for that if the condition record exists system will take that value if not exists we need to enter the values manually at sales order level. I hope this will help you, Regards, Murali."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to define which Customer or Supplier Account Group(s) can be created for a BP Grouping in S/4HC?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "When I create a new BP the account group is SUPL by default, how can I change this? here",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Please see KBA2805232 - How to define which Customer or Supplier Account Group(s) are created for a BP Grouping in... 2805232 - How to define which Customer or Supplier Account Group(s) are created for a BP Grouping in..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which release procedure will pick?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Can any body help? We have a requirement that ,for same material (ABC) but belongs to different plant, we have two release strategies R1,R2 R1:-in this strategy two codes assigned This release strategy will effect when net value=50000 & plant \"X\" R2:-in this strategy three codes assigned This release strategy will effect when net value=50000 & plant \"y\" i will create PO with two line items, in one line material is ABC & plant X in other line item material is ABC, Plant Y net value =50000 my question is which strategy&releases procedure will effect to this scenario plz do needful",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "My release procedure is not for PR its for PO? in which tables release strategy values stores? plz do needful"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "tax rate is picked from which table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Kindly let me know from tax rate is picked from which table? (the one which we see in FTXP)",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "See if T007V would be of any help. Tax codes to be transported are stored here (with rates)."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAPI can be used to change the texts of inbound delivery",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts, I need to change the \" Texts \" in header details of inbound delivery with \" VL32N \". I want to use \" BAPI \" to change the Texts. Which BAPI can I used? Thanks !",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Try FM SAVE_TEXT to change the texts."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to close the maintenance order which don't have any actual cost.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, We are not capturing internal labor cost in any type of maintenance orders. For Example Preventive Maintence orders have mainly checking & inspection kind of activities which have a frequency of weekly, fortnightly, monthly in this case they will confirm only operations & no internal cost will be booked on order, so there is no cost on order. So how I can close these orders. If no cost is on order then there is no point in doing order settlement transaction. But I have to Close the order because those weekly, fortnightly & monthly operations are executed & confirmed. How i can achieve this? Thanks & Regards Sandeep Theurkar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can useIW38report to do this. If you have any spc orders then limit your selection and execute, in the out put you can see the planned and acual cost. Then you can perform mass tech completion and business completion. IW38 Imp. Actual cost if exists it does not mean that the order is settled. Regards, N.Nagaraju"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "what are the tables and fields which are affected on blocking vendor/custom",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Guys! what are the tables and fields which are affected on blocking vendor/customer either financially or centrally... Please help me asap.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Check tables: KNA1 & KNB1 for customer. LFA1 & LFB1 for vendor . Transaction: XK03 for vendor master display. If you go through this you will find a field which will be a indicator will block the vendor/customer. Right now I am not on the system to exactly to field level. Thanks, Deepak."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to identify which type of database is connected to SAP B1",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, I have an add-on programmed in c# for SAP B1. There I have entered queries which are needed for the add-on, both in SQL and HANA. After user installed the add-on and before running it for the first time he has to write to a .txt file \"SQL\" or \"HANA\" depending on the database he uses. And then the add-on reads out this information and executes correct queries. But what I want to know is whether there's a way read out the connected database type programmatically? Thanks in advance!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Isuru, Look in your Company object the property DbServerType. If you doesn't have the Company object, you can get this through Application object like this: oCompany = oApplication.Company.GetDICompany(); Hope it helps. Regards, Diego"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How do I find the system inventory on hand during a cycle count? Which tables do I look in?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I am creating a report outside of SAP in a data warehouse that contains SAP tables. I am trying to build a view that shows the result of cycle counts and how much they are off by the inventory in the system, how often the counts are off, etc. I think I have found the cycle count data in the IKPF and ISEG tables, field ISEG.MENGE has the difference in quantity from the count. What I am looking for is what the system inventory number was at the time of the count. Which tables should I use for that where I can tie it back to the time of that Cycle Count? Would LINK and LINP tables hold these system inventory numbers? And if so, how do I join them to IKPF and ISEG? Or, should I be using MSEG? I see that there is a direct link between ISEG and MSEG, but I don't know which fields in MSEG would hold the System Inventory numbers at the time of count. Any thoughts?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "pr number in which table?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Gurus, i am creating a PO with reference to PR.. I want to know the pr number after saving it.. in which table, i can see it.. is it ekpo table, where i can see the pr number for this PO.. pls clarify..",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "EKET is the table where you will get the desired info. regards, Prashant Rathore."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "VA03 Transaction - Which AUART's should I filter?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi guys! Does anyone know how transaction VA03 should open? I mean for which AUARTs should it open? Thank you in advance",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Any AUART that has been configured (in VOV8) with Transaction Group as '0' should be accessible in VA03. The field is TVAK-TRVOG."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to update WBS in tax items in FI document which is Posted during MIRO?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "After doing MIRO new FI Accounting document is created, which has entry of TAX items also. I am getting WBS element in PO items, but not in tax items. How to achieve this?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi You can write a simple substitution rule to copy the WBS element no in Assignment field. Regards Sanil Bhandari"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production tasks - find out which has been completely commited?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, is there any way to find out those production task that has been completely committed but the user forgot to finish? There is no information in the OWL available and no selection either. Kind Regards, Klaus",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Benny, I think that is true. But this is a frequent upcomming question - I will raise an idea. Kind regards, Klaus"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Configuration document which has to be done before KP06",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus., Can any one please send me the configuration doccument which has to be done before KP06 and also doccument on How to upload planning value from Excel-through KP06 Please send me with screenshots to my mail id [Removed by the moderator.] Points are given to all the gurus Thanks in advance Regards Narayana Message was edited by: manam narayana",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, [Removed by the moderator.] check this link. This gives step by step procedure with the importance of each field. Regards, Sridevi <i><b>Pls. assign points, if useful</b></i>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Where to define price group which will come in customer master .",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Sap Kings In IMG where we will define Price Group .Price group comes in Customer master plz give me the navigation path for that. Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "spro-sales and distribution - basic functions - pricing - mainatin price relevant master data- defien pricegroups for customers.. reward if it helps.. ramki"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how i can know which fields belongs to which table?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "how i can know which fields belongs to which table?is there any process or T-code that if i enter a field name then it'll show all the table name(in which table this field is available)",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP Business One need a list of all AP documents which have been paid by check",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I am trying to create a report for all AP documents (both invoices and credit memos) which have been paid by check. I am looking for vendor name, vendor code, invoice no or credit memo, check number, amount paid by check, check date. from which tables can i pull these or any ready made report available.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Please check below threads: Thanks & Regards, Nagarajan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production Activities which are not in the routing",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dears When I go through the Cost analysis of the Production Order, we find many activities which are not in the routing master data for the material. How this is possible ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Check the Cost Center assigned to routing which you are referring to Prod Order is same... In routing for those activity type -KP26 rate is maintained will roll up in prod order.... Regd, Khan."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "MM50 - Which criteria does the system follow to show the extendible materials?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I would like to know what criteria does SAP follow when showing results in MM50. I am specifically interested in Sales views: For example, i have a newly created material, extended for 2 centers, A and B. (WERKS). When displaying that material (in the initial screen i just filter by this material number), the system displays the following lines: - 1 line for Status (MOFF_STATM) D, center A. - 1 line for Status (MOFF_STATM) D, center B. - 1 line for Status (MOFF_STATM) E, no center. - 1 line for Status (MOFF_STATM) E, center A. - 1 line for Status (MOFF_STATM) E, center B. - 1 line for Status (MOFF_STATM) L, no center. - 1 line for Status (MOFF_STATM) L, center A. - 1 line for Status (MOFF_STATM) L, center B. - 1 line for Status (MOFF_STATM) P, center A. - 1 line for Status (MOFF_STATM) P, center B. - 1 line for Status (MOFF_STATM) Q, center A. - 1 line for Status (MOFF_STATM) Q, center B. - 1 line for Status (MOFF_STATM) V, no center, and a purposed Sales Org \"X\" (VKORG) - 1 line for Status (MOFF_STATM) V, no center, and a purposed Sales Org \"X\" (VKORG) - 1 line for Status (MOFF_STATM) V, no center, and another purposed Sales Org \"Y\" (VKORG) - 1 line for Status (MOFF_STATM) V, no center, and another purposed Sales Org \"Y\" (VKORG) None of those purposed Sales org are extended for this material. I guess that makes sense since MM50 is purposing to extend those views. My question is: from all the Sales Org existing in the system, why are X and Y displayed? What is the criteria that SAP follows in order tu purpose these Sales Org? Thanks, Gerard",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "in Enterprise structure you will find an assignment of sales org and distribution channel to the plant. so you have already the maximum possible sales org / distribution channel combination that you can get per entered plant. this is then filtered by the shared distribution channel from transaction VOR1 and finally reduced by the already existing sales organisations from your material"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which cases unplanned posting run and repeat run used",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi SAP Friends , Can any one clarify my doubt . I tried with one example After planned posting run completed with AFAB for the existing assets for the month of 31/08/2006 , all planned depreciations were posted, now I had created an asset with 01/01/2006 and re-ran the AFAB with Un-planned posting run for the asset,system giving an error message - posting already performed for the 008 th month ,so I checked with the repeat run , so the Dep run performed and posted the values for 01-08 months . After running the depreciation with planned posting run , and in which cases the Unplanned posting run and repeat run is used ? and ABAA ( Unplanned dep ) in what cases it is used",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "This is adequately documented in the SAP help as well as the F1 help on each field on the depreciation program."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table the  PO delivery dates will get stored",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, when I tae report for Plant I get the Delivery date different from that of the delivery date mentioned in the PO. Could any one sugget me where from the delivery date is picked up and what all the combination is of Delivery date. Best Regards Sridhar.k",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "LSMW: error when import source file which contains other language character",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "When I use LSMW to import master data, on the step,\"Specify Files\",there are two choice for code page,\"ASCII\" \"IBM DOC\", but neither of them can work correctly, both cause chaotic code. for example \"#\u00e3b####&#1378;##\"",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Colin! I'm working with English and Cyrillic input files. As long as I don't use English file for the Russian application, all works well. I figured out two important points: - Log-in in 'target' language. This has to set locale and language defaults -> LSMW will asume correct codepage (when your system has correct default settings). - Save your text file with correct codepage. With MS Word or MS Excel I haven't seen detailed options, but with OpenOffice you can set codepage when saving files with '*.csv'-filter. Regards, Christian"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Implementation Phases - Which is toughest of all?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Out of 5 phases of ASAP Methodology, which phase is considered as the most Challenging phase in SAP-HR Implementation?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Mapping the clients Business Process to SAP Blue Printing is most challenging as we have discussions with the client convincing clients on the scope and would be a challenge one the Blue print is signed off then it will be easy . Every phase has got its own challenges"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "All PRs which got converted to POs not displayed in ME5A",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Seniors, I am trying to search aPR for which a PO has been made. PR for which a PO has been made I triedME5Aby giving the 'Created By' and checking only \"Requisns for Item-Wise Release\". ME5A I am still not able to get that PR in the list. I also tried the 'Processing Status' as \"B\" but the PR does not appears in the result. Is there any way in SAP where we can get all the PRs created by a particular user , irrespective of whether released or not ..or whether a PO has been made to that PR or not. Just ALL the PRs created by a user. Thanks to all.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You are looking to correct transaction code ME5A. Go to Dynamic Selection choose Created by double clicking. give the exact name. Check Assigned PR - as checked, Partially order - as checked Requisition for over all release checked. Requisition for Item Wise release checked. just execute."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which modules have opening and closing periods?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which modules have opening and closing periods? What would be required to confirgure them?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which are the Related tables in Service Tax",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Which are the Related tables in Service Tax Regards, Siva",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi i am not pretty sure of the tables..but better check the config for it in service tax at extended withholding tax type regards shibu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Close the open items of a sales order which are non delivered and not billed automatically",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "There is a request from a client: he would like to be able to close the open items of a sales order which are non delivered and not billed automatically. I have one question about that. we have number of line items in one sales order, for eg. one line item have 100 qty and deviver 60 qty. When we put a reason of rejection in the sales order item of 100 quantity, what exactly will happen? How the system will know it only has to reject the 40 non delivered pieces and not the 100 pieces mentionned in the line item ? I also read that the price would change to zero but how can this be correct if we have 60 pieces to bill ? regards, Kamili. Message was edited by: Jyoti Prakash - Special characters removed from the subject.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi kamilikanth, In va02 when we tries to see a existing sales document then the system will gives the message \"consider subsequent documents\" means it also considering the existing documents. Also the status of the document header and item will be updated in the following tables VBUK and VBUP. sales document flow will be updated in VBFA table. Hence i think system automatically considers the delivered quantites. Regards, S.Himavanth."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to detect from which BAPI is a certain BTE called ???",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello all ! My scenario is simple .I have used a certain BTE 1120 and placed some code in it .When i useBAPI_ACC_DOCUMENT_CHECKi don't want this BTE to get called ,instead when i use BAPI_ACC_DOCUMENT_POST i want this BTE get called . BAPI_ACC_DOCUMENT_CHECK Is there any way i can tell when this BTE is trigered by which BAPI ?? Any system parameter that i could check inside the FM that contains the code of the BTE ,so can put a simple IF CONDITION on example IF sy-param NOT EQUAL TO BAPI_ACC_DOCUMENT_CHECK DO THE STUFFFF . ENDIF . THANKS IN ADVANCEToni .",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You can use static method GET_CALL_STACK of class CL_ABAP_GET_CALL_STACK or FM SYSTEM_CALLSTACK to read the call stack and put a condition inside your BTE FM. R"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which T-code we make use of  movement type 93,94,99?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "In OLML>Activity>Transfer configuration there is movement type configuration for HU managed WH 93,94 and 99 .Can any body tell me how we can use these movement type in HU management? In which T-code we make use of these movement type? Milind",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, Any body has answer for this question? Milind"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to restrict manual posting through FI to GLs which are integrated with MM/PM module",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "While creating Purchase requisition through Tcode ME51N, GL 400010 get automatically picked as per the customization in OBYC. To avoid manual entries in GL 400010 directly through Finance posting, in GL 400010 master we ticked the option \u201cPost automatically only\u201d. Before this tick , Purchase requisition and purchase order were created properly and after this tick , system is giving the error at the time of creation of purchase requisition as \u201cNo direct postings can be made to GL acct.400010 in co code 2005\u201d. As per business requirement , manual posting to GL 400010 through Finance module should be restricted and direct posting should be done through Material management and plant maintenance module only. please how to restrict manual posting to these GLs which are integrated with MM/PM module.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Manjusha, Are you creating service PO, if yes, then at the time of creating a PO system would default or ask for GL account and this GL should not have selected the check box \"Post automatically only\". Otherwise system will throw above error message. If you are creating a normal PO, at the time of it should have selected the post automatically check box. However, if you want to use the GL account for MM posting and the GL account is using for creation of service PO and those case you can define a validation in GGB0 for restrict FI posting. You have to define a validation as mentioned below at complete document level. Prerequisite : BKPF-BUKRS = XXXX AND BKPF-AWTYP = BKPF Check : HKONT = XXXXXX Message : Error After define the validation and assign to your company code in OB28. Regards, Mukthar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which FM for Inbound Delivery?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Everyone, Does someone know which Function Module I have to use to create aan Inbound Delivery from an IDoc type DELVRY03. My Message type is DESADV. THX in advance, Danny",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, this is the FM <b>IDOC_INPUT_DESADV1</b> check it. Regards Vijay"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to manage an item which has both procurement methode Buy & Make",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi experts, In my recent implementation project, I have come across a scenario where my customer has few items, which sometimes they purchase (Buy) and sometime they produced (make). My customer is in process of preparing the Item master data. Now the point is what to mention in procurement methode under planning tab of Item master screen for above reffered items which attracts both the procurement methods. The issue is important as the customer has to heavily use MRP recommandation. BR Samir Gandhi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear, If the customer used MRP,then you have to create same item twice with method bye and make. it is not possible to set one item with both methods using single item code. Hope this will help you. Thanks, Neetu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ALV report which displays Delivery and Invoice details..by linking vbfa.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi... Hi... I wants to develop an ALV Report, which displays Delivery details as well as Invoice details for a range of given sale orders. I wants to develop an ALV Report, which displays Delivery details as well as Invoice details for a range of given sale orders. For this report I am using Tables : VBAK,VBAP,LIKP,LIPS,VBFA tables . For this report I am using Tables : VBAK,VBAP,LIKP,LIPS,VBFA tables . Here VBFA is a table for Document flow how to link this with report ?? Here VBFA is a table for Document flow how to link this with report ?? Please reply. Please reply. Regards , Regards , ASHOK ASHOK Moderator message : Not enough re-search before posting, spec dumping not allowed. Thread locked. Moderator message : Not enough re-search before posting, spec dumping not allowed. Thread locked. Moderator message : Not enough re-search before posting, spec dumping not allowed. Thread locked. Edited by: Vinod Kumar on Aug 1, 2011 9:58 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "vbfa-aubel = vbak-vbeln = vbap-vbeln. vbfa-aupos = vbap-posnr. LIPS-VGBEL = VBAP-VBELN, and either LIPS-VGPOS = VBAP-POSNR or LIPS-POSNR = VBAP-POSNR. Edited by: ssm on Jul 31, 2011 6:28 PM Edited by: ssm on Jul 31, 2011 6:29 PM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to remove a handling unit from a trailer which is an outbound delivery?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Can you please provide a job aid on removing a handling unit (HU) from a (outbound) loaded trailer? Example: Operator incorrectly loaded a HU with an incorrect number of bags.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to remove a dependent requirements which caused by planned order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Gurus, There's a dependent requirements for one material A, and the requirements caused by a planned order. The dependent requirement listed in stock/requirements list (MD04), but if display relevant planned order by click the 'display' button on 'Additional data for MRP element', SAP will show the error mesage \"Planned order does not exist\". My question is why this depedent requirements exist even after MRP running, and how to remove this dependent requirement? Thanks Albert",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Please check OSS note 633119 - maybe it helps."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which tables for Statistical Postings created by F-38?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, could anyone tell me in which table are stored the documents created by t.code F-38? Statistical postings Thanks G.Rossi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi. the same as general posting"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Accounting doc changed - How to trace which t_codes were run in the past?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi SAP team, I have an issue in which a FB03 document shows changes by a specific user. However, user states she did not change anything in the document as authorization is not given for such. (So user did not perform the change) The change might have been done by a Batch ID and points out her name as the person who changed. I presume a set of activites from this user was run and triggered the document to have the status changed from Old A to New B. Doc Status - A (doc created) Doc Status - B (doc incomplete) Is there any transactions/reports to track what specific user did on July 7th for example??this can lead me to an explanation of how her name was pointed out. Is there any transactions/reports to track what specific user did on July 7th for example?? Any help is appreciated. Regards, Roger",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Ususally all the changes to the document were reflected through FB03>EnvironmentDocument changes. However as per your post this is showing her own ID. I suggest you to check the Header data of the document posted for time and user ID. Then ask the user to post similar kind of data does she required to run Batch input session? or any batch input session is run at the back ground with her user id? If so then the user who process the batch input session details are only updated in to the system and not by the person who created the Batch input session. I don't see any other reason other than this."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "table to check or How to check Maint.Orders which or setteled and which are not setteled",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts I have checked Maint.order setteled from cost tab. apart from that where can I get whether the maint.orders are setteled r not. Please suggest me the table and how to evaluate the same.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Trying to write a query that will return all sales order which have all closed lines",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am trying to write a query that will return all sales order which have all closed lines. There are numerous sales orders which don't have any open lines... but still have a status as open. I can only write a query to display sales orders that are open that have some lines which are closed. I need to write it so that I can be sure that all lines are closed. Any help would be appreciated. Thanks Rick",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Richard, Here is the query you need: select*fromORDR t0 * from ORDR t0 WhereDocStatus='O'and(SelectCount(*)fromRDR1 T2WhereT2.DocEntry=t0.DocEntryandT2.LineStatus<>'C')=0 DocStatus = 'O' and ( Select Count (*) from RDR1 T2 Where T2 . DocEntry = t0 . DocEntry and T2 . LineStatus <> 'C' ) = 0 Hope it helps, Hope it helps,"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which function module use in transaction s_ac0_52000888",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Please tell me which function module use in transaction s_ac0_52000888 to get profit center wise vendor balance. My requirement is to get a vendor or customer closing balance for particular year profit center wise. Kindly Reply. Regards Puneet",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi I did't get the TCODE in my system (4.7ee), which system you are using ? You can get on your own with the below procedure: 1. Goto the TCODE : SE93 2. Give the TCODE: s_ac0_52000888 in the transaction code field 3. From menu option > Utilities > select the Display object list 4. there in the left side you can see the tree, expand that, there you can get the function module node. in that you can see the function modules used in that particular tcode SKS"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Can anyone tellme in which table the relation between PO and material transaction maintain?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Table for finding the relation between the po and material transaction in order to know in which year the material used and stopped",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how can i add STORAGE LOCATION field which is not...............",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi, sap gurus, good morning to all, how can i add STORAGE LOCATION field which is not in the standard tables namely KOMP, KOMK, and KOMG. how to include it in our FIELDS FROM FIELD CATALOGUE. if we include this field is there any impact on the standard tables. plz let me know this. bcz we are selling our products in two ways (1). one is straight from factory ie direct sales from factory if customer asks for excise invoice then we will sell thru factory and keeping freight in mind we will deliver him which ever is economical either rail or road. before coming to second case of selling the goods we will do STOCK TRANSPORT ORDER from plant to different storage locations. if we did STO thru road we have to sell the goods thru road only. if we did STO thru rail we have to sell the goods thru rail route only. (2). if the customer is not asking any excise invoice then we will send the goods thru depo/storage location which is not registered under excise. if the goods came by road then it will be delivered by road only. if the goods came by rail then it will be delivered by rail only. my logic here is basing on the storage location, transportation types, and distance i want to create condition record that captures exact frieght at the sales order level. confirm whether i am right or wrong. regards, balaji.t 09990019711.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Storage loc and transportation type field r available in delivery process itself sto loc in item table LIPS-LGORT trans type---available in header table LIKP(goto header -shipment tab --mnstransty field condition record for freight can be maintained based on ship to party/shipping pt,receiving pt /plant Raghu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Excluding a Condition Type which is calculated through Formula",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I have been excluding our Pricing conditions with Condition Class 'B\"(Prices) and Condition Class \"A\"(Discounts) with a manual Pricing condition which I will call ZFB2 through the standard procedure of using condition Exclusion groups. Now the requirement is exclude a Net Off Invoice Condition ZFFX determined in Sales order from Vistex agreement with this manual Price ZFB2. Since this ZFFX is attached to an alternate Calculation type in the Pricing Procedure,I am not able to exclude this Pricing condition with manual Price ZFB2 through the standard procedure of using condition Exclusion groups, which does not work in this case Looking forward to your inputs as to how I should go about excluding this ZFFX with ZFFB2. Thanks and Regards Mohammed Roshan",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Have a zee routine created, add this logic and assign this routine under the tab Alternate Calculation type in your pricing procedure. Have a zee routine created, add this logic and assign this routine under the tab Alternate Calculation type in your pricing procedure. G. Lakshmipathi G. Lakshmipathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "There are 2 places to define Company Code, which is correct.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "There are 2 places to define company code i.e.: IMG -> Enterprise Structure -> Definition -> Financial Acc -> Define Company, and IMG -> Enterprise Structure -> Definition -> Financial Acc -> Edit, Copy, Delete, Check Company code. I know the one path updates table T001 and the other T880 but I don't understand the differences... probably as I am abapper. Edited by: Gemini Twin on Jun 15, 2011 10:43 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Gemini, Company and Company Code are different. The first path is to define Company: IMG -> Enterprise Structure -> Definition -> Financial Acc -> Define Company Second path is to define Company Code: IMG -> Enterprise Structure -> Definition -> Financial Acc -> Edit, Copy, Delete, Check Company code. (the practice when creating any new config in SPRO is to used Copy function instead of Create) We can make do without Company. In my customer's system, we do not set up Company. Company Code is a must and is the first step that you need to define before defining anything else (Pers Area, PSA, etc). Chart of Account also linked to Company Code, not Company. The two are different, please do not confused them into one."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

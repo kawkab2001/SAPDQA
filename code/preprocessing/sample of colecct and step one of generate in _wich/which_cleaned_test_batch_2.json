@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "Report to check Standard WBS link to which standard network and activity",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, Is there any way or standard report to check standard WBS (cj93) link to standard network/activity (CN03). Normally we create project by using template existing, we would like to check the structure. Is there any way to check the standard template for it ( WBS template link to network/activity template). Thank you. Nies",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Please try this: 1. Tcode : CN41 2. Change database profile: In that in the origin check mark the Standard structure. Continue.. 3. At the bottom of the selection screen check mark the standard structures. 4. In the selction area for the Project hit F4 and select the project based on the standard WBS Element. 5. Exceute the report. Hope this is useful. Reward points if found useful. thanks.."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which T code use For Credit check of customer",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Please help us which T code use for Credit check or credit limit of Customer in SAP.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Additional receipts Information  stored in which database table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I Know addtional receipts can be controled VIA table V_T706B1_B. But when we have to activae the link under Travel Expense Manager ->Trip receipts ->Additio Receipts Information -> Additional Receipts Information via transaction FITVFELD. I want to know , If I make change to this field what is the background table the changes will be stored. Thanks in advance,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Prosun, If it is not there then check it in the table T706Z. Can you tell me which radio button have you selected for each field. If you have selected Standard Format then it will not store in any table as it has to take one standard format but if you select the value as Alternative Display type then will store in t706Z1. Few More table which store the Field Control of Dialog. PTRV_T706Z_FLDS PTRV_T706Z_FLDS PTRV_T706Z_DNPR PTRV_T706Z_DNPR PTRV_T706Z_DNPRT PTRV_T706Z_DNPRT"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which APP can view or modify the attachments uploaded by the approver in the inbox",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "here",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "When you upload the document through manage purchase requisition application, the same can be seen in My inbox of the approver. He/She can review the same. This is the functionality currently exist in the cloud system. You can also have a look at the expert view in the below link https://help.sap.com/docs/SAP_FIORI_CLOUD/750bb2d7c1b846f8a20a10fa6fd8e877/b95a0ad9f727409788d681b11... https://help.sap.com/docs/SAP_FIORI_CLOUD/750bb2d7c1b846f8a20a10fa6fd8e877/b95a0ad9f727409788d681b11... Check the outbox application for the completed one's, in this way approver can track the attachment whose workflow is completed. https://help.sap.com/docs/SAP_FIORI_CLOUD/750bb2d7c1b846f8a20a10fa6fd8e877/b0298b8b56974eb587c952203... https://help.sap.com/docs/SAP_FIORI_CLOUD/750bb2d7c1b846f8a20a10fa6fd8e877/b0298b8b56974eb587c952203..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which customizing navigation refers t.code TBL1?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, could anyone show me which customizing navigation refers t.code TBL1? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, TCode TBL1 is for maintaining Limit Types under Limit Management and Customizing Path is SPRO --> Financial Supply Chain Management --> Treasury adn Risk Management --> Credit Risk Analyzer --> Limit Management --> Define Limit Types. Regards, Sanjay"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which tables of Material Ledger contains data for revenue?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, We have activated multiple valuations/ transfer prices. We need to build distribution of costs in BI according revenues for each finished good for Group valuation. Unfortunately, we don't have any data in group valuation in CO-PA. We want to get that data from Material Ledger's tables. But we haven't found tables containing both revenue and material number in group valuation. Could anyone advise, please, exact tables of Material Ledger, where we can get this information? Or if it's not Material Ledger table, to tell us which tables contains this data? Thank you, Best regards, Kamila.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, 1. For Material Cost related data in group currency (ML Group Currency) you can get with the below tables: MBEW - pass Material No., Plant, Valuation type, etc. and get ProdCostEst.No. KALN1/Cost EstimateNo KALNR. Pass the KALN1/KALNR in the below tables. You also have to pass BDATJ, POPER, CURTP (CURTP-for this field you can pass Group Currency). CKMLKEPH CKMLKEKO 2. Since Group urrency revenues are not taken to COPA. 1st check is there any condition type for Group Currency in Billing Documents. If YES, then it will be easy for you to get Product wise revenue details from VBRP, VBRK, VBAP, VBAK, etc. Also check for Group Currency revenue values in FI tables FAGLFLEXA or FAGLFLEXT Thanks & Regards, ADI"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Treasury -Securities - Fixed Interest Bonds- Coupon Payment which T.code is used?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi I am Creating Fixed bond for ten year , in which 10 Coupon Payments is to payable every year for 10 years Suppose on last day of year i.e 31 December what is T.code asend user should i used to make the coupon payments on 31 December? what is T.code as",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Sourabh, Use FWSO or FWZE. Regards, Jain"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Create job which run last working day of every month",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello experts, I want to create background job which run last working day of each month. Please guide me ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "where to check which material, routing is not created list( multiful mat)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi Can u suggest me any T-Code Where we check which material routing is not attached. In CA03, Single material can be seen,we need to see multiple materials which is not created routing(not created routing material list) reg-- nagesh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi You need to to create a Z report using tables MAPL and PLPO for Routings / MAST & STPO for BOMs I always prefer to develop this Z report which helps at the time of Go Live before releasing Cost estimates in mass mode You can also use Func Module CS_MAT_BOM_EXPLODE (or some thing like that) to explode the BOM of FG materials and then pick up the SFG materials from the exploded BOM and check the BOM/Routings for them as well.... At the end, you can display a Y or N against each FG material if the entire chain is Clear br, Ajay M"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Shift+Ctrl+C in the transaction FB03 - which is is reason for this result?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Ladies andGentlemen,by chanceI am,bypressing Ctrl-Shift-C,cameto the attacheddisplay (transaction FB03). I'm using the newest patch level of sapgui. Dear Ladies andGentlemen,by chanceI am,bypressing Ctrl-Shift-C,cameto the attacheddisplay (transaction FB03). I'm using the newest patch level of sapgui. Dear Ladies and Gentlemen, by chance I am, by pressing Ctrl - Shift -C , came to the attached display ( transaction FB03 ) . I'm using the newest patch level of sapgui. For this Icould not find anythingthat indicates thereason and the applicationSo myquestion to you, because youhave betterinformationWhat is the reason for thisnumbersand arrows?Sincerely yoursAdalbertJanocha For this I could not find anything that indicates the So my question to you , because you have better information What is the reason for this numbers and arrows ? Sincerely yours Adalbert Janocha",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "AdalbertJanocha, Adalbert Janocha, This not an Error , This can be because of\"GUIXT\". Go to search option in Start menu of Window and search \"Synactive\" This not an Error , This can be because of \"GUIXT\". Go to search option in Start menu of Window and search \" Synactive\" Regards Regards Raheem Raheem"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ZEILE Field of FB03 present in which table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Sir, Please check ZEILE field of FB03 long text in document line item is present in which table its structure is EENO_DYNP Can we get the table directly or do we need to get or do we need to extract value in different way",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which SQL table holds opening balance?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I want to use crystal report to draw financial information directly from SQL database. However, I don't know which SQL table stores the open/ending balance of account item of a given period. Any one can help? Norman.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You logic is correct. Just one thing need to be clear that this sum may be negative for later periods. You have to include all debits and credits. Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BP type I should choose when I want to create a BP?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have know that there are 3 types of BP, person, organization and group. But I confuse about how to distinguish those types? What are the selection criteria when I create BP?E.f. Can I create a group BP for a sole trader?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Please see:https://help.sap.com/doc/saphelp_pserv472/4.72/en-US/93/97a0ae5e7e11d2b45200609419ed29/content.htm?n... https://help.sap.com/doc/saphelp_pserv472/4.72/en-US/93/97a0ae5e7e11d2b45200609419ed29/content.htm?n... The standard business partner categories are:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to Trace deliveries which were assigned to shipment...",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Need your Help, I have a ticket, where user has by mistake deleted shipment document. As there was some problem in SCD calculation , he was asked to make correction in the stage in the shipment document. But not knowing the process to delete the stage, user uncheked the all buttons and unassigned the deliveries and deleted the shipment. My question is, Is there any way to know which deliveries were assigned to this shipment. I just have shipment number which got deleted . Best solution would be rewarded..",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Go to table VTTP, give the shipment number and you can get all the deliveries for which the shipment is created. Hope this helps you"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to find out which field belongs to which table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all How to find out this \"Field name:- LFSNR\" belongs to which table. regards M.Chandra mohan",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi You can go to SE84. ABAP Dictionary --> Fields --> Table fields Enter field name and execute. You will get list of table where this field is exist. hope it helps regards Srinivas"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Hello EXPERTS, to create a PM feature, in which FIORI application can I do it?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I need to create characteristics to use in measurement points, I know how to do it with transaction CT04 but in SAP FIORI I don't know the APP Necesito crear caracter\u00edsticas para utilizar en puntos de medici\u00f3n, se como hacerlo en con la transaccion CT04 pero en sap FIORI desconozco la APP",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Do we need company code data for sold to party which has payer",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All I was unable to release the billing document as the sold to party does not have company code data. But sold to party has different bill to party and payer who has company code data. Do we need to extend company code data for sold to party which has different payer and Bill to party. Remeber, Bill to party and payer were extended to the company code. Thanks in adavance for looking into this",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Yes,you have to extend this to your company code and sales area. Before that check whether any G/L account is determined in sales order. Goto the T.Code \"VA03\". Enter the order number. Click on Environment in the menu bar. Environment>Analysis>account determination. The same will be flowed into the billing document. Ensure that your payer is also extended to the sales area. Regards, Krishna."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which HANA core table has QM11 'Notification Status' ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I cannot find SAP QM11 'Notification Status' field in any HANA core table or view. How can I figure out which HANA column this corresponds to? Here are some options of what 'Notification Status' looks like in an exported csv from QM11: \"NOCO NOTE DLFL\", \"NOCO NOTE\", \"OSNO NOTE\", \"NOCO NOTE OSTS DLFL\", \"NOCO NOTE ATCO\"",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Editing Document which is pending for Approval",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi I am not able to edit a document which is pending for approval.How to do this",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Unfortunately, we have run into this several times ourselves. Due to the nature of approvals in SAP nothing can be changed after the document is sent for approval. The same is true after the document has been approved - nothing can be changed. Only solution is to cancel the document and start with a new document."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Scrapping material which is E-Stock?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , In EWM is it possible to post the material to another storage location which is linked to sales order? or scrap the material which is part of sales order?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "While MRp run which time is taken into consideration(from PIR or from MM)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi PP gurus, When we run MRP which time is taken into consideration for a bought out material : From Material Master ( Planned delivery time) or From Purchase Info record : the delivery time mentioned in the PIR .. In my case the MRp run is showing 2 different results in different systems for the same material. Also please let me know that if there is any priority that can be set in SPRO for picking up the time while MRP run and what takes priority and when.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Ashish, Check your settings OPPQ>External procurement. This has impact on which planned delivery time will be used. Rgds, DB49"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to see which user canceled an Internal Reconciliation",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Does anyone know how to see which user canceled an Internal Reconciliation (business partner). I know that the Original reconciliation number was 41347 and the cancellation was number 177871. How can I see which user did the cancellation? Regards, Vicki Smith",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Vicki Smith.... Hi Vicki Smith.... Have you checked in the change log iam not sure about this... Have you checked in the change log iam not sure about this... You can also check in the Internal Reconciliation table OITR and ITR1.... You can also check in the Internal Reconciliation table OITR and ITR1.... Select U_NAME, USER_CODE from ousr where Select U_NAME, USER_CODE from ousr where USERID in ( Select UserSign from OITR where ReconNum ='177871' ) USERID in ( Select UserSign from OITR where ReconNum ='177871' ) Run in the query manager or sql Run in the query manager or sql Hope Helpful Hope Helpful Regards Regards Kennedy Kennedy"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Determining Which WIP Center Processed a Production Order",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have been assigned the task to do re-layout of the manufacturing facility. One inherent requirement is to determine flow between storage locations which willbe used in calculation on which storage locations need to be placed close to minimize material handling. I have been assigned the task to do re-layout of the manufacturing facility. One inherent requirement is to determine flow between storage locations which willbe used in calculation on which storage locations need to be placed close to minimize material handling. I run into issues when materials are moved to a production order with 261 transaction. Is there a way of knowing which WIP center the unit was manufactured by? When I check the production orders after they have been closed out, they all show up at shipping location. I need to know where that item in that production order originated from (which I can get from the original 261 transaction where the material is moved from stock to that production order), and which WIP center actually processed the unit before it was directed to shipping. I run into issues when materials are moved to a production order with 261 transaction. Is there a way of knowing which WIP center the unit was manufactured by? When I check the production orders after they have been closed out, they all show up at shipping location. I need to know where that item in that production order originated from (which I can get from the original 261 transaction where the material is moved from stock to that production order), and which WIP center actually processed the unit before it was directed to shipping. Any help would be appreciated. Any help would be appreciated. Thanks, Thanks, Aytac. Aytac.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Aytac It is not exactly clear for me what do you mean by \"I need to know where that item in that production order originated from\". Which kind of information exactly do you need? I need to know where that item in that production order originated from\". Which kind of information exactly do you need? I need to know where that item in that production order originated from Generally, to get information about production orders we use transaction COOIS, which is the most complete report on shop floor control. Here you find information about production orders, operations, components, confirmations, components... basically everything related to production orders. Another useful transaction is MB56. Here, you can find all the history of an specific batch. Which order generated this batch, which components were consumed, etc... If you need to track the batched within an specific order, there is a functionality called WIP batches. Take a look on the documentation on the following link for more details: http://help.sap.com/erp2005_ehp_04/helpdata/en/47/31629eebd20c50e10000000a11466f/frameset.htm http://help.sap.com/erp2005_ehp_04/helpdata/en/47/31629eebd20c50e10000000a11466f/frameset.htm Regards Caetano"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAP ByD: How to cancel one line item of a sales order which was not delivered due to stock shortage?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have posted a sales order with multiple line items. (Sales order id: 707, total line items 4, Number of Line items with enough stock: 3 and 1 line item has less stock which is partially delivered or not delivered) For one of the line item the stock is insufficient in the inventory, and for all the other line items in the sales order there was sufficient stock to fulfill the order,. I have released the sales order from Outbound logistics work center, did a PGI, released the outbound delivery and also invoiced the Sales order. Now the problem is the sales order(707) is still in \"In process status\" as there is one line item which is not delivered completely because of the stock shortage. The line item quantity which was not delivered in the sales order 707 is fulfilled in a new sales order 708. So we want to cancel the line item in sales order 707 and close the Sales order. Can we cancel this one line item and Close the sales order? Please help. Vijay, [Private Information removed by Moderator]",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Vijay, Adding to what Stefan has mentioned check in your customer demand if the status of the line item 4 for the sales order 707 has the Release Status 'Released' or 'Not Released'. If the customer demand is not released you can set the 'Reason for Rejection' as mentioned by Stefan above. If the customer demand is released and no warehouse request is created you can directly set the 'Reason for Rejection' in the order. If a warehouse request or a task is created follow steps updated by Stefan above. Regards Anand."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which t-code to analyse delayed outbound delivery",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I need help with analyzing delayed outbound deliveries. The goal is to get information on How long the delayed delivery documents has been in the system? How long the delayed delivery documents has been in the system? How long customer has been waiting for? How long customer has been waiting for? What's the value of the delayed order? What's the value of the delayed order? My thought is to use something like vl06o to get a outbound delivery documents list with planned movement date and actual movement date. Then use excel to filter out those delayed documents numbers. Next, i'll use va05n to list order details such as order value. Still trying. I'll be really appreciated if someone could throw some light. Edited by: wenyuan dong on Nov 14, 2011 1:36 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi If you are using VL06O, enhance VL06 with the help of Note 128150 - VL06: Designing your own display variants. You can define the fields for days, value and so on. I hope this helps you Regards Eduardo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which field is the current valuation price (FIFO) stored?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "We need the current valuation price of FIFO-related items Previously, the valuation price was stored in oitm.avgprice or oitw.avgprice. In the current version these fields are not filled. How can you determine the current price of a FIFO-related item? Valuation Price = (sum of single FIFO prices of the items in stock) : (inventory) A similar problem occurs with charge-off. So far, the total booking price was stored in ige1.stocksum, but in SAP8.8 it is not. For a recalculation we need the value actually posted at the item level. This is the reason why the price cannot be determined from the posting journal jdt1, because there, a sum of all entries calculated. Is there a reliable way, which works with both SAP2007 and SAP8.8? regards M.Heigl",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello J\u00e1nos Thanks a lot for your advice, this helps me to advance Unfortunately, the calcprice is not filled correctly. Example: Number of decimals in Price = 2 Posting in 1 piece Factor = 1000 (1000 pc are posted), Total price 0.05 u20AC, Single Price = 0.00005, now in oitm.calcprice is stored : 0, in oinm.openvalue=0.05u20AC, in the jounrnal (jdt1) 0.05u20AC Alternatively, the field u201Copenvalueu201D may be used? To get out the correct average inventory value, the following SQL statement would be correct: At charge off, the total value is determined via In this test, I have also found an error: If the single price (oinm.calcprice) = 0, for example because it was posted with a large factor, the item cannot be issued anymore. Error message \"acquisition price\" is missing (...) Error message \"acquisition price\" is missing (...) Tested with 2007ASP1PL9 and SAP 8.8 (8.80.230) SP0PL12 I assume that for FIFO evaluation SAP uses the calcprice and not the total price, the single price is determined, which in this case is 0 because of rounding. Apart from this error: Are my assumptions and SQL statements correct? Regards,"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Costing Run_CK11N error for FG which include No Valuated Material",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts Dear Experts We are receiving OLD Cylinder from Customer to Repair. We are receiving OLD Cylinder from Customer to Repair. Through MIGO this material received as non valuated material in the stock. Through MIGO this material received as non valuated material in the stock. In PP we are creating FG - Repaired Material by using non valuated material and other material. In PP we are creating FG - Repaired Material by using non valuated material and other material. FG - Repaired Material FG - Repaired Material BOM of FG BOM of FG BOM of FG 1)Non Valuated Material 9000000005 1)Non Valuated Material 9000000005 Non Valuated Material 9000000005 2) Raw Material 2) Raw Material 3) Raw Material (etc) 3) Raw Material (etc) Now we are executing the Costing RUN of FG Material Now we are executing the Costing RUN of FG Material Than system is giving this error. Than system is giving this error. How can we solve this problem. How can we solve this problem. Regards Regards Tarek H Chy Tarek H Chy",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi.. You should define space asIndicator forthe RelevancytoCostingof non valuated material through cs02 t-code as below picture. You should define space as Indicator for the Relevancy to Costing of non valuated material through cs02 t-code as below picture."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to assign a profit centre to a company code which is under another comp",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , i am getting an error saying \"profit centre 'xx' not valid for company code zzzz\" after investigation i found that it does not exist under the company code.. it exists under another company code. how do i assign that profit centre to this company code. or how to solve that error. thanks mmn rewards for sure",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Go to KE56 and check here."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to transport asset number which configure by T-code:AS08",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Expert, Would like to seek for your help. How do I transport the new asset number range for a particular asset class from development server to QAT server? Does SAP system allow to transport new asset number range for a particular new asset class? Please help. Regards, Karen",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi: Number ranges are not transported. but could be added manually in live environment .SAP does not recommend to include number ranges in the transport. If you transport the number ranges the system does not transport the current number. So do it manually in Live server which is a standard practice. Regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Material code which is never used in system",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hii... how i can get materials code list which is never used in system...bt by mistake we created it in system bt never used...tell me table name for these mat. codes...we want to delete them.. Regards Rekha Sharma",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi we don't have any Tcode to list these unused materials. Ask your ABAPer to write report. goto MARA table, no input & get the materials and store them pass these materilas to PR/PO/GR tables, if anything exists neglect those materials, then remaining materials will be the unused materials. Raju"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which dashboard version for sap business one 9.2?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I would like to install and setup dashboard for SAP business one 9.2. Please let me know which version can install and how to configure it.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "https://help.sap.com/doc/saphelp_sbo92/9.2/en-US/99/a390d191594d158e4702c1d356a60c/frameset.htm https://help.sap.com/doc/saphelp_sbo92/9.2/en-US/99/a390d191594d158e4702c1d356a60c/frameset.htm"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "With MRP type P.D which firming indicator is recomended",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Please Guide I am using MRP type P.D for a material in material master for which Planning time fence field is mandatory. 1) Now i want that this planning time fence should not be mandatory. 2) Kindly aslo explain the Firming type indicators 0, 1, 2 , 3 ,4 & which firming types are recomended for MRP type P.D. Please Reply , itz very important. Regards Rahul 9909986406",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Rahul, In standard SAP Planning Time Fence is not mandatory for MRp Type PD. But as you are telling that it is mandatory so somebody have changed the setting for MRP Type PD in IMG. Check your setting by the folowing path IMG + Production + Material Requirements Planning + Master Data + Check MRP Types in MRP type PD, under Control Parameters 'Firming Type' field should be Blank. If it is Blank than system will not ask for Planning time fence but if some value is there i.e 0,1,2,3,4 than system will ask fo rplanning time fence. Now for your second query 0 Procurement proposals are not firmed automatically. No firming takes place with this firming type. 1 Procurement proposals within the planning time fence are firmed automatically as soon as their date is at least one day before the end date of the planning time fence. The date of new procurement proposals created in the planning time fence is moved to the end date of the planning time fence. As a result, these new procurement proposals are not firmed. 2 Procurement proposals within the planning time fence are firmed automatically as soon as their date is at least one day before the end date of the planning time fence. No new procurement proposals are created automatically within the planning time fence; that is, the shortage situation is not adjusted within the planning time fence. 3 Procurement proposals within the planning time fence are not firmed automatically. All procurement proposals required to cover the requirements are moved to the end of the planning time fence. 4 No procurement proposals are created automatically within the planning time fence; that is, the shortage situation is not adjusted within the planning time fence. For further clarificationkindly respond regards Sunil Kumar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which solution for sap erp (MM and procurement)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Could you please advise which solution I should select to learn and practice abour SAP ERP MM module to prepare procurement certification. Thanks,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You need to focus on all aspects yet for certification focus more on the procure to pay cycle, material requirement planning, material valuation, organisation levels, master data, inventory management, purchasing optimization and logistics invoice verification. Also, concentrate on paths, configurations of the all the above topics. Thank You"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Verify which release codes an user is assigned",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello experts, I am facing a problem that I haven't found answer so far. Maybe you can help me: I need to check which release (strategy and group) codes are assigned for a specific user, in purchase documents. For example: I want to know in which release strategies the user 04931562 participate. How can I proceed? I checked the table T16FS, but only shows about the groups and rules, not who is in that group Thank you in advance",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "need query which shows non moving item for last 2 years with particular warehouse??",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "need query which shows non moving item for last 2 years with particular warehouse??",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi vinayak, Try this one, hope it's working fine..... Declare @FromDate Datetime Declare @ToDate Datetime Declare @Whse nvarchar(10) select @FromDate = min(S0.Docdate) from dbo.OINM S0 where S0.Docdate >='[%0]' select @ToDate = max(S1.Docdate) from dbo.OINM s1 where S1.Docdate <='[%1]' select @Whse = Max(s2.Warehouse) from dbo.OINM S2 Where S2.Warehouse = '[%2]' Select @Whse as 'Warehouse', a.Itemcode, max(a.Dscription) as ItemName, (Select i.InvntryUom from OITM i where i.ItemCode=a.Itemcode) as UOM, sum(a.OpeningBalance) as OpeningBalance, sum(a.INq) as 'IN', sum(a.OUT) as OUT, ((sum(a.OpeningBalance) + sum(a.INq)) - Sum(a.OUT)) as Closing from( Select N1.Warehouse, N1.Itemcode, N1.Dscription, (sum(N1.inqty)-sum(n1.outqty)) as OpeningBalance, 0 as INq, 0 as OUT From dbo.OINM N1 Where N1.DocDate < @FromDate and N1.Warehouse = @Whse Group By N1.Warehouse,N1.ItemCode, N1.Dscription Union All select N1.Warehouse, N1.Itemcode, N1.Dscription, 0 as OpeningBalance, sum(N1.inqty) , 0 as OUT From dbo.OINM N1 Where N1.DocDate >= @FromDate and N1.DocDate <= @ToDate and N1.Inqty >0 and N1.Warehouse = @Whse Group By N1.Warehouse,N1.ItemCode,N1.Dscription Union All select N1.Warehouse, N1.Itemcode, N1.Dscription, 0 as OpeningBalance, 0 , sum(N1.outqty) as OUT From dbo.OINM N1 Where N1.DocDate >= @FromDate and N1.DocDate <=@ToDate and N1.OutQty > 0 and N1.Warehouse = @Whse Group By N1.Warehouse,N1.ItemCode,N1.Dscription) a, dbo.OITM I1 where a.ItemCode=I1.ItemCode Group By a.Itemcode Having sum(a.OpeningBalance) + sum(a.INq) + sum(a.OUT) > 0 Order By a.Itemcode"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "depreciation done until which month",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, May I know if there is a report or table to show that the depreciation is carried out until which month? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi You can check in table T093D to see the last posted period for depreciation - company code and fiscal year wise Malathi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which API can be used to create Service Package (ESLH and ESLL) related to Contract (EKKO and EKPO)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Which API can be used in S4 on-premise system to create Service Package (tables ESLH and ESLL) related to Contract (tables EKKO and EKPO).",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "table which can give me work centers and operations",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All , I am searching for a table which can give me work centers and operations ( with setup machine and labor times ) , if I have routing group counter and group . In routing we assign work center to operation , PLPO and PLKO has info on all the things except operation and work center assigned to it . Reply will be rewarded . Neal",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Neal, First check in T code CA51 ,whether it suits your requirement. Or Else create a standard Query using T code SQ02 - Infoset creation followed by query creation using SQ01 by linking tables MAPL,PLAS,PLPO,Select the input & the output fields required. This will solve your issue. Regards Mangalraj.S"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table are stored the data of a set created by GS01?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, could anyone tell me in which table are stored the data of a set created by GS01? Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, It's stored in SETHEADER, SETNODE and SETLEAF tables. Regards, Eli"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which field in Business Partner Table references price list?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which field in Business Partner Table (OCRD) references the price list number?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Listnum in OCRD points to Listnum in OPLN"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAPI can I use for ME12 tcode?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "merhaba,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which report can give the opent item by sales office/sales group?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Does anyone found a way to follow the open receivable by sales group? How do you asnwer a needs to follow the open item according to the sales rep reponsible of the area? Thank you Ingrid",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "See help.sap.com documentation on App Extensibility: Display Line Items in General Ledger https://help.sap.com/viewer/0fa84c9d9c634132b7c4abb9ffdd8f06/LATEST/en-US/15ee31fac4be4e6497a76abe44... https://help.sap.com/viewer/0fa84c9d9c634132b7c4abb9ffdd8f06/LATEST/en-US/15ee31fac4be4e6497a76abe44... .... Navigating to the Data Source Extensions tab in the Custom Fields and Logic app, you can extend pre-delivered data sources to retrieve data of additional fields from data sources delivered by SAP. For more details, see Creating Data Source Extensions. See also in app Journal entry Analyzer for sales order you can add attribute Sales Group"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Determine Which Release Strategy to Use",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, For example both release strategy A1 and A2 is for value of less than $10,000. A1 have release code of H1 and A2 have release code of H2. Person GG and JJ have release code of H1. Person FF and BB have release code of H2. When a PO is created with value of $5,000, how does the system determine whether release strategy A1 or A2 is invoked? Or is the release strategy choose by the PO creator? Thanks.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "It depends on the Characteristics assigned to the Release procedure Class. check in CL24N, which characteristics have been assigned for your class , release strategy etc. it could be dependent on Plant, Purchase group etc."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to track the material which we used in Refurbishment Process",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, Can any one tell me how to track the material which we used in Refurbishment Process means i have on material xxx i used these material for different equipment in Refurbishment process.Is there any standard t code to track the data.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "If it is a serialized material and Equipment view is activated, then you can view the movement records through Equipment master (IE03). Extras > Usage list. Alternatively you can view this from tcodeIH08too, by inputting the Equipment number and Date range. (PeriodFrom and To dates). IH08 Period"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Need to see the User Id in which the PO is raised",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, One of our Purchase Order is raised with Error and the PO is generated with Error and the PO is created. I need to check in which userid the PO is generated. I find in ME2M in PO changes tab, here only the PO which is correctly raised, I can able to see. I can't able to see the user id of the PO which is raised with error. Please let me know how can I check. Regards, Kathi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, EKKO-ERNAM will give the userid of the creator of the PO. Regards, Ashwini."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which is the best to learn first sap fico or sap s4 hana",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Team, Which is the best one to learn the start the carrier is it FICO/ S4HANA",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "FICO implies SAP ECC S/4HANA skills are needed more in the market in my view FICO - it is helpful too if you have an accounting background"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ADDWT with WT which NUM, AMT and RTE are ZERO",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I would like to confirm that if a WT have all NUM, AMT and RTE are zero: 1) The WT will not add in the Output Table although I ADDWT 2) I can just skip to ADDWT, because while the WT not exist, it will count as zero in payroll calculation when referenced Regards Bill",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "1 - Yes, if the WT has no rate (RTE), number (NUM) or amount (AMT), it will not be transfered into the Results Table (RT), but it can if it has a value in one of these three fields. 2 - Yes, if you made sure that the WT has no rate, number or amount, you could terminate your PCR without operation ADDWT."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Capture program to scan and assign. Which software do I need?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, I am starting with document management in sap and there are a couple of questions that are unresolved for me. We have paper documents coming in. Then they become a barcode on the first paper. They become scanned after this. Now I would like to assign them to a customer ID or something like that. I have the software for my scanner to scan the paper. What software else do I need in order to get through the capture process (say the program things will be scanned, the barcode is read, I am asked by the software for the document type ... ) I already found postings likebut this is working with local file and afterwards loading the file into the dms. It there a way to avoid the saving and loading steps... so this is directly putting the scanned document to the dms and asking for some attributes? Thanks a lot and have a nice weekend, Vanessa",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Vanessa, For uplaoding document into dms either you can use t-code CV01n or BDC uplaoding for bulk documents. This is feasible ony for uploading and for this you need to give path of the original files which are saved on some system. Now, your requirement is to scan the documents automatically by some software is not possible at any way. You need to keep the original file as ready for uploading at some location for uploading. Once you store files ,it's easy to upload separately or in batch also. But for scanning there is no possible way. I hoep this will resolve the query. Regards, Ravindra"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which G/L account",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, We Purchase raw materials and issue them for production. But we use some of the raw materials internally for repairs, not for production. I want to know the expenditure quantitywise,itemwise..... Into which G/L account should this be taken in chart of accounts ? Thanks, Mansoor",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi ! In Production Issue, that will recorded in WIP Inventory Account which is in Expenditure Draw. In Goods Issue, that will recorded in Inventory Offset - Decrease Account which also in Expenditure Draw"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "MD74 Reorganizing data which has deleting unwanted PIR for the last period.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, There is a program (MD74/RM60RR20) for Reorganizing data which has deleting unwanted PIR for the last period. For now this program frequency is on the first of every month. We did run program on 1stOctober 2019 and 1stNovember 2019 respectively. Seems, still independent requirement (VSF) shows in 03 September 2019. Could you please let us know the exact reason for this situation? Why system did not erase past PIR (VSF)? Regards, RR",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Ram, Generally, System should delete Sep PIR's as well if it's not started production process.its not Due to Requirement type VSF Plan with Final Assembly. However for any old PIRs you want just to change them and not to delete then you can go for : MD74 If you want to delete old PIR then obvious you need to go with : MD75"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

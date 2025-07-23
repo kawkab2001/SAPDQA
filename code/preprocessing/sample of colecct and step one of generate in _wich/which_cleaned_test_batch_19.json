@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "System allowing to make GR in the storage Location which was not extended",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts System is allowing to store the material in the storage location which was not extended in material master in case of CAPITAL PROCUREMENT (i.e., if i enter Account Assignment 'Q' in the PO). For example, material X Is defined with PQR storage location while system shows stok of X in XYZ storage location. But XYZ is not extended for material X. Kindly help me to resolve this issie. Thanks in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, This will happen if Your system is configured to have Storage location Automatically while doing any goods movement .In T Code OMB3 this might have been allowed. In this case extending a storage location is not required if the storage location is already there. Dhruba"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "transaction is associated with system reconciliation which cannot be automatically cancelled",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all, I am facing error while cancel the manual done Journal entry. Error : transaction is associated with system reconciliation which cannot be automatically cancelled SAP Business One Regards, Nikunj",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "The time at which the PO has got saved",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Frnd, Can i get the time at which the P.O has got saved , is there any table where i can find the time ??? Or any other option available to see the time ???? REgards Rakesh",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, if you have version management activated then you can get this information when the PO is created with version 0. if not then goto CDHDR table and give the object value as your PO no. and check for the utime and udate for the PO with tcode me21n. regards, Adwait Bachuwar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which method is easiest for uploading data using LSMW?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "which method is easiest for uploading data using LSMW (Direct method or batch input method) bcs I am facing lot of problem using batch input method while recording.Even I cannot use direct method using standard program.can anyone tell me some other easiest way for uploading MM01.?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello TJK, I would vote for direct method, Hello Mohan, The standard SAP LSMW object available to create / update material master record It's easy to map the field using auto field mapping functionality instead of recording method. Object : 0020 Material master Method : 0000 Program Name : RMDATIND Program Type : D Direct Input Hope this helps. Regards Arif Mansuri"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to Find Which Classes are Executed at Backend in S/4HANA Public Cloud System?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, In order to fix some issues in S/4HANA Cloud system. We'd like to do a debug. But anyone knows how to find which Class/Classes is/are exact the one is/are executed at backend for the frontend apps? Just for example below, if click on \u201cGo\u201d button, some abap code probably in some specific Classes are executed at backend. How can find which Class is exact the one is executed? Thanks & Regards, David",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Report list of Sales Orders which have unachievable delivery date",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Is it possible to pull a list of Open Sales Orders which have a delivery date which cannot be achieved (because there is no Purchase Order with required parts ... or because delivery date of Purchase Order is later than delivery date on Sales Order) I think I am missing something Thanks for any assistance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Try: Select T0.CardCode, T0.CardName, T0.DocNum, T1.ItemCode From ORDR T0 Join RDR1 T1 ON T1.DocEntry=T0.DocEntry AND T1.LineStatus='O' Join OITM T2 ON T2.ItemCode=T1.ItemCode AND T2.Onhand<T1.Quantity WHERE T1.ItemCode NOT IN (SELECT ItemCode FROM POR1 WHERE ItemCode=T1.ItemCode AND DateDiff(dd,ShipDate,T1.ShipDate)<0) Thanks, Gordon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table for objects which are assigned to class 032",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I want to know the table for objects which are assigned to class 032 (release strategy) Want to know which release strategy is applicable for certain plant /purchasing group / pur org Amit",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which Infotype ,we link Payroll(India ) with time Management",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Expert, Can you explain , in which infotype ,we link Payroll with Time management? Can you Expalin the procedure",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "It should be through different infotypes For Eg IT0008 taking capacity utilisation and Work hours/period from infotype 0007 ( capacity utilisation level and Employment percent) For absence valuation in payroll the absence types will have to mention (IT2001) check this link"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "For India GST project which table and field to store the IRN and QR code in SAP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "For India GST project which table and field at Invoice or Billing Document to store the IRN and QR code in SAP received from Govt portal?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how to know which combobox is for series?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, Is there any way to know, on a particular document, which combobox is 'Series' combobox? for marketing documents , its same(item 88). but, for other documents such as that of inventory transactions and incoming/outgoing payments or journal entry (in short , for documents, where numbering series is applicable), the itemuid of series combobox is different. and I will have to hardcode the itemuid of series combo with its respective form. I want to know if I can avoid the hardcoding and dynamically check, which combobox amongst the item's collection, is for series. Any help will be highly appreciated. Thanks and regards, Binita Joshi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "You should check it through all items in the form as for each item in oform.items next and inside this loop check, if the item is combobox type and if yes, check, if the combo is bounded to Series field in db as ocombo.databind.alias = \"series\""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which program populates BKPF-XBLNR when using VF01?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts, Do any of you know where the XBLNR field is populated in Table BKPF? More specifically I want to know when using VF01 at what stage does this field get populated? I have a requirement where I have to implement a user exit where VBRK-XBLNR must be moved to BKPF-XBLNR manually. Thank you in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to remove special text from PO which is appearing in PO print?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi SAP MM Experts, For Purchase order with Pack items a special text get printed, which is not needed anymore. How shall I remove this text form Purchase order so that it will not appear in PO print. Thanks in advance. Regards, Sachin Patil",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi dear Pls check if the text is coming from Material Master if this is so then remove PO text from the there. Also check if info record text is there if this is so then you have to remove the same."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Validation in T Code F-02 in which Bank outgoing GL A/c should be restricte",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, Please advice me regarding the following: User is posting the payment to vendor through T Code F-02, resulting in the not creation of the liability. Client wants to stop it by validation in T Code F-02 in which Bank outgoing GL A/c should be restricted, so that user would not be able to post the payment with this T Code. But this Bank GL should not be restricted in BDC for upload to F-02. What should be the Prerequisites, Checks and messages for that? Regards BIJUDAS",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi , Use GGB0 for creating the validation and then activating it in GGB4 . Here you can set the t code i.e F-02 ( FB01 ) and check for all the ougoing GL accounts for that you can create a set in GS01 and put all the accounts for which you want validation and can build a validation for the same . Regards , Dewang"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Is there a report which will show how many times we dipped under safety stock level",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Example : My Safety stock level quantity is 5000. Can i know many times quantity has come below 5000 in march month.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "There is not a standard report that will tell you how many times inventory dipped below SS level. You could probably \"easily\" create one though. You could key off MRP Message 96 ( Stock fallen below safety stock level. \ud83d\ude42 \ud83d\ude42"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which field stores the Cancelled Sales Order Status",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I am checking for duplicate PO No in sales Order header VBAK. The criteria is Slaes Order must not be a cancelled one. I am searching VBAK to find the status field to determine the whether its cancelled or not. Thank U for Ur time. Cheers, Sam",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which program / function for getting packing (handling unit) details",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which program / function can I use for getting packing details (handling unit details)? Tanks in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, try any of these FM's GET_IM_PACK_HU GET_IM_PACK_MAT GET_IM_PACK_PACK GET_IM_PACK_SN GET_UNPACK_HU GET_UNPACK_MAT GET_UNPACK_PACK GET_UNPACK_SN GET_WM_PACK_HU GET_WM_PACK_MTCOM GET_WM_PACK_PACK GET_WM_PACK_SN Regards, Amit"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "I want to enter a short text to the production orders as an identification. Which field is the best choice (retrievable in coois)?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I want to enter a short text to production order as an identification. e.g. A1 for order#100001, A2 for order#100002. Which field is the best choice? I want it can be pulled from COOIS. Thanks! Regards, Ray Leong",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Ray, You can use unloading point from the order. This is also visible in COOIS item list. Regards, Krishnendu."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to delete the BizPackage Instance which in process?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi guys, In B1i, there is a BizPackage Instance whick always in processing status.I want to change it but i can't. How can i change the processing status to finished,and then i can delete it.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear Plane, Which BizPackage do you use? If the BizPackage is send the data from B1 to BW, then please test to add transfered data in B1 first. Best Regards Jane Jing SAP Business One Forums team"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reverse a delivery which has service item and another item relavent for goods moment",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All I have a scenario where i can not reverse the PGI I have a delivery which has a item relevant for picking,and Goods moment(PGI) TAN and another item which is a service Item (TAX). i have PGI ed this delivery and now i want to reverse it. In the document flow i see a confirmation of services and goods moment document.when i use VL09 to reverse it ,it doesn't work. Please let me know if there ia way to reverse the PGI and make changes to the delivery. I have gone through some of the threads but could not find a solution. Thanks PM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, It is standard behavior to generate a CONFIRMATION OF SERVICE when you do PGI for service Item. you cannot cancel or reverse this confirmation of service using VL09. But TAN item will generate Goods Issue document and can be reversed using VL09, are you saying TAN Item also not getting reversed using VL09? regards, santosh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Purchase order Cant do MIRO which is integrated with SO",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear all I'm facing current situation, Data Migrate the Purchase order with 3 lines items and 2 items has been done GR/IR. when i do MIRO for the 2 items partial which will refer the Sales document does not exit. Because, when i migrate the sale order 3rd line item is open and so i migrated into SO. Remaining 2 items will not migrated. If you have any clarification Please let me know . So i can elaborate more. What is the solution to do the Miro paritally for those 2 line items without bring any dummy line item in SO with reference to PO. Please guide Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "your migration was inconsistent, I even wonder how you could get this PO into your system, as I expect that SAP checks the reference made to the sales order items in the account assignment. delete the 2 items from your PO for which you do not have a sales order item, and post the invoice in FI transaction."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "prt  data in  routing - ( which table it gets stored)",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "i want to know which table prt item /description for a routing gets stored i want to know which table prt item /description for a routing gets stored",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which function module can used to schedule bathjob?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, i have an urgent problem, see below: i use FM job_open, job_summit to create batchjob, but now i want to schedule by time accroding to user's prefer, not release it by default setting. i don't know which FM can meet this requirement, can anybody do me a favor. thanks in advance Regards Eileen",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi eileen, You may have to set the job start date and time in the JOB_CLOSE function module parameters: sdlstrtdt - Job start date sdlstrttm - Job start time strtimmed - Start immediately ' ' Regards Wenceslaus"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Assets upload for the year 2008 which alredy closed",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI Experts, I have a intresting concept which i want share you. Problem: My clients want to upload some assets values in the local books to the fisical year 2008 which alredy closed. For this i have tried through AS92(LSMW) but all assets are uploaded in the fisical year 2010(current year). How to open the year and how to upload the assets for the year 2008. Please guide me in this case. Thanks&Regards, Dude",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Dude, generally you have to open the fiscal year in FI-AA and FI and upload the assets with AS91 (AS92 is for changigs). I strongly would recometn you to contact your local consulter. regards Bernhard"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which table to refer routing opration activity Time in SAP PP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Business uses transaction (Customize) to review actual operation confirmation times. This is the actual time the employee has spent on that particular operation and activity. The business is requesting an enhancement to the report to add the routing operation activity times to the report. SETUP \u2013 MACHINE \u2013 LABOR - REWORK Which table should I refer to add routing activity types to report \" Please Help , As I am New to SAP",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In Which Table I can get The Plant Orders those Has been all ready Converted In Production Order?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Concern, How I can Get The Plant Orders Which has been Convert In Production Order. I mean From Which Table I can Get It.. Thanks & Regards, Hossain",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello M.A,As per standard SAP once you convert the planned order to production order, all Planned order deleted from the system.You can not able to check the planned order in PLAF table as well.But you can check the planned order details in Production order (Tcode : Co03) in the Assignment tab.I hope this information helpful to you.RegardsUmesh Mali"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which Factory Calendar is used to determine the Sales Order delivery date",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , There is Factory calendar assigned to sales Org and shipping point as well. I want to know which Factory calendar is used to determine the promise date on sales order acknowledgement and which one is used to determine the delivery date? Appreciate your help/inputs. Regards, Ram",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the easy way to Create MIC For food Grain",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear SAP, I want to create MIC for food grain,But it seen the MIC which r going to use are all most same ,but the limit used for them are different.So how to categories so that it will easy to prepared & Understand also.Pls go through the eg shown below. Regards, Asif",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Asif, There could be 3 methodologies to address this. With incomplete copy model With complete copy model As 3 of above are used as per the suitability its difficult to predict which one is standard to use. I would prefer 2nd option to address this. Regards, Anand Rao"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "dunning letter   0 dunning notices generated, of which 0 are to be sent",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear buddy, I already set related configuration about dunning letter, and enter some test data in company code,assure there are some due data,but when I use F150 to execute dunning letter,display 0 dunning notices generated, of which 0 are to be sent, and customer master data isn't updated, I already assign dunning procedure to customer master data. please tell me which step i have missed,next is noted capture. 1.I use F150, enter parameters refer noted below picture 2.I click indiv.dunn.notice at left top of windows, and I can see there are several due data,then I save parameter and schedule 3.I click schedule and dispatch,but display o dunning notices printed and display dunning log,there is nothing, and check customer master data, customer master data is not updated",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which one is the best method for uploading data into infotypes?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi friends. Which one is the best method for uploading data into info types by using function module (HR_INFOTYPE_OPERATION) OR Using BDC. Regards. Sujatha sahu",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "That depends in what you are more efficient . There is no better way . But I think , if you have more exhaustive data HR_INFOTYPE_OPERATION will be ok . I find working with LSMW easier being a functional consultant. Thanks Lakshmi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which One to Install SAP 4.7 or 5.0 ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI, Which One to Install SAP 4.7 or 5.0 ?I am not able to understand? i am confused...here i need expert help for looking forward in practise which inturn leads to my career in SAP in Realtime?In realtime which one is using? Thanx..",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, if you have option of ECC 5.0 then please go for it. Otherwise it should not be big problem even if you practise on 4.7. It will be pretty much ok. all the best. regards sadhu kishore"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table the status of a equipement is stored",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, In which table the status of a equipement is stored? Thanks in advance Godadhar",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Is the status that you are looking for the one that tells if the equipment is installed or Available and so on? If that is the case then: Take the equipment number, then look in table EQUI for the Objekt number for this equipment, table EQUI with key EQUNR (the field EQUI-OBJNR) . With the objekt number look at table JEST. This table contains a relationship of an objekt and its Customer Status asigned to it, this table tells you also which status are active. Once you have the active status you can check table TJ02T to get the description of the status. JEST-STAT = TJ02T-ISTAT Hope this helps Carlos"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "exactly on which stages CO documents are generated",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "During the Demand management to Goods Dispatch, exactly on which stages CO documents are generated?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Detailed description is given in the below link: http://www.sap-img.com/sap-sd/link-between-sap-sd-mm-and-fi.htm http://www.sap-img.com/sap-sd/link-between-sap-sd-mm-and-fi.htm Regards, Siva"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How does SBO know which child items belong to which parent item ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "How does SBO know which child items belong to which parent item of a SALES BOM in an ( f.i ) an sales order. In other words : which fields of rdr1 play a role in this ? I can't figure it out , the closest thing to an answer is the VisOrder field, which I guess would be a bit strange. I need this info to do some reporting via a query. Can anybody enlighten me ? Kind Regards. Kris",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "To learn which user name created a specific sales document....",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "There is a sales document of ZTA at our system. How can I learn which user name created this sales document? As the same I'm looking for the information of the creator of a specific item type, sales organization, distribution and division. Thanks in advance.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, I think you will be able to track with the request used to save the data,the log in details. i hope this infromation is useful Thanking you, Best regards, R.srinivasan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which  Bank Clearing Account  should be assigned to account symbol",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Friends, I have 2 bank clearing accounts , CHECKS OUT ( 113005) AND CHECKS IN (113006) . For the GL account assignment to account symbol, which bank clearing account should be used. I ask because only one bank clearing account GL can be assigned to the account symbol 3. Dont i have to use different GL for BUY & SELL spot transactions. Thanks kamala",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Kamala, You have to assign your both clearing account 113005 and 113006 to account symbol. In this case you can use more than one account symbol with posting catagory \"bank posting in payment currency\". So, you must create new account symbol with with posting catagory \"bank posting in payment currency\" example 3-Out for check out clearing. After that you can assign this new account symbol to suitable posting spec. (or you can crete new posting spec which assigned to suitable update type). Regards, Suryadi."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Batch change in delivery document which is not meeting the selection criteria",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi gurus, Need your help for the below requirement. checked the SDN blog, but no relevant solutions. on creation of outbound delivery batch split is activated and system proposes batch. However, when i manually select the batch which does not meet the selection criteria, system accepts this. Can you please help to confirm, if there is a standard way to handle this. Thanks in advance for your help. Best regards, VBASHA.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Basha, Can you please post , at what level Batch Mgmt is actiavted. There are 3 levels available. Thanks, Mahesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which transaction I have to use to see items for a production order?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello experts, I've seen in table AFPO that my production order has more than one item, but if I check the transaction CO02 I can't find the place where this ifnromation is stored or add any aditional item. Could you please guide me with this? Thanks in advance, Best regards, Rebeca",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello Rebeca, goto component view in Co03, here you should see materials flagged as Co-product for example BR Sabine"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Down payment for a PO which has an Order as account assigned object",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, I recently faced an issue while making payment for a PO which was account assigned with a Plant maintenance order. System requested for maintaining a Cost Element for Down payment expense. I checked several discussions and responses, all talked about what is the solution i.e. maintain the cost element as its just for information. Also, some referred to a SAP note which tells about a code change needed to switch off the behavior. However, my question is around: a) What if I maintain the cost element, I assume this item will appear in the line item report for my order in CO and will be used in periodic settlement? c) Also, what do if I do not want the item to appear as expense for my order and need not be settled? Is code change the only option? b) Why would SAP default such a config rather than providing an option available for configuration? Thanks, Ankur Goel",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi This is really a critical issue if sap system ask for CE in down payment because it never comes under any exp a/c...I think you must send OSS to solve this issue and not create CE which will be a bad practice and may be landed on other issues Kamal"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CKMLHD Table stores which values",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HI Which values CKMLHD table stores in it . Pls let me know Regards Sneha",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Need SPT which allow only a single user to add or Edit BP Master Data",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts i need a SPT , which should allow only the mention User to add or edit BP Master Data Regards",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Shahan You can do something like this: Replace the value 1 in UserSign and UserSign2 comparison with the Id of the user that is allowed to create and edit BP. Kind Regards, Diego Lother Diego Lother"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to check if a Participant had pre-booked the course which he is taking",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, We have a SAP LSO implementation. I need to develop a report to find the lead time between the time the participant pre-booked the course to the time he actually took the course. When a participant pre-books the course a relationship A/B 027 is created between D ( course type ) and P ( Person). The moment I include him in a course (E) under D this relationship vanishes from HRP1001 table. After this point I only have relationship A/B 025 between the objects course (E) and person (P). Is there a way by which I can distinguish if this employee had pre-booked? Many thanks in advance. Ajay",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Can anyone help me on this one? Thanks again Ajay"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ByDesign : Stock Overview report which includes project id",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello Experts, We issue material against Project Stock Order which also reflects in Stock Overview. In the Stock Overview report under Business Analytics, I couldn't find Project Order ID which is important for traceability. Please suggest. The objective is to list Material issued to Project (pre-delivered but not consumed). Regards, Vishal Kambare",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which case OJDT Number can be different from TransID?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, is there such a possibility? Thanks, Vangelis Kanellopoulos",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello, When you have defined more numering series for JE. In this case the Transid (internal numerator) will be different Number field, which is the number of the JE. Similar to DocNum and DocEntry in the Documents. Regards, J."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Invoice(which are complete already) grouping for just output purpose",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Experts, I have requirement to group the invoices which are complete through VF01 and VF04, and to create an output using the smart from that we have developed I understand VF21 actually to create Invoice list which are due for the payer. So I understand that canu2019t be used for this purpose. Could you please suggest if VF21 still can be used to group the completed Invoices or else Could you suggest if there is an alternative. Quick response would be of great help. Regards Siva",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi from an output point of view I can't see why the invoice list should not suit you. What we implemented is an invoice list which groups all materials and agregated quantities and values and send that document to the customer. is two pages maximum (unless there is a credit memo list). it works fine for us."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Function module to get GR documents which are not reversed only",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Is there a function module in MM to get the GR documents which are not reversed for a given PO number and line item?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, > > Is there a function module in MM to get the GR documents which are not reversed for a given PO number and line item? Hi, You can write a small Z program joining tables EKPO,MSEG and MKPF to get the information you want. Hope you find this useful. Reetesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "What is the table which displays cumulative balance in SAP B1?.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, How can I find table which displays cumulative balance of GL account according to posting date in SAP B1? Please anyone can help me.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In MM transaction cycle which tables are updated.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Could u plz provide me step by step which tables are updated while doing MM transaction cycle. eg while Creating PO,Doing GRN and finally invoicing. Plz provide me the tables with transaction involved. Regards, Abhuti",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi! For PO EKKO - Header EKPO - Item For GR MKPF - Item Table MSEG - Header Table Reward if useful. Yuvi."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "PO report which includes Invoicing party.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , The requirement is to have invoicing party in the PO report. In ME2N, I can select the invoicing party in the selection scree. But we want to have it in the output as well. Is there any Standard SAP report exists for this requirement ? If not, what is the alternative solution. Many Thanks, Satpal",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "table which contains the info of last changed person info",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi i need the last person who changed the invoice document to put it in a report. i can set in MIR4 when i go to display changed documents. i tried debugging the standard program but it didnt help. can any one tell me in which table these info are stored. Thanks in AVD",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Check out CDHDR and CDPOS tables .... in CDHDR check the below fields ... USERNAMEABAPP01 USERNAME UDATE01.06.2004 UDATE UTIME16:48:12 UTIME"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "i want to display AP Paymnet advice  raised and which will be recovered on ap ap invoice list",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi to all i tried and write this Query SELECT distinct T0.[DocNum] [DT NO], T0.[DocDate],T1.[Project], T3.[CardCode], T3.[CardName], T1.[TaxCode],T1.[VatSum], T3.[DocNum] [INV NO],T3.[DocDate], T3.[DocTotal] [INV TOTAL], (T1.[Quantity] * T1.[PriceBefDi] ) [DT TOTAL], T2.[DrawnSum] [DPT Amt Hold INV],((T1.[Quantity] * T1.[PriceBefDi] )-T2.[DrawnSum]) [DPT DUE FOR INV]FROM ODPO T0 INNER JOIN DPO1 T1 ON T0.[DocEntry] = T1.[DocEntry] INNER JOIN PCH9 T2 ON T0.[DocEntry] = T2.[BaseAbs] INNER JOIN OPCH T3 ON T2.[DocEntry] = T3.[DocEntry] INNER JOIN PCH1 T4 ON T3.[DocEntry] = T4.[DocEntry] WHERE T0.[DocDate]>=[%1] AND T0.[DocDate] <=[%2] on the above Query bisplayed only which will recovered on Ap invoice list but i want both the list like raised and recovered .. please sugget me logic which i missed thanks for advance help --Ramudu",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Try This SELECT distinct T0.[DocNum] [DT NO], T0.[DocDate],T1.[Project], T3.[CardCode], T3.[CardName], T1.[TaxCode],T1.[VatSum], T3.[DocNum] [INV NO],T3.[DocDate], T3.[DocTotal] [INV TOTAL], (T1.[Quantity] * T1.[PriceBefDi] ) [DT TOTAL], T2.[DrawnSum] [DPT Amt Hold INV],((T1.[Quantity] * T1.[PriceBefDi] )-T2.[DrawnSum]) [DPT DUE FOR INV]FROM ODPO T0 INNER JOIN DPO1 T1 ON T0.[DocEntry] = T1.[DocEntry] Left Outer JOIN PCH9 T2 ON T0.[DocEntry] = T2.[BaseAbs] INNER JOIN OPCH T3 ON T2.[DocEntry] = T3.[DocEntry] INNER JOIN PCH1 T4 ON T3.[DocEntry] = T4.[DocEntry] WHERE T0.[DocDate]>=[%1] AND T0.[DocDate] <=[%2]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

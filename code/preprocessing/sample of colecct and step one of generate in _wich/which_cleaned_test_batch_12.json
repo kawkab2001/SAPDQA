@@ -1,0 +1,954 @@
+{
+    "data": [
+        {
+            "title": "searching vendor using ONE search term which is part of search term 1 OR 2",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi gurus, in vendors general data are two fields \"search term 1\" and \"search term 2\". Is it possible to generate a search help to find results in \"search term 1\" OR \"search term 2\" ? In the search help I would prefer 1 input field \"search term\" and get results, if the pattern of \"search term\" matches \"search term 1\" OR \"search term 2\". How could this be done? Thanks for your help, Ralph Alexander",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Ralph, If you look at defination of search term it states: <b>Short description used for <u>search helps</u>.</b> There are two such fields for search terms. Both fields can be used independently of each other. say you can used to input short name of the vendor (testing) for easy search and second field you can input category e.g- utilities etc. to identified that vendor which you have define in search help. basically search term is used in search help goto FBL1n and in vendor# field click F4 (select vendor search using address attribute) in search term 2 put utilities it will give list of all vendor having utilities mentioned in search term 2. but if you input testing & utilities it will search for both these citeria. please refer search help for more details (http://help.sap.com/saphelp_nw04/helpdata/en/97/24a23fa34ffb47e10000000a114084/content.htm) hope this helps Please assign points as way to say thanks Message was edited by: Ravi Rana"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which T-code can do reconciliation of inventory by GL account & Profit Center?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, There is a T-code which can do reconciliation of inventory with GL account by Profit Center, but I just can't remember it. Does there anyone know, please kindly tell me! Thank you. Sean",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Sean, Probably are you looking forFAGL_MM_RECON(Bal. Reconcil.: Gen. Ldgr / Material) report. FAGL_MM_RECON(Bal. Reconcil.: Gen. Ldgr / Material) report. FAGL_MM_RECON Regards MG"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Cheque which does not affect credit limit.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Gurus, I need your help.. If my customer gives me a \"cheque\" I want this amount not affect credit limit of customer.. Is it possible? Kind Regards,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Check with FI team weather they can able to mange with special G/L And for the combination of Account type and special G/L type assign Reconciliation account and special G/L and then you can deactivate credit limit in OBXR Kapil"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which folder required for installation of AddOn?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Experts I have created a ARD file of a AddOn through B1DE 2.0. It have many folders like AddOnFiles ,AddOnRegDataGenFile, Bin, My project etc. Bin folder has ARD file which is used to install the addon. I want to know that which folder I keep with me to install the AddOn? or Should I have all the files and folders created by the wizard for installion? Please give your suggestion Thanks Jitender",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, In the bin folder u'll have the ARD and the exe file, u will be needing only these 2 files to install the add-on. Vasu Natari."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to know the MIGO document which have cancelled in respect of material but not cancel deliver cos",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "How to know the MIGO documents which have cancelled in respect of material but not cancelled the delivery cost which had been assigned in condition of said material MIGO. scenario it that MIGO of material cost has cancelled but lines of delivery cost has not been cancelled.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Nakisa Orgchart - Which xml to remove cost center on detail?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, I want to remove cost center on detail information, but I can't find which xml.... I try to comment on OrgUnitPositionDetail_Data.XML file, but it's still appear Best Regards, Azebua",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Azebua. Looking at OrgUnitEmployeePositionDetail.xml and OrgUnitPositionDetail_MoreDetails.xml you can see the field set referenced that you are amending, so it suggests that you're looking at the right configuration. Hope that helps. Regards, Stephen."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to find the which BP grouping is assigned to the Business Partner in SAP S4 HANA",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello All, It might be a silly question to all of you, but can any one tell me , I have created one business partner and I need to check what business grouping is assigned to same business partner. How to check this in S4 HANA under BP traansaction code ?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which user release the Billing document Number",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I want to see that which user release the Billing document Number. (release to accouting) From where we can see this?? Edited by: @ABAP@ on Feb 20, 2010 11:57 AM",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Go to FB03 --> Enter the document and othe details --> Enter --> next screen click at \"Display document header\" (Small Cap icon) --> There in field \"Entered by\" you can see the name Regards, MT"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to locate the user id of user which created a Business Partner Master Data set",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi everyone, First post on here, on a number of occasions I have found either the answer to or a steer towards when facing a issue, hopefully someone can help with this question. I'm working with SAP B1, v9 PL11 on SQL 2008R2. I have to create a query which displays; cardcode, cardname, createdate, cardtype, username of creating user, on or after a date variable. Having looked over the OCRD table I can't see a specific field containing data that would correspond to a user code. OUSR looks like a good candidate with the user details but I don't think I can see any data types which are directly comparable so not able to make a workable join.. I've tried a number of combinations, such as ocrd.usersign = ousr.usersign and while it returned data it was not correct. Please can someone help me find the name of the relevant field, or table which would contain this value so I can then complete my query. Many thanks in advance!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Welcome to SAP B1 forum. Try this query: SELECT T0.[CardCode], T0.[CardName],T0.usersign, T1.[U_NAME] FROM OCRD T0 left join OUSR T1 on t1.userid = t0.usersign WHERE T0.[CardType] = 'c' Thanks & Regards, Nagarajan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tool life monitoring which is running at vendor end",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All I have one quarry , One my tool is running at vendor end & I want to manage its shelf life. But as it is running at vendor end then how can I maintain its life in SAP as PRT. thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which one request not generated in configuration",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi plz tell in configuration which one request not generated and which one will create work bench request. plz tell me list thank u sowmya",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, The answer is ambiguous: sometimes it really depends on the specific attributes of SAP objects. Generally, any direct intervention to SAP data tables and programs will create WB change request. Regards, Eli"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which tables does grievences field consist",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, How to calculate the grievences, in which tables does this field exists, Can some one help me,, thanks, Thiru.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, V_T591A V_T505O V_T505K Regards, Dilek"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Mass Removal of Class which is assigned to Equipment",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello, We have a requirement of remove the Class (type 002) which is assigned to Equipment in Mass. Is there any way to achieve above requirement as we have 10k plus Equipment which needs removal of class. LSMW seems to be difficult. Thanks, Manu chinni.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table, every month CPF details will be stored?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Gurus, We are executing SG payroll since lst two years for an empl and i want to check the details for CPF in one table instead of RT. can somebody through some light on it? Thanks inadvance. Regards Satya.. 097119 91345",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "CPF Master data is stored in infotype 0186. However, if you need to know the contribution amount being calculated by payroll you have no choice but to look at the RT table in payroll result."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "from which table can I get unit price for an item for invoice print out?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear friends, from which table can I get unit price for an item for invoice print out? Thanks in advance,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "VBRK-KNUMV:Number of the document condition KONV- Conditions (Transaction Data) pass the KNUMV number and also KSCHL Condition type PR00 Likes points"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "in which table we get the details of related to goods issue and reversal",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "dear experts, hello every body please help me in finding the tables : case 1 : when i use mb1a to issue good with movement type 531 in which table can i find the stock details . case 2. same from 262,532. regards, Bh krishna mohan.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Dear case 1 : when i use mb1a to issue good with movement type 531 in which table can i find the stock details . case 1 : when i use mb1a to issue good with movement type 531 in which table can i find the stock details . case 2. same from 262,532. case 2. same from 262,532 SAP Tabel : Tabel will be AUFM and field BWART /MSEG 1.AUFM-MSEG for 261 2.1.AUFM-BWART for 262 , 531 , 532 Regards JH"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which BAPI/FM is used to Post Credit Card Payment in FICA in SAP?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "While Posting Payment via Credit Card in FICA in SAP, which Function Module or BAPIs are useful? #SAP #ABAP",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "On-Order Stock is in which table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I try to pull out the on-order stock field for my report but i couldn't find which table this field belong. I see this field in MMBE - Stock Overview : Basic List. Please advice Thank you",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAPF110S Version on  which it was release",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, I need to know on which version the automatic payment program (F110S) was release. Thanks very much in advance",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Thank you very much for your help How did you know about the version? Best regards"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to get Essential and additional qualifications ,From which table",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, In one of my requirement, the report should show the Qualifications and Essential qualifications columns in the output. Requirement is : 1. I have brought qualifications of Applicant from PB0024 table. 2. I need to compare these with the Qualifications maintained in Job for the pernr. 3. There are two types of Qualifications namely essential Qualifications and additional Qualifications. 4. How do we get the Qualifications maintained for a job/Position? How can we distinguish between Qualifications and essential Qualifications maintained for a job at the database table level ? Please reply ASAP. Regards, Rama.P",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Rama, Goto HRP1001. OTYPE = C-for job(S-for position) OBJID = job/position ID (8-digits) RSIGN = A RELAT = 031 SCLAS = Q If PRIOX = 1 --> SOBID field gives the essential requirements for the job/position. If PRIOX = 0 --> SOBID field gives the additional requirements for the job/position. Regards, Dilek"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to find the deliveries which does not have Carnot and SHPCON",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I have a scenario where for some of the deliveries no CARNOT idoc or SHPCON idocs were not been created or went into error, i have verified it in by going to we05 and found there were many idcos in error and some of the idocs were been set to status 68 and they were manually processed by users. is there any table where i can extract the deliveries which does not have SHPCON idocs created.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, you have to take two steps in this: first step: Table EDIDC which contains EDI Control records. which stores the partner number,partner functions & message types. 2nd step: take that partners and get deliveries from LIKP table. regards, balajia"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to Convert Drill Down Report into Line Item Report which is already created via Report Painter?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Expert, I have a requirement to convert the existing custom drill down report into direct Line Items details report. As currently user don't want to see the Header level details, when report he execute via transaction after passing the parameter i selection screen. As current report flow is it show Header level details in Column Model format and once user select any of the column / field and from menu bar select EXTRA then select Line Item then able to see the Line Item details report. I believe it can be achieve via Report Painter itself but as ABAPER do we need to have some input from FI consultant in order to fullfill this requirement. Thanks in Advance !!!",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hivid429 vid429 You should provide a bit more details on exactly the content of the report and the data expected in the line item report since none of us have access to your system. If you have a Finance colleague, why not speak to him/her to check the feasibility and put a more specific question. In general it is possible to use report painter for line item reports. The below wiki links might be useful to you https://wiki.scn.sap.com/wiki/display/ERPFI/Report+Painter https://wiki.scn.sap.com/wiki/display/ERPFI/Report+Painter https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=52001 https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=52001 Thanks & Regards Sanil Bhandari"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to configure leave type which should be visible only in R3 not on ESS/MSS portal?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I want to ask one question, my client has requirement that he wants to have a leave type which should not be visible to employee in ESS and that leave type should be only visible in R3 and only HR admin can update leave from backend. Can you tell me whether this requirement is possible or not? Awaiting for your kind response. Br, Ajinkya",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, If you go to Select Allowed Absence Types and deactivate the absence types you don't want to display. Below is the IMG path under Personnel Management: Hope this helps."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which program is started in backend for approval of leave ?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "I try to figure out which progamm is started in the backend as soon as a portal user presses a line to approve and clicks to approve a long time passes before he or she can continue in the backend in sm50 I see a lot of programms passing by but I can't trace it back to the programm that gets started in the backend. I keep running around in loops when I do the where used button some of the programms I see passing by are SAPLHRTIM00COLLISION SAPLHRTIM00_TMWPREPROCESSOR SAPLHRTIM00_TMWSUPPFUNCPOOL SAPLRPRR SAPLPTWS CL_PT_TMW_BLP_TPHANDLER=======CP anybody got a clue how to find the programm which is started by the portal ? kind regards arthur",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hey hi , Programe .....Not really There are RFC ( Remote Fucntion module ) does all Fucntionality ......... AS we know in the RFC there are allready Code written ................. Ok following are list of RFC which trigger when some application run on the PORTAL site PT_ARQ_F4HELP_SICKCODE check this FM..this will clearly give the sickness codes BAPI_TRIP_GET_DETAILS Print Detail Tables For Trip (Receipt Entry) PT_ARQ_TEAMCALE_GET View Team clalender **************************** RH_GET_MANAGER_ASSIGNMENT Determine Organizational Units for Chief ******************************** RH_GET_LEADER Structure of List of People ********************************* Etc ect.......................you need to do it by following ways Say you need to check the whts is RFC for Employee Profile then once u log on the PORTAL atthe same id you need to log in the SAP BACK end with same ID .... then go to ST05 ......select \"RFC trace\" ........then execute Employee Profile on Portal in the back end in display RFC trace you can find RFC \"HRMSS_RFC_EP_READ_PERSONALDATA\""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which table we will get order history details.",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi In which table we will get order history details. Regards Prajwal",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "find the po's which not related to mrp",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "hi all, i need to know that any mrp related indicator is there in the PO ( frond end or in table ) i created one report to take open po list . in that some of the po's are not showing in md04 screen. means its not related or the mrp view were not maintained while po is created. how can i findout this type of po's.......",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Raj , Please check the following select the Open Pos based on Material and plant in EKPO table . and then check the table MARC for all materials &plants combination from the step 1 and check the field MRP type MARC- DISMM . This field should not be blank or ND. To view MD04 the following conditions are mandatory Material number and Plant PO should have material number ( ekpo table material number field should not be blank) eventhough the material number available in ekpo table it should have the MRP type (marc -dismm field should not be blank or ND) System will check procurement type . MRP should have run for this material . Hope this inputs help you to understand MD04 (stock and requirement list ) Best regards, Chithaanantham"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which file include \"AddOnInstaller\"",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, there I am using VB.net to develop B1 Addon, I use some source code about addon install, but there is an error type of \"AddOnInstaller.AddOnInstallInfo\" not defined, so can not compile, who knows which file include \"AddOnInstaller\". Thanks in advance. Lanjun",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "The path to the AddOnInstaller.dll is sent as a command line parameter when your add-on get installed. The parameter is DefaultInstallPath|PathToAddOnInstallAPI I think the default path is in C:\\Program files\\SAP Manage\\SAP Business One Hope it helps, Adele"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How am i able to select which document i wish to print in produccion order?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus I wish to know if it is possible to generate a windows where i can see what printing list are available to print and that i\u00b4m able to select the one that i wish to send to the printer, i already have everything configured in OPK8 i have 4 printing list i wish but right now it is printing all of them at the same time, can i select only the one i want to print? , in Plant Maintenance i can do it with a diolog box as you can see here: Can i do the same in PP? , kind regards caetano.almeida caetano.almeida",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello German, You can check note 11104 - general note on printing production orders. best regards, Jessica Li"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Is there a restriction to document types to which we can assign the flexible document numbering?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Is there a restriction to document types to which we can assign the flexible document numbering?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "As of 2105 - It is available for sales orders, deliveries and invoices."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the customizing navigation for validation rules?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, which is the customizing navigation for validation rules? (t.code GGB1) Thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Customisation for validation normally maintained in GGB0 Follow the below steps 1. Maintain prerequisite 2. Maintain check 3. Maintain message 4. Assign with cc in ob28 and activate prasad"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which is the table where the stock at the time of MRP run is stored?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Gurus, My client has a requirement to create a zreport on MRP analysis. In this report I need to consider the stock of a material at the time of the MRP run date. Can you let me know, whether SAP stores the stock of the material at the time of MRP run. If so, kindly tell me the name of the table in which the stock is stored. Thanks in advance. Harikrishnan.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Harikrishnan, It sounds like your requirement is to manipulate the output of the MRP run (including the stock used during the MRP calculation). When MRP creates a list, the output is usually found in tables MDKP (header) and MDTC (item). MDTC data is a cluster table, and the data is stored in compressed form, so you will have to use a function module (I think it is MD_STOCK_REQUIREMENTS_LIST_API) to read the data. Rgds, DB49"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "how exclude the G/L transaction which already reversed, tcode FBL3N list?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Expert, I would like to know: how exclude the G/L transaction which already reversed, tcode FBL3N list? Regards,",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Include the filed 'Reversed with' column by changing the layout. Apply filter to have only blank values in the field. Hope this works. Regards, Sridevi"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CURRENTLY WHICH METHODOLOGY IS BEING USED?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "HELLO, I just wanted to know that which methodology is being used right now ? Is there something called AGILE methodology which is being used or we are following ASAP only. thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Profit & Loss, which table and field",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all Anyone knows which table and field of profit & loss for every gl account? Thanks in advance for any reply... Regards az",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Find out which charateristics that are in use",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi We use classes linked to our document types. And the classes has a lot of characteristics. Is there an easy way to find out which characteristics that are in use (documentens where values are given), and on how many documents they have been used on? Best regards Tom Saga",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "See if table AUSP serves your purpose. Regards, Pradeepkumar Haragoldavar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "is there any Tcode which can show MOH?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "first, what's the detailed meaning of \u201cMOH\"? (material on hand?) is there any T code in SAP to show MOH?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "No accepted solution found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which SSCUI or APP of Cloud does the 8KEM and 8KEQ transaction code of OP system correspond to?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Which SSCUI or APP of Cloud does the 8KEM and 8KEQ transaction code of OP system correspond to?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "These 2 configurations are not supported in Cloud system."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Interface which updates OM and PA data",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear gurus, I have an client interview for a project and the interview will focus on the following, OM (An interface which updates OM data from one system to other system) ,two diff countries system PA (An interface which updates PA data from one System to other System ),again two diff countries system so please help me , where should i concentrate and what might be the possible questions. your help would be greatly appreciated. thanks very much regards jeeva",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, You may be asked about the tools used for Org Chart. Which tools are used. Questions on Reporting Structure and workflow You may also be asked about Nakisa and Org Plus How consolidation reports are generated. Integration part on Pa and field mapping etc. Regards, Kapil Kaushal"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Acquistiion of assets from a merged company which is not in SAP",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear All, Our company code is effective from FY2007. Recently we acquired a company which has a different ERP system and want to merge their assets into our present company code. How should we deal this in SAP. I can't upload using AS91 since it throws an error message \"Closed fiscal year does not agree with legacy data transfer date\". Regards, Srinivas.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, An other option that I use in these cases is to create the assets withAS01(with the option Post capitalization)and upload the values withabsoand transaction type147(then you can upload by depreciation area the aq value, depreciation and depreciation this fiscal year). AS01 abso 147 Only for assset capitalized this year I used the last day of the last fiscal year, otherwise I have problems with the calculation from the depreciation For the upload with LSMW I fill in the old asset / sub number and with the upload from the values I search in ANLC base on the old asset number to found the created asset number."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Query to find which users running add-on",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, Is there any query that will show me information about which users are running with add-on? I need to know which users have startet a certain add-on. Thanks, Kjetil Sandvik",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, Not possible to get query. Once user logged in, based on setting, the Add-on will be connected. If you control the add-on, set to manual start under Add-on manager. Thanks & Regards, Nagarajan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "MRBR qty and prc blocked at which point",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear Forum, Any way to know the quantity block and also price block is at which point? in MRBR not telling. The quantity block can be between po vs gr or gr vs ir or po vs ir. so how to know at which point it is blocked? The price block can be between po vs gr or gr vs ir or po vs ir. so how to know at which point it is blocked? thanks",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Before saving invoice document it will chcek the tolerance limits (OMR6) defined for that company code ,if it is within the tolerance then it will not block the invoice otherwise it will block . Which point ?- obviously in MIRO . Because that time it create invoice document . Without invoice document how can it block invoice?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Transacction which returns the list of orders",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi, can anybody tell me what's the transacction that returns the list of orders of a provider?, not the ME23N transaction. Thanks in advance. Regards.",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "ME80FN ME2L"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "deactivation of dep area which already postings made",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello We have created one AUC and uploaded some vales in dep area 7,8, and 9 worngly. We want to deactivate those dep areas? How can we do it, if not how can I make them zero.is it possint to activate dep areas for other existing asset if yes how can? Regards Sunitha",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Sunitha, if the deprecation area has values you can't deactivate them and also you can't delete them. Perhaps the transactions ANSICHT is a possibility. Here you can make the area not visible. Perhaps there is another very simple solution: Just let the needless area in the asset. Regards Bernhard"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "which structure is used for select option",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "which structure is used for select option?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hello SELECT-OPTIONS sel FOR f. it is equivalent DATA: BEGIN OF sel OCCURS 10, SIGN(1), OPTION(2), LOW LIKE f, HIGH LIKE f, END OF sel."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Which will be faster downtime or resource minimized",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi all, We are planning to perform our upgrade from ECC 5.0 to ECC 6 (EHP4). We are doing all the tasks including initialization, extractions...till finalisation during the downtime weekend itself, since we are migrating to a different server, we have decided to do this. So in that case, which scenario will be faster downtime minized approach or resource minimized approach I trust resource minimized will be faster. Thanks Senthil",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi Senthil, Downtime minimized will be the faster way to complete the upgrade. I suggest you not to change anything till completion of upgrade activity or better to start later it can ruin your project plan. Better way is to Migrate your hardware/server , start preparation , initialization,extraction everything on new server only . After migration, how you will verify that all pre-requisites are still matched. So better to move safe! Regards, Gagan Deep Kaushal"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "updating of material group on which release strategy is to be applied for PR",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi , We are implementing release strategy on PR and in it there is step where we have to mention material group on which release strategy should be applied are in thousand so is there any way by which material group can be added in one go . thanks and Regards , shikha",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, are u asking to mass upload data in CT04 transaction..? if so, we also had a similar requirement and we did it with the help of Abaper. Hope u can ask ur technical team to write a program for the upload of characteristics. regards."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Veiw/extract calendars against which shipping points use them?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi Guys, Really need some help on this one. Iu2019m looking for a way I can view en-mass or extract calendars against which shipping points use them. I have been asked to change some dates for certain calendars but want to be sure that they are not used in other none related shipping points. Obviously this will cause issues! I know some do. Currently Iu2019m stuck manually checking the shipping points individually in SPRO via >Enterprise Structure > Definition > Logistics Execution > Define etc shipping point > Define shipping point. Highlight the row and display. When I try and view any of the tables direct in SE16N (i.e. V_TVST) instead of coming up with nice neat tables I again get the SPRO data inthe above fromat and have to run through manually. Can you help?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Just use table name TVST in SE16 or SE16N. Regards,"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "In which account are condition types affected?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hello. in my PO, in the Conditions tab, all the condition types found should normally be affected to an account or cost center.How do i determine to which account / cost center it is charged / affected?",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "hi, One : check the account keys assigned here for your condition type: SPRO >> MM >> Puchasing >> conditions >> define price determination >> calculation schema... Second : check the OBYC....and its simulation functions... Regards Priyanka.P"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Table which shows taxes paid line item wise",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Dear MM Gurus Can you suggest me the table/report which shows taxes paid for each PO item for a perticular period of time. Also can you suggest most widely used standard SAP MM reports across the industry for legal requirements. I appreciate your quick answer. Thanks Ravi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "u can check report tcode S_ALR_87012357 and u can check table Bset addition to about reply tables"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Launching the depreciation, which cost center is posted?",
+            "paragraphs": [
+                {
+                    "context": " ",
+                    "qas": [
+                        {
+                            "question": "Hi All, an asset contain a cost center in its master data. For the Cost elemen which refers to that asset, in t.code OKB9 in signed as defualt another cost center. When I launch the depreciation of that asset, which cost center is posted? The one in it's master data or the other that i find in t.code OKB9? Thanks G.Rossi",
+                            "id": "1",
+                            "answers": [
+                                {
+                                    "text": "Hi, if you make customizing in acset and additional account assignment for asset, then from asset master data"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
