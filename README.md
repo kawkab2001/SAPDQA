@@ -133,10 +133,13 @@ Each notebook/script loads `dataset/dataset_QA.json`, splits it into train/valid
 If you use this repository or dataset, please cite:
 
 ```bibtex
-@article{erpcraft2026,
-  title   = {ERPCRAFT: Parameter-Efficient Domain Adaptation for Context-Aware ERP Question Answering},
-  author  = {Bouressace, Kawkab and Arafat, Md Easin and Saha, Sourav and Orosz, Tam\'as and Bouressace, Hassina},
-  year    = {2026}
+@article{bouressace2026erpcraft,
+  title     = {ERPCRAFT: Parameter-Efficient Domain Adaptation for Context-Aware ERP Question Answering},
+  author    = {Bouressace, Kawkab and Arafat, Md Easin and Saha, Sourav and Orosz, Tam{\'a}s and Bouressace, Hassina},
+  journal   = {Advanced Engineering Informatics},
+  publisher = {Elsevier},
+  year      = {2026},
+  note      = {Under review; \dag{} equal contribution; corresponding author: Md Easin Arafat (arafatmdeasin@inf.elte.hu)}
 }
 ```
 
