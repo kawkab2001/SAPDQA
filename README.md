@@ -139,7 +139,7 @@ If you use this repository or dataset, please cite:
   journal   = {Advanced Engineering Informatics},
   publisher = {Elsevier},
   year      = {2026},
-  note      = {Under review; \dag{} equal contribution; corresponding author: Md Easin Arafat (arafatmdeasin@inf.elte.hu)}
+  note      = {Under review; Corresponding author: Md Easin Arafat (arafatmdeasin@inf.elte.hu)}
 }
 ```
 
@@ -147,7 +147,7 @@ If you use this repository or dataset, please cite:
 
 - **Kawkab Bouressace**\* — kawkab@inf.elte.hu — Eötvös Loránd University (ELTE)
 - **Md Easin Arafat**\* (Corresponding author) — arafatmdeasin@inf.elte.hu — Eötvös Loránd University (ELTE)
-- **Sourav Saha** — research.srv.sh@gmail.com
+- **Sourav Saha** — research.srv.sh@gmail.com - United International university (UIU)
 - **Tamás Orosz** — orosztamas@inf.elte.hu — Eötvös Loránd University (ELTE)
 - **Hassina Bouressace** — bouressace.hassina@univ-guelma.dz — University 8 Mai 1945, Guelma, Algeria
 
